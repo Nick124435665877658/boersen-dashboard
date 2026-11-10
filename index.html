@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="manifest" href="manifest.json">
+  <title>Mein Börsen-Dashboard</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --line:#24344c; --muted:#9aabc2; --text:#edf3fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:14px/1.4 system-ui, sans-serif; }
+    header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size:19px; letter-spacing:.04em; }
+    .sub { color:var(--muted); font-size:12px; margin-top:3px; }
+    .status { color:#8ee6ad; font-size:12px; white-space:nowrap; }
+    main { padding:12px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .card { min-width:0; height:300px; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+    .chart { width:100%; height:100%; }
+    footer { padding:4px 16px 14px; color:var(--muted); font-size:11px; }
+    @media (max-width:700px) {
+      main { grid-template-columns:1fr; }
+      .card { height:300px; }
+    }
+    @media (min-width:1000px) and (max-height:900px) {
+      .card { height:260px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>MARKET WATCH</h1>
+      <div class="sub">Deine Watchlist · Tagesverlauf · TradingView</div>
+    </div>
+    <div class="status">● LIVE-CHARTS</div>
+  </header>
+  <main id="dashboard"></main>
+  <footer>
+    Die Charts werden von TradingView geladen. Kursdaten können je nach Börse verzögert sein.
+    Dies ist eine reine Watchlist und keine Anlageberatung.
+  </footer>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
+    }
+    // HIER deine sechs Werte ändern. Beispiele:
+    // NASDAQ:QBTS, NASDAQ:AMD, NASDAQ:NVDA, NASDAQ:LCID,
+    // BITSTAMP:BTCUSD, HKEX:1211 (BYD), HKEX:1810 (Xiaomi)
+    const watchlist = [
+      { symbol: "NASDAQ:QBTS", name: "D-Wave Quantum" },
+      { symbol: "NASDAQ:AMD",  name: "AMD" },
+      { symbol: "NASDAQ:LCID", name: "Lucid" },
+      { symbol: "NASDAQ:NVDA", name: "Nvidia" },
+      { symbol: "BITSTAMP:BTCUSD", name: "Bitcoin / USD" },
+      { symbol: "HKEX:1211", name: "BYD" }
+    ];
+
+    const dashboard = document.getElementById("dashboard");
+    watchlist.forEach((stock, index) => {
+      const card = document.createElement("section");
+      card.className = "card";
+      const mount = document.createElement("div");
+      mount.className = "tradingview-widget-container chart";
+      const widget = document.createElement("div");
+      widget.className = "tradingview-widget-container__widget";
+      mount.appendChild(widget);
+      card.appendChild(mount);
+      dashboard.appendChild(card);
+
+      const script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+      script.async = true;
+      script.innerHTML = JSON.stringify({
+        autosize: true,
+        symbol: stock.symbol,
+        interval: "5",
+        range: "1D",
+        timezone: "Europe/Berlin",
+        theme: "dark",
+        style: "1",
+        locale: "de_DE",
+        backgroundColor: "rgba(17, 28, 46, 1)",
+        gridColor: "rgba(36, 52, 76, 0.65)",
+        hide_top_toolbar: true,
+        hide_legend: false,
+        allow_symbol_change: true,
+        save_image: false,
+        calendar: false,
+        support_host: "https://www.tradingview.com"
+      });
+      mount.appendChild(script);
+    });
+  </script>
+</body>
+</html>
