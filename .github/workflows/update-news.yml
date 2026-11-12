@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch RSS headlines
+      - name: Fetch headlines from approved publishers
         run: |
           python - <<'PY'
           import json, urllib.request, xml.etree.ElementTree as ET, html, re
@@ -21,36 +21,46 @@ jobs:
             ("DER AKTIONÄR", "https://www.deraktionaer.de/aktionaer-news.rss"),
             ("wallstreet:online", "https://www.wallstreet-online.de/rss/nachrichten-alle.xml"),
           ]
-          items, seen = [], set()
+          items, seen, failures = [], set(), []
+          def child_text(node, name):
+            el = node.find(name)
+            if el is None:
+              el = node.find("{*}"+name)
+            if el is None:
+              return ""
+            if name == "link" and el.attrib.get("href"):
+              return el.attrib["href"].strip()
+            return (el.text or "").strip()
           for source, url in feeds:
             try:
-              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 BoersenDashboard/1.0"})
+              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
               with urllib.request.urlopen(req, timeout=25) as response:
                 root = ET.fromstring(response.read())
               nodes = root.findall(".//item") or root.findall(".//{*}entry")
+              count = 0
               for node in nodes:
-                def val(names):
-                  for name in names:
-                    found = node.find(name) or node.find("{*}"+name)
-                    if found is not None:
-                      if name == "link" and found.attrib.get("href"): return found.attrib["href"]
-                      if found.text: return html.unescape(found.text.strip())
-                  return ""
-                title = val(["title"])
-                link = val(["link"])
-                desc = val(["description","summary","content"])
-                date = val(["pubDate","published","updated"])
-                if not title or not link or not link.startswith("http"): continue
+                title = html.unescape(child_text(node,"title"))
+                link = child_text(node,"link")
+                desc = html.unescape(child_text(node,"description") or child_text(node,"summary"))
+                date = child_text(node,"pubDate") or child_text(node,"published") or child_text(node,"updated")
+                if not title or not link or not link.startswith("http"):
+                  continue
                 key = link.split("?")[0]
                 if key in seen: continue
                 seen.add(key)
-                items.append({"title":title,"url":link,"publisher":source,"publishedAt":date,"description":re.sub("<[^>]+>"," ",desc)[:500]})
+                items.append({"title":title,"url":link,"publisher":source,"publishedAt":date,"description":re.sub(r"<[^>]+>"," ",desc)[:350]})
+                count += 1
+              print(source, ":", count, "headlines")
             except Exception as exc:
+              failures.append(source + ": " + str(exc))
               print("Feed failed:", source, str(exc))
           items.sort(key=lambda x:x.get("publishedAt",""), reverse=True)
-          payload={"fetchedAt":datetime.now(timezone.utc).isoformat(),"articles":items[:300]}
-          with open("news-feed.json","w",encoding="utf-8") as f: json.dump(payload,f,ensure_ascii=False,indent=2)
+          payload={"fetchedAt":datetime.now(timezone.utc).isoformat(),"articles":items[:500],"feedErrors":failures}
+          with open("news-feed.json","w",encoding="utf-8") as f:
+            json.dump(payload,f,ensure_ascii=False,indent=2)
           print("Saved",len(payload["articles"]),"headlines")
+          if not items:
+            raise SystemExit("All RSS feeds returned zero articles; refusing to publish an empty feed")
           PY
       - name: Publish news data
         run: |
