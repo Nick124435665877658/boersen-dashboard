@@ -56,6 +56,33 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 #overview{position:relative;z-index:2;pointer-events:auto}#chartPages{position:absolute;inset:56px 12px 12px;height:auto;min-height:0;z-index:1;pointer-events:none;transform:translateY(66px)}.chart-page{pointer-events:none;display:none;height:100%;min-height:0}.chart-page.active{display:flex;flex-direction:column;pointer-events:auto}.mode-switch,.mode-switch button,.shares,.favorite-check{position:relative;z-index:3;pointer-events:auto;touch-action:manipulation}
 @media(max-width:700px){header{padding:9px 12px}main{padding:9px}.chart-head{grid-template-columns:minmax(0,1fr);gap:4px}.chart-head>div:first-child{grid-column:1;grid-row:1}.chart-head>.sub{grid-column:1;grid-row:2;text-align:left;font-size:20px}.selected{grid-template-columns:repeat(5,1fr)}.selected .point{grid-column:1/-1}.selected .metric{font-size:13px}.total{align-items:flex-start;flex-direction:column}.bottom{padding:8px 12px}}
 @media(orientation:portrait){.chart-head{gap:4px}.selected{grid-template-columns:repeat(5,minmax(0,1fr))}.selected .point{grid-column:1/-1}}
+
+/* KI-News-Analyse */
+.chart-page.active{overflow-y:auto;overscroll-behavior:contain}
+.chart-page .chart{flex:0 0 clamp(300px,38vh,460px)}
+.news-panel{margin:14px 0 24px;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;flex-shrink:0}
+.news-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.news-top h2{font-size:19px;margin:0}
+.news-meta{font-size:11px;color:var(--muted);margin:5px 0 12px}
+.news-refresh{padding:7px 10px;font-size:12px}
+.news-status{color:var(--muted);font-size:13px;line-height:1.5;padding:10px 0}
+.news-summary{padding:12px;border:1px solid var(--line);background:#0d1929;border-radius:12px;margin-bottom:12px;line-height:1.5}
+.news-summary p{margin:6px 0}
+.news-sentiment{display:inline-block;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:700;margin-bottom:7px}
+.news-sentiment.positiv{background:#123c31;color:#59e0b0}.news-sentiment.negativ{background:#48232c;color:#ff8792}.news-sentiment.neutral{background:#27364b;color:#c3d1e4}
+.news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.news-section{border:1px solid var(--line);border-radius:12px;padding:11px;min-width:0}
+.news-section h3{font-size:14px;margin:0 0 7px;color:#b8d2f6}
+.news-section p{font-size:12px;line-height:1.5;margin:0 0 7px;white-space:pre-wrap}
+.news-section ul{padding-left:17px;margin:5px 0 0}
+.news-section li{font-size:12px;line-height:1.45;margin:4px 0}
+.news-outlook{margin-top:9px}
+.news-sources{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.news-sources h3{font-size:13px;margin:0 0 7px}
+.news-source{display:block;color:#9fc4f5;font-size:11px;line-height:1.4;padding:4px 0;overflow-wrap:anywhere}
+.news-source span{color:var(--muted)}
+@media(max-width:700px){.news-grid{grid-template-columns:1fr}.news-panel{padding:11px}.news-section{padding:10px}}
+
 </style>
 </head>
 <body>
@@ -190,10 +217,78 @@ function renderChartPages(){
   section.className='page chart-page';section.id='chartpage-'+a.id;section.dataset.asset=a.id;
   section.innerHTML=`<div class="chart-head"><div><div class="chart-title">${a.name}</div><div class="muted">${a.symbol} · Kurs in EUR</div></div><div class="sub" id="price-${a.id}">— €</div></div>
    <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div>
-   <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>`;
+   <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>
+   <section class="news-panel" id="news-${a.id}">
+    <div class="news-top"><h2>🧠 KI-News-Analyse</h2><button class="news-refresh" data-news-refresh="${a.id}">↻ Analyse aktualisieren</button></div>
+    <div class="news-meta" id="news-meta-${a.id}">Letzte 7 Tage · relevante Entwicklungen der letzten 30 Tage</div>
+    <div class="news-content" id="news-content-${a.id}"><div class="news-status">News-Analyse wird beim Öffnen dieser Chartseite geladen.</div></div>
+   </section>`;
   holder.appendChild(section);
  });
 }
+const NEWS_WORKER_URL=''; // Nach dem Deploy des Cloudflare Workers hier die https://...workers.dev URL eintragen.
+const newsMemory={};
+function newsText(tag,text,className){
+ const el=document.createElement(tag);if(className)el.className=className;el.textContent=text||'';return el;
+}
+function renderNews(assetId,data){
+ const host=document.getElementById('news-content-'+assetId);if(!host)return;host.innerHTML='';
+ const badge=newsText('span','Lagebild: '+(data.sentiment||'neutral'),'news-sentiment '+String(data.sentiment||'neutral').toLowerCase());
+ const summary=newsText('div','','news-summary');summary.appendChild(badge);
+ summary.appendChild(newsText('p',data.overallSummary||'Keine zusammenfassende Einschätzung verfügbar.'));
+ host.appendChild(summary);
+ const sections=[
+  ['company','1 · Unternehmen'],['industry','2 · Branche'],['competitors','3 · Konkurrenz'],['market','4 · Gesamtmarkt']
+ ];
+ const grid=newsText('div','','news-grid');
+ sections.forEach(([key,title])=>{
+  const item=data.sections?.[key]||{};const card=newsText('section','','news-section');card.appendChild(newsText('h3',title));
+  card.appendChild(newsText('p',item.summary||'Dazu liegen in den ausgewerteten Quellen keine belastbaren neuen Informationen vor.'));
+  if(Array.isArray(item.points)&&item.points.length){const ul=document.createElement('ul');item.points.slice(0,5).forEach(t=>ul.appendChild(newsText('li',t)));card.appendChild(ul);}
+  grid.appendChild(card);
+ });
+ host.appendChild(grid);
+ const outlook=newsText('section','','news-section news-outlook');outlook.appendChild(newsText('h3','5 · Chancen, Risiken und Ausblick'));
+ const out=data.sections?.assessment||{};
+ [['Chancen',out.opportunities],['Risiken',out.risks],['Kurzfristig · Tage/Wochen',out.shortTerm],['Mittelfristig · Monate',out.mediumTerm]].forEach(([label,val])=>{
+  const p=newsText('p',(label+': ')+(Array.isArray(val)?val.join(' · '):(val||'Keine belastbare Einschätzung möglich.')));outlook.appendChild(p);
+ });
+ host.appendChild(outlook);
+ const sources=Array.isArray(data.sources)?data.sources:[];
+ const sourceBox=newnewsSourceBox(sources);host.appendChild(sourceBox);
+ const meta=document.getElementById('news-meta-'+assetId);
+ if(meta)meta.textContent='Erstellt: '+(data.generatedAt?new Date(data.generatedAt).toLocaleString('de-DE'):'Zeitpunkt unbekannt')+' · Nachrichtenstand: '+(data.newsDelayMinutes?data.newsDelayMinutes+' Min. verzögert':'laut Anbieter')+' · '+sources.length+' Quellen';
+}
+function newnewsSourceBox(sources){
+ const box=newsText('div','','news-sources');box.appendChild(newsText('h3','6 · Originalmeldungen und Quellen'));
+ if(!sources.length){box.appendChild(newsText('div','Keine passenden Originalmeldungen im ausgewerteten Zeitraum.','news-status'));return box;}
+ sources.slice(0,16).forEach(src=>{
+  const a=document.createElement('a');a.className='news-source';a.href=src.url||'#';a.target='_blank';a.rel='noopener noreferrer';
+  a.textContent=(src.title||'Meldung öffnen')+' — '+(src.publisher||'Quelle')+' · '+(src.publishedAt?new Date(src.publishedAt).toLocaleDateString('de-DE'):'Datum n. v.');
+  box.appendChild(a);
+ });
+ return box;
+}
+async function loadAssetNews(assetId,force=false){
+ const host=document.getElementById('news-content-'+assetId);if(!host)return;
+ const asset=assets.find(x=>x.id===assetId);if(!asset)return;
+ if(newsMemory[assetId]&&!force){renderNews(assetId,newsMemory[assetId]);return;}
+ if(!NEWS_WORKER_URL){
+  host.innerHTML='';host.appendChild(newsText('div','Die News-Oberfläche ist vorbereitet. Für echte Nachrichten und KI-Auswertungen muss noch der geschützte Cloudflare-Dienst eingerichtet und mit den API-Zugängen verbunden werden.','news-status'));
+  return;
+ }
+ host.innerHTML='';host.appendChild(newsText('div','Suche Nachrichten und erstelle die ausführliche KI-Auswertung …','news-status'));
+ try{
+  const url=new URL(NEWS_WORKER_URL.replace(/\/$/,'')+'/api/news');
+  url.searchParams.set('name',asset.name);url.searchParams.set('symbol',asset.symbol);
+  const response=await fetch(url.toString(),{cache:force?'no-store':'default'});
+  const data=await response.json();if(!response.ok)throw new Error(data.error||('HTTP '+response.status));
+  newsMemory[assetId]=data;renderNews(assetId,data);
+ }catch(err){
+  host.innerHTML='';host.appendChild(newsText('div','News konnten nicht geladen werden: '+err.message,'news-status'));
+ }
+}
+
 function buildOverview(){
  const tbody=document.getElementById('holdings');tbody.innerHTML='';
  const categories=['Aktien','ETFs & Indizes','Rohstoffe'];
@@ -291,6 +386,7 @@ function showPage(index){
  document.getElementById('pageLabel').textContent=a.name+' · '+(currentPage+1)+' / '+count;
  if(!charts[a.id])makeChart(a);
  if(dailyCache[a.id]?.length||intradayCache[a.id]?.length)setChartData(a,activeRange);
+ loadAssetNews(a.id);
 }
 function setRange(range,button){
  activeRange=range;
@@ -301,6 +397,7 @@ function setRange(range,button){
 document.getElementById('prev').onclick=()=>showPage(currentPage-1);
 document.getElementById('next').onclick=()=>showPage(currentPage+1);
 document.getElementById('pages').addEventListener('click',e=>{const b=e.target.closest('[data-range]');if(b)setRange(b.dataset.range,b);});
+document.getElementById('chartPages').addEventListener('click',e=>{const b=e.target.closest('[data-news-refresh]');if(b)loadAssetNews(b.dataset.newsRefresh,true);});
 document.getElementById('refresh').onclick=()=>refreshAll(true);
 let touchX=null;
   let touchY=null;
