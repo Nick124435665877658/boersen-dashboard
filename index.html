@@ -284,15 +284,29 @@ async function loadAssetNews(assetId,force=false){
  const cached=newsMemory[assetId];
  if(cached&&!force&&Date.now()-cached.cachedAt<5*60*1000){renderNews(assetId,cached);return;}
  host.innerHTML='';host.appendChild(newsText('div','Lade Börsenschlagzeilen …','news-status'));
- try{
-  const response=await fetch('./news-feed.json?ts='+Math.floor(Date.now()/60000),{cache:force?'no-store':'default'});
-  if(!response.ok)throw new Error('Nachrichten-Datei HTTP '+response.status);
-  const data=await response.json();
-  data.cachedAt=Date.now();newsMemory[assetId]=data;renderNews(assetId,data);
-  if(!Array.isArray(data.articles)||!data.articles.length)throw new Error('RSS-Feed ist noch leer; GitHub-Aktualisierung abwarten');
- }catch(err){
-  host.innerHTML='';host.appendChild(newsText('div','Nachrichtenfeed noch nicht verfügbar: '+err.message,'news-status'));
-  const link=document.createElement('a');link.className='news-source';link.href='https://www.finanzen.net/rss/news';link.target='_blank';link.rel='noopener noreferrer';link.textContent='RSS-Feed prüfen ↗';host.appendChild(link);
+ const urls=[
+  './news-feed.json?ts='+Date.now(),
+  'https://raw.githubusercontent.com/Nick124435665877658/boersen-dashboard/main/news-feed.json?ts='+Date.now()
+ ];
+ let data=null,lastError='Unbekannter Fehler';
+ for(const url of urls){
+  try{
+   const response=await fetch(url,{cache:'no-store'});
+   if(!response.ok)throw new Error('HTTP '+response.status);
+   const parsed=await response.json();
+   if(!Array.isArray(parsed.articles))throw new Error('Ungültiges Nachrichtenformat');
+   data=parsed;break;
+  }catch(err){lastError=err.message||String(err);}
+ }
+ if(!data){
+  host.innerHTML='';host.appendChild(newsText('div','Nachrichten-Datei nicht erreichbar: '+lastError,'news-status'));
+  return;
+ }
+ data.cachedAt=Date.now();newsMemory[assetId]=data;
+ renderNews(assetId,data);
+ if(!data.articles.length){
+  const status=host.querySelector('.news-status');
+  if(status)status.textContent='Nachrichten-Datei erreichbar, aber noch keine Schlagzeilen gespeichert. Der erste GitHub-Abruf muss noch laufen.';
  }
 }
 
