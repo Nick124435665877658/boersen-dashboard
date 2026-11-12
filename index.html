@@ -147,7 +147,7 @@ async function loadHistory(targets=trackedAssets()){
   const converted=convertSeries(prices,fx,a.currency);
   if(!converted.length)throw new Error('Keine umgerechneten Historienkurse: '+a.symbol);
   dailyCache[a.id]=converted;
-  lastValues[a.id]=converted.at(-1).value;
+  lastValues[a.id]=converted[converted.length-1].value;
  }));
  return results.filter(r=>r.status==='rejected').length;
 }
@@ -161,7 +161,7 @@ async function loadCurrentPrices(targets=trackedAssets()){
   const fx=a.currency==='EUR'?[]:fxNow[a.fx];
   if(a.currency!=='EUR'&&!fx?.length)throw new Error('Aktueller Wechselkurs fehlt: '+a.fx);
   const converted=convertSeries(prices,fx,a.currency);
-  const latest=converted.at(-1);
+  const latest=converted[converted.length-1];
   if(!latest)throw new Error('Kein aktueller Kurs: '+a.symbol);
   intradayCache[a.id]=converted;
   lastValues[a.id]=latest.value;
@@ -174,7 +174,9 @@ function makeChart(a){
  const series=chart.addAreaSeries({lineColor:'#66a5ff',topColor:'rgba(75,145,245,.28)',bottomColor:'rgba(75,145,245,.015)',lineWidth:2,priceFormat:{type:'custom',formatter:v=>eur(v)}});
  charts[a.id]=chart;chartSeries[a.id]=series;
  chart.subscribeCrosshairMove(p=>{if(p.time&&p.seriesData){const d=p.seriesData.get(series);if(d&&Number.isFinite(d.value))showSelection(a,d.value,typeof p.time==='number'?p.time:Math.floor(Date.UTC(p.time.year,p.time.month-1,p.time.day)/1000));}});
- new ResizeObserver(()=>chart.applyOptions({width:el.clientWidth,height:el.clientHeight})).observe(el);
+ const resizeChart=()=>{const width=el.clientWidth,height=el.clientHeight;if(width>0&&height>0)chart.applyOptions({width,height});};
+ if(typeof ResizeObserver!=='undefined')new ResizeObserver(resizeChart).observe(el);
+ else window.addEventListener('resize',resizeChart);
 }
 function visibleData(a,range){
  const all=range==='1D'?(intradayCache[a.id]||dailyCache[a.id]):dailyCache[a.id];
@@ -186,7 +188,7 @@ function setChartData(a,range){
  const s=chartSeries[a.id];if(!s)return;
  const data=visibleData(a,range);s.setData(data);
  charts[a.id].timeScale().fitContent();
- const last=data.at(-1);if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
+ const last=data[data.length-1];if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
 }
 function showSelection(a,value,time){
  const history=dailyCache[a.id]||[], labels=[['Tag',86400],['Woche',7*86400],['Monat',30*86400],['Jahr',365*86400],['5 Jahre',5*365*86400]];
@@ -356,7 +358,7 @@ function checkFourHourAlerts(){
  assets.forEach(a=>{
   const input=document.querySelector('#holdings tr[data-asset="'+a.id+'"] input.shares');
   const qty=Number(input?.value||0),data=intradayCache[a.id]||[];
-  const latest=data.at(-1);
+  const latest=data[data.length-1];
   if(!(qty>0)||!latest){if(!(qty>0))localStorage.removeItem('alerted_4h_'+a.id);return;}
   const base=nearestValue(data,latest.time-fourHours);
   if(!base||!base.value)return;
