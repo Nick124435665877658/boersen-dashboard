@@ -1,0 +1,61 @@
+name: Update stock news
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch RSS headlines
+        run: |
+          python - <<'PY'
+          import json, urllib.request, xml.etree.ElementTree as ET, html, re
+          from datetime import datetime, timezone
+          feeds = [
+            ("Finanzen.net", "https://www.finanzen.net/rss/news"),
+            ("Finanzen.net Analysen", "https://www.finanzen.net/rss/analysen"),
+            ("DER AKTIONÄR", "https://www.deraktionaer.de/aktionaer-news.rss"),
+            ("wallstreet:online", "https://www.wallstreet-online.de/rss/nachrichten-alle.xml"),
+          ]
+          items, seen = [], set()
+          for source, url in feeds:
+            try:
+              req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 BoersenDashboard/1.0"})
+              with urllib.request.urlopen(req, timeout=25) as response:
+                root = ET.fromstring(response.read())
+              nodes = root.findall(".//item") or root.findall(".//{*}entry")
+              for node in nodes:
+                def val(names):
+                  for name in names:
+                    found = node.find(name) or node.find("{*}"+name)
+                    if found is not None:
+                      if name == "link" and found.attrib.get("href"): return found.attrib["href"]
+                      if found.text: return html.unescape(found.text.strip())
+                  return ""
+                title = val(["title"])
+                link = val(["link"])
+                desc = val(["description","summary","content"])
+                date = val(["pubDate","published","updated"])
+                if not title or not link or not link.startswith("http"): continue
+                key = link.split("?")[0]
+                if key in seen: continue
+                seen.add(key)
+                items.append({"title":title,"url":link,"publisher":source,"publishedAt":date,"description":re.sub("<[^>]+>"," ",desc)[:500]})
+            except Exception as exc:
+              print("Feed failed:", source, str(exc))
+          items.sort(key=lambda x:x.get("publishedAt",""), reverse=True)
+          payload={"fetchedAt":datetime.now(timezone.utc).isoformat(),"articles":items[:300]}
+          with open("news-feed.json","w",encoding="utf-8") as f: json.dump(payload,f,ensure_ascii=False,indent=2)
+          print("Saved",len(payload["articles"]),"headlines")
+          PY
+      - name: Publish news data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news-feed.json
+          git diff --cached --quiet || git commit -m "Refresh stock news feed"
+          git push
