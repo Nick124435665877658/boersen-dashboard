@@ -254,7 +254,10 @@ function newsText(tag,text,className){
 function renderNews(assetId,data){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;host.innerHTML='';
  const asset=assets.find(x=>x.id===assetId);if(!asset)return;
- const terms=[asset.name,asset.symbol,asset.id].filter(Boolean).map(x=>x.toLocaleLowerCase());
+ const aliases={
+  QBTS:['d-wave','d wave','dwave','d-wave quantum','quantum computing'],
+ };
+ const terms=[asset.name,asset.symbol,asset.id,...(aliases[asset.id]||[])].filter(Boolean).map(x=>x.toLocaleLowerCase());
  const articles=(Array.isArray(data.articles)?data.articles:[]).filter(item=>{
   const haystack=(item.title+' '+(item.description||'')).toLocaleLowerCase();
   return terms.some(term=>term.length>=3&&haystack.includes(term));
