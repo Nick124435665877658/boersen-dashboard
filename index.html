@@ -199,8 +199,26 @@ document.getElementById('next').onclick=()=>showPage(currentPage+1);
 document.getElementById('pages').addEventListener('click',e=>{const b=e.target.closest('[data-range]');if(b)setRange(b.dataset.range,b);});
 document.getElementById('refresh').onclick=()=>refreshAll(true);
 let touchX=null;
-document.getElementById('pages').addEventListener('touchstart',e=>{touchX=e.changedTouches[0].screenX;},{passive:true});
-document.getElementById('pages').addEventListener('touchend',e=>{if(touchX==null)return;const dx=e.changedTouches[0].screenX-touchX;if(Math.abs(dx)>70)showPage(currentPage+(dx<0?1:-1));touchX=null;},{passive:true});
+  let touchY=null;
+document.getElementById('pages').addEventListener('touchstart',e=>{
+  if(e.target.closet('.chart')){
+    touchX = null;
+    touchY = null;
+    return;
+  }
+  
+  touchX=e.changedTouches[0].screenX;
+  touchY=e.changedTouches[0].screenY;
+
+},{passive:true});
+document.getElementById('pages').addEventListener('touchend',e=>{if(touchX===null||touchY===null)return;
+                                                                 const dx=e.changedTouches[0].screenX-touchX;
+                                                                 const dy=e.changedTouches[0].screenY-touchY;
+                                                                 if(Math.abs(dx)>70 && Math.abs(dx)>Math.abs(dy)*1.3{
+                                                                   showPage(currentPage+(dx<0?1:-1));
+                                                                   touchX=null;
+                                                                   touchY=null;
+                                                                 },{passive:true});
 async function refreshAll(manual=false){
  const status=document.getElementById('status');status.textContent='Aktualisiere Kurse …';
  const results=await Promise.allSettled(assets.map(loadAsset));
