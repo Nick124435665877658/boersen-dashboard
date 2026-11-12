@@ -194,11 +194,11 @@ function buildOverview(){
  const categories=['Aktien','ETFs & Indizes','Rohstoffe'];
  categories.forEach(category=>{
   const group=assets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
-  const shown=dashboardMode==='bestand'?group.filter(a=>getShares(a)>0):group;
+  const shown=group;
   if(!shown.length)return;
   const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="${dashboardMode==='planen'?5:4}">${category} · ${shown.length}</td>`;tbody.appendChild(heading);
   shown.forEach(a=>{
-   const tr=document.createElement('tr');
+   const tr=document.createElement('tr');tr.dataset.asset=a.id;
    const qty=localStorage.getItem('shares_'+a.id)||'';
    const favorite=isFavorite(a);
    tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
@@ -207,7 +207,8 @@ function buildOverview(){
     <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
     <td id="ov-value-${a.id}">—</td>`;
    const input=tr.querySelector('.shares');
-   input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();if(dashboardMode==='bestand'&&Number(input.value)<=0){buildOverview();refreshAll();}});
+   input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});
+   input.addEventListener('change',()=>{if(dashboardMode==='bestand'){showPage(0);refreshAll();}});
    const check=tr.querySelector('.favorite-check');
    if(check)check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');buildOverview();refreshAll();});
    tbody.appendChild(tr);
@@ -228,7 +229,7 @@ document.getElementById('modeBestand').onclick=()=>changeMode('bestand');
 document.getElementById('modePlan').onclick=()=>changeMode('planen');
 function updatePortfolio(){
  let total=0;
- assets.forEach(a=>{const input=document.querySelector(`#holdings tr:nth-child(${assets.indexOf(a)+1}) input`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
+ assets.forEach(a=>{const input=document.querySelector(`#holdings tr[data-asset="${a.id}"] input.shares`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
  const p=document.getElementById('ov-price-'+a.id),v=document.getElementById('ov-value-'+a.id);if(p)p.textContent=price==null?'—':eur(price);if(v)v.textContent=value==null?'—':eur(value);});
  document.getElementById('totalValue').textContent=eur(total);
 }
@@ -243,7 +244,7 @@ document.getElementById('alertClose').addEventListener('click',()=>{alertQueue=[
 function checkFourHourAlerts(){
  const fourHours=4*60*60;
  assets.forEach(a=>{
-  const input=document.querySelector('#holdings tr:nth-child('+ (assets.indexOf(a)+1) +') input');
+  const input=document.querySelector('#holdings tr[data-asset="'+a.id+'"] input.shares');
   const qty=Number(input?.value||0),data=intradayCache[a.id]||[];
   const latest=data.at(-1);
   if(!(qty>0)||!latest){if(!(qty>0))localStorage.removeItem('alerted_4h_'+a.id);return;}
@@ -324,7 +325,7 @@ async function refreshAll(manual=false){
    if(priceEl&&lastValues[a.id]!=null)priceEl.textContent=eur(lastValues[a.id]);
    if(charts[a.id])setChartData(a,activeRange);
   });
-  buildOverview();
+  updatePortfolio();
   if(currentPage>0)showPage(currentPage);
   const failed=Math.max(historyFailed,currentFailed);
   const stamp=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
