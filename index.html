@@ -57,6 +57,12 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 @media(max-width:700px){header{padding:9px 12px}main{padding:9px}.chart-head{grid-template-columns:minmax(0,1fr);gap:4px}.chart-head>div:first-child{grid-column:1;grid-row:1}.chart-head>.sub{grid-column:1;grid-row:2;text-align:left;font-size:20px}.selected{grid-template-columns:repeat(5,1fr)}.selected .point{grid-column:1/-1}.selected .metric{font-size:13px}.total{align-items:flex-start;flex-direction:column}.bottom{padding:8px 12px}}
 @media(orientation:portrait){.chart-head{gap:4px}.selected{grid-template-columns:repeat(5,minmax(0,1fr))}.selected .point{grid-column:1/-1}}
 
+/* Depot-Abgleich: Eingabefelder und Ergebnis-Spalten */
+.entry-price{width:112px;max-width:100%;padding:8px;border-radius:9px;border:1px solid var(--line);background:#0b1423;color:white;text-align:right}
+#holdings td.up,#holdings td.down{font-weight:750;white-space:nowrap}
+#holdings td{white-space:nowrap}
+@media(max-width:700px){table{min-width:760px}.entry-price{width:104px}}
+
 /* Robuste Tablet-Ansicht: fester Kopf-/Fußbereich und stabiler Inhaltsbereich */
 html,body{height:100%;overflow:hidden}
 #app{height:100vh;height:100dvh;min-height:0;overflow:hidden}
@@ -308,40 +314,54 @@ function buildOverview(){
  const tbody=document.getElementById('holdings');tbody.innerHTML='';
  const categories=['Aktien','ETFs & Indizes','Rohstoffe'];
  const allMode=dashboardMode==='favoriten';
+ const planMode=dashboardMode==='planen';
  const shownAssets=allMode?assets:visibleAssets();
+ const columns=allMode?3:(planMode?5:7);
  categories.forEach(category=>{
   const group=shownAssets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
   if(!group.length)return;
-  const columns=allMode?3:5;
   const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="${columns}">${category} · ${group.length}</td>`;tbody.appendChild(heading);
   group.forEach(a=>{
    const tr=document.createElement('tr');tr.dataset.asset=a.id;
    const qty=localStorage.getItem('shares_'+a.id)||'';
+   const entry=localStorage.getItem('entry_'+a.id)||'';
    const favorite=isFavorite(a);
-   const controls=allMode
-    ? `<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>`
-    : `<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
-       <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
-       <td id="ov-value-${a.id}">—</td>`;
-   tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
-    <td id="ov-price-${a.id}">${lastValues[a.id]==null?'—':eur(lastValues[a.id])}</td>
-    ${controls}`;
-   const input=tr.querySelector('.shares');
-   if(input){
-    input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});
-    input.addEventListener('change',()=>{if(dashboardMode==='bestand'){showPage(0);refreshAll();}});
+   let controls;
+   if(allMode){
+    controls=`<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>`;
+   }else if(planMode){
+    controls=`<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
+      <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="Anteile" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
+      <td><input class="entry-price" type="number" min="0" step="any" inputmode="decimal" placeholder="0,00 €" value="${entry.replace(/"/g,'')}" aria-label="Einstiegskurs ${a.name}"></td>`;
+   }else{
+    const shares=Number(qty||0),entryValue=Number(entry||0),price=lastValues[a.id];
+    const pnl=price!=null&&entryValue>0&&shares>0?(price-entryValue)*shares:null;
+    const pct=price!=null&&entryValue>0?(price/entryValue-1)*100:null;
+    controls=`<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
+      <td>${shares?shares.toLocaleString('de-DE',{maximumFractionDigits:6}):'—'}</td>
+      <td id="ov-value-${a.id}">—</td>
+      <td id="ov-pnl-${a.id}" class="${pnl==null?'':pnl>=0?'up':'down'}">${pnl==null?'—':(pnl>=0?'+':'')+eur(pnl)}</td>
+      <td id="ov-pct-${a.id}" class="${pct==null?'':pct>=0?'up':'down'}">${pct==null?'—':(pct>=0?'+':'')+pct.toFixed(2).replace('.',',')+' %'}</td>`;
    }
+   tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
+    <td id="ov-price-${a.id}">${lastValues[a.id]==null?'—':eur(lastValues[a.id])}</td>${controls}`;
+   const sharesInput=tr.querySelector('.shares');
+   if(sharesInput)sharesInput.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,sharesInput.value);updatePortfolio();});
+   const entryInput=tr.querySelector('.entry-price');
+   if(entryInput)entryInput.addEventListener('input',()=>{localStorage.setItem('entry_'+a.id,entryInput.value);updatePortfolio();});
    const check=tr.querySelector('.favorite-check');
-   check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');if(dashboardMode==='favoriten'){buildOverview();}else{buildOverview();}refreshAll();});
+   check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');buildOverview();refreshAll();});
    tbody.appendChild(tr);
   });
  });
  document.getElementById('modeBestand').classList.toggle('active',dashboardMode==='bestand');
- document.getElementById('modePlan').classList.toggle('active',dashboardMode==='planen');
- document.getElementById('modeFavorites').classList.toggle('active',dashboardMode==='favoriten');
+ document.getElementById('modePlan').classList.toggle('active',planMode);
+ document.getElementById('modeFavorites').classList.toggle('active',allMode);
  document.querySelector('thead tr').innerHTML=allMode
   ?'<th>Wert</th><th>Kurs in €</th><th>Favorit</th>'
-  :'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>';
+  :planMode
+   ?'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Anzahl Anteile</th><th>Einstiegskurs in €</th>'
+   :'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Anteile</th><th>Positionswert</th><th>Gewinn / Verlust €</th><th>Gewinn / Verlust %</th>';
  document.querySelector('.total').style.display=allMode?'none':'flex';
  updatePortfolio();
 }
@@ -354,8 +374,23 @@ document.getElementById('modePlan').onclick=()=>changeMode('planen');
 document.getElementById('modeFavorites').onclick=()=>changeMode('favoriten');
 function updatePortfolio(){
  let total=0;
- assets.forEach(a=>{const input=document.querySelector(`#holdings tr[data-asset="${a.id}"] input.shares`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
- const p=document.getElementById('ov-price-'+a.id),v=document.getElementById('ov-value-'+a.id);if(p)p.textContent=price==null?'—':eur(price);if(v)v.textContent=value==null?'—':eur(value);});
+ assets.forEach(a=>{
+  const row=document.querySelector(`#holdings tr[data-asset="${a.id}"]`);
+  const sharesInput=row?.querySelector('input.shares');
+  const qty=sharesInput?Number(sharesInput.value||0):getShares(a);
+  const entryInput=row?.querySelector('input.entry-price');
+  const entry=entryInput?Number(entryInput.value||0):Number(localStorage.getItem('entry_'+a.id)||0);
+  const price=lastValues[a.id],value=price==null?null:qty*price;
+  if(value!=null)total+=value;
+  const p=document.getElementById('ov-price-'+a.id),v=document.getElementById('ov-value-'+a.id);
+  if(p)p.textContent=price==null?'—':eur(price);
+  if(v)v.textContent=value==null?'—':eur(value);
+  const pnlEl=document.getElementById('ov-pnl-'+a.id),pctEl=document.getElementById('ov-pct-'+a.id);
+  const pnl=price!=null&&entry>0&&qty>0?(price-entry)*qty:null;
+  const pct=price!=null&&entry>0?(price/entry-1)*100:null;
+  if(pnlEl){pnlEl.textContent=pnl==null?'—':(pnl>=0?'+':'')+eur(pnl);pnlEl.classList.toggle('up',pnl!=null&&pnl>=0);pnlEl.classList.toggle('down',pnl!=null&&pnl<0);}
+  if(pctEl){pctEl.textContent=pct==null?'—':(pct>=0?'+':'')+pct.toFixed(2).replace('.',',')+' %';pctEl.classList.toggle('up',pct!=null&&pct>=0);pctEl.classList.toggle('down',pct!=null&&pct<0);}
+ });
  document.getElementById('totalValue').textContent=eur(total);
 }
 let alertQueue=[],alertShowing=false;
