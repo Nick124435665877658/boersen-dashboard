@@ -1,12 +1,11 @@
 {
   "name": "Mein Börsen-Dashboard",
-  "short_name": "Market Watch",
-  "start_url": "./",
-  "scope": "./",
+  "short_name": "Börsen-Dashboard",
+  "start_url": "./index.html",
   "display": "standalone",
-  "orientation": "landscape",
   "background_color": "#0b1220",
   "theme_color": "#0b1220",
+  "orientation": "landscape",
   "icons": [
     {
       "src": "icon.svg",

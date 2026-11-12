@@ -1,98 +1,205 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1220">
-  <link rel="manifest" href="manifest.json">
-  <title>Mein Börsen-Dashboard</title>
-  <style>
-    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --line:#24344c; --muted:#9aabc2; --text:#edf3fb; }
-    * { box-sizing: border-box; }
-    body { margin:0; background:var(--bg); color:var(--text); font:14px/1.4 system-ui, sans-serif; }
-    header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; border-bottom:1px solid var(--line); }
-    h1 { margin:0; font-size:19px; letter-spacing:.04em; }
-    .sub { color:var(--muted); font-size:12px; margin-top:3px; }
-    .status { color:#8ee6ad; font-size:12px; white-space:nowrap; }
-    main { padding:12px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
-    .card { min-width:0; height:300px; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
-    .chart { width:100%; height:100%; }
-    footer { padding:4px 16px 14px; color:var(--muted); font-size:11px; }
-    @media (max-width:700px) {
-      main { grid-template-columns:1fr; }
-      .card { height:300px; }
-    }
-    @media (min-width:1000px) and (max-height:900px) {
-      .card { height:260px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0b1220">
+<link rel="manifest" href="manifest.json">
+<title>Mein Börsen-Dashboard</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#111c2e;--panel2:#17243a;--line:#26364d;--muted:#91a2ba;--text:#edf3fb;--green:#37d39a;--red:#ff6b78;--blue:#70a7ff}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;overflow:hidden}
+button,input{font:inherit}button{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:12px;padding:10px 14px;cursor:pointer}button.active{background:#23436d;border-color:#5798f4;color:#fff}
+#app{height:100dvh;display:flex;flex-direction:column;max-width:1500px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);gap:10px;min-height:58px}
+.brand{font-weight:750;letter-spacing:.2px}.sub{color:var(--muted);font-size:12px}
+#status{font-size:12px;color:var(--muted);text-align:right}
+main{flex:1;min-height:0;position:relative;padding:12px}
+.page{display:none;height:100%;min-height:0}.page.active{display:flex;flex-direction:column}
+.overview-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:4px 2px 12px}
+h1{font-size:clamp(22px,3vw,34px);margin:0 0 4px}.muted{color:var(--muted)}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:var(--panel);flex:1;min-height:0}
+table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}th{font-size:12px;color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel)}
+.asset-name{font-weight:700}.ticker{font-size:11px;color:var(--muted)}.shares{width:95px;max-width:100%;padding:8px;border-radius:9px;border:1px solid var(--line);background:#0b1423;color:white;text-align:right}
+.total{margin-top:12px;background:linear-gradient(135deg,#142b3a,#14233a);border:1px solid #2b5261;border-radius:18px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.total strong{display:block;font-size:clamp(30px,5vw,48px);letter-spacing:-1px;color:var(--green);font-variant-numeric:tabular-nums}.total small{color:var(--muted)}
+.chart-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.chart-title{font-size:clamp(22px,3vw,32px);font-weight:750}.chart-actions{display:flex;gap:7px;flex-wrap:wrap}
+.periods{display:flex;gap:6px;overflow-x:auto;padding:10px 0;flex-shrink:0}.periods button{padding:8px 13px;white-space:nowrap}
+.chart{flex:1;min-height:180px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#0e1929}
+.selected{margin-top:10px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:11px 13px;display:grid;grid-template-columns:1.3fr repeat(5,1fr);gap:8px;align-items:center}
+.selected .main-price{font-size:23px;font-weight:750;font-variant-numeric:tabular-nums}.selected .label{font-size:11px;color:var(--muted)}.selected .metric{font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}.up{color:var(--green)}.down{color:var(--red)}
+.bottom{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;border-top:1px solid var(--line);gap:10px}
+.nav{display:flex;align-items:center;gap:10px}.nav button{min-width:44px}.dots{font-size:12px;color:var(--muted)}
+.note{font-size:11px;color:var(--muted);line-height:1.4}
+@media(max-width:700px){header{padding:9px 12px}main{padding:9px}.selected{grid-template-columns:repeat(5,1fr)}.selected .point{grid-column:1/-1}.selected .metric{font-size:13px}.total{align-items:flex-start;flex-direction:column}.bottom{padding:8px 12px}}
+@media(orientation:portrait){.chart-head{gap:6px}.selected{grid-template-columns:repeat(5,minmax(0,1fr))}.selected .point{grid-column:1/-1}}
+</style>
 </head>
 <body>
-  <header>
-    <div>
-      <h1>MARKET WATCH</h1>
-      <div class="sub">Deine Watchlist · Tagesverlauf · TradingView</div>
-    </div>
-    <div class="status">● LIVE-CHARTS</div>
-  </header>
-  <main id="dashboard"></main>
-  <footer>
-    Die Charts werden von TradingView geladen. Kursdaten können je nach Börse verzögert sein.
-    Dies ist eine reine Watchlist und keine Anlageberatung.
-  </footer>
-
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
-    }
-    // HIER deine sechs Werte ändern. Beispiele:
-    // NASDAQ:QBTS, NASDAQ:AMD, NASDAQ:NVDA, NASDAQ:LCID,
-    // BITSTAMP:BTCUSD, HKEX:1211 (BYD), HKEX:1810 (Xiaomi)
-    const watchlist = [
-      { symbol: "NASDAQ:QBTS", name: "D-Wave Quantum" },
-      { symbol: "NASDAQ:AMD",  name: "AMD" },
-      { symbol: "NASDAQ:LCID", name: "Lucid" },
-      { symbol: "NASDAQ:NVDA", name: "Nvidia" },
-      { symbol: "BITSTAMP:BTCUSD", name: "Bitcoin / USD" },
-      { symbol: "HKEX:1211", name: "BYD" }
-    ];
-
-    const dashboard = document.getElementById("dashboard");
-    watchlist.forEach((stock, index) => {
-      const card = document.createElement("section");
-      card.className = "card";
-      const mount = document.createElement("div");
-      mount.className = "tradingview-widget-container chart";
-      const widget = document.createElement("div");
-      widget.className = "tradingview-widget-container__widget";
-      mount.appendChild(widget);
-      card.appendChild(mount);
-      dashboard.appendChild(card);
-
-      const script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
-      script.async = true;
-      script.innerHTML = JSON.stringify({
-        autosize: true,
-        symbol: stock.symbol,
-        interval: "5",
-        range: "1D",
-        timezone: "Europe/Berlin",
-        theme: "dark",
-        style: "1",
-        locale: "de_DE",
-        backgroundColor: "rgba(17, 28, 46, 1)",
-        gridColor: "rgba(36, 52, 76, 0.65)",
-        hide_top_toolbar: true,
-        hide_legend: false,
-        allow_symbol_change: true,
-        save_image: false,
-        calendar: false,
-        support_host: "https://www.tradingview.com"
-      });
-      mount.appendChild(script);
-    });
-  </script>
-</body>
-</html>
+<div id="app">
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro</div></div><div id="status">Lade Kurse …</div></header>
+<main id="pages">
+<section class="page active" id="overview">
+ <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Anteile eintragen – Depotwert wird automatisch berechnet</div></div><button id="refresh">↻ Aktualisieren</button></div>
+ <div class="table-wrap"><table><thead><tr><th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th></tr></thead><tbody id="holdings"></tbody></table></div>
+ <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
+</section>
+<section class="page" data-asset="QBTS">
+ <div class="chart-head"><div><div class="chart-title">D-Wave Quantum</div><div class="muted">NASDAQ: QBTS · Kurs in EUR</div></div><div class="sub" id="price-QBTS">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-QBTS" class="chart"></div><div class="selected" id="selection-QBTS"></div>
+</section>
+<section class="page" data-asset="AMD">
+ <div class="chart-head"><div><div class="chart-title">AMD</div><div class="muted">NASDAQ: AMD · Kurs in EUR</div></div><div class="sub" id="price-AMD">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-AMD" class="chart"></div><div class="selected" id="selection-AMD"></div>
+</section>
+<section class="page" data-asset="LCID">
+ <div class="chart-head"><div><div class="chart-title">Lucid</div><div class="muted">NASDAQ: LCID · Kurs in EUR</div></div><div class="sub" id="price-LCID">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-LCID" class="chart"></div><div class="selected" id="selection-LCID"></div>
+</section>
+<section class="page" data-asset="NVDA">
+ <div class="chart-head"><div><div class="chart-title">NVIDIA</div><div class="muted">NASDAQ: NVDA · Kurs in EUR</div></div><div class="sub" id="price-NVDA">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-NVDA" class="chart"></div><div class="selected" id="selection-NVDA"></div>
+</section>
+<section class="page" data-asset="BTC">
+ <div class="chart-head"><div><div class="chart-title">Bitcoin</div><div class="muted">BITSTAMP: BTCUSD · Kurs in EUR</div></div><div class="sub" id="price-BTC">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-BTC" class="chart"></div><div class="selected" id="selection-BTC"></div>
+</section>
+<section class="page" data-asset="BYD">
+ <div class="chart-head"><div><div class="chart-title">BYD</div><div class="muted">HKEX: 1211 · Kurs in EUR</div></div><div class="sub" id="price-BYD">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-BYD" class="chart"></div><div class="selected" id="selection-BYD"></div>
+</section>
+<section class="page" data-asset="GOLD">
+ <div class="chart-head"><div><div class="chart-title">Gold</div><div class="muted">Gold-Spot (XAU/USD) · Kurs in EUR je Feinunze</div></div><div class="sub" id="price-GOLD">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-GOLD" class="chart"></div><div class="selected" id="selection-GOLD"></div>
+</section>
+<section class="page" data-asset="RGTI">
+ <div class="chart-head"><div><div class="chart-title">Rigetti Computing</div><div class="muted">NASDAQ: RGTI · Kurs in EUR</div></div><div class="sub" id="price-RGTI">— €</div></div>
+ <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-RGTI" class="chart"></div><div class="selected" id="selection-RGTI"></div>
+</section>
+</main>
+<footer class="bottom"><div class="nav"><button id="prev">←</button><span class="dots" id="pageLabel">Depot · 1 / 9</span><button id="next">→</button></div><div class="note">Wischen zum Wechseln · Chart antippen/ziehen zum Markieren</div></footer>
+</div>
+<script src="https://unpkg.com/lightweight-charts@4.2.2/dist/lightweight-charts.standalone.production.js"></script>
+<script>
+const assets=[
+ {id:'QBTS',name:'D-Wave Quantum',symbol:'QBTS',currency:'USD',fx:'EURUSD=X',kind:'stock'},
+ {id:'AMD',name:'AMD',symbol:'AMD',currency:'USD',fx:'EURUSD=X',kind:'stock'},
+ {id:'LCID',name:'Lucid',symbol:'LCID',currency:'USD',fx:'EURUSD=X',kind:'stock'},
+ {id:'NVDA',name:'NVIDIA',symbol:'NVDA',currency:'USD',fx:'EURUSD=X',kind:'stock'},
+ {id:'BTC',name:'Bitcoin',symbol:'BTC-USD',currency:'USD',fx:'EURUSD=X',kind:'crypto'},
+ {id:'BYD',name:'BYD',symbol:'1211.HK',currency:'HKD',fx:'HKDEUR=X',kind:'stock'},
+ {id:'GOLD',name:'Gold',symbol:'GC=F',currency:'USD',fx:'EURUSD=X',kind:'commodity'},
+ {id:'RGTI',name:'Rigetti Computing',symbol:'RGTI',currency:'USD',fx:'EURUSD=X',kind:'stock'}
+];
+const ranges={ '1D':{period:'1d',interval:'5m'},'1W':{period:'5d',interval:'30m'},'1M':{period:'1mo',interval:'1d'},'1Y':{period:'1y',interval:'1d'},'5Y':{period:'5y',interval:'1wk'} };
+const dailyCache={}, intradayCache={}, charts={}, chartSeries={}, lastValues={};
+let currentPage=0, activeRange='1D', refreshTimer=null;
+const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n);
+const fmtDate=t=>new Date(t*1000).toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'});
+function yahooUrl(symbol,period,interval){
+ const now=Math.floor(Date.now()/1000), secs=period==='5y'?5*366*86400:period==='1y'?366*86400:period==='1mo'?32*86400:period==='5d'?7*86400:86400*2;
+ return `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?period1=${now-secs}&period2=${now}&interval=${interval}&events=history`;
+}
+async function fetchYahoo(symbol,period,interval){
+ const res=await fetch(yahooUrl(symbol,period,interval),{cache:'no-store'});
+ if(!res.ok) throw new Error('Kursdienst antwortet nicht ('+res.status+')');
+ const j=await res.json(), r=j.chart?.result?.[0];
+ if(!r||!r.timestamp?.length) throw new Error('Keine Kursdaten für '+symbol);
+ const q=r.indicators.quote[0], out=[];
+ for(let i=0;i<r.timestamp.length;i++){const c=q.close[i];if(c!=null&&Number.isFinite(c))out.push({time:r.timestamp[i],value:c});}
+ return out;
+}
+function nearestValue(data,t){let lo=0,hi=data.length-1,ans=null;while(lo<=hi){let m=(lo+hi)>>1;if(data[m].time<=t){ans=data[m];lo=m+1}else hi=m-1;}return ans;}
+function convertSeries(prices,fx,currency){
+ if(currency==='EUR')return prices;
+ return prices.map(p=>{const f=nearestValue(fx,p.time);if(!f||!f.value)return null;return {time:p.time,value:currency==='USD'?p.value/f.value:p.value*f.value};}).filter(Boolean);
+}
+async function loadAsset(a){
+ const [daily,fxDaily]=await Promise.all([fetchYahoo(a.symbol,'5y','1d'),fetchYahoo(a.fx,'5y','1d')]);
+ dailyCache[a.id]=convertSeries(daily,fxDaily,a.currency);
+ const intradayPeriod=a.kind==='crypto'?'1d':'1d';
+ let intra;
+ try{
+  const [p,f]=await Promise.all([fetchYahoo(a.symbol,intradayPeriod,'5m'),fetchYahoo(a.fx,'1d','5m')]);
+  intra=convertSeries(p,f,a.currency);
+ }catch(e){intra=null;}
+ intradayCache[a.id]=intra;
+ lastValues[a.id]=dailyCache[a.id].at(-1)?.value ?? null;
+}
+function makeChart(a){
+ const el=document.getElementById('chart-'+a.id); if(!el||!window.LightweightCharts)return;
+ const chart=LightweightCharts.createChart(el,{layout:{background:{color:'#0e1929'},textColor:'#9aabc2'},grid:{vertLines:{color:'#1c2a3d'},horzLines:{color:'#1c2a3d'}},rightPriceScale:{borderColor:'#26364d'},timeScale:{borderColor:'#26364d',timeVisible:true,secondsVisible:false},crosshair:{mode:LightweightCharts.CrosshairMode.Normal},width:el.clientWidth,height:el.clientHeight});
+ const series=chart.addAreaSeries({lineColor:'#66a5ff',topColor:'rgba(75,145,245,.28)',bottomColor:'rgba(75,145,245,.015)',lineWidth:2,priceFormat:{type:'custom',formatter:v=>eur(v)}});
+ charts[a.id]=chart;chartSeries[a.id]=series;
+ chart.subscribeCrosshairMove(p=>{if(p.time&&p.seriesData){const d=p.seriesData.get(series);if(d&&Number.isFinite(d.value))showSelection(a,d.value,typeof p.time==='number'?p.time:Math.floor(Date.UTC(p.time.year,p.time.month-1,p.time.day)/1000));}});
+ new ResizeObserver(()=>chart.applyOptions({width:el.clientWidth,height:el.clientHeight})).observe(el);
+}
+function visibleData(a,range){
+ const all=range==='1D'?(intradayCache[a.id]||dailyCache[a.id]):dailyCache[a.id];
+ if(!all)return [];
+ const now=Date.now()/1000, secs={'1D':86400,'1W':7*86400,'1M':31*86400,'1Y':366*86400,'5Y':5*366*86400}[range];
+ return all.filter(x=>x.time>=now-secs);
+}
+function setChartData(a,range){
+ const s=chartSeries[a.id];if(!s)return;
+ const data=visibleData(a,range);s.setData(data);
+ charts[a.id].timeScale().fitContent();
+ const last=data.at(-1);if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
+}
+function showSelection(a,value,time){
+ const history=dailyCache[a.id]||[], labels=[['Tag',86400],['Woche',7*86400],['Monat',30*86400],['Jahr',365*86400],['5 Jahre',5*365*86400]];
+ const el=document.getElementById('selection-'+a.id);if(!el)return;
+ let html=`<div class="point"><div class="label">MARKIERTER KURS · ${fmtDate(time)}</div><div class="main-price">${eur(value)}</div></div>`;
+ for(const [name,delta] of labels){const base=nearestValue(history,time-delta);if(!base||!base.value){html+=`<div><div class="label">${name}</div><div class="metric">—</div></div>`;continue;}
+ const pct=(value/base.value-1)*100, diff=value-base.value, cls=pct>=0?'up':'down';
+ html+=`<div><div class="label">vs. ${name}</div><div class="metric ${cls}">${pct>=0?'+':''}${pct.toFixed(2).replace('.',',')} %</div><div class="label">${diff>=0?'+':''}${diff.toFixed(2).replace('.',',')} €</div></div>`;
+ }
+ el.innerHTML=html;
+}
+function buildOverview(){
+ const tbody=document.getElementById('holdings');tbody.innerHTML='';
+ assets.forEach(a=>{const tr=document.createElement('tr');const stored=localStorage.getItem('shares_'+a.id)||'';tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td><td id="ov-price-${a.id}">—</td><td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${stored.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td><td id="ov-value-${a.id}">—</td>`;const input=tr.querySelector('input');input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});tbody.appendChild(tr);});
+ updatePortfolio();
+}
+function updatePortfolio(){
+ let total=0;
+ assets.forEach(a=>{const input=document.querySelector(`#holdings tr:nth-child(${assets.indexOf(a)+1}) input`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
+ const p=document.getElementById('ov-price-'+a.id),v=document.getElementById('ov-value-'+a.id);if(p)p.textContent=price==null?'—':eur(price);if(v)v.textContent=value==null?'—':eur(value);});
+ document.getElementById('totalValue').textContent=eur(total);
+}
+function showPage(index){
+ currentPage=(index+9)%9;
+ document.querySelectorAll('.page').forEach((p,i)=>p.classList.toggle('active',i===currentPage));
+ document.getElementById('pageLabel').textContent=currentPage===0?'Depot · 1 / 9':`${assets[currentPage-1].name} · ${currentPage+1} / 9`;
+ if(currentPage>0){const a=assets[currentPage-1];if(!charts[a.id])makeChart(a);setChartData(a,activeRange);}
+}
+function setRange(range,button){
+ activeRange=range;
+ const page=document.querySelector('.page.active[data-asset]');if(!page)return;
+ page.querySelectorAll('[data-range]').forEach(b=>b.classList.toggle('active',b.dataset.range===range));
+ const a=assets.find(x=>x.id===page.dataset.asset);setChartData(a,range);
+}
+document.getElementById('prev').onclick=()=>showPage(currentPage-1);
+document.getElementById('next').onclick=()=>showPage(currentPage+1);
+document.getElementById('pages').addEventListener('click',e=>{const b=e.target.closest('[data-range]');if(b)setRange(b.dataset.range,b);});
+document.getElementById('refresh').onclick=()=>refreshAll(true);
+let touchX=null;
+document.getElementById('pages').addEventListener('touchstart',e=>{touchX=e.changedTouches[0].screenX;},{passive:true});
+document.getElementById('pages').addEventListener('touchend',e=>{if(touchX==null)return;const dx=e.changedTouches[0].screenX-touchX;if(Math.abs(dx)>70)showPage(currentPage+(dx<0?1:-1));touchX=null;},{passive:true});
+async function refreshAll(manual=false){
+ const status=document.getElementById('status');status.textContent='Aktualisiere Kurse …';
+ const results=await Promise.allSettled(assets.map(loadAsset));
+ buildOverview();
+ assets.forEach(a=>{if(charts[a.id])setChartData(a,activeRange);});
+ const failed=results.filter(x=>x.status==='rejected').length;
+ status.textContent=failed?`${failed} Kurs(e) nicht verfügbar · ${new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})}`:`Kurse aktualisiert · ${new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})}`;
+ if(failed)console.warn('Kursabruf fehlgeschlagen',results.filter(x=>x.status==='rejected').map(x=>x.reason));
+}
+buildOverview();
+if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
+refreshAll();
+refreshTimer=setInterval(refreshAll,60000);
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+</script>
+</body></html>
