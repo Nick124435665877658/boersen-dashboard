@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: "17,47 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-news.yml"
 permissions:
   contents: write
 jobs:
