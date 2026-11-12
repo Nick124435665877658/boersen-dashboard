@@ -196,14 +196,14 @@ function buildOverview(){
   const group=assets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
   const shown=group;
   if(!shown.length)return;
-  const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="${dashboardMode==='planen'?5:4}">${category} · ${shown.length}</td>`;tbody.appendChild(heading);
+  const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="5">${category} · ${shown.length}</td>`;tbody.appendChild(heading);
   shown.forEach(a=>{
    const tr=document.createElement('tr');tr.dataset.asset=a.id;
    const qty=localStorage.getItem('shares_'+a.id)||'';
    const favorite=isFavorite(a);
    tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
-    <td id="ov-price-${a.id}">${dashboardMode==='planen'&&!favorite?'Favorit markieren':'—'}</td>
-    ${dashboardMode==='planen'?'<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit '+a.name+'" '+(favorite?'checked':'')+'></td>':''}
+    <td id="ov-price-${a.id}">—</td>
+    <td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
     <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
     <td id="ov-value-${a.id}">—</td>`;
    const input=tr.querySelector('.shares');
@@ -216,9 +216,7 @@ function buildOverview(){
  });
  document.getElementById('modeBestand').classList.toggle('active',dashboardMode==='bestand');
  document.getElementById('modePlan').classList.toggle('active',dashboardMode==='planen');
- document.querySelector('thead tr').innerHTML=dashboardMode==='planen'
-  ?'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>'
-  :'<th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th>';
+ document.querySelector('thead tr').innerHTML='<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>';
  updatePortfolio();
 }
 function changeMode(mode){
@@ -309,6 +307,14 @@ document.getElementById('pages').addEventListener('touchend',e=>{if(touchX===nul
                                                                    touchX=null;
                                                                    touchY=null;
                                                                  },{passive:true});
+let quoteCursor=0;
+const QUOTE_BATCH_SIZE=12;
+function nextQuoteBatch(){
+ const n=Math.min(QUOTE_BATCH_SIZE,assets.length),batch=[];
+ for(let i=0;i<n;i++)batch.push(assets[(quoteCursor+i)%assets.length]);
+ quoteCursor=(quoteCursor+n)%assets.length;
+ return batch;
+}
 async function refreshAll(manual=false){
  if(refreshInFlight)return;
  refreshInFlight=true;
@@ -317,7 +323,8 @@ async function refreshAll(manual=false){
  try{
   const targets=trackedAssets();
   const historyFailed=await loadHistory(targets);
-  const currentFailed=await loadCurrentPrices(targets);
+  const quoteTargets=nextQuoteBatch();
+  const currentFailed=await loadCurrentPrices(quoteTargets);
   checkFourHourAlerts();
   updatePortfolio();
   targets.forEach(a=>{
@@ -329,7 +336,7 @@ async function refreshAll(manual=false){
   if(currentPage>0)showPage(currentPage);
   const failed=Math.max(historyFailed,currentFailed);
   const stamp=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
-  status.textContent=failed?'⚠ '+failed+' Kurs(e) konnten nicht aktualisiert werden · '+stamp:'Kurse aktualisiert · '+stamp;
+  status.textContent=failed?'⚠ '+failed+' Kurs(e) konnten nicht aktualisiert werden · '+stamp:'Kurse aktualisiert · '+stamp+' · Kursliste wird schrittweise aktualisiert';
   document.getElementById('totalTime').textContent='Letzter Datenabruf: '+stamp;
  }catch(e){
   status.textContent='Kursaktualisierung fehlgeschlagen';
