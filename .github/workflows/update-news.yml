@@ -41,7 +41,10 @@ jobs:
               for node in nodes:
                 title = html.unescape(child_text(node,"title"))
                 link = child_text(node,"link")
-                desc = html.unescape(child_text(node,"description") or child_text(node,"summary"))
+                desc = child_text(node,"description")
+                if not desc:
+                  desc = child_text(node,"summary")
+                desc = html.unescape(desc)
                 date = child_text(node,"pubDate") or child_text(node,"published") or child_text(node,"updated")
                 if not title or not link or not link.startswith("http"):
                   continue
