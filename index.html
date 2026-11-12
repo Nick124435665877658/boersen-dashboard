@@ -240,74 +240,44 @@ function renderChartPages(){
    <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div>
    <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>
    <section class="news-panel" id="news-${a.id}">
-    <div class="news-top"><h2>🧠 KI-News-Analyse</h2><button class="news-refresh" data-news-refresh="${a.id}">↻ Analyse aktualisieren</button></div>
-    <div class="news-meta" id="news-meta-${a.id}">Letzte 7 Tage · relevante Entwicklungen der letzten 30 Tage</div>
+    <div class="news-top"><h2>📰 Aktuelle Nachrichten</h2><button class="news-refresh" data-news-refresh="${a.id}">↻ Nachrichten aktualisieren</button></div>
+    <div class="news-meta" id="news-meta-${a.id}">Deutsche und englische Originalmeldungen zum Unternehmen</div>
     <div class="news-content" id="news-content-${a.id}"><div class="news-status">News-Analyse wird beim Öffnen dieser Chartseite geladen.</div></div>
    </section>`;
   holder.appendChild(section);
  });
 }
-const NEWS_WORKER_URL=''; // Nach dem Deploy des Cloudflare Workers hier die https://...workers.dev URL eintragen.
+const NEWS_WORKER_URL=''; // Nach dem Deploy des RSS-Workers hier die https://...workers.dev URL eintragen.
 const newsMemory={};
 function newsText(tag,text,className){
  const el=document.createElement(tag);if(className)el.className=className;el.textContent=text||'';return el;
 }
 function renderNews(assetId,data){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;host.innerHTML='';
- const badge=newsText('span','Lagebild: '+(data.sentiment||'neutral'),'news-sentiment '+String(data.sentiment||'neutral').toLowerCase());
- const summary=newsText('div','','news-summary');summary.appendChild(badge);
- summary.appendChild(newsText('p',data.overallSummary||'Keine zusammenfassende Einschätzung verfügbar.'));
- host.appendChild(summary);
- const sections=[
-  ['company','1 · Unternehmen'],['industry','2 · Branche'],['competitors','3 · Konkurrenz'],['market','4 · Gesamtmarkt']
- ];
- const grid=newsText('div','','news-grid');
- sections.forEach(([key,title])=>{
-  const item=data.sections?.[key]||{};const card=newsText('section','','news-section');card.appendChild(newsText('h3',title));
-  card.appendChild(newsText('p',item.summary||'Dazu liegen in den ausgewerteten Quellen keine belastbaren neuen Informationen vor.'));
-  if(Array.isArray(item.points)&&item.points.length){const ul=document.createElement('ul');item.points.slice(0,5).forEach(t=>ul.appendChild(newsText('li',t)));card.appendChild(ul);}
-  grid.appendChild(card);
- });
- host.appendChild(grid);
- const outlook=newsText('section','','news-section news-outlook');outlook.appendChild(newsText('h3','5 · Chancen, Risiken und Ausblick'));
- const out=data.sections?.assessment||{};
- [['Chancen',out.opportunities],['Risiken',out.risks],['Kurzfristig · Tage/Wochen',out.shortTerm],['Mittelfristig · Monate',out.mediumTerm]].forEach(([label,val])=>{
-  const p=newsText('p',(label+': ')+(Array.isArray(val)?val.join(' · '):(val||'Keine belastbare Einschätzung möglich.')));outlook.appendChild(p);
- });
- host.appendChild(outlook);
- const sources=Array.isArray(data.sources)?data.sources:[];
- const sourceBox=newnewsSourceBox(sources);host.appendChild(sourceBox);
- const meta=document.getElementById('news-meta-'+assetId);
- if(meta)meta.textContent='Erstellt: '+(data.generatedAt?new Date(data.generatedAt).toLocaleString('de-DE'):'Zeitpunkt unbekannt')+' · Nachrichtenstand: '+(data.newsDelayMinutes?data.newsDelayMinutes+' Min. verzögert':'laut Anbieter')+' · '+sources.length+' Quellen';
-}
-function newnewsSourceBox(sources){
- const box=newsText('div','','news-sources');box.appendChild(newsText('h3','6 · Originalmeldungen und Quellen'));
- if(!sources.length){box.appendChild(newsText('div','Keine passenden Originalmeldungen im ausgewerteten Zeitraum.','news-status'));return box;}
- sources.slice(0,16).forEach(src=>{
+ const articles=Array.isArray(data.articles)?data.articles:[];
+ if(!articles.length){host.appendChild(newsText('div','Keine aktuellen Nachrichten für diesen Wert gefunden.','news-status'));return;}
+ articles.forEach(src=>{
   const a=document.createElement('a');a.className='news-source';a.href=src.url||'#';a.target='_blank';a.rel='noopener noreferrer';
-  a.textContent=(src.title||'Meldung öffnen')+' — '+(src.publisher||'Quelle')+' · '+(src.publishedAt?new Date(src.publishedAt).toLocaleDateString('de-DE'):'Datum n. v.');
-  box.appendChild(a);
+  a.appendChild(newsText('strong',src.title||'Meldung öffnen'));
+  a.appendChild(newsText('span',(src.publisher||'Quelle')+' · '+(src.publishedAt?new Date(src.publishedAt).toLocaleString('de-DE'):'Datum n. v.')));
+  host.appendChild(a);
  });
- return box;
+ const meta=document.getElementById('news-meta-'+assetId);
+ if(meta)meta.textContent='Deutsche und englische Quellen · '+articles.length+' Meldungen · zuletzt abgerufen: '+new Date(data.fetchedAt||Date.now()).toLocaleString('de-DE');
 }
 async function loadAssetNews(assetId,force=false){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;
  const asset=assets.find(x=>x.id===assetId);if(!asset)return;
  if(newsMemory[assetId]&&!force){renderNews(assetId,newsMemory[assetId]);return;}
- if(!NEWS_WORKER_URL){
-  host.innerHTML='';host.appendChild(newsText('div','Die News-Oberfläche ist vorbereitet. Für echte Nachrichten und KI-Auswertungen muss noch der geschützte Cloudflare-Dienst eingerichtet und mit den API-Zugängen verbunden werden.','news-status'));
-  return;
- }
- host.innerHTML='';host.appendChild(newsText('div','Suche Nachrichten und erstelle die ausführliche KI-Auswertung …','news-status'));
+ if(!NEWS_WORKER_URL){host.innerHTML='';host.appendChild(newsText('div','Der kostenlose RSS-Nachrichtenabruf ist vorbereitet. Es fehlt nur noch die Worker-Adresse nach dem Deploy.','news-status'));return;}
+ host.innerHTML='';host.appendChild(newsText('div','Lade aktuelle Nachrichten …','news-status'));
  try{
   const url=new URL(NEWS_WORKER_URL.replace(/\/$/,'')+'/api/news');
   url.searchParams.set('name',asset.name);url.searchParams.set('symbol',asset.symbol);
   const response=await fetch(url.toString(),{cache:force?'no-store':'default'});
   const data=await response.json();if(!response.ok)throw new Error(data.error||('HTTP '+response.status));
   newsMemory[assetId]=data;renderNews(assetId,data);
- }catch(err){
-  host.innerHTML='';host.appendChild(newsText('div','News konnten nicht geladen werden: '+err.message,'news-status'));
- }
+ }catch(err){host.innerHTML='';host.appendChild(newsText('div','Nachrichten konnten nicht geladen werden: '+err.message,'news-status'));}
 }
 
 function buildOverview(){
