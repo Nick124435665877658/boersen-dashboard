@@ -1,4 +1,779 @@
 {
-  "fetchedAt": null,
-  "articles": []
+  "fetchedAt": "2026-11-12T23:31:29.344809+00:00",
+  "articles": [
+    {
+      "title": "Applied Materials mit starken Zahlen: KI-Boom treibt Chipausrüster an",
+      "url": "https://www.deraktionaer.de/artikel/aktien/applied-materials-mit-starken-zahlen-ki-boom-treibt-chipausruester-an-20441758.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 21:45:00 GMT",
+      "description": "   Applied Materials hat am Donnerstag nach US-Börsenschluss die Erwartungen der Wall Street übertroffen. Vor allem das Geschäft mit Anlagen zur Halbleiterproduktion profitiert von den hohen Investitionen in Künstliche Intelligenz. Auch der Ausblick fällt besser aus als erwartet.  "
+    },
+    {
+      "title": "Cisco-Aktie: KI-Geschäft explodiert – Prognose angehoben – Aktie stark",
+      "url": "https://www.deraktionaer.de/artikel/aktien/cisco-aktie-nach-zahlen-ki-geschaeft-explodiert-prognose-angehoben-20441754.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 21:33:28 GMT",
+      "description": "   Cisco hat am Donnerstag nach US-Börsenschluss starke Quartalszahlen vorgelegt und die Erwartungen der Analysten übertroffen. Besonders das Geschäft mit KI-Infrastruktur entwickelt sich zum Wachstumstreiber. Der Netzwerkausrüster hebt deshalb seine Jahresprognose deutlich an.  "
+    },
+    {
+      "title": "Cerebras-Aktie springt hoch: Microsoft-Deal beflügelt",
+      "url": "https://www.deraktionaer.de/artikel/aktien/cerebras-aktie-springt-hoch-microsoft-deal-befluegelt-20441750.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 21:30:00 GMT",
+      "description": "   Der KI-Chiphersteller Cerebras hat im dritten Quartal 2026 die Erwartungen der Wall Street übertroffen. Der Umsatz legte kräftig zu, auch der Ausblick fällt besser aus als bislang. Zusätzlich sorgt eine neue Vereinbarung mit Microsoft für Fantasie. Die Aktie reagierte im nachbörslichen Handel mit einem Kurssprung.  "
+    },
+    {
+      "title": "Wall Street: Nvidia-Schock und Iran-Sorgen belasten die Börsen",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-nvidia-schock-und-iran-sorgen-belasten-die-boersen-20441745.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 21:15:54 GMT",
+      "description": "   Die US-Börsen haben am Donnerstag den Rückwärtsgang eingelegt. Der Abgang von Nvidia-Chef Jensen Huang sorgte für Verluste bei dem KI-Chipkonzern und belastete insbesondere die Technologiewerte. Gleichzeitig schürten neue Aussagen von US-Präsident Donald Trump zum Iran-Konflikt die Sorgen vor einer weiteren Eskalation und steigenden Ölpreisen.  "
+    },
+    {
+      "title": "Tesla und SpaceX: Fusionsgespräche schreiten laut Insidern voran",
+      "url": "https://www.deraktionaer.de/artikel/aktien/tesla-und-spacex-fusionsgespraeche-schreiten-laut-insidern-voran-20441730.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 20:39:00 GMT",
+      "description": "   Elon Musk kommt seinem nächsten Mega-Deal offenbar näher. Die Fusionsgespräche zwischen Tesla und SpaceX machen Fortschritte. Nach Informationen von  Bloomberg  könnte die Zusammenlegung der beiden Unternehmen bereits im Dezember verkündet werden.  "
+    },
+    {
+      "title": "Nvidia: Neue Chefin meldet sich zu Wort",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-neue-chefin-meldet-sich-zu-wort-20441724.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 20:12:00 GMT",
+      "description": "   Nach dem überraschenden Rücktritt von Jensen Huang als Nvidia-Chef steht der Chipkonzern vor einem historischen Umbruch. Seine Nachfolgerin auf Interimsbasis, Finanzchefin Colette Kress, hat sich nun erstmals direkt an die Belegschaft gewandt. Auch Verwaltungsratschef Harvey Jones stärkte ihr demonstrativ den Rücken.  "
+    },
+    {
+      "title": "Iran-Krieg: Trump will offenbar keinen Frieden mehr",
+      "url": "https://www.deraktionaer.de/artikel/aktien/iran-krieg-trump-will-offenbar-keinen-frieden-mehr-20441716.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 19:51:00 GMT",
+      "description": "   Donald Trump sorgt erneut für Verunsicherung im Iran-Krieg. Nur wenige Tage nachdem Hoffnungen auf neue diplomatische Gespräche aufgekommen waren, erteilt der US-Präsident einem Abkommen mit Teheran eine klare Absage. Ein Ende des seit Monaten andauernden Konflikts rückt damit wieder in die Ferne.  "
+    },
+    {
+      "title": "Take-Two: Aktie jetzt endlich im GTA Fieber?",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/take-two-aktie-jetzt-endlich-im-gta-fieber-20441653.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "description": "   Take-Two hat Anfang dieser Woche schwache Quartalszahlen vorgelegt. Die Aktie ist trotzdem um rund zehn Prozent gestiegen. Anleger schauen nun ausschließlich auf GTA VI. Bereits zum Start soll das Spiel die laufenden Spielerausgaben deutlich ankurbeln, und das sogar ohne einen Online-Modus.  "
+    },
+    {
+      "title": "30 Jahre Börse. 30 Prozent für Sie!",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/30-jahre-boerse-30-prozent-fuer-sie-20441354.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 19:00:00 GMT",
+      "description": "   Seit 1996 begleitet DER AKTIONÄR die wichtigsten Themen, Trends und Wendepunkte an den Finanzmärkten. Vom Dotcom-Boom bis zum KI-Zeitalter hat sich viel verändert – und die Börse ist ständig in Bewegung geblieben.  "
+    },
+    {
+      "title": "BASF verkauft diese Sparte: Das ist der Käufer",
+      "url": "https://www.deraktionaer.de/artikel/aktien/basf-verkauft-diese-sparte-milliardenkonzern-snf-greift-zu-20441699.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 12 Nov 2026 18:58:00 GMT",
+      "description": "   BASF trennt sich von seinem Geschäft mit Bergbauchemikalien. Käufer ist der französische Spezialchemiekonzern SNF. Mit dem Verkauf setzt der DAX-Konzern seine strategische Portfoliooptimierung fort. Rund 140 Mitarbeiter wechseln im Zuge der Transaktion den Arbeitgeber.  "
+    },
+    {
+      "title": "Hausbesitzer in der Zinsfalle: Mehr Zwangsversteigerungen hierzulande – droht eine Immobilienkrise?",
+      "url": "https://www.wallstreet-online.de/nachricht/21683298-hausbesitzer-zinsfalle-zwangsversteigerungen-hierzulande-droht-immobilienkrise",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Zahl der Zwangsversteigerungen in Deutschland nimmt zu. Das Angebot an Häusern und Wohnungen für Käufer wächst. Die Zinswende belastet insbesondere den Immobilienkauf auf Kredit."
+    },
+    {
+      "title": "KI-Boom: DIESE Wallstreet-Unternehmen setzten KI im Alltag profitabel ein",
+      "url": "https://www.wallstreet-online.de/nachricht/21685098-ki-boom-wallstreet-unternehmen-ki-alltag-profitabel",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine zunehmende Anzahl von Unternehmen des S&P 500 profitiert erheblich von künstlicher Intelligenz (KI)."
+    },
+    {
+      "title": "Rallye-Chancen steigen: Siemens-Energy-Aktie: Das Kaufsignal ist jetzt zum Greifen nahe!",
+      "url": "https://www.wallstreet-online.de/nachricht/21684177-rallye-chancen-steigen-siemens-energy-aktie-kaufsignal-greifen-nahe",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Rücktritt von Nvidia-CEO Jensen Huang bremst die Erholung der KI-Branche und damit auch von Siemens Energy aus. Ein Kaufsignal rückt trotzdem immer näher."
+    },
+    {
+      "title": "Seit Februar fast 200 % teurer: Deutschland droht im März das Gas auszugehen – erste Firmen machen dicht",
+      "url": "https://www.wallstreet-online.de/nachricht/21684615-februar-200-teurer-deutschland-droht-maerz-gas-auszugehen-firmen-dicht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die nächste Energiekrise trifft Deutschland mit voller Wucht. Ein Traditionsunternehmen macht nach 182 Jahren dicht, die Gasreserven sind gefährlich niedrig. Und das schlimmste Szenario könnte erst noch bevorstehen."
+    },
+    {
+      "title": "Sinkt der Strompreis?: Atomkraft-Boom vor Deutschlands Haustür",
+      "url": "https://www.wallstreet-online.de/nachricht/21684684-sinkt-strompreis-atomkraft-boom-deutschlands-haustuer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Rund um Deutschland entstehen zahlreiche neue Atomreaktoren. Die Slowakei liefert bereits zusätzlichen Strom. Der Ausbau könnte die Energieversorgung Europas grundlegend verändern."
+    },
+    {
+      "title": "Vier Trends im KI-Boom: Nach dem Huang-Aus: Wo sich für Anleger neue Chancen auftun",
+      "url": "https://www.wallstreet-online.de/nachricht/21683667-trends-ki-boom-huang-aus-anleger-chancen-auftun",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia gerät unter Druck, doch der KI-Boom ist längst nicht vorbei. Diese vier Tech-Bereiche könnten Anlegern jetzt neue Chancen eröffnen."
+    },
+    {
+      "title": "NVIDIA: MEINE GRÖSSTE INVESTITION VOR DEM NIEDERGANG???",
+      "url": "https://www.wallstreet-online.de/nachricht/21684918-nvidia-groesste-investition-niedergang",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wir besprechen die aktuelle Situation sowie das technische Chartbild und werfen außerdem einen Blick auf den aktuellen Stand bei Bitcoin."
+    },
+    {
+      "title": "Rekordgewinn überrascht: Allianz schlägt alle Erwartungen – so hoch kann die Dividende ausfallen",
+      "url": "https://www.wallstreet-online.de/nachricht/21684915-rekordgewinn-ueberrascht-allianz-schlaegt-erwartungen-dividende-ausfallen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Allianz übertrifft die Gewinnerwartungen deutlich und hebt ihre Jahresprognose an. Vor allem die Vermögensverwaltung boomt. Für Aktionäre rückt damit auch die nächste Dividendenerhöhung in den Fokus."
+    },
+    {
+      "title": "USA unter Schuldendruck: Trump will Amerikas Tafelsilber verkaufen – es geht um Billionen",
+      "url": "https://www.wallstreet-online.de/nachricht/21684297-usa-schuldendruck-trump-amerikas-tafelsilber-verkaufen-billionen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die USA sitzen auf Land im Billionenwert. Nun will Trump Teile davon verkaufen. Dahinter stecken gigantische Schulden, aber auch wirtschaftliche Interessen."
+    },
+    {
+      "title": "Nach dem Rücktritt: Nvidia-Gründer Huang: Wird das die teuerste Scheidung aller Zeiten?",
+      "url": "https://www.wallstreet-online.de/nachricht/21684633-ruecktritt-nvidia-gruender-huang-teuerste-scheidung-zeiten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist nicht länger Nvidia-Chef. Jetzt rückt seine Ehe in den Fokus: Bei einer Scheidung könnte seiner Frau nach kalifornischem Recht die Hälfte des Aktienpakets zustehen. Es geht um viele Milliarden US-Dollar."
+    },
+    {
+      "title": "Gold -31 %: Ist der Goldrausch endgültig vorbei? Die ehrliche Antwort",
+      "url": "https://www.wallstreet-online.de/video/21683628-gold-31-goldrausch-endgueltig-vorbei-ehrliche-antwort",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold hat fast ein Drittel verloren, Silber mehr als die Hälfte. AXINO-Partner Jan Willhöft erklärt, warum er trotzdem zukauft und was der Rekord-Crash an der Wall Street damit zu tun hat."
+    },
+    {
+      "title": "Exporte +35 %: Überrollt China jetzt die Weltwirtschaft?",
+      "url": "https://www.wallstreet-online.de/nachricht/21682938-exporte-35-ueberrollt-china-weltwirtschaft",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Chinas Exporte schießen nach oben, die Notenbank verspricht Rückenwind. Doch vor dem großen Gipfel in Shenzhen rückt etwas ganz anderes in den Fokus. Und das bereitet dem Westen Sorgen."
+    },
+    {
+      "title": "Börse, Baby!: Polen in Gefahr? So hoch ist das Risiko jetzt für Anleger!",
+      "url": "https://www.wallstreet-online.de/video/21683367-boerse-baby-polen-gefahr-risiko-anleger",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Regierungschef Donald Tusk und Präsident Karol Nawrocki liegen im Clinch und lösen in Polen eine handfeste Verfassungskrise aus. Wie hoch ist die Gefahr für Anleger?"
+    },
+    {
+      "title": "Mitten im Nvidia-Drama: Nebius-Aktien crasht nach den Zahlen: Neocloud unter Druck",
+      "url": "https://www.wallstreet-online.de/nachricht/21684132-mitten-nvidia-drama-nebius-aktien-crasht-zahlen-neocloud-druck",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Nebius-Aktie startet mit minus 22 Prozent und fällt auf den tiefsten Stand seit April. Verzögerte Kapazitäten und ein höheres Investitionsbudget belasten, dazu kommt Unruhe bei Nvidia."
+    },
+    {
+      "title": "Nach 33 Jahren ist Schluss!: Nvidia: Jensen Huang ist weg – Aktie crasht zweistellig!",
+      "url": "https://www.wallstreet-online.de/nachricht/21682434-33-jahren-schluss-nvidia-jensen-huang-aktie-crasht-zweistellig",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist weg, die Nvidia-Aktie stürzt ab. Nach 33 Jahren endet eine Ära beim KI-Giganten. Wall-Street-Analysten warnen vor einem noch größeren Desaster. Wie viel Börsenwert steht wirklich auf dem Spiel?"
+    },
+    {
+      "title": "Die Nvidia-Soap: Rolls-Royce: Trading-Update! | SMA: Verhaltene Reaktion | OHB: Gewinnrückgang",
+      "url": "https://www.wallstreet-online.de/video/21683301-nvidia-soap-rolls-royce-trading-update-sma-verhaltene-reaktion-ohb-gewinnrueckgang",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Personalie Jensen Huang bleibt das bestimmende Thema an den Märkten. Bleibt er Nvidia-CEO oder muss er gehen? Eine Diskussion, die viele Spekulationen enthält. Wer sind die Gewinner und Verlierer dieses Themas?"
+    },
+    {
+      "title": "Cybersecurity made in Germany: Umsatz top, Aktie Flop: secunet stürzt ans SDAX-Ende",
+      "url": "https://www.wallstreet-online.de/nachricht/21683562-cybersecurity-made-germany-umsatz-top-aktie-flop-secunet-stuerzt-ans-sdax-ende",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein kräftiges Umsatzplus, schrumpfende Margen und ein teurer Konzernumbau: Die secunet-Aktie stürzt um mehr als 12 Prozent ab und landet am SDAX-Ende. Ein Analyst kappt das Kursziel, obwohl die Aufträge sprudeln."
+    },
+    {
+      "title": "Neue Chipgeneration: 33 % mehr Power: AMD macht Nvidia Konkurrenz",
+      "url": "https://www.wallstreet-online.de/nachricht/21682830-chipgeneration-33-power-amd-nvidia-konkurrenz",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Supermicro bringt neue KI-Server auf den Markt. Gemeinsam mit AMD will der Konzern Rechenzentren auf ein neues Leistungsniveau heben."
+    },
+    {
+      "title": "3,6 Milliarden Dollar bewegt: Bitcoin-Anleger flüchten mit Verlusten – die nächste Verkaufswelle droht",
+      "url": "https://www.wallstreet-online.de/nachricht/21682539-3-6-milliarden-dollar-bewegt-bitcoin-anleger-fluechten-verlusten-verkaufswelle-droht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anleger übertragen Milliardenbeträge mit Verlusten an Kryptobörsen. Gleichzeitig wächst die Sorge vor weiteren Kursverlusten bei Bitcoin."
+    },
+    {
+      "title": "Gold unter 4.000 US-Dollar: Goldpreis: So weit kann es jetzt noch runter gehen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21682437-gold-4-000-us-dollar-goldpreis-weit-runter-gehen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Goldpreis ist am Donnerstag zum dritten Mal in Folge gefallen und hat damit den niedrigsten Stand seit über einer Woche erreicht. Wie tief kann es jetzt noch abwärts gehen?"
+    },
+    {
+      "title": "Nvidia: Kaufen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21682629-nvidia-kaufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wir besprechen die aktuelle Situation sowie das technische Chartbild und werfen außerdem einen Blick auf den aktuellen Stand bei Bitcoin."
+    },
+    {
+      "title": "Verluste ohne Ende: Rheinmetall im Crash-Modus: Wo ist der Boden?",
+      "url": "https://www.wallstreet-online.de/nachricht/21681330-verluste-ende-rheinmetall-crash-modus-boden",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die kurze Zwischenerholung nach dem Zahlen-Crash ist bei Rheinmetall schon wieder dahin. Die Chancen auf einen Boden bei 800 Euro schwinden – wo liegt der nächste?"
+    },
+    {
+      "title": "Abnehmpillen-Boom: Aktie im Plus: Eli Lilly gelingt ein wichtiger Durchbruch",
+      "url": "https://www.wallstreet-online.de/nachricht/21682485-abnehmpillen-boom-aktie-plus-eli-lilly-gelingt-wichtiger-durchbruch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eli Lilly sichert sich einen Vorsprung in China. Mit einer neuen Abnehmpille greift der US-Konzern einen Milliardenmarkt an und setzt Novo Nordisk unter Druck."
+    },
+    {
+      "title": "Der gefallene Börsenliebling: PayPal: Michael Burry wittert eine gewaltige Fehlbewertung",
+      "url": "https://www.wallstreet-online.de/nachricht/21682191-gefallene-boersenliebling-paypal-michael-burry-wittert-gewaltige-fehlbewertung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Michael Burry kauft bei PayPal erneut nach. Seine Entscheidung hat mit einem geplatzten Milliardendeal zu tun, der erst wenige Monate zurückliegt. Was sieht er darin?"
+    },
+    {
+      "title": "Über 1.300 Punkte in 1 Woche: DAX knackt erstmals 27.000 Punkte! Diese 4 Aktien treiben die Rekordjagd",
+      "url": "https://www.wallstreet-online.de/nachricht/21682320-ueber-1-300-punkte-1-woche-dax-knackt-erstmals-27-000-punkte-4-aktien-treiben-rekordjagd",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX überspringt erstmals 27.000 Punkte und gewinnt binnen einer Woche mehr als fünf Prozent. Vier Schwergewichte liefern den Treibstoff für die Rallye. Doch abseits der Rekordjagd müssen Anleger genauer hinsehen."
+    },
+    {
+      "title": "Ist die KI-Blase doch keine?: CoreWeave explodiert um 25 Prozent: Trotzdem treten Analysten auf die Bremse",
+      "url": "https://www.wallstreet-online.de/nachricht/21682284-ki-blase-keine-coreweave-explodiert-25-prozent-treten-analysten-bremse",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "CoreWeave übertrifft im dritten Quartal die eigene Prognose klar und wirbt mit kräftig steigenden Preisen. HSBC bleibt trotzdem skeptisch und sieht für die Aktie rund 20 Prozent Luft nach unten."
+    },
+    {
+      "title": "Aktie zieht an!: Siemens-Aktie nähert sich dem Rekordhoch: Ist hier noch Luft nach oben?",
+      "url": "https://www.wallstreet-online.de/nachricht/21682188-aktie-an-siemens-aktie-naehert-rekordhoch-luft-oben",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Siemens-Aktie legt nach den Zahlen um mehr als vier Prozent auf 291 Euro zu und notiert damit knapp unter dem Rekordhoch. Auch die Analysten reagieren positiv."
+    },
+    {
+      "title": "Nach 100 % Kursgewinn: Kursziel um 300 % erhöht: Elon Musk könnte diese deutsche Aktie vergolden",
+      "url": "https://www.wallstreet-online.de/nachricht/21681465-100-kursgewinn-kursziel-300-erhoeht-elon-musk-deutsche-aktie-vergolden",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Elon Musk hat einem deutschen Nebenwert einen Auftrag beschert, der größer ist als dessen gesamter Vorjahresumsatz. Analysten wittern jetzt ein Milliardengeschäft. Doch bislang ist nur ein Bruchteil gesichert."
+    },
+    {
+      "title": "US-Dollar auf 19-Monats-Hoch – die Fed könnte noch einen draufsetzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21680751-us-dollar-19-monats-hoch-fed-draufsetzen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der US-Dollar erreicht den höchsten Stand seit April 2025. Neue Zinssorgen treiben die Rallye an. Für den japanischen Yen könnte das gefährlich werden."
+    },
+    {
+      "title": "OHB liefert: Deutsche SpaceX-Alternative mit starken Zahlen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21680742-ohb-liefert-deutsche-spacex-alternative-starken-zahlen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der deutsche Raumfahrtspezialist und SpaceX-Mitbewerber OHB hat am Donnerstagmorgen starke Zahlen vorgestellt. Die Aktie profitierte allerdings nur kurzzeitig."
+    },
+    {
+      "title": "Prognose angehoben: 6,6 Milliarden Euro Gewinn! Münchener Rück zündet den nächsten Turbo",
+      "url": "https://www.wallstreet-online.de/nachricht/21681123-prognose-angehoben-6-6-milliarden-euro-gewinn-muenchener-rueck-zuendet-naechsten-turbo",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Münchener Rück gibt Gas und hebt ihr Gewinnziel an. Doch wie aussagekräftig ist der Vergleich mit 2025, einem Jahr außergewöhnlich niedriger Großschäden?"
+    },
+    {
+      "title": "Milliardenumbau im Portfolio: Milliarden-Deals und bessere Aussichten: Merck dreht weiter auf",
+      "url": "https://www.wallstreet-online.de/nachricht/21680877-milliardenumbau-portfolio-milliarden-deals-bessere-aussichten-merck-dreht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Merck ist im dritten Quartal gewachsen und hat die Jahresprognose angehoben. Zugleich baut der Konzern sein Geschäft mit milliardenschweren Deals um."
+    },
+    {
+      "title": "Quartalszahlen: Hapag-Lloyd: Operativer Gewinn fast verfünffacht – doch es gibt einen Haken",
+      "url": "https://www.wallstreet-online.de/nachricht/21680595-quartalszahlen-hapag-lloyd-operativer-gewinn-verfuenffacht-haken",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Hapag-Lloyd steigert das operative Ergebnis auf 935 Millionen Euro. Höhere Frachtraten lassen die Kassen klingeln, die Transportmenge stagniert. Doch hinter den starken Quartalszahlen bleibt ein Problem für die Reederei."
+    },
+    {
+      "title": "Tonies: Zweistelliges Wachstum: Diese Aktie würde Peter Lynch gefallen",
+      "url": "https://www.wallstreet-online.de/nachricht/21680487-tonies-zweistelliges-wachstum-aktie-peter-lynch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Weltmarktführer und Erfinder der gleichnamigen Tonie-Audioboxen wächst weiter stark. Am Donnerstag hat das Unternehmen seine Zahlen veröffentlicht. Warum sie Lynch gefallen könnte ..."
+    },
+    {
+      "title": "Q3‑Zahlen: SMA Solar: Gewinn-Comeback! Was macht die Aktie?",
+      "url": "https://www.wallstreet-online.de/nachricht/21679989-q3-zahlen-sma-solar-gewinn-comeback-aktie",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "SMA Solar erzielt wieder Gewinne, schlägt die Quartalserwartungen und peilt das obere Prognoseende an. Der Auftragsbestand wächst kräftig. Doch hinter dem Gewinnsprung steckt ein Detail, das Anleger genau prüfen sollten."
+    },
+    {
+      "title": "Statistisch bester Börsenmonat: DAX auf Rekordjagd, Nvidia-Chef vor dem Aus? Diese Woche wird ein Krimi",
+      "url": "https://www.wallstreet-online.de/nachricht/21680100-statistisch-bester-boersenmonat-dax-rekordjagd-nvidia-chef-aus-woche-krimi",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX steht kurz vor einem neuen Rekord, die Ölpreise fallen. Doch über Nacht braut sich in Kalifornien etwas zusammen, das die Rallye kippen könnte. Und auch für Goldbesitzer wird es ungemütlich."
+    },
+    {
+      "title": "Entscheidung getroffen: Strategy fliegt aus dem MSCI - Das sind die Folgen",
+      "url": "https://www.wallstreet-online.de/nachricht/21680004-entscheidung-getroffen-strategy-fliegt-msci-folgen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Rauswurf ist beschlossen: MSCI streicht Michael Saylors Bitcoin-Unternehmen Strategy aus seinen wichtigsten Aktienindizes. Milliardenverkäufe könnten folgen."
+    },
+    {
+      "title": "Sexskandal weitet sich aus: Nvidia: Neue Affärenvorwürfe gegen Huang – Aktie crasht!",
+      "url": "https://www.wallstreet-online.de/nachricht/21679278-sexskandal-weitet-aus-nvidia-affaerenvorwuerfe-huang-aktie-crasht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Neue Affärenvorwürfe verschärfen die Krise um Jensen Huang. Nvidias Verwaltungsrat berät laut CNBC über seine Absetzung. Die Aktie verliert nachbörslich zeitweise mehr als neun Prozent. Für den KI-Star wird es jetzt eng."
+    },
+    {
+      "title": "Schnell zuschlagen: Aufgepasst Dividendenjäger: Hier gibt es jetzt 30 US-Dollar Extra-Bonus!",
+      "url": "https://www.wallstreet-online.de/nachricht/21676719-zuschlagen-aufgepasst-dividendenjaeger-30-us-dollar-extra-bonus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Hier klingelt jetzt die Kasse. Ein US-Handelsriese schüttet eine Rekord-Sonderdividende von 30 US-Dollar je Aktie aus. Insgesamt fließen 13,3 Milliarden US-Dollar an die Aktionäre."
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Heute im Blickpunkt: Moderna, DocMorris, Applied Materials, Siemens und Cisco",
+      "url": "https://www.wallstreet-online.de/nachricht/21678453-wichtigsten-termine-blickpunkt-moderna-docmorris-applied-materials-siemens-cisco",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
+    },
+    {
+      "title": "Anleger fürchten die 4.000 USD: Goldpreis taumelt: Droht Gold nach den US-Preisdaten ein heftiges Preisbeben?",
+      "url": "https://www.wallstreet-online.de/nachricht/21678129-anleger-fuerchten-4-000-usd-goldpreis-taumelt-droht-gold-us-preisdaten-heftiges-preisbeben",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die gestern veröffentlichten US-Verbraucherpreisdaten wirken nach. Der Goldpreis gerät immer stärker unter Druck. Anleger werfen das Handtuch Das nächste Preisbeben bei Gold scheint unausweichlich zu sein."
+    },
+    {
+      "title": "Korrektur an der Börse: Buy the dip, baby? Warum Kleinanleger den Crash nicht kaufen",
+      "url": "https://www.wallstreet-online.de/nachricht/21677436-korrektur-boerse-buy-the-dip-baby-kleinanleger-crash-kaufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Laut Daten der Bank of America sind es vor allem die großen Investoren, die nach den jüngsten Marktrückgängen verstärkt Aktien nachkauften."
+    },
+    {
+      "title": "Rohöl billiger: Diesel teuer, Benzin billig – darum fällt der Dieselpreis wie eine Schnecke",
+      "url": "https://www.wallstreet-online.de/nachricht/21677058-rohoel-billiger-diesel-teuer-benzin-billig-faellt-dieselpreis-schnecke",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Diesel kostet aktuell im bundesweiten Durchschnitt noch rund 24 Cent mehr als Super E10. Wie kann das sein?"
+    },
+    {
+      "title": "Nicht Nvidia-Sexskandal: US-Politik bedroht den KI-Trade!",
+      "url": "https://www.wallstreet-online.de/nachricht/21675708-nvidia-sexskandal-us-politik-bedroht-ki-trade",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nicht der Nvidia-Skandal, sondern politische Risiken durch den Sieg der Demokraten bei den Midterms könnten die größere Gefahr für den KI-Boom sein. So schätzen Goldman Sachs, UBS, Blackrock und Nomura das Risiko ein."
+    },
+    {
+      "title": "Das Schlimmste droht erst noch: Das ist die größte Gefahr für Aktien 2027",
+      "url": "https://www.wallstreet-online.de/nachricht/21676776-schlimmste-droht-noch-groesste-gefahr-aktien-2027",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Ökonom Neil Dutta warnt vor einer Entwicklung, auf die der Aktienmarkt seiner Einschätzung nach kaum vorbereitet ist. Die jüngsten Reaktionen an den Anleihemärkten liefern ein erstes Warnsignal."
+    },
+    {
+      "title": "Das gab es noch nie!: Bitcoin vor historischem Debakel",
+      "url": "https://www.wallstreet-online.de/nachricht/21676395-nie-bitcoin-historischem-debakel",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bitcoin ist unter 74.000 US-Dollar gefallen. Doch der eigentliche Schock könnte erst noch kommen: Eine historische Serie droht, die es trotz aller bisherigen Crashs nie gab."
+    },
+    {
+      "title": "CoreWeave, AMD: Ist das die größte Bullenfalle des Jahres?",
+      "url": "https://www.wallstreet-online.de/nachricht/21677553-coreweave-amd-groesste-bullenfalle-jahres",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wir analysieren die wichtigsten Kursmarken, Chancen und Risiken und klären, ob es jetzt Zeit ist, Gewinne zu sichern."
+    },
+    {
+      "title": "Wieso denn bloß?: Die beste Aktien-Performance der Welt bietet Rumänien",
+      "url": "https://www.wallstreet-online.de/nachricht/21677310-bloss-beste-aktien-performance-welt-rumaenien",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mehr als 40 Prozent Plus trotz Rezession, Schuldenkrise und politischem Chaos: Rumäniens Aktienmarkt lässt die großen Börsen in diesem Jahr deutlich hinter sich. Was treibt die Rallye an – und wie lange geht das gut?"
+    },
+    {
+      "title": "Seltene Erden: Europa mit ersten Erfolgen, China verliert an Einfluss",
+      "url": "https://www.wallstreet-online.de/nachricht/21677433-seltene-erden-europa-erfolgen-china-verliert-einfluss",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Europa baut seine eigene Seltene-Erden-Industrie auf. In Estland werden bereits Magnete produziert, Schweden und Frankreich treiben neue Anlagen voran. Milliardeninvestitionen sollen Chinas Dominanz brechen."
+    },
+    {
+      "title": "Das nächste Varta-Desaster: ABO Energy: 85 Prozent Crash – jetzt sollen Anleger alles verlieren",
+      "url": "https://www.wallstreet-online.de/nachricht/21677055-varta-desaster-abo-energy-85-prozent-crash-anleger-verlieren",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein Kurssturz wie ein Erdbeben. Doch für Aktionäre und Anleihebesitzer von ABO Energy kommt der eigentliche Schock erst mit dem Sanierungsplan. Was Varta und Leoni damit zu tun haben, macht den Fall noch härter."
+    },
+    {
+      "title": "Anleger feiern Kaufempfehlung: Mehr Gewinn statt nur Umsatz: Darum setzen Analysten jetzt auf Drägerwerk",
+      "url": "https://www.wallstreet-online.de/nachricht/21676605-anleger-feiern-kaufempfehlung-gewinn-umsatz-analysten-draegerwerk",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine neue Kaufempfehlung der Berenberg Bank sorgt für kräftigen Rückenwind bei den Papieren von Drägerwerk. Was jetzt für die Aktie spricht."
+    },
+    {
+      "title": "Nächster Meilenstein 2027: IBM macht ernst: Dieser Durchbruch könnte Quantencomputer stärken",
+      "url": "https://www.wallstreet-online.de/nachricht/21676848-naechster-meilenstein-2027-ibm-ernst-durchbruch-quantencomputer-staerken",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "IBM stellt einen neuen Quantenprozessor vor und plant bereits den nächsten Technologiesprung. 2027 soll ein System mit mehr als 1.000 Qubits entstehen."
+    },
+    {
+      "title": "\"Lächerlich günstig\": Nvidia zum Schnäppchenpreis – Analysten lockt der Kurssturz",
+      "url": "https://www.wallstreet-online.de/nachricht/21676455-laecherlich-guenstig-nvidia-schnaeppchenpreis-analysten-lockt-kurssturz",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Nvidia-Aktie hat in zwei Wochen über 20 Prozent verloren. Doch trotz der Affäre um CEO Jensen Huang, sehen diese Analysten jetzt DIE Kaufgelegenheit."
+    },
+    {
+      "title": "Dividenden-Bombe: Zweistellige Sonderdividende: Costco lässt 13 Milliarden Dollar regnen",
+      "url": "https://www.wallstreet-online.de/nachricht/21676482-dividenden-bombe-zweistellige-sonderdividende-costco-laesst-13-milliarden-dollar-regnen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Costco Wholesale lässt die Dividenden-Bombe platzen: Die gewaltigen Liquiditätspolster kommen Anlegern zugute, die rechtzeitig investiert sind!"
+    },
+    {
+      "title": "Check: Lithium-Aktien & ETF: CoreWeave: Erleichterung | CSG: Absturz | Siemens Energy: Überzeugend",
+      "url": "https://www.wallstreet-online.de/video/21676449-check-lithium-aktien-etf-coreweave-erleichterung-csg-absturz-siemens-energy-ueberzeugend",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Schlagen die Zahlen von CoreWeave die Inflationssorgen? Nachdem die US-Verbraucherpreise über den Erwartungen lagen, verschlechterte sich die Stimmung wieder. Allerdings hellte sie CoreWeave wieder auf! Wie gehts weiter?"
+    },
+    {
+      "title": "\"Verdammt guter Trade\": Burry greift zu, nur nicht bei Nvidia: Das sind seine 2 größten Wetten",
+      "url": "https://www.wallstreet-online.de/nachricht/21676623-verdammt-guter-trade-burry-greift-zu-nvidia-2-groessten-wetten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach dem Kursrutsch bei Nvidia wird Michael Burry hellhörig. Doch der Mann, der die Finanzkrise kommen sah, will nur kurz mitspielen. Sein eigenes Geld steckt er in zwei ganz andere Aktien."
+    },
+    {
+      "title": "EU-Prüfung steht noch aus: EasyJet vor dem Börsen-Aus: Anleger machen den Weg frei",
+      "url": "https://www.wallstreet-online.de/nachricht/21676437-eu-pruefung-aus-easyjet-boersen-aus-anleger",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "EasyJet-Aktionäre haben der Milliardenübernahme durch Apollo zugestimmt. Damit rückt der Börsen-Abschied näher. Doch die EU könnte noch zum Problem werden."
+    },
+    {
+      "title": "Tiefster Stand seit August: Bitcoin fällt immer tiefer – US-Inflation verschärft die Talfahrt",
+      "url": "https://www.wallstreet-online.de/nachricht/21676230-tiefster-stand-august-bitcoin-faellt-tiefer-us-inflation-verschaerft-talfahrt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die hohen US-Inflationszahlen haben den Bitcoin-Kurs auf den niedrigsten Stand seit Ende August gedrückt. Massive Liquidationen verschärfen den Abverkauf."
+    },
+    {
+      "title": "Trading Desk: Der Markt schüttelt die KI-Angst ab: Was ein Trading-Experte jetzt rät!",
+      "url": "https://www.wallstreet-online.de/video/21676149-trading-desk-markt-schuettelt-ki-angst-ab-trading-experte-raet",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach der Midterm-Schrecksekunde aus der vergangenen Woche haben sich Tech- und KI-Werte wieder erholt. Stehen die Zeichen jetzt wieder auf Rallye? Trading-Experte Benjamin Feingold stellt zwei Zertifikate vor."
+    },
+    {
+      "title": "Solarzellen für Starlink: Aktie springt 80 %: SpaceX vergibt Mega-Auftrag",
+      "url": "https://www.wallstreet-online.de/nachricht/21676110-solarzellen-starlink-aktie-springt-80-spacex-vergibt-mega-auftrag",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "SpaceX vergibt einen wichtigen Auftrag an Singulus. Der deutsche Maschinenbauer soll Solartechnik liefern. Weitere Produktionslinien könnten folgen."
+    },
+    {
+      "title": "Solana: Die Wahrheit hinter Solana!",
+      "url": "https://www.wallstreet-online.de/nachricht/21676146-solana-wahrheit-solana",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Doch die Fakten sprechen eine andere Sprache! Was wirklich dahintersteckt, schauen wir uns gemeinsam genauer an."
+    },
+    {
+      "title": "Rekordprognose, aber ein Haken: Startet die Infineon-Aktie jetzt durch?",
+      "url": "https://www.wallstreet-online.de/nachricht/21676080-rekordprognose-haken-infineon-aktie-durch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während in den USA der Widerstand gegen Rechenzentren wächst, plant Infineon ein Rekordjahr, und die Aktie springt kräftig an. Doch eine Kennzahl trübt das Bild. Und die Experten liegen weit auseinander."
+    },
+    {
+      "title": "Russland-Japan-Konflikt: Putin enteignet: Milliarden-Konzern Japan Tobacco am Abgrund",
+      "url": "https://www.wallstreet-online.de/nachricht/21675684-russland-japan-konflikt-putin-enteignet-milliarden-konzern-japan-tobacco-abgrund",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Russland reagiert auf die jüngste Parteinahme Japans im Ukraine-Krieg und enteignet das Russlandgeschäft von Japan Tobacco. Die Japaner üben sich in Vorsicht und das hat einen Grund."
+    },
+    {
+      "title": "Angriff auf Nvidia: Alibaba macht ernst: Jetzt soll die Chipsparte an die Börse",
+      "url": "https://www.wallstreet-online.de/nachricht/21675810-angriff-nvidia-alibaba-ernst-chipsparte-boerse",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Alibaba treibt den Börsengang seiner Chipsparte T-Head voran. Der Schritt könnte dem KI-Geschäft neuen Schwung verleihen und Chinas Chipindustrie stärken."
+    },
+    {
+      "title": "3 Milliarden Euro vernichtet: Rheinmetall-Rivale crasht – jetzt trifft es die ganze Rüstungsbranche!",
+      "url": "https://www.wallstreet-online.de/nachricht/21675789-3-milliarden-euro-vernichtet-rheinmetall-rivale-crasht-trifft-ruestungsbranche",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein massiver Gewinneinbruch lässt die Aktie eines europäischen Rüstungskonzerns abstürzen. Auch Rheinmetall und Renk verlieren. JPMorgan warnt vor einem noch größeren Ausverkauf."
+    },
+    {
+      "title": "Prognose bestätigt: Gewinn verfünffacht, Auftragsbuch dünner: Ist der Boom bei SFC Energy vorbei?",
+      "url": "https://www.wallstreet-online.de/nachricht/21675846-prognose-bestaetigt-gewinn-verfuenffacht-auftragsbuch-duenner-boom-sfc-energy-vorbei",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "SFC Energy bestätigt Rekordquartal und Prognose. Der Ukraine-Großauftrag ist abgearbeitet, das Auftragsbuch schrumpft. Neue Märkte in den USA, im Mittleren Osten und in Europa sollen die Lücke füllen."
+    },
+    {
+      "title": "TSMC investiert: OpenAI und Anthropic bekommen mächtige Unterstützung aus Taiwan",
+      "url": "https://www.wallstreet-online.de/nachricht/21674673-tsmc-investiert-openai-anthropic-bekommen-maechtige-unterstuetzung-taiwan",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "TSMC steigt bei OpenAI und Anthropic ein. Der Chip-Gigant will damit stärker vom KI-Boom profitieren und sein Geschäft breiter aufstellen.ausbauen."
+    },
+    {
+      "title": "Versorger: RWE: Das sieht richtig gut aus – Dividende bestätigt",
+      "url": "https://www.wallstreet-online.de/nachricht/21674568-versorger-rwe-richtig-gut-dividende-bestaetigt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "RWE verdient spürbar mehr als vor einem Jahr und schlägt die Erwartungen. Ein Geschäft treibt das Ergebnis kräftig an. Für das Gesamtjahr rückt das obere Prognoseende in den Fokus. Auch das Dividendenziel für 2026 steht."
+    },
+    {
+      "title": "Zahlen überraschen Analysten: Eon überrascht die Börse: Trotz Gewinnrückgang gibt es einen Lichtblick",
+      "url": "https://www.wallstreet-online.de/nachricht/21674643-zahlen-ueberraschen-analysten-eon-ueberrascht-boerse-trotz-gewinnrueckgang-lichtblick",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eon meldet im dritten Quartal sinkende Gewinne, übertrifft aber die Erwartungen. Die Jahresprognose steht, doch Milliardeninvestitionen bergen Risiken."
+    },
+    {
+      "title": "Siemens Energy hebt ab: Rekord zum Greifen nah: Diese Zahlen treiben den DAX an",
+      "url": "https://www.wallstreet-online.de/nachricht/21674658-siemens-energy-hebt-ab-rekord-greifen-nah-zahlen-treiben-dax",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX dürfte am Mittwoch deutlich höher starten. Gute Nachrichten von CoreWeave und starke Chipmärkte in Asien geben Rückenwind. Gleichzeitig sorgen Siemens Energy, RWE und Brenntag für wichtige Impulse."
+    },
+    {
+      "title": "KI statt Office?: Anthropic stellt Microsoft Office mit neuen KI-Tools infrage",
+      "url": "https://www.wallstreet-online.de/nachricht/21674550-ki-office-anthropic-stellt-microsoft-office-ki-tools-infrage",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Microsoft bekommt durch neue KI-Tools von Anthropic Konkurrenz. Ist das Office-Geschäft jetzt in Gefahr?"
+    },
+    {
+      "title": "Dänischer Windkraft-Riese: Vestas unter Erwartungen: Doch diese Kennzahl liefert Hoffnung!",
+      "url": "https://www.wallstreet-online.de/nachricht/21674112-daenischer-windkraft-riese-vestas-erwartungen-kennzahl-liefert-hoffnung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Vestas verfehlt die Erwartungen bei Umsatz und operativem Gewinn. Der Cashflow bricht ein, neue Turbinenaufträge schrumpfen um 27 Prozent. Höhere Margen liefern Hoffnung – doch wie stabil ist die Erholung des Windriesen?"
+    },
+    {
+      "title": "Strom ohne Ende?: Siemens Energy zeigt, wie man am Strombedarf der KI Milliarden verdient",
+      "url": "https://www.wallstreet-online.de/nachricht/21673905-strom-ende-siemens-energy-zeigt-strombedarf-ki-milliarden-verdient",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Siemens Energy meldet einen Rekordgewinn und setzt sich ehrgeizige Ziele bis 2030. Der enorme Strombedarf durch den KI-Boom treibt das Wachstum weiter an."
+    },
+    {
+      "title": "Milliardenlast beim KI-Ausbau: CoreWeave schlägt Erwartungen: Diese Risiken sollten Anleger im Blick haben",
+      "url": "https://www.wallstreet-online.de/nachricht/21673404-milliardenlast-ki-ausbau-coreweave-schlaegt-erwartungen-risiken-anleger-blick",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gewinnt der KI-Boom wieder an Fahrt? CoreWeave übertrifft die Erwartungen, hebt die Prognose an und die Aktie zieht nachbörslich an. Doch mit dem Wahlsieg der Demokraten sind für KI-Aktien neue Risiken entstanden."
+    },
+    {
+      "title": "Teure Lektionen: 54 % SpaceX-Crash: Droht Anthropic-Anlegern jetzt die nächste IPO-Falle?",
+      "url": "https://www.wallstreet-online.de/nachricht/21670821-teure-lektionen-54-spacex-crash-droht-anthropic-anlegern-ipo-falle",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Erst der Mega-Hype, dann der Absturz: SpaceX verlor mehr als die Hälfte seines Börsenwerts vom Hoch. Jetzt steht Anthropic vor dem nächsten Billionen-IPO. Was Anleger aus den bisherigen Börsengängen 2026 lernen können."
+    },
+    {
+      "title": "Neue Hoffnung: Iran-Krieg belastet Airlines – doch diese Aktie soll jetzt abheben",
+      "url": "https://www.wallstreet-online.de/nachricht/21671418-hoffnung-iran-krieg-belastet-airlines-aktie-abheben",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Hohe Kerosinpreise belasten American Airlines. Doch eine Investmentbank sieht gute Chancen für den Konzern. Entscheidend könnten höhere Ticketpreise werden."
+    },
+    {
+      "title": "Rohstoffe mit Perspektive: Blue Moon fokussiert sich, Axo plant Finanzierung, Hannan wartet auf Analysen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21669930-rohstoffe-perspektive-blue-moon-fokussiert-sich-axo-plant-finanzierung-hannan-wartet-analysen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldinvestoren greifen zu, Kupferprognosen steigen. Blue Moon treibt Springer voran, Axo verbindet Bohrerfolge mit einer Kapitalaufnahme, Hannan hat die nächsten Bohrarbeiten abgeschlossen."
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Alle Analysten-Augen auf: Siemens Energy, Brenntag, Easyjet, Rumble, CGI und ICL",
+      "url": "https://www.wallstreet-online.de/nachricht/21672435-wichtigsten-termine-analysten-augen-auf-siemens-energy-brenntag-easyjet-rumble-cgi-icl",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
+    },
+    {
+      "title": "KI-Turbulenzen: Diese 3 Dividenden-ETFs schlagen den MSCI World während der Tech-Krise",
+      "url": "https://www.wallstreet-online.de/nachricht/21664905-ki-turbulenzen-3-dividenden-etfs-schlagen-msci-world-tech-krise",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während MSCI-World-ETFs in der vergangenen Woche nachgaben, blieben drei Dividenden-ETFs im Plus. Einer schaffte über ein Jahr sogar 27 Prozent. Welche Strategie dahintersteckt – und wo die ETFs ihre Schwerpunkte setzen."
+    },
+    {
+      "title": "Notenbankchef vor Gericht?: Wie lange hält Polens Börse den Polit-Krimi noch aus?",
+      "url": "https://www.wallstreet-online.de/nachricht/21670797-notenbankchef-gericht-lange-haelt-polens-boerse-polit-krimi-aus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Regierung und Präsident blockieren sich, der Notenbankchef soll vor ein Sondergericht, und eine große Ratingagentur hat bereits reagiert. Doch Polens Börse liegt dick im Plus. Wie lange kann das noch gutgehen?"
+    },
+    {
+      "title": "Anleger wittern jetzt Chancen: Gold, Silber oder Platin: Ein Metall steckt Inflationsdaten überraschend gut weg",
+      "url": "https://www.wallstreet-online.de/nachricht/21672009-anleger-wittern-chancen-gold-silber-platin-metall-steckt-inflationsdaten-ueberraschend-gut",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Starke US-Inflationsdaten setzen Gold und Silber heftig zu. Ausgerechnet Platin hält sich dagegen stabil. Steht das Edelmetall jetzt womöglich vor der Wende?"
+    },
+    {
+      "title": "Take-Two vor Härtetest: GTA VI bricht Rekorde: Wird Rockstar dem Hype gerecht?",
+      "url": "https://www.wallstreet-online.de/nachricht/21671196-take-two-haertetest-gta-vi-bricht-rekorde-rockstar-hype-gerecht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "GTA VI steuert auf einen historischen Verkaufsstart zu. Für die Aktie von Take-Two könnte das enorme Chancen bedeuten. Doch der Hype birgt auch Risiken."
+    },
+    {
+      "title": "Geldstrom nach Europa: Japan zieht Milliarden aus den USA ab – Europa profitiert",
+      "url": "https://www.wallstreet-online.de/nachricht/21668823-geldstrom-europa-japan-milliarden-usa-europa-profitiert",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Japanische Anleger verkaufen US-Anleihen für Milliarden und investieren verstärkt in Europa. Deutschland, Italien und Spanien profitieren besonders."
+    },
+    {
+      "title": "94 Milliarden im Ehe-Trust: Nvidia: Jensen Huang droht der größte Absturz seiner Karriere",
+      "url": "https://www.wallstreet-online.de/nachricht/21671220-94-milliarden-ehe-trust-nvidia-jensen-huang-droht-groesste-absturz-karriere",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "94 Milliarden US-Dollar im Familientrust, Spionageverdacht und eine Untersuchung: Für Nvidia-Chef Jensen Huang steht jetzt auch seine Karriere auf dem Spiel."
+    },
+    {
+      "title": "Börsen Aktuell CHART SHOW #69 mit Christoph Geyer live auf Zoom",
+      "url": "https://www.wallstreet-online.de/video/21671553-boersen-aktuell-chart-show-69-christoph-geyer-live-zoom",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
+    },
+    {
+      "title": "Hoffnung für Europa: Gaspreis vor Halbierung? Die lang ersehnte Entlastung kommt",
+      "url": "https://www.wallstreet-online.de/nachricht/21670971-hoffnung-europa-gaspreis-halbierung-lang-ersehnte-entlastung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Europas Gaspreis fällt kräftig. Einige Experten erwarten bis 2027 eine Halbierung. Neue Lieferungen könnten Industrie und Verbraucher entlasten. Doch ein erhebliches Risiko bleibt."
+    },
+    {
+      "title": "Nach dem Crash: Jetzt wieder bei AMD & Nvidia zugreifen? Eine Kennzahl schlägt Alarm!",
+      "url": "https://www.wallstreet-online.de/nachricht/21670737-crash-amd-nvidia-zugreifen-kennzahl-schlaegt-alarm",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach den massiven Abverkäufen der letzten Tage: Sollte man jetzt die Chips vom Tisch nehmen oder wieder ordentlich zulangen?"
+    },
+    {
+      "title": "Aktien: Nur Strohfeuer oder ab jetzt Jahresend-Rallye?",
+      "url": "https://www.wallstreet-online.de/nachricht/21671325-aktien-strohfeuer-jahresend-rallye",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Oder kommt jetzt die Jahresend-Rallye? Auf diese wichtigen Gegebenheiten sollte man jetzt unbedingt achten."
+    },
+    {
+      "title": "Gewinnprognose explodiert: 61 Prozent mehr Gewinn! Air France-KLM überrascht selbst die Analysten",
+      "url": "https://www.wallstreet-online.de/nachricht/21670113-gewinnprognose-explodiert-61-prozent-gewinn-air-france-klm-ueberrascht-analysten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Air France-KLM überzeugt mit starken Quartalszahlen. Analysten heben das Kursziel um 34 Prozent an. Doch hohe Schulden und steigende Kerosinkosten belasten."
+    },
+    {
+      "title": "Nach KI: Der Speicher-Boom steht bevor und diese Firmen könnten gewinnen",
+      "url": "https://www.wallstreet-online.de/nachricht/21671178-ki-speicher-boom-firmen-gewinnen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Energielandschaft tritt in eine neue Phase ein: Batteriespeicher erleben einen beispiellosen Boom. KI-Rechenzentren treiben die Nachfrage zusätzlich an. Welche Unternehmen profitieren vom Milliardenmarkt?"
+    },
+    {
+      "title": "Ab 2027: Flugpreise vor Preisexplosion! Ryanair-Tickets bald 20 Prozent teurer?",
+      "url": "https://www.wallstreet-online.de/nachricht/21669984-2027-flugpreise-preisexplosion-ryanair-tickets-20-prozent-teurer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ryanair erwartet 2027 deutlich höhere Flugpreise. Wegen zwei Milliarden Euro zusätzlicher Treibstoffkosten könnten Tickets um bis zu 20 Prozent teurer werden."
+    },
+    {
+      "title": "Quanten-Gefahr gebannt?: XRP soll gegen Quantencomputer immun werden",
+      "url": "https://www.wallstreet-online.de/nachricht/21670041-quanten-gefahr-gebannt-xrp-quantencomputer-immun",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Quantencomputer könnten künftig die Sicherheit von Kryptowährungen aushebeln. Ripple will XRP deshalb mit neuer Technologie schützen."
+    },
+    {
+      "title": "Satelliten im Fokus: Nach 17 % Kurssprung: Raumfahrtkonzern meldet nächsten Großauftrag",
+      "url": "https://www.wallstreet-online.de/nachricht/21670710-satelliten-fokus-17-kurssprung-raumfahrtkonzern-meldet-naechsten-grossauftrag",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Firefly Aerospace baut sein Geschäft mit internationalen Kunden aus. Ein neuer Vertrag mit Synspective sieht bis zu zehn Raketenstarts bis 2030 vor."
+    },
+    {
+      "title": "Kommt jetzt die Zinserhöhung?: US-Inflation bleibt hartnäckig: Anleihen und Aktienfutures unter Druck",
+      "url": "https://www.wallstreet-online.de/nachricht/21670686-zinserhoehung-us-inflation-bleibt-hartnaeckig-anleihen-aktienfutures-druck",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Kernrate in den USA ist im Oktober erneut um 0,3 Prozent gestiegen. Anleger wetten nun stärker auf eine größere Zinsanhebung der Fed im Dezember, Anleiherenditen steigen, Aktienfutures fallen."
+    },
+    {
+      "title": "Jahresendrallye gestartet: TSMC: Umsatzsprung! | Plug Power: Lichtblick? | Infineon: Stark!",
+      "url": "https://www.wallstreet-online.de/video/21670275-jahresendrallye-gestartet-tsmc-umsatzsprung-plug-power-lichtblick-infineon-stark",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach dem Crash letzte Woche sind die US-Börsen gut in die neue Woche gestartet. Sehen wir nur eine Zwischenerholung oder ist eine Jahresendrallye gestartet? Wir schauen, was für eine Rallye spricht und was dagegen."
+    },
+    {
+      "title": "Beste DAX-Aktie des Jahres!: Bayer: Ist die US-Zulassung für Asundexian der nächste Kurstreiber?",
+      "url": "https://www.wallstreet-online.de/nachricht/21670233-beste-dax-aktie-jahres-bayer-us-zulassung-asundexian-kurstreiber",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein günstiger Beipackzettel und ein Preis im Rahmen der Erwartungen: Die Bank of America sieht im neuen Bayer-Medikament Asundexian deutlich mehr Potenzial, als der Markt bislang einpreist."
+    },
+    {
+      "title": "Neu Infos zum Mega-IPO: Anthropic will doch \"nur\" 64,4 Milliarden durch Börsengang einsammeln",
+      "url": "https://www.wallstreet-online.de/nachricht/21669402-infos-mega-ipo-anthropic-nur-64-4-milliarden-boersengang-einsammeln",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anthropic will beim IPO bis zu 64,35 Milliarden US-Dollar einsammeln. Insgesamt könnte das KI-Unternehmen rund 1,4 Billionen US-Dollar wert sein. Auch der Zeitplan steht jetzt."
+    },
+    {
+      "title": "Minus 7 Prozent!: Chiphersteller Elmos mit Gewinnsprung: Aber die Aktie fällt wie ein Stein!",
+      "url": "https://www.wallstreet-online.de/nachricht/21670116-minus-7-prozent-chiphersteller-elmos-gewinnsprung-aktie-faellt-stein",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Elmos legt im dritten Quartal kräftig zu, doch die Aktie bricht ein: Anleger hatten mehr erwartet als bestätigte Jahresziele."
+    },
+    {
+      "title": "Rekordaufträge, rote Zahlen: D-Wave: 48 Millionen Verlust bei 4,5 Millionen Umsatz – Aktie fällt!",
+      "url": "https://www.wallstreet-online.de/nachricht/21669987-rekordauftraege-rote-zahlen-d-wave-48-millionen-verlust-4-5-millionen-umsatz-aktie-faellt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "D-Wave hat einen spektakulären Rekord gemeldet. Doch die Aktie gibt nach den Quartalszahlen vorbörslich nach. Ein Blick auf die neuen Bestellungen und die Verluste zeigt, warum Anleger skeptisch sind."
+    },
+    {
+      "title": "Halbleitergeschäft wächst: Siemens-Übernahme: Dieser Deal soll alles beschleunigen",
+      "url": "https://www.wallstreet-online.de/nachricht/21669630-halbleitergeschaeft-waechst-siemens-uebernahme-deal-beschleunigen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Siemens will den Münchner Spezialisten Lauterbach übernehmen. Der Zukauf soll die Chipentwicklung beschleunigen und das Geschäft mit Halbleiter-Software stärken."
+    }
+  ],
+  "feedErrors": [
+    "Finanzen.net: HTTP Error 403: Forbidden",
+    "Finanzen.net Analysen: HTTP Error 403: Forbidden"
+  ]
 }
