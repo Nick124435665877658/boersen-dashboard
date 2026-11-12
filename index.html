@@ -241,7 +241,7 @@ function renderChartPages(){
    <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>
    <section class="news-panel" id="news-${a.id}">
     <div class="news-top"><h2>📰 Aktuelle Nachrichten</h2><button class="news-refresh" data-news-refresh="${a.id}">↻ Nachrichten aktualisieren</button></div>
-    <div class="news-meta" id="news-meta-${a.id}">Aktuelle Unternehmensmeldungen aus internationalen Nachrichtenquellen</div>
+    <div class="news-meta" id="news-meta-${a.id}">Aktuelle Schlagzeilen aus ausgewählten Börsenredaktionen</div>
     <div class="news-content" id="news-content-${a.id}"><div class="news-status">News-Analyse wird beim Öffnen dieser Chartseite geladen.</div></div>
    </section>`;
   holder.appendChild(section);
@@ -253,42 +253,46 @@ function newsText(tag,text,className){
 }
 function renderNews(assetId,data){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;host.innerHTML='';
- const articles=Array.isArray(data.articles)?data.articles:[];
- if(!articles.length){host.appendChild(newsText('div','Keine aktuellen Nachrichten für diesen Wert gefunden.','news-status'));return;}
+ const asset=assets.find(x=>x.id===assetId);if(!asset)return;
+ const terms=[asset.name,asset.symbol,asset.id].filter(Boolean).map(x=>x.toLocaleLowerCase());
+ const articles=(Array.isArray(data.articles)?data.articles:[]).filter(item=>{
+  const haystack=(item.title+' '+(item.description||'')).toLocaleLowerCase();
+  return terms.some(term=>term.length>=3&&haystack.includes(term));
+ }).slice(0,12);
+ if(!articles.length){
+  host.appendChild(newsText('div','In den letzten abgerufenen Meldungen dieser Quellen wurde kein eindeutiger Treffer für '+asset.name+' gefunden.','news-status'));
+  const links=[
+   ['Finanzen.net','https://www.finanzen.net/suche/'+encodeURIComponent(asset.name)],
+   ['DER AKTIONÄR','https://www.deraktionaer.de/suche?query='+encodeURIComponent(asset.name)],
+   ['wallstreet:online','https://www.wallstreet-online.de/suche/?q='+encodeURIComponent(asset.name)],
+   ['Finanztrends','https://www.finanztrends.de/?s='+encodeURIComponent(asset.name)]
+  ];
+  links.forEach(([label,url])=>{const a=document.createElement('a');a.className='news-source';a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label+' durchsuchen ↗';host.appendChild(a);});
+  return;
+ }
  articles.forEach(src=>{
-  const a=document.createElement('a');a.className='news-source';a.href=src.url||'#';a.target='_blank';a.rel='noopener noreferrer';
-  a.appendChild(newsText('strong',src.title||'Meldung öffnen'));
-  a.appendChild(newsText('span',(src.publisher||'Quelle')+' · '+(src.publishedAt?new Date(src.publishedAt).toLocaleString('de-DE'):'Datum n. v.')));
+  const a=document.createElement('a');a.className='news-source';a.href=src.url;a.target='_blank';a.rel='noopener noreferrer';
+  a.appendChild(newsText('strong',src.title));
+  a.appendChild(newsText('span',src.publisher+' · '+(src.publishedAt||'Datum n. v.')));
   host.appendChild(a);
  });
  const meta=document.getElementById('news-meta-'+assetId);
- if(meta)meta.textContent='Internationale Quellen · '+articles.length+' Meldungen · RSS-Abruf: '+new Date(data.fetchedAt).toLocaleString('de-DE');
+ if(meta)meta.textContent='Finanzen.net · DER AKTIONÄR · wallstreet:online · '+articles.length+' passende Meldungen · Stand '+new Date(data.fetchedAt).toLocaleString('de-DE');
 }
 async function loadAssetNews(assetId,force=false){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;
- const asset=assets.find(x=>x.id===assetId);if(!asset)return;
  const cached=newsMemory[assetId];
- if(cached&&!force&&Date.now()-cached.cachedAt<10*60*1000){renderNews(assetId,cached);return;}
- host.innerHTML='';host.appendChild(newsText('div','Suche aktuelle Unternehmensmeldungen …','news-status'));
+ if(cached&&!force&&Date.now()-cached.cachedAt<5*60*1000){renderNews(assetId,cached);return;}
+ host.innerHTML='';host.appendChild(newsText('div','Lade Börsenschlagzeilen …','news-status'));
  try{
-  const query='"'+asset.name.replace(/"/g,' ')+'"';
-  const params=new URLSearchParams({query,mode:'artlist',format:'json',maxrecords:'10',timespan:'7d',sort:'datedesc'});
-  const response=await fetch('https://api.gdeltproject.org/api/v2/doc/doc?'+params.toString(),{cache:force?'no-store':'default'});
-  if(!response.ok)throw new Error('News-Suche HTTP '+response.status);
-  const result=await response.json();
-  const articles=(Array.isArray(result.articles)?result.articles:[]).map(item=>({
-   title:item.title||'',
-   url:item.url||'',
-   publisher:item.domain||'Nachrichtenquelle',
-   publishedAt:item.seendate||null
-  })).filter(item=>item.title&&/^https?:\/\//i.test(item.url));
-  const unique=new Map();articles.forEach(item=>{if(!unique.has(item.url))unique.set(item.url,item);});
-  const data={articles:[...unique.values()],fetchedAt:new Date().toISOString(),cachedAt:Date.now()};
-  newsMemory[assetId]=data;renderNews(assetId,data);
+  const response=await fetch('./news-feed.json?ts='+Math.floor(Date.now()/60000),{cache:force?'no-store':'default'});
+  if(!response.ok)throw new Error('Nachrichten-Datei HTTP '+response.status);
+  const data=await response.json();
+  data.cachedAt=Date.now();newsMemory[assetId]=data;renderNews(assetId,data);
+  if(!Array.isArray(data.articles)||!data.articles.length)throw new Error('RSS-Feed ist noch leer; GitHub-Aktualisierung abwarten');
  }catch(err){
-  host.innerHTML='';host.appendChild(newsText('div','Aktuelle Schlagzeilen konnten gerade nicht geladen werden ('+err.message+').','news-status'));
-  const link=new URL('https://www.google.com/search');link.searchParams.set('q',asset.name+' news');
-  const a=document.createElement('a');a.href=link.toString();a.target='_blank';a.rel='noopener noreferrer';a.className='news-source';a.textContent='Nachrichten zum Unternehmen suchen ↗';host.appendChild(a);
+  host.innerHTML='';host.appendChild(newsText('div','Nachrichtenfeed noch nicht verfügbar: '+err.message,'news-status'));
+  const link=document.createElement('a');link.className='news-source';link.href='https://www.finanzen.net/rss/news';link.target='_blank';link.rel='noopener noreferrer';link.textContent='RSS-Feed prüfen ↗';host.appendChild(link);
  }
 }
 
