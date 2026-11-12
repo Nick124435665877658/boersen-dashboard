@@ -46,6 +46,10 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 .alert-overlay{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.72)}
 .alert-overlay.show{display:flex}.alert-box{width:min(100%,460px);background:#17243a;border:1px solid #4774a8;border-radius:20px;padding:22px;box-shadow:0 18px 60px #0009}
 .alert-box h2{margin:0 0 10px;font-size:22px}.alert-message{white-space:pre-line;line-height:1.6;color:#edf3fb;margin:0 0 18px}.alert-box button{width:100%;background:#245c49;border-color:#37d39a}
+.mode-switch{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}.mode-switch button{padding:8px 12px;font-size:13px}.mode-switch button.active{background:#23436d;border-color:#5798f4}
+.category-row td{background:#1a2a40;color:#9fc4f5;font-weight:800;text-align:left!important;letter-spacing:.5px}
+.favorite-cell{text-align:center!important}.favorite-check{width:20px;height:20px;accent-color:#70a7ff}
+#chartPages{height:100%;min-height:0}.chart-page{display:none;height:100%;min-height:0}.chart-page.active{display:flex;flex-direction:column}
 @media(max-width:700px){header{padding:9px 12px}main{padding:9px}.selected{grid-template-columns:repeat(5,1fr)}.selected .point{grid-column:1/-1}.selected .metric{font-size:13px}.total{align-items:flex-start;flex-direction:column}.bottom{padding:8px 12px}}
 @media(orientation:portrait){.chart-head{gap:6px}.selected{grid-template-columns:repeat(5,minmax(0,1fr))}.selected .point{grid-column:1/-1}}
 </style>
@@ -55,42 +59,11 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 <header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro</div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
- <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Anteile eintragen – Depotwert wird automatisch berechnet</div></div><button id="refresh">↻ Aktualisieren</button></div>
+ <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
  <div class="table-wrap"><table><thead><tr><th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th></tr></thead><tbody id="holdings"></tbody></table></div>
  <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
 </section>
-<section class="page" data-asset="QBTS">
- <div class="chart-head"><div><div class="chart-title">D-Wave Quantum</div><div class="muted">NASDAQ: QBTS · Kurs in EUR</div></div><div class="sub" id="price-QBTS">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-QBTS" class="chart"></div><div class="selected" id="selection-QBTS"></div>
-</section>
-<section class="page" data-asset="AMD">
- <div class="chart-head"><div><div class="chart-title">AMD</div><div class="muted">NASDAQ: AMD · Kurs in EUR</div></div><div class="sub" id="price-AMD">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-AMD" class="chart"></div><div class="selected" id="selection-AMD"></div>
-</section>
-<section class="page" data-asset="LCID">
- <div class="chart-head"><div><div class="chart-title">Lucid</div><div class="muted">NASDAQ: LCID · Kurs in EUR</div></div><div class="sub" id="price-LCID">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-LCID" class="chart"></div><div class="selected" id="selection-LCID"></div>
-</section>
-<section class="page" data-asset="NVDA">
- <div class="chart-head"><div><div class="chart-title">NVIDIA</div><div class="muted">NASDAQ: NVDA · Kurs in EUR</div></div><div class="sub" id="price-NVDA">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-NVDA" class="chart"></div><div class="selected" id="selection-NVDA"></div>
-</section>
-<section class="page" data-asset="BTC">
- <div class="chart-head"><div><div class="chart-title">Bitcoin</div><div class="muted">BITSTAMP: BTCUSD · Kurs in EUR</div></div><div class="sub" id="price-BTC">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-BTC" class="chart"></div><div class="selected" id="selection-BTC"></div>
-</section>
-<section class="page" data-asset="BYD">
- <div class="chart-head"><div><div class="chart-title">BYD</div><div class="muted">HKEX: 1211 · Kurs in EUR</div></div><div class="sub" id="price-BYD">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-BYD" class="chart"></div><div class="selected" id="selection-BYD"></div>
-</section>
-<section class="page" data-asset="GOLD">
- <div class="chart-head"><div><div class="chart-title">Gold</div><div class="muted">Gold-Spot (XAU/USD) · Kurs in EUR je Feinunze</div></div><div class="sub" id="price-GOLD">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-GOLD" class="chart"></div><div class="selected" id="selection-GOLD"></div>
-</section>
-<section class="page" data-asset="RGTI">
- <div class="chart-head"><div><div class="chart-title">Rigetti Computing</div><div class="muted">NASDAQ: RGTI · Kurs in EUR</div></div><div class="sub" id="price-RGTI">— €</div></div>
- <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div><div id="chart-RGTI" class="chart"></div><div class="selected" id="selection-RGTI"></div>
-</section>
+<div id="chartPages"></div>
 </main>
 <footer class="bottom"><div class="nav"><button id="prev">←</button><span class="dots" id="pageLabel">Depot · 1 / 9</span><button id="next">→</button></div><div class="note">Wischen zum Wechseln · Chart antippen/ziehen zum Markieren</div></footer>
 </div>
@@ -103,16 +76,7 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 </div>
 <script src="https://unpkg.com/lightweight-charts@4.2.2/dist/lightweight-charts.standalone.production.js"></script>
 <script>
-const assets=[
- {id:'QBTS',name:'D-Wave Quantum',symbol:'QBTS',currency:'USD',fx:'EURUSD=X',kind:'stock'},
- {id:'AMD',name:'AMD',symbol:'AMD',currency:'USD',fx:'EURUSD=X',kind:'stock'},
- {id:'LCID',name:'Lucid',symbol:'LCID',currency:'USD',fx:'EURUSD=X',kind:'stock'},
- {id:'NVDA',name:'NVIDIA',symbol:'NVDA',currency:'USD',fx:'EURUSD=X',kind:'stock'},
- {id:'BTC',name:'Bitcoin',symbol:'BTC-USD',currency:'USD',fx:'EURUSD=X',kind:'crypto'},
- {id:'BYD',name:'BYD',symbol:'1211.HK',currency:'HKD',fx:'HKDEUR=X',kind:'stock'},
- {id:'GOLD',name:'Gold',symbol:'GC=F',currency:'USD',fx:'EURUSD=X',kind:'commodity'},
- {id:'RGTI',name:'Rigetti Computing',symbol:'RGTI',currency:'USD',fx:'EURUSD=X',kind:'stock'}
-];
+const assets=[{"id":"QBTS","name":"D-Wave Quantum","symbol":"QBTS","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ADN1","name":"adesso","symbol":"ADN1.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"ADS","name":"Adidas","symbol":"ADS.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"ADBE","name":"Adobe","symbol":"ADBE","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ABNB","name":"Airbnb","symbol":"ABNB","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"AIR","name":"Airbus","symbol":"AIR.PA","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"BABA","name":"Alibaba","symbol":"BABA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"0241","name":"Alibaba Health","symbol":"0241.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"ALV","name":"Allianz","symbol":"ALV.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"GOOGL","name":"Alphabet","symbol":"GOOGL","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"AMZN","name":"Amazon","symbol":"AMZN","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"AMC","name":"AMC Entertainment","symbol":"AMC","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"AMD","name":"AMD","symbol":"AMD","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"AMKBY","name":"A.P. Møller-Mærsk B","symbol":"MAERSK-B.CO","currency":"DKK","fx":"DKKEUR=X","kind":"stock","category":"Aktien"},{"id":"AMKA","name":"A.P. Møller-Mærsk A","symbol":"MAERSK-A.CO","currency":"DKK","fx":"DKKEUR=X","kind":"stock","category":"Aktien"},{"id":"ASML","name":"ASML","symbol":"ASML","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"T","name":"AT&T","symbol":"T","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ADSK","name":"Autodesk","symbol":"ADSK","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"BIDU","name":"Baidu","symbol":"BIDU","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"3988","name":"Bank of China","symbol":"3988.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"BAYN","name":"Bayer","symbol":"BAYN.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"BYND","name":"Beyond Meat","symbol":"BYND","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"BLK","name":"BlackRock","symbol":"BLK","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"BMW","name":"BMW","symbol":"BMW.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"BA","name":"Boeing","symbol":"BA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"BP","name":"BP","symbol":"BP.L","currency":"GBP","fx":"GBPEUR=X","kind":"stock","category":"Aktien"},{"id":"1211","name":"BYD","symbol":"1211.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"WEED","name":"Canopy Growth","symbol":"WEED","currency":"CAD","fx":"CADEUR=X","kind":"stock","category":"Aktien"},{"id":"AFX","name":"Carl Zeiss Meditec","symbol":"AFX.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"CVNA","name":"Carvana","symbol":"CVNA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"CAT","name":"Caterpillar","symbol":"CAT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"1378","name":"China Hongqiao Group","symbol":"1378.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"CMG","name":"Chipotle Mexican Grill","symbol":"CMG","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"CSCO","name":"Cisco","symbol":"CSCO","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"KO","name":"Coca-Cola","symbol":"KO","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"CON","name":"Continental","symbol":"CON.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"CROX","name":"Crocs","symbol":"CROX","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"CRWD","name":"CrowdStrike","symbol":"CRWD","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"EVD","name":"CTS Eventim","symbol":"EVD.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"DTG","name":"Daimler Truck","symbol":"DTG.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"DAC","name":"Danaos","symbol":"DAC","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"DSY","name":"Dassault Systèmes","symbol":"DSY.PA","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"DHL","name":"DHL Group","symbol":"DHL.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"DTE","name":"Deutsche Telekom","symbol":"DTE.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"DPZ","name":"Domino's Pizza","symbol":"DPZ","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"0489","name":"Dongfeng Motor Group","symbol":"0489.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"DUE","name":"Dürr","symbol":"DUE.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"EGO","name":"Eldorado Gold","symbol":"EGO","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"RACE","name":"Ferrari","symbol":"RACE","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"GME","name":"GameStop","symbol":"GME","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"GELY","name":"Geely Automobile","symbol":"0175.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"GT","name":"Goodyear","symbol":"GT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"2238","name":"Guangzhou Automobile","symbol":"2238.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"HLAG","name":"Hapag-Lloyd","symbol":"HLAG.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"HOG","name":"Harley-Davidson","symbol":"HOG","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"HEN3","name":"Henkel Vz.","symbol":"HEN3.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"HAG","name":"Hensoldt","symbol":"HAG.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"RMS","name":"Hermès","symbol":"RMS.PA","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"BOSS","name":"Hugo Boss","symbol":"BOSS.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"HUSQ","name":"Husqvarna B","symbol":"HUSQ-B.ST","currency":"SEK","fx":"SEKEUR=X","kind":"stock","category":"Aktien"},{"id":"IBM","name":"IBM","symbol":"IBM","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"INGA","name":"ING Group","symbol":"INGA.AS","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"INTC","name":"Intel","symbol":"INTC","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"IONQ","name":"IonQ","symbol":"IONQ","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"JD","name":"JD.com","symbol":"JD","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"JPM","name":"JPMorgan Chase","symbol":"JPM","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"KMB","name":"Kimberly-Clark","symbol":"KMB","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"KDK","name":"Kodiak Copper","symbol":"KDK.V","currency":"CAD","fx":"CADEUR=X","kind":"stock","category":"Aktien"},{"id":"PNG","name":"Kraken Robotics","symbol":"PNG.V","currency":"CAD","fx":"CADEUR=X","kind":"stock","category":"Aktien"},{"id":"0992","name":"Lenovo","symbol":"0992.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"LIN","name":"Linde","symbol":"LIN","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"LMT","name":"Lockheed Martin","symbol":"LMT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"LCID","name":"Lucid","symbol":"LCID","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"MC","name":"LVMH","symbol":"MC.PA","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"6586","name":"Makita","symbol":"6586.T","currency":"JPY","fx":"JPYEUR=X","kind":"stock","category":"Aktien"},{"id":"MCD","name":"McDonald's","symbol":"MCD","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"MCK","name":"McKesson","symbol":"MCK","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"MBG","name":"Mercedes-Benz Group","symbol":"MBG.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"META","name":"Meta Platforms","symbol":"META","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"MP","name":"MP Materials","symbol":"MP","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ML","name":"Michelin","symbol":"ML.PA","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"MVST","name":"Microvast","symbol":"MVST","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"MRNA","name":"Moderna","symbol":"MRNA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"3350","name":"Metaplanet","symbol":"3350.T","currency":"JPY","fx":"JPYEUR=X","kind":"stock","category":"Aktien"},{"id":"NVDA","name":"NVIDIA","symbol":"NVDA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"OPRA","name":"Opera","symbol":"OPRA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ORCL","name":"Oracle","symbol":"ORCL","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"OEL","name":"Otto Energy","symbol":"OEL.AX","currency":"AUD","fx":"AUDEUR=X","kind":"stock","category":"Aktien"},{"id":"PLTR","name":"Palantir","symbol":"PLTR","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"PK","name":"Park Hotels & Resorts","symbol":"PK","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"1913","name":"Prada","symbol":"1913.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"PSM","name":"ProSiebenSat.1","symbol":"PSM.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"PUM","name":"Puma","symbol":"PUM.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"QUBT","name":"Quantum Computing Inc.","symbol":"QUBT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"QNC","name":"Quantum eMotion","symbol":"QNC.V","currency":"CAD","fx":"CADEUR=X","kind":"stock","category":"Aktien"},{"id":"R3NK","name":"RENK Group","symbol":"R3NK.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"RHM","name":"Rheinmetall","symbol":"RHM.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"RGTI","name":"Rigetti Computing","symbol":"RGTI","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"RIO","name":"Rio Tinto","symbol":"RIO","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"RIVN","name":"Rivian","symbol":"RIVN","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"RKLB","name":"Rocket Lab","symbol":"RKLB","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"RR","name":"Rolls-Royce","symbol":"RR.L","currency":"GBP","fx":"GBPEUR=X","kind":"stock","category":"Aktien"},{"id":"RWE","name":"RWE","symbol":"RWE.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"SAAB","name":"Saab B","symbol":"SAAB-B.ST","currency":"SEK","fx":"SEKEUR=X","kind":"stock","category":"Aktien"},{"id":"005930","name":"Samsung Electronics","symbol":"005930.KS","currency":"KRW","fx":"KRWEUR=X","kind":"stock","category":"Aktien"},{"id":"SAP","name":"SAP","symbol":"SAP.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"SHOP","name":"Shopify","symbol":"SHOP","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"SW","name":"Smith & Wesson","symbol":"SWBI","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"SPOT","name":"Spotify","symbol":"SPOT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"STM","name":"Stabilus","symbol":"STM.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"SBUX","name":"Starbucks","symbol":"SBUX","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"STLAM","name":"Stellantis","symbol":"STLAM.MI","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"SYR","name":"Steyr Motors","symbol":"SYR.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"SNPS","name":"Synopsys","symbol":"SNPS","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"TTWO","name":"Take-Two Interactive","symbol":"TTWO","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"0700","name":"Tencent Holdings","symbol":"0700.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"TSLA","name":"Tesla","symbol":"TSLA","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"TKA","name":"thyssenkrupp","symbol":"TKA.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"TKMS","name":"TKMS","symbol":"TKMS.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"TM","name":"Toyota","symbol":"TM","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"DJT","name":"Trump Media & Technology","symbol":"DJT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"TUI1","name":"TUI","symbol":"TUI1.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"UNP","name":"Union Pacific","symbol":"UNP","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"UPS","name":"UPS","symbol":"UPS","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"UNH","name":"UnitedHealth Group","symbol":"UNH","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"VOW3","name":"Volkswagen Vz.","symbol":"VOW3.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"VOLV","name":"Volvo B","symbol":"VOLV-B.ST","currency":"SEK","fx":"SEKEUR=X","kind":"stock","category":"Aktien"},{"id":"VNA","name":"Vonovia","symbol":"VNA.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"VUL","name":"Vulcan Energy Resources","symbol":"VUL.AX","currency":"AUD","fx":"AUDEUR=X","kind":"stock","category":"Aktien"},{"id":"WMT","name":"Walmart","symbol":"WMT","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"1810","name":"Xiaomi","symbol":"1810.HK","currency":"HKD","fx":"HKDEUR=X","kind":"stock","category":"Aktien"},{"id":"XPEV","name":"XPeng","symbol":"XPEV","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"YUMC","name":"Yum China","symbol":"YUMC","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"ZIM","name":"ZIM Integrated Shipping","symbol":"ZIM","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"NB2","name":"Northern Data","symbol":"NB2.DE","currency":"EUR","fx":"","kind":"stock","category":"Aktien"},{"id":"CRML","name":"Critical Metals Corp.","symbol":"CRML","currency":"USD","fx":"EURUSD=X","kind":"stock","category":"Aktien"},{"id":"URTH","name":"MSCI World (iShares ETF)","symbol":"URTH","currency":"USD","fx":"EURUSD=X","kind":"index","category":"ETFs & Indizes"},{"id":"SPY","name":"S&P 500 (SPDR ETF)","symbol":"SPY","currency":"USD","fx":"EURUSD=X","kind":"index","category":"ETFs & Indizes"},{"id":"QQQ","name":"Nasdaq-100 (Invesco ETF)","symbol":"QQQ","currency":"USD","fx":"EURUSD=X","kind":"index","category":"ETFs & Indizes"},{"id":"KWEB","name":"MSCI China Tech (KraneShares ETF)","symbol":"KWEB","currency":"USD","fx":"EURUSD=X","kind":"index","category":"ETFs & Indizes"},{"id":"REMX","name":"Kritische Metalle (VanEck ETF)","symbol":"REMX","currency":"USD","fx":"EURUSD=X","kind":"index","category":"ETFs & Indizes"},{"id":"CC","name":"Kakao","symbol":"CC=F","currency":"USD","fx":"EURUSD=X","kind":"commodity","category":"Rohstoffe"},{"id":"HG","name":"Kupfer","symbol":"HG=F","currency":"USD","fx":"EURUSD=X","kind":"commodity","category":"Rohstoffe"},{"id":"GC","name":"Gold","symbol":"GC=F","currency":"USD","fx":"EURUSD=X","kind":"commodity","category":"Rohstoffe"},{"id":"PA","name":"Palladium","symbol":"PA=F","currency":"USD","fx":"EURUSD=X","kind":"commodity","category":"Rohstoffe"},{"id":"SI","name":"Silber","symbol":"SI=F","currency":"USD","fx":"EURUSD=X","kind":"commodity","category":"Rohstoffe"}];
 const ranges={ '1D':{period:'1d',interval:'5m'},'1W':{period:'5d',interval:'30m'},'1M':{period:'1mo',interval:'1d'},'1Y':{period:'1y',interval:'1d'},'5Y':{period:'5y',interval:'1wk'} };
 const dailyCache={}, intradayCache={}, charts={}, chartSeries={}, lastValues={};
 let currentPage=0, activeRange='1D', refreshTimer=null, refreshInFlight=false;
@@ -139,14 +103,13 @@ function convertSeries(prices,fx,currency){
  if(currency==='EUR')return prices;
  return prices.map(p=>{const f=nearestValue(fx,p.time);if(!f||!f.value)return null;return {time:p.time,value:currency==='USD'?p.value/f.value:p.value*f.value};}).filter(Boolean);
 }
-async function loadHistory(){
- if(assets.every(a=>dailyCache[a.id]?.length))return 0;
- const fxSymbols=[...new Set(assets.filter(a=>a.currency!=='EUR').map(a=>a.fx))];
- const fxResults=await Promise.allSettled(fxSymbols.map(s=>fetchYahoo(s,'5y','1d')));
- const fxDaily={};
- fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxDaily[fxSymbols[i]]=r.value;});
- const results=await Promise.allSettled(assets.map(async a=>{
-  if(dailyCache[a.id]?.length)return;
+async function loadHistory(targets=trackedAssets()){
+ const needed=targets.filter(a=>!dailyCache[a.id]?.length);
+ if(!needed.length)return 0;
+ const fxSymbols=[...new Set(needed.filter(a=>a.currency!=='EUR').map(a=>a.fx).filter(Boolean))];
+ const fxResults=await Promise.allSettled(fxSymbols.map(sym=>fetchYahoo(sym,'5y','1d')));
+ const fxDaily={};fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxDaily[fxSymbols[i]]=r.value;});
+ const results=await Promise.allSettled(needed.map(async a=>{
   const prices=await fetchYahoo(a.symbol,'5y','1d');
   const fx=a.currency==='EUR'?[]:fxDaily[a.fx];
   if(a.currency!=='EUR'&&!fx?.length)throw new Error('Historischer Wechselkurs fehlt: '+a.fx);
@@ -157,12 +120,12 @@ async function loadHistory(){
  }));
  return results.filter(r=>r.status==='rejected').length;
 }
-async function loadCurrentPrices(){
- const fxSymbols=[...new Set(assets.filter(a=>a.currency!=='EUR').map(a=>a.fx))];
- const fxResults=await Promise.allSettled(fxSymbols.map(s=>fetchYahoo(s,'1d','1m')));
- const fxNow={};
- fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxNow[fxSymbols[i]]=r.value;});
- const results=await Promise.allSettled(assets.map(async a=>{
+async function loadCurrentPrices(targets=trackedAssets()){
+ if(!targets.length)return 0;
+ const fxSymbols=[...new Set(targets.filter(a=>a.currency!=='EUR').map(a=>a.fx).filter(Boolean))];
+ const fxResults=await Promise.allSettled(fxSymbols.map(sym=>fetchYahoo(sym,'1d','1m')));
+ const fxNow={};fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxNow[fxSymbols[i]]=r.value;});
+ const results=await Promise.allSettled(targets.map(async a=>{
   const prices=await fetchYahoo(a.symbol,'1d','1m');
   const fx=a.currency==='EUR'?[]:fxNow[a.fx];
   if(a.currency!=='EUR'&&!fx?.length)throw new Error('Aktueller Wechselkurs fehlt: '+a.fx);
@@ -204,11 +167,65 @@ function showSelection(a,value,time){
  }
  el.innerHTML=html;
 }
+let dashboardMode=localStorage.getItem('dashboard_mode')||'bestand';
+function getShares(a){return Number(localStorage.getItem('shares_'+a.id)||0);}
+function isFavorite(a){return localStorage.getItem('favorite_'+a.id)==='1';}
+function visibleAssets(){
+ return dashboardMode==='bestand'?assets.filter(a=>getShares(a)>0):assets.filter(a=>isFavorite(a));
+}
+function trackedAssets(){
+ const ids=new Set([...visibleAssets(),...assets.filter(a=>getShares(a)>0)].map(a=>a.id));
+ return assets.filter(a=>ids.has(a.id));
+}
+function renderChartPages(){
+ const holder=document.getElementById('chartPages');
+ holder.innerHTML='';
+ assets.forEach(a=>{
+  const section=document.createElement('section');
+  section.className='page chart-page';section.id='chartpage-'+a.id;section.dataset.asset=a.id;
+  section.innerHTML=`<div class="chart-head"><div><div class="chart-title">${a.name}</div><div class="muted">${a.symbol} · Kurs in EUR</div></div><div class="sub" id="price-${a.id}">— €</div></div>
+   <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div>
+   <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>`;
+  holder.appendChild(section);
+ });
+}
 function buildOverview(){
  const tbody=document.getElementById('holdings');tbody.innerHTML='';
- assets.forEach(a=>{const tr=document.createElement('tr');const stored=localStorage.getItem('shares_'+a.id)||'';tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td><td id="ov-price-${a.id}">—</td><td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${stored.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td><td id="ov-value-${a.id}">—</td>`;const input=tr.querySelector('input');input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});tbody.appendChild(tr);});
+ const categories=['Aktien','ETFs & Indizes','Rohstoffe'];
+ categories.forEach(category=>{
+  const group=assets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
+  const shown=dashboardMode==='bestand'?group.filter(a=>getShares(a)>0):group;
+  if(!shown.length)return;
+  const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="${dashboardMode==='planen'?5:4}">${category} · ${shown.length}</td>`;tbody.appendChild(heading);
+  shown.forEach(a=>{
+   const tr=document.createElement('tr');
+   const qty=localStorage.getItem('shares_'+a.id)||'';
+   const favorite=isFavorite(a);
+   tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
+    <td id="ov-price-${a.id}">${dashboardMode==='planen'&&!favorite?'Favorit markieren':'—'}</td>
+    ${dashboardMode==='planen'?'<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit '+a.name+'" '+(favorite?'checked':'')+'></td>':''}
+    <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
+    <td id="ov-value-${a.id}">—</td>`;
+   const input=tr.querySelector('.shares');
+   input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();if(dashboardMode==='bestand'&&Number(input.value)<=0){buildOverview();refreshAll();}});
+   const check=tr.querySelector('.favorite-check');
+   if(check)check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');buildOverview();refreshAll();});
+   tbody.appendChild(tr);
+  });
+ });
+ document.getElementById('modeBestand').classList.toggle('active',dashboardMode==='bestand');
+ document.getElementById('modePlan').classList.toggle('active',dashboardMode==='planen');
+ document.querySelector('thead tr').innerHTML=dashboardMode==='planen'
+  ?'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>'
+  :'<th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th>';
  updatePortfolio();
 }
+function changeMode(mode){
+ dashboardMode=mode;localStorage.setItem('dashboard_mode',mode);currentPage=0;
+ buildOverview();showPage(0);refreshAll();
+}
+document.getElementById('modeBestand').onclick=()=>changeMode('bestand');
+document.getElementById('modePlan').onclick=()=>changeMode('planen');
 function updatePortfolio(){
  let total=0;
  assets.forEach(a=>{const input=document.querySelector(`#holdings tr:nth-child(${assets.indexOf(a)+1}) input`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
@@ -248,16 +265,22 @@ function checkFourHourAlerts(){
  if(alertQueue.length)renderAlert();
 }
 function showPage(index){
- currentPage=(index+9)%9;
- document.querySelectorAll('.page').forEach((p,i)=>p.classList.toggle('active',i===currentPage));
- document.getElementById('pageLabel').textContent=currentPage===0?'Depot · 1 / 9':`${assets[currentPage-1].name} · ${currentPage+1} / 9`;
- if(currentPage>0){const a=assets[currentPage-1];if(!charts[a.id])makeChart(a);setChartData(a,activeRange);}
+ const selected=visibleAssets(),count=selected.length+1;
+ currentPage=((index%count)+count)%count;
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+ if(currentPage===0){document.getElementById('overview').classList.add('active');document.getElementById('pageLabel').textContent='Depot · 1 / '+count;return;}
+ const a=selected[currentPage-1],section=document.getElementById('chartpage-'+a.id);
+ if(!section)return;
+ section.classList.add('active');
+ document.getElementById('pageLabel').textContent=a.name+' · '+(currentPage+1)+' / '+count;
+ if(!charts[a.id])makeChart(a);
+ if(dailyCache[a.id]?.length||intradayCache[a.id]?.length)setChartData(a,activeRange);
 }
 function setRange(range,button){
  activeRange=range;
- const page=document.querySelector('.page.active[data-asset]');if(!page)return;
+ const page=document.querySelector('.chart-page.active');if(!page)return;
  page.querySelectorAll('[data-range]').forEach(b=>b.classList.toggle('active',b.dataset.range===range));
- const a=assets.find(x=>x.id===page.dataset.asset);setChartData(a,range);
+ const a=assets.find(x=>x.id===page.dataset.asset);if(a)setChartData(a,range);
 }
 document.getElementById('prev').onclick=()=>showPage(currentPage-1);
 document.getElementById('next').onclick=()=>showPage(currentPage+1);
@@ -291,15 +314,18 @@ async function refreshAll(manual=false){
  const status=document.getElementById('status');
  status.textContent='Aktualisiere Kurse …';
  try{
-  const historyFailed=await loadHistory();
-  const currentFailed=await loadCurrentPrices();
+  const targets=trackedAssets();
+  const historyFailed=await loadHistory(targets);
+  const currentFailed=await loadCurrentPrices(targets);
   checkFourHourAlerts();
   updatePortfolio();
-  assets.forEach(a=>{
+  targets.forEach(a=>{
    const priceEl=document.getElementById('price-'+a.id);
    if(priceEl&&lastValues[a.id]!=null)priceEl.textContent=eur(lastValues[a.id]);
    if(charts[a.id])setChartData(a,activeRange);
   });
+  buildOverview();
+  if(currentPage>0)showPage(currentPage);
   const failed=Math.max(historyFailed,currentFailed);
   const stamp=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
   status.textContent=failed?'⚠ '+failed+' Kurs(e) konnten nicht aktualisiert werden · '+stamp:'Kurse aktualisiert · '+stamp;
@@ -311,6 +337,7 @@ async function refreshAll(manual=false){
   refreshInFlight=false;
  }
 }
+renderChartPages();
 buildOverview();
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
