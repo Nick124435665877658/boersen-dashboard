@@ -59,7 +59,7 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 <header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro</div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
- <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
+ <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
  <div class="table-wrap"><table><thead><tr><th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th></tr></thead><tbody id="holdings"></tbody></table></div>
  <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
 </section>
@@ -171,11 +171,12 @@ let dashboardMode=localStorage.getItem('dashboard_mode')||'bestand';
 function getShares(a){return Number(localStorage.getItem('shares_'+a.id)||0);}
 function isFavorite(a){return localStorage.getItem('favorite_'+a.id)==='1';}
 function visibleAssets(){
+ if(dashboardMode==='favoriten')return [];
  return dashboardMode==='bestand'?assets.filter(a=>getShares(a)>0):assets.filter(a=>isFavorite(a));
 }
 function trackedAssets(){
- const ids=new Set([...visibleAssets(),...assets.filter(a=>getShares(a)>0)].map(a=>a.id));
- return assets.filter(a=>ids.has(a.id));
+ if(dashboardMode==='favoriten')return assets;
+ return visibleAssets();
 }
 function renderChartPages(){
  const holder=document.getElementById('chartPages');
@@ -192,31 +193,42 @@ function renderChartPages(){
 function buildOverview(){
  const tbody=document.getElementById('holdings');tbody.innerHTML='';
  const categories=['Aktien','ETFs & Indizes','Rohstoffe'];
+ const allMode=dashboardMode==='favoriten';
+ const shownAssets=allMode?assets:visibleAssets();
  categories.forEach(category=>{
-  const group=assets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
-  const shown=group;
-  if(!shown.length)return;
-  const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="5">${category} · ${shown.length}</td>`;tbody.appendChild(heading);
-  shown.forEach(a=>{
+  const group=shownAssets.filter(a=>a.category===category).sort((a,b)=>a.name.localeCompare(b.name,'de'));
+  if(!group.length)return;
+  const columns=allMode?3:5;
+  const heading=document.createElement('tr');heading.className='category-row';heading.innerHTML=`<td colspan="${columns}">${category} · ${group.length}</td>`;tbody.appendChild(heading);
+  group.forEach(a=>{
    const tr=document.createElement('tr');tr.dataset.asset=a.id;
    const qty=localStorage.getItem('shares_'+a.id)||'';
    const favorite=isFavorite(a);
+   const controls=allMode
+    ? `<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>`
+    : `<td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
+       <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
+       <td id="ov-value-${a.id}">—</td>`;
    tr.innerHTML=`<td><div class="asset-name">${a.name}</div><div class="ticker">${a.symbol}</div></td>
-    <td id="ov-price-${a.id}">—</td>
-    <td class="favorite-cell"><input class="favorite-check" type="checkbox" aria-label="Favorit ${a.name}" ${favorite?'checked':''}></td>
-    <td><input class="shares" type="number" min="0" step="any" inputmode="decimal" placeholder="0" value="${qty.replace(/"/g,'')}" aria-label="Anteile ${a.name}"></td>
-    <td id="ov-value-${a.id}">—</td>`;
+    <td id="ov-price-${a.id}">${lastValues[a.id]==null?'—':eur(lastValues[a.id])}</td>
+    ${controls}`;
    const input=tr.querySelector('.shares');
-   input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});
-   input.addEventListener('change',()=>{if(dashboardMode==='bestand'){showPage(0);refreshAll();}});
+   if(input){
+    input.addEventListener('input',()=>{localStorage.setItem('shares_'+a.id,input.value);updatePortfolio();});
+    input.addEventListener('change',()=>{if(dashboardMode==='bestand'){showPage(0);refreshAll();}});
+   }
    const check=tr.querySelector('.favorite-check');
-   if(check)check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');buildOverview();refreshAll();});
+   check.addEventListener('change',()=>{localStorage.setItem('favorite_'+a.id,check.checked?'1':'0');if(dashboardMode==='favoriten'){buildOverview();}else{buildOverview();}refreshAll();});
    tbody.appendChild(tr);
   });
  });
  document.getElementById('modeBestand').classList.toggle('active',dashboardMode==='bestand');
  document.getElementById('modePlan').classList.toggle('active',dashboardMode==='planen');
- document.querySelector('thead tr').innerHTML='<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>';
+ document.getElementById('modeFavorites').classList.toggle('active',dashboardMode==='favoriten');
+ document.querySelector('thead tr').innerHTML=allMode
+  ?'<th>Wert</th><th>Kurs in €</th><th>Favorit</th>'
+  :'<th>Wert</th><th>Kurs in €</th><th>Favorit</th><th>Meine Anteile</th><th>Positionswert</th>';
+ document.querySelector('.total').style.display=allMode?'none':'flex';
  updatePortfolio();
 }
 function changeMode(mode){
@@ -225,6 +237,7 @@ function changeMode(mode){
 }
 document.getElementById('modeBestand').onclick=()=>changeMode('bestand');
 document.getElementById('modePlan').onclick=()=>changeMode('planen');
+document.getElementById('modeFavorites').onclick=()=>changeMode('favoriten');
 function updatePortfolio(){
  let total=0;
  assets.forEach(a=>{const input=document.querySelector(`#holdings tr[data-asset="${a.id}"] input.shares`);const qty=Number(input?.value||0),price=lastValues[a.id];const value=price==null?null:qty*price;if(value!=null)total+=value;
@@ -322,8 +335,8 @@ async function refreshAll(manual=false){
  status.textContent='Aktualisiere Kurse …';
  try{
   const targets=trackedAssets();
-  const historyFailed=await loadHistory(targets);
-  const quoteTargets=nextQuoteBatch();
+  const historyFailed=dashboardMode==='favoriten'?0:await loadHistory(targets);
+  const quoteTargets=dashboardMode==='favoriten'?nextQuoteBatch():targets;
   const currentFailed=await loadCurrentPrices(quoteTargets);
   checkFourHourAlerts();
   updatePortfolio();
