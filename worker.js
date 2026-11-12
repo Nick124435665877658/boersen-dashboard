@@ -1,115 +1,55 @@
 const ALLOWED_ORIGIN = "https://nick124435665877658.github.io";
-const CACHE_SECONDS = 30 * 60;
-
+const CACHE_SECONDS = 15 * 60;
 function cors(origin) {
-  return {
-    "Access-Control-Allow-Origin": origin === ALLOWED_ORIGIN ? ALLOWED_ORIGIN : "null",
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
-    "Vary": "Origin"
-  };
+ return {"Access-Control-Allow-Origin":origin===ALLOWED_ORIGIN?ALLOWED_ORIGIN:"null","Access-Control-Allow-Methods":"GET, OPTIONS","Access-Control-Allow-Headers":"Content-Type","Vary":"Origin"};
 }
-function json(data, status, origin) {
-  return new Response(JSON.stringify(data), {
-    status: status || 200,
-    headers: { "Content-Type": "application/json; charset=utf-8", ...cors(origin) }
-  });
+function json(data,status,origin) {
+ return new Response(JSON.stringify(data),{status:status||200,headers:{"Content-Type":"application/json; charset=utf-8","Cache-Control":"public, max-age=60",...cors(origin)}});
 }
-function extractOutputText(response) {
-  for (const item of (response.output || [])) {
-    if (item.type === "message" && Array.isArray(item.content)) {
-      const part = item.content.find(x => x.type === "output_text");
-      if (part?.text) return part.text;
-    }
-  }
-  return "";
+function decodeXml(value) {
+ return (value||"").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n)));
 }
-function parseJson(text) {
-  const cleaned = text.trim().replace(/^\x60{3}(?:json)?\s*/i, "").replace(/\s*\x60{3}$/i, "");
-  return JSON.parse(cleaned);
+function tag(xml,name) {
+ const m=xml.match(new RegExp("<"+name+"(?:\\s[^>]*)?>([\\s\\S]*?)</"+name+">","i"));
+ return m?decodeXml(m[1]).trim():"";
+}
+function parseFeed(xml) {
+ const items=[];
+ for(const match of xml.matchAll(/<item(?:\\s[^>]*)?>([\\s\\S]*?)<\\/item>/gi)){
+  const item=match[1],title=tag(item,"title"),url=tag(item,"link"),date=tag(item,"pubDate");
+  const publisher=tag(item,"source")||"Google News";
+  if(title&&url)items.push({title,url,publisher,publishedAt:date&&!isNaN(Date.parse(date))?new Date(date).toISOString():null});
+ }
+ return items;
 }
 export default {
-  async fetch(request, env, ctx) {
-    const origin = request.headers.get("Origin") || "";
-    if (request.method === "OPTIONS") return new Response(null, { headers: cors(origin) });
-    if (origin !== ALLOWED_ORIGIN) return json({ error: "Origin not allowed" }, 403, origin);
-    const url = new URL(request.url);
-    if (url.pathname !== "/api/news" || request.method !== "GET") return json({ error: "Not found" }, 404, origin);
-    if (!env.GNEWS_API_KEY || !env.OPENAI_API_KEY) return json({ error: "API-Zugänge im Cloudflare Worker fehlen noch." }, 503, origin);
-    const name = (url.searchParams.get("name") || "").trim().slice(0, 100);
-    const symbol = (url.searchParams.get("symbol") || "").trim().slice(0, 40);
-    if (!name || !symbol) return json({ error: "Name und Börsenkürzel fehlen." }, 400, origin);
-
-    const cacheKey = new Request("https://news-cache.local/" + encodeURIComponent(symbol.toUpperCase()));
-    const cache = caches.default;
-    const cached = await cache.match(cacheKey);
-    if (cached) {
-      const body = await cached.json();
-      return json(body, 200, origin);
-    }
-    try {
-      const query = '"' + name.replace(/"/g, "") + '" OR ' + symbol.replace(/[^A-Za-z0-9.^=-]/g, "");
-      const newsUrl = new URL("https://gnews.io/api/v4/search");
-      newsUrl.searchParams.set("q", query);
-      newsUrl.searchParams.set("lang", "de");
-      newsUrl.searchParams.set("max", "10");
-      newsUrl.searchParams.set("sortby", "publishedAt");
-      newsUrl.searchParams.set("from", new Date(Date.now() - 30 * 86400000).toISOString());
-      const newsResponse = await fetch(newsUrl, { headers: { "X-Api-Key": env.GNEWS_API_KEY } });
-      if (!newsResponse.ok) throw new Error("Nachrichtenanbieter meldet HTTP " + newsResponse.status);
-      const newsData = await newsResponse.json();
-      const articles = (newsData.articles || []).map(a => ({
-        title: a.title, description: a.description, content: a.content,
-        url: a.url, publishedAt: a.publishedAt, publisher: a.source?.name
-      }));
-      const prompt = [
-        "Erstelle eine ausführliche, nüchterne Aktien-News-Analyse auf Deutsch.",
-        "Aktie: " + name + " (" + symbol + ").",
-        "Analysiere getrennt: Unternehmen, Branche, Konkurrenz, Gesamtmarkt sowie Chancen/Risiken/Ausblick.",
-        "Nutze die gelieferten Nachrichten als Faktenbasis. Recherchiere mit Websuche ergänzend aktuelle Branchen-, Wettbewerber- und Makroentwicklungen.",
-        "Zeitraum: Schwerpunkt letzte 7 Tage; wichtige Entwicklungen aus den letzten 30 Tagen ergänzen und klar datieren.",
-        "Erfinde keine Nachrichten, Kennzahlen, Kursziele oder Quellen. Wenn etwas nicht belegt ist, sage das ausdrücklich.",
-        "Trenne Fakten von Interpretation. Keine persönliche Anlageberatung und keine sichere Kursprognose.",
-        "Antworte ausschließlich als valides JSON mit diesen Feldern:",
-        '{"sentiment":"positiv|neutral|negativ","overallSummary":"...","sections":{"company":{"summary":"...","points":[]},"industry":{"summary":"...","points":[]},"competitors":{"summary":"...","points":[]},"market":{"summary":"...","points":[]},"assessment":{"opportunities":[],"risks":[],"shortTerm":"...","mediumTerm":"..."}}}',
-        "Wenn keine passenden Artikel vorhanden sind, sage das offen. Artikel aus dem Feed:",
-        JSON.stringify(articles)
-      ].join("\n\n");
-      const aiResponse = await fetch("https://api.openai.com/v1/responses", {
-        method: "POST",
-        headers: { "Authorization": "Bearer " + env.OPENAI_API_KEY, "Content-Type": "application/json" },
-        body: JSON.stringify({
-          model: env.OPENAI_MODEL || "gpt-5.5",
-          tools: [{ type: "web_search" }],
-          input: prompt,
-          max_output_tokens: 3000
-        })
-      });
-      if (!aiResponse.ok) throw new Error("KI-Dienst meldet HTTP " + aiResponse.status);
-      const aiData = await aiResponse.json();
-      const text = extractOutputText(aiData);
-      if (!text) throw new Error("Die KI hat keine Textanalyse zurückgegeben.");
-      const analysis = parseJson(text);
-      const webSources = [];
-      for (const item of (aiData.output || [])) {
-        if (item.type === "web_search_call") {
-          for (const src of (item.action?.sources || [])) webSources.push({
-            title: src.title || src.url, url: src.url, publisher: src.domain || "Websuche"
-          });
-        }
-      }
-      const sources = [...articles.map(a => ({ title: a.title, url: a.url, publisher: a.publisher, publishedAt: a.publishedAt })), ...webSources]
-        .filter(x => x.url && /^https?:\/\//i.test(x.url))
-        .filter((x, i, arr) => arr.findIndex(y => y.url === x.url) === i)
-        .slice(0, 16);
-      const result = { ...analysis, sources, generatedAt: new Date().toISOString(), newsDelayMinutes: 720 };
-      const response = new Response(JSON.stringify(result), {
-        headers: { "Content-Type": "application/json", "Cache-Control": "public, max-age=" + CACHE_SECONDS }
-      });
-      ctx.waitUntil(cache.put(cacheKey, response.clone()));
-      return json(result, 200, origin);
-    } catch (error) {
-      return json({ error: error.message || "News-Analyse fehlgeschlagen." }, 502, origin);
-    }
-  }
+ async fetch(request) {
+  const origin=request.headers.get("Origin")||"";
+  if(request.method==="OPTIONS")return new Response(null,{headers:cors(origin)});
+  if(origin!==ALLOWED_ORIGIN)return json({error:"Origin not allowed"},403,origin);
+  const url=new URL(request.url);
+  if(url.pathname!=="/api/news"||request.method!=="GET")return json({error:"Not found"},404,origin);
+  const name=(url.searchParams.get("name")||"").trim().slice(0,90);
+  const symbol=(url.searchParams.get("symbol")||"").trim().slice(0,30);
+  if(!name)return json({error:"Unternehmensname fehlt."},400,origin);
+  const cacheKey=new Request("https://rss-cache.local/"+encodeURIComponent((symbol||name).toUpperCase()));
+  const cache=caches.default,cached=await cache.match(cacheKey);
+  if(cached)return new Response(cached.body,{headers:{...Object.fromEntries(cached.headers),...cors(origin)}});
+  const query='"'+name.replace(/"/g," ")+'" when:7d';
+  const feeds=[
+   "https://news.google.com/rss/search?q="+encodeURIComponent(query)+"&hl=de&gl=DE&ceid=DE:de",
+   "https://news.google.com/rss/search?q="+encodeURIComponent(query)+"&hl=en-US&gl=US&ceid=US:en"
+  ];
+  try{
+   const responses=await Promise.all(feeds.map(feed=>fetch(feed,{headers:{"User-Agent":"Mozilla/5.0 (compatible; BoersenDashboard/1.0)"},cf:{cacheTtl:CACHE_SECONDS,cacheEverything:true}})));
+   const xmls=await Promise.all(responses.map(async r=>{if(!r.ok)throw new Error("Nachrichtenquelle antwortet mit HTTP "+r.status);return r.text();}));
+   const unique=new Map();
+   xmls.flatMap(parseFeed).forEach(article=>{const key=article.title.toLocaleLowerCase();if(!unique.has(key))unique.set(key,article);});
+   const articles=[...unique.values()].sort((a,b)=>new Date(b.publishedAt||0)-new Date(a.publishedAt||0)).slice(0,14);
+   const result={articles,fetchedAt:new Date().toISOString(),source:"Google News RSS"};
+   const response=json(result,200,origin);
+   await cache.put(cacheKey,new Response(response.clone().body,{headers:{"Content-Type":"application/json; charset=utf-8"}}));
+   return response;
+  }catch(error){return json({error:"RSS-Nachrichten konnten nicht geladen werden: "+error.message},502,origin);}
+ }
 };
