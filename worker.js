@@ -15,7 +15,7 @@ function tag(xml,name) {
 }
 function parseFeed(xml) {
  const items=[];
- for(const match of xml.matchAll(/<item(?:\\s[^>]*)?>([\\s\\S]*?)<\\/item>/gi)){
+ for(const match of xml.matchAll(/<item[^>]*>([\\s\\S]*?)<\\/item>/gi)){
   const item=match[1],title=tag(item,"title"),url=tag(item,"link"),date=tag(item,"pubDate");
   const publisher=tag(item,"source")||"Google News";
   if(title&&url)items.push({title,url,publisher,publishedAt:date&&!isNaN(Date.parse(date))?new Date(date).toISOString():null});
