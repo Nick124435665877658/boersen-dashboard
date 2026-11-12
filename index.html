@@ -105,7 +105,7 @@ const assets=[
 ];
 const ranges={ '1D':{period:'1d',interval:'5m'},'1W':{period:'5d',interval:'30m'},'1M':{period:'1mo',interval:'1d'},'1Y':{period:'1y',interval:'1d'},'5Y':{period:'5y',interval:'1wk'} };
 const dailyCache={}, intradayCache={}, charts={}, chartSeries={}, lastValues={};
-let currentPage=0, activeRange='1D', refreshTimer=null;
+let currentPage=0, activeRange='1D', refreshTimer=null, refreshInFlight=false;
 const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(n);
 const fmtDate=t=>new Date(t*1000).toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'});
 function yahooUrl(symbol,period,interval){
@@ -129,17 +129,40 @@ function convertSeries(prices,fx,currency){
  if(currency==='EUR')return prices;
  return prices.map(p=>{const f=nearestValue(fx,p.time);if(!f||!f.value)return null;return {time:p.time,value:currency==='USD'?p.value/f.value:p.value*f.value};}).filter(Boolean);
 }
-async function loadAsset(a){
- const [daily,fxDaily]=await Promise.all([fetchYahoo(a.symbol,'5y','1d'),fetchYahoo(a.fx,'5y','1d')]);
- dailyCache[a.id]=convertSeries(daily,fxDaily,a.currency);
- const intradayPeriod=a.kind==='crypto'?'1d':'1d';
- let intra;
- try{
-  const [p,f]=await Promise.all([fetchYahoo(a.symbol,intradayPeriod,'5m'),fetchYahoo(a.fx,'1d','5m')]);
-  intra=convertSeries(p,f,a.currency);
- }catch(e){intra=null;}
- intradayCache[a.id]=intra;
- lastValues[a.id]=dailyCache[a.id].at(-1)?.value ?? null;
+async function loadHistory(){
+ if(assets.every(a=>dailyCache[a.id]?.length))return 0;
+ const fxSymbols=[...new Set(assets.filter(a=>a.currency!=='EUR').map(a=>a.fx))];
+ const fxResults=await Promise.allSettled(fxSymbols.map(s=>fetchYahoo(s,'5y','1d')));
+ const fxDaily={};
+ fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxDaily[fxSymbols[i]]=r.value;});
+ const results=await Promise.allSettled(assets.map(async a=>{
+  if(dailyCache[a.id]?.length)return;
+  const prices=await fetchYahoo(a.symbol,'5y','1d');
+  const fx=a.currency==='EUR'?[]:fxDaily[a.fx];
+  if(a.currency!=='EUR'&&!fx?.length)throw new Error('Historischer Wechselkurs fehlt: '+a.fx);
+  const converted=convertSeries(prices,fx,a.currency);
+  if(!converted.length)throw new Error('Keine umgerechneten Historienkurse: '+a.symbol);
+  dailyCache[a.id]=converted;
+  lastValues[a.id]=converted.at(-1).value;
+ }));
+ return results.filter(r=>r.status==='rejected').length;
+}
+async function loadCurrentPrices(){
+ const fxSymbols=[...new Set(assets.filter(a=>a.currency!=='EUR').map(a=>a.fx))];
+ const fxResults=await Promise.allSettled(fxSymbols.map(s=>fetchYahoo(s,'1d','1m')));
+ const fxNow={};
+ fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxNow[fxSymbols[i]]=r.value;});
+ const results=await Promise.allSettled(assets.map(async a=>{
+  const prices=await fetchYahoo(a.symbol,'1d','1m');
+  const fx=a.currency==='EUR'?[]:fxNow[a.fx];
+  if(a.currency!=='EUR'&&!fx?.length)throw new Error('Aktueller Wechselkurs fehlt: '+a.fx);
+  const converted=convertSeries(prices,fx,a.currency);
+  const latest=converted.at(-1);
+  if(!latest)throw new Error('Kein aktueller Kurs: '+a.symbol);
+  intradayCache[a.id]=converted;
+  lastValues[a.id]=latest.value;
+ }));
+ return results.filter(r=>r.status==='rejected').length;
 }
 function makeChart(a){
  const el=document.getElementById('chart-'+a.id); if(!el||!window.LightweightCharts)return;
@@ -221,18 +244,34 @@ document.getElementById('pages').addEventListener('touchend',e=>{if(touchX===nul
                                                                    touchY=null;
                                                                  },{passive:true});
 async function refreshAll(manual=false){
- const status=document.getElementById('status');status.textContent='Aktualisiere Kurse …';
- const results=await Promise.allSettled(assets.map(loadAsset));
- buildOverview();
- assets.forEach(a=>{if(charts[a.id])setChartData(a,activeRange);});
- const failed=results.filter(x=>x.status==='rejected').length;
- status.textContent=failed?`${failed} Kurs(e) nicht verfügbar · ${new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})}`:`Kurse aktualisiert · ${new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})}`;
- if(failed)console.warn('Kursabruf fehlgeschlagen',results.filter(x=>x.status==='rejected').map(x=>x.reason));
+ if(refreshInFlight)return;
+ refreshInFlight=true;
+ const status=document.getElementById('status');
+ status.textContent='Aktualisiere Kurse …';
+ try{
+  const historyFailed=await loadHistory();
+  const currentFailed=await loadCurrentPrices();
+  updatePortfolio();
+  assets.forEach(a=>{
+   const priceEl=document.getElementById('price-'+a.id);
+   if(priceEl&&lastValues[a.id]!=null)priceEl.textContent=eur(lastValues[a.id]);
+   if(charts[a.id])setChartData(a,activeRange);
+  });
+  const failed=Math.max(historyFailed,currentFailed);
+  const stamp=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});
+  status.textContent=failed?'⚠ '+failed+' Kurs(e) konnten nicht aktualisiert werden · '+stamp:'Kurse aktualisiert · '+stamp;
+  document.getElementById('totalTime').textContent='Letzter Datenabruf: '+stamp;
+ }catch(e){
+  status.textContent='Kursaktualisierung fehlgeschlagen';
+  console.warn('Kursabruf fehlgeschlagen',e);
+ }finally{
+  refreshInFlight=false;
+ }
 }
 buildOverview();
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
-refreshTimer=setInterval(refreshAll,60000);
+refreshTimer=setInterval(()=>refreshAll(),60000);
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 </script>
 </body></html>
