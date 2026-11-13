@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro</div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro</div></div><div style="display:flex;align-items:center;gap:10px"><button id="finnhubKey" style="padding:7px 10px;font-size:11px">US-Live-Key</button><div id="status">Lade Kurse …</div></div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -172,6 +172,22 @@ async function loadHistory(targets=trackedAssets()){
  }));
  return results.filter(r=>r.status==='rejected').length;
 }
+async function fetchFinnhubQuote(symbol,token){
+ const url='https://finnhub.io/api/v1/quote?symbol='+encodeURIComponent(symbol)+'&token='+encodeURIComponent(token);
+ const res=await fetch(url,{cache:'no-store',credentials:'omit'});
+ if(!res.ok)throw new Error('Finnhub antwortet mit HTTP '+res.status);
+ const q=await res.json();
+ if(!Number.isFinite(q.c)||q.c<=0||!Number.isFinite(q.t)||q.t<=0)throw new Error('Finnhub liefert keinen aktuellen Kurs für '+symbol);
+ return {time:q.t,value:q.c};
+}
+document.getElementById('finnhubKey').addEventListener('click',()=>{
+ const current=localStorage.getItem('finnhub_token')||'';
+ const value=prompt('Finnhub API-Key für Echtzeitkurse von D-Wave und Rigetti. Der Schlüssel wird nur lokal in diesem Browser gespeichert.\n\nKostenlosen persönlichen API-Key unter finnhub.io/dashboard/api-key erstellen:',current);
+ if(value===null)return;
+ if(value.trim())localStorage.setItem('finnhub_token',value.trim());
+ else localStorage.removeItem('finnhub_token');
+ refreshAll(true);
+});
 async function loadCurrentPrices(targets=trackedAssets()){
  if(!targets.length)return 0;
  const fxSymbols=[...new Set(targets.filter(a=>a.currency!=='EUR').map(a=>a.fx).filter(Boolean))];
@@ -181,7 +197,20 @@ async function loadCurrentPrices(targets=trackedAssets()){
   const prices=await fetchYahoo(a.symbol,'1d','5m');
   const fx=a.currency==='EUR'?[]:fxNow[a.fx];
   if(a.currency!=='EUR'&&!fx?.length)throw new Error('Aktueller Wechselkurs fehlt: '+a.fx);
-  const converted=convertSeries(prices,fx,a.currency);
+  let converted=convertSeries(prices,fx,a.currency);
+  const token=localStorage.getItem('finnhub_token')||'';
+  if(token&&(a.id==='QBTS'||a.id==='RGTI')){
+   const live=await fetchFinnhubQuote(a.symbol,token);
+   const rate=a.currency==='EUR'?null:nearestValue(fx,live.time);
+   if(a.currency!=='EUR'&&(!rate||!rate.value))throw new Error('Kein passender Wechselkurs für Finnhub-Kurs');
+   const liveEur=a.currency==='EUR'?live.value:live.value/rate.value;
+   const previous=converted[converted.length-1];
+   if(!previous||live.time>=previous.time){
+    converted=converted.filter(p=>p.time!==live.time);
+    converted.push({time:live.time,value:liveEur});
+    converted.sort((x,y)=>x.time-y.time);
+   }
+  }
   const latest=converted[converted.length-1];
   if(!latest)throw new Error('Kein aktueller Kurs: '+a.symbol);
   intradayCache[a.id]=converted;
