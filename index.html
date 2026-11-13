@@ -25,6 +25,7 @@ table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13p
 .asset-name{font-weight:700}.ticker{font-size:11px;color:var(--muted)}.shares{width:95px;max-width:100%;padding:8px;border-radius:9px;border:1px solid var(--line);background:#0b1423;color:white;text-align:right}
 .total{margin-top:12px;background:linear-gradient(135deg,#142b3a,#14233a);border:1px solid #2b5261;border-radius:18px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
 .total strong{display:block;font-size:clamp(30px,5vw,48px);letter-spacing:-1px;color:var(--green);font-variant-numeric:tabular-nums}.total small{color:var(--muted)}
+.total .total-performance{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:4px 0 2px;font-size:13px;color:var(--muted)}.total .total-performance strong{display:inline;font-size:clamp(16px,2.2vw,21px);letter-spacing:0;color:var(--green)}.total .total-performance strong.down{color:var(--red)}
 .chart-head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 14px;padding:4px 2px}
 .chart-head>div:first-child{min-width:0;grid-column:1;grid-row:1}
 .chart-head>.sub{grid-column:2;grid-row:1;white-space:nowrap;text-align:right;align-self:center;font-size:clamp(18px,2.4vw,25px);font-weight:700}
@@ -111,7 +112,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
  <div class="table-wrap"><table><thead><tr><th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th></tr></thead><tbody id="holdings"></tbody></table></div>
- <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
+ <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><div class="total-performance"><span>Gewinn / Verlust:</span><strong id="totalPnl">— €</strong><strong id="totalPnlPct">— %</strong></div><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
 </section>
 <div id="chartPages"></div>
 </main>
@@ -376,7 +377,7 @@ document.getElementById('modeBestand').onclick=()=>changeMode('bestand');
 document.getElementById('modePlan').onclick=()=>changeMode('planen');
 document.getElementById('modeFavorites').onclick=()=>changeMode('favoriten');
 function updatePortfolio(){
- let total=0;
+ let total=0,totalInvested=0,totalPnl=0,trackedForPnl=0;
  assets.forEach(a=>{
   const row=document.querySelector(`#holdings tr[data-asset="${a.id}"]`);
   const sharesInput=row?.querySelector('input.shares');
@@ -391,6 +392,7 @@ function updatePortfolio(){
   const pnlEl=document.getElementById('ov-pnl-'+a.id),pctEl=document.getElementById('ov-pct-'+a.id);
   const pnl=price!=null&&entry>0&&qty>0?(price-entry)*qty:null;
   const pct=price!=null&&entry>0?(price/entry-1)*100:null;
+  if(pnl!=null){totalInvested+=entry*qty;totalPnl+=pnl;trackedForPnl++;}
   if(pnlEl){pnlEl.textContent=pnl==null?'—':(pnl>=0?'+':'')+eur(pnl);pnlEl.classList.toggle('up',pnl!=null&&pnl>=0);pnlEl.classList.toggle('down',pnl!=null&&pnl<0);}
   if(pctEl){pctEl.textContent=pct==null?'—':(pct>=0?'+':'')+pct.toFixed(2).replace('.',',')+' %';pctEl.classList.toggle('up',pct!=null&&pct>=0);pctEl.classList.toggle('down',pct!=null&&pct<0);}
  });
