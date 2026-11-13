@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T02:53:51.749684+00:00",
+  "fetchedAt": "2026-11-13T03:57:43.777104+00:00",
   "articles": [
     {
       "title": "Applied Materials mit starken Zahlen: KI-Boom treibt Chipausrüster an",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 12 Nov 2026 18:58:00 GMT",
       "description": "   BASF trennt sich von seinem Geschäft mit Bergbauchemikalien. Käufer ist der französische Spezialchemiekonzern SNF. Mit dem Verkauf setzt der DAX-Konzern seine strategische Portfoliooptimierung fort. Rund 140 Mitarbeiter wechseln im Zuge der Transaktion den Arbeitgeber.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Frische Zahlen von:Aviva, Land Securities, Bechtle, Generali und Richemont",
+      "url": "https://www.wallstreet-online.de/nachricht/21685704-wichtigsten-termine-frische-zahlen-von-aviva-land-securities-bechtle-generali-richemont",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Hausbesitzer in der Zinsfalle: Mehr Zwangsversteigerungen hierzulande – droht eine Immobilienkrise?",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "D-Wave hat einen spektakulären Rekord gemeldet. Doch die Aktie gibt nach den Quartalszahlen vorbörslich nach. Ein Blick auf die neuen Bestellungen und die Verluste zeigt, warum Anleger skeptisch sind."
-    },
-    {
-      "title": "Halbleitergeschäft wächst: Siemens-Übernahme: Dieser Deal soll alles beschleunigen",
-      "url": "https://www.wallstreet-online.de/nachricht/21669630-halbleitergeschaeft-waechst-siemens-uebernahme-deal-beschleunigen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Siemens will den Münchner Spezialisten Lauterbach übernehmen. Der Zukauf soll die Chipentwicklung beschleunigen und das Geschäft mit Halbleiter-Software stärken."
     }
   ],
   "feedErrors": [
