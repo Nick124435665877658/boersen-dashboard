@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T11:34:11.343732+00:00",
+  "fetchedAt": "2026-11-13T12:37:06.289400+00:00",
   "articles": [
+    {
+      "title": "CoreWeave: Drei Szenarien nach Huang",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/coreweave-drei-szenarien-nach-huang-20442239.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 11:30:00 GMT",
+      "description": "    Jensen Huangs Rücktritt stellt CoreWeaves enge Verbindung zu Nvidia auf die Probe. Bestehende Verträge bieten Rückhalt, doch höhere Kreditkosten und veränderte Konditionen bei Chiplieferungen könnten das Wachstum belasten. Worauf Anleger jetzt achten sollten.  "
+    },
     {
       "title": "Infineon-Aktie: Ruhe bewahren",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/infineon-aktie-ruhe-bewahren-20442154.html?feed=directrssfeed",
@@ -65,18 +72,32 @@
       "description": "   Mit den starken Zahlen zum abgelaufenen Geschäftsjahr im Rücken blickt die Aktie von Siemens Energy auf eine starke Handelswoche zurück. Rund 20 Prozent hat sich der DAX-Titel vom Tief vergangene Woche bereits erholt. Die neuen Ziele machen dabei Hoffnung, dass die Erholungsrally noch weitergeht.  "
     },
     {
-      "title": "GEA: Chef geht vorzeitig – Aktie rutscht vom Rekordhoch",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/gea-chef-geht-vorzeitig-aktie-rutscht-vom-rekordhoch-20442081.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 08:30:00 GMT",
-      "description": "    GEA verliert seinen Erfolgschef: Stefan Klebert hört im April 2027 auf, gut anderthalb Jahre vor Vertragsende. Er hat den Anlagenbauer auf Rendite getrimmt und in den DAX geführt; sein Nachfolger kommt aus dem eigenen Haus. Die Aktie fiel am Donnerstag vom Rekordhoch ans DAX-Ende.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Mega-Deal: Über 20 % Kurssprung! Samsung plant offenbar einen Milliarden-Coup",
+      "url": "https://www.wallstreet-online.de/nachricht/21688770-mega-deal-ueber-20-kurssprung-samsung-plant-offenbar-milliarden-coup",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Samsung verhandelt offenbar über einen Milliardenkauf in den USA. Die Börse reagiert prompt – und schickt die Aktie des möglichen Übernahmekandidaten nach oben."
+    },
+    {
+      "title": "Nach dem Earnings-Crash: Nebius – so schlimm steht es jetzt um die Aktie!",
+      "url": "https://www.wallstreet-online.de/nachricht/21688128-earnings-crash-nebius-schlimm-aktie",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Einem kurzen Freudensprung folgte am Donnerstag der tiefe Absturz: Um 17 Prozent stürzte Nebius nach den Quartalszahlen in die Tiefe. Wie steht es jetzt um die Aktie?"
+    },
+    {
+      "title": "Interim-CEO: Neue Nvidia-Chefin: Wer ist Colette Kress?",
+      "url": "https://www.wallstreet-online.de/nachricht/21688695-interim-ceo-nvidia-chefin-colette-kress",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Colette Kress übernimmt bis auf Weiteres den Chefposten des weltgrößten Chipdesigners Nvidia. Aber: Wie viel wusste sie von Huangs Fehltritten bereits vor ihrer Veröffentlichung?"
     },
     {
       "title": "Bitcoin: DAS ZEIGT EUCH KEINER!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Goldinvestoren greifen zu, Kupferprognosen steigen. Blue Moon treibt Springer voran, Axo verbindet Bohrerfolge mit einer Kapitalaufnahme, Hannan hat die nächsten Bohrarbeiten abgeschlossen."
-    },
-    {
-      "title": "Ihre wichtigsten Termine: Alle Analysten-Augen auf: Siemens Energy, Brenntag, Easyjet, Rumble, CGI und ICL",
-      "url": "https://www.wallstreet-online.de/nachricht/21672435-wichtigsten-termine-analysten-augen-auf-siemens-energy-brenntag-easyjet-rumble-cgi-icl",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
-    },
-    {
-      "title": "KI-Turbulenzen: Diese 3 Dividenden-ETFs schlagen den MSCI World während der Tech-Krise",
-      "url": "https://www.wallstreet-online.de/nachricht/21664905-ki-turbulenzen-3-dividenden-etfs-schlagen-msci-world-tech-krise",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während MSCI-World-ETFs in der vergangenen Woche nachgaben, blieben drei Dividenden-ETFs im Plus. Einer schaffte über ein Jahr sogar 27 Prozent. Welche Strategie dahintersteckt – und wo die ETFs ihre Schwerpunkte setzen."
-    },
-    {
-      "title": "Notenbankchef vor Gericht?: Wie lange hält Polens Börse den Polit-Krimi noch aus?",
-      "url": "https://www.wallstreet-online.de/nachricht/21670797-notenbankchef-gericht-lange-haelt-polens-boerse-polit-krimi-aus",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Regierung und Präsident blockieren sich, der Notenbankchef soll vor ein Sondergericht, und eine große Ratingagentur hat bereits reagiert. Doch Polens Börse liegt dick im Plus. Wie lange kann das noch gutgehen?"
     }
   ],
   "feedErrors": [
