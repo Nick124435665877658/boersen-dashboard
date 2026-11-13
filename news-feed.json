@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T14:56:17.709310+00:00",
+  "fetchedAt": "2026-11-13T15:54:07.550464+00:00",
   "articles": [
+    {
+      "title": "Erst der Trend, dann die Rendite",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/erst-der-trend-dann-die-rendite-20442195.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "description": "   Während die meisten Anleger noch rätseln, sind die nächsten Profiteure womöglich längst auf dem Sprung. Wie sich solche Chancen mit der Elliott-Wellen-Analyse aufspüren lassen, zeigt ein aktueller Volltreffer des TrendRadar-Teams.  "
+    },
     {
       "title": "Opening Bell: Nvidia-Erholung, Inflationsdaten beflügeln Wall Street; Bitcoin, Nvidia, Microsoft, Applied Materials, Amazon im Fokus",
       "url": "https://www.deraktionaer.de/artikel/aktien/opening-bell-nvidia-erholung-inflationsdaten-befluegeln-wall-street-bitcoin-nvidia-microsoft-applied-materials-amazon-im-fokus--20442382.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Bei Infineon zündet die KI-Power die nächste Wachstumsstufe. Gleichzeitig gewinnt die zyklische Erholung an Fahrt. Vorstandschef Jochen Hanebeck erwartet ein deutlich anziehendes Wachstum im neuen Fiskaljahr 2026/27. Die DAX-Aktie kann sich trotzdem noch nicht nachhaltig von der 50-Euro-Marke lösen.  "
     },
     {
-      "title": "Allianz und Munich Re: Dividendenperlen auf Rekordjagd",
-      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-und-munich-re-aktien-weiter-auf-rekordjagd-20442227.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 11:05:00 GMT",
-      "description": "    Die laufende Börsenwoche steht im Zeichen der Rekorde: Am Donnerstag stieg der DAX erstmals über 27.000 Punkte und lag innerhalb einer Woche mehr als 1.300 Punkte im Plus. Dazu trugen wieder einmal auch die Aktien von Allianz und Munich Re maßgeblich bei.  "
+      "title": "Gewinnwarnung verdaut?: init: Hier könnte die nächste Turnaround-Chance lauern",
+      "url": "https://www.wallstreet-online.de/nachricht/21689757-gewinnwarnung-verdaut-init-turnaround-chance-lauern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Gewinnwarnung hat die init-Aktie hart getroffen. Berenberg hält dennoch an der Kaufempfehlung und 65 Euro Kursziel fest und setzt auf London, Sydney und volle Auftragsbücher."
+    },
+    {
+      "title": "Tiefster Stand seit 2025: Fregatten-Frage bringt Rheinmetall-Aktie in Seenot",
+      "url": "https://www.wallstreet-online.de/nachricht/21689673-tiefster-stand-2025-fregatten-frage-bringt-rheinmetall-aktie-seenot",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Rheinmetall fällt auf den tiefsten Stand seit Februar 2025. Zwei gesenkte Prognosen binnen drei Monaten und Fragezeichen beim Fregattenprojekt F127 setzen die Aktie des Rüstungskonzerns unter Druck."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -212,8 +226,8 @@
       "description": "Generali steigert den Gewinn trotz Milliardenschäden um zwölf Prozent. Die Vermögensverwaltung boomt, doch das Wachstum verliert im dritten Quartal an Tempo."
     },
     {
-      "title": "Kursexplosion um +18 %: Darum stiehlt diese Chip-Aktie jetzt AMD, Nvidia & Co. die Show!",
-      "url": "https://www.wallstreet-online.de/nachricht/21687297-kursexplosion-18-stiehlt-chip-aktie-amd-nvidia-co-show",
+      "title": "Kursexplosion um +18 %: Darum stiehlt Cerebras jetzt AMD, Nvidia & Co. die Show!",
+      "url": "https://www.wallstreet-online.de/nachricht/21687297-kursexplosion-18-stiehlt-cerebras-amd-nvidia-co-show",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Hersteller von besonders leistungsstarken KI-Halbleitern Cerebras hat starke Zahlen vorgelegt. Die Aktie steht am Freitag vor einer Kursexplosion!"
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der DAX dürfte am Mittwoch deutlich höher starten. Gute Nachrichten von CoreWeave und starke Chipmärkte in Asien geben Rückenwind. Gleichzeitig sorgen Siemens Energy, RWE und Brenntag für wichtige Impulse."
-    },
-    {
-      "title": "KI statt Office?: Anthropic stellt Microsoft Office mit neuen KI-Tools infrage",
-      "url": "https://www.wallstreet-online.de/nachricht/21674550-ki-office-anthropic-stellt-microsoft-office-ki-tools-infrage",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Microsoft bekommt durch neue KI-Tools von Anthropic Konkurrenz. Ist das Office-Geschäft jetzt in Gefahr?"
-    },
-    {
-      "title": "Dänischer Windkraft-Riese: Vestas unter Erwartungen: Doch diese Kennzahl liefert Hoffnung!",
-      "url": "https://www.wallstreet-online.de/nachricht/21674112-daenischer-windkraft-riese-vestas-erwartungen-kennzahl-liefert-hoffnung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Vestas verfehlt die Erwartungen bei Umsatz und operativem Gewinn. Der Cashflow bricht ein, neue Turbinenaufträge schrumpfen um 27 Prozent. Höhere Margen liefern Hoffnung – doch wie stabil ist die Erholung des Windriesen?"
     }
   ],
   "feedErrors": [
