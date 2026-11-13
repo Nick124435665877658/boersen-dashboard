@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T15:54:07.550464+00:00",
+  "fetchedAt": "2026-11-13T16:58:36.634288+00:00",
   "articles": [
+    {
+      "title": "„Stück Sch…“ – Nvidia fährt nach Rücktritt Achterbahn",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/stueck-sch-nvidia-faehrt-nach-ruecktritt-achterbahn-20442522.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 16:55:00 GMT",
+      "description": "   Nach vorbörslichen Gewinnen ist die Nvidia-Aktie am Freitag abgetaucht. Vier Prozent Minus stehen zu Buche, womit der Kurs unter die Marke von 160 Dollar rutscht. Jensen Huang war eben zu bedeutend, als dass der Markt den Schock einfach so abhakt. Der zurückgetretene Chef und Gründer übt derweil heftige Selbstkritik.  "
+    },
     {
       "title": "Erst der Trend, dann die Rendite",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/erst-der-trend-dann-die-rendite-20442195.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "    Jensen Huangs Rücktritt stellt CoreWeaves enge Verbindung zu Nvidia auf die Probe. Bestehende Verträge bieten Rückhalt, doch höhere Kreditkosten und veränderte Konditionen bei Chiplieferungen könnten das Wachstum belasten. Worauf Anleger jetzt achten sollten.  "
     },
     {
-      "title": "Infineon-Aktie: Ruhe bewahren",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/infineon-aktie-ruhe-bewahren-20442154.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 11:12:00 GMT",
-      "description": "   Bei Infineon zündet die KI-Power die nächste Wachstumsstufe. Gleichzeitig gewinnt die zyklische Erholung an Fahrt. Vorstandschef Jochen Hanebeck erwartet ein deutlich anziehendes Wachstum im neuen Fiskaljahr 2026/27. Die DAX-Aktie kann sich trotzdem noch nicht nachhaltig von der 50-Euro-Marke lösen.  "
+      "title": "50 Basispunkte auf einmal?: Fed-Zins-Albtraum im Dezember: Für Aktien könnte es richtig hässlich werden!",
+      "url": "https://www.wallstreet-online.de/nachricht/21688644-50-basispunkte-einmal-fed-zins-albtraum-dezember-aktien-richtig-haesslich-werden",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Am Anleihemarkt steigen die Renditen rasant, doch die Börsen wirken erstaunlich gelassen. Goldman Sachs rechnet mit einem härteren Szenario. Schon im Dezember könnte diese Ruhe teuer werden."
+    },
+    {
+      "title": "Iran schießt auf Schiffe: USA kontrolliert: Kein Tropfen Öl geht mehr durch Hormus",
+      "url": "https://www.wallstreet-online.de/nachricht/21689976-iran-schiesst-schiffe-usa-kontrolliert-tropfen-oel-hormus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die USA blockieren erfolgreich die Straße von Hormus. Dem Iran gelingt es nicht mehr, auch nur einen Tropfen Rohöl zu transportieren."
     },
     {
       "title": "Gewinnwarnung verdaut?: init: Hier könnte die nächste Turnaround-Chance lauern",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "RWE verdient spürbar mehr als vor einem Jahr und schlägt die Erwartungen. Ein Geschäft treibt das Ergebnis kräftig an. Für das Gesamtjahr rückt das obere Prognoseende in den Fokus. Auch das Dividendenziel für 2026 steht."
-    },
-    {
-      "title": "Zahlen überraschen Analysten: Eon überrascht die Börse: Trotz Gewinnrückgang gibt es einen Lichtblick",
-      "url": "https://www.wallstreet-online.de/nachricht/21674643-zahlen-ueberraschen-analysten-eon-ueberrascht-boerse-trotz-gewinnrueckgang-lichtblick",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eon meldet im dritten Quartal sinkende Gewinne, übertrifft aber die Erwartungen. Die Jahresprognose steht, doch Milliardeninvestitionen bergen Risiken."
-    },
-    {
-      "title": "Siemens Energy hebt ab: Rekord zum Greifen nah: Diese Zahlen treiben den DAX an",
-      "url": "https://www.wallstreet-online.de/nachricht/21674658-siemens-energy-hebt-ab-rekord-greifen-nah-zahlen-treiben-dax",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der DAX dürfte am Mittwoch deutlich höher starten. Gute Nachrichten von CoreWeave und starke Chipmärkte in Asien geben Rückenwind. Gleichzeitig sorgen Siemens Energy, RWE und Brenntag für wichtige Impulse."
     }
   ],
   "feedErrors": [
