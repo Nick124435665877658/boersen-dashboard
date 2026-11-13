@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-13T13:52:11.685580+00:00",
+  "fetchedAt": "2026-11-13T14:56:17.709310+00:00",
   "articles": [
+    {
+      "title": "Opening Bell: Nvidia-Erholung, Inflationsdaten beflügeln Wall Street; Bitcoin, Nvidia, Microsoft, Applied Materials, Amazon im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/aktien/opening-bell-nvidia-erholung-inflationsdaten-befluegeln-wall-street-bitcoin-nvidia-microsoft-applied-materials-amazon-im-fokus--20442382.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 14:03:16 GMT",
+      "description": "   Der US-Technologiesektor hat den Rücktritt des KI-Visionärs Jensen Huang beim Chipriesen Nvidia vorerst gut verkraftet. Am Vortag hatte der Nasdaq 100 seine anfänglichen Verluste fast noch aufgeholt und nun zeichnen sich am Freitag Gewinne ab. Gut  eine Stunde vor dem Handelsstart taxierte der Broker IG den technologielastigen Leitindex mit 0,7 "
+    },
+    {
+      "title": "Mercedes-Benz-Experte: \"Was muss noch passieren, dass man die Lage ernst nimmt?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/mercedes-benz-20442021.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 13:55:00 GMT",
+      "description": "   Mercedes-Benz erhöht in der Diskussion um die Arbeitskosten den Druck auf den Betriebsrat sowie die IG Metall und droht mit Werksschließungen. Personalvorständin Britta Seeger erklärte in einem im Intranet veröffentlichten Interview, man wolle gemeinsam ein Paket schnüren, das spürbar wirke und gleichzeitig sozial tragfähig sei.  "
+    },
     {
       "title": "Nach Kursverdopplung: Geht die Rally bei dieser Aktie jetzt weiter?",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nach-kursverdopplung-geht-die-rally-bei-dieser-aktie-jetzt-weiter-20442309.html?feed=directrssfeed",
@@ -58,25 +72,32 @@
       "description": "    Die laufende Börsenwoche steht im Zeichen der Rekorde: Am Donnerstag stieg der DAX erstmals über 27.000 Punkte und lag innerhalb einer Woche mehr als 1.300 Punkte im Plus. Dazu trugen wieder einmal auch die Aktien von Allianz und Munich Re maßgeblich bei.  "
     },
     {
-      "title": "AKTIONÄR-Tipp mit Zahlen: Klimawandel sorgt für Auftragsboom",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/aktionaer-tipp-mit-zahlen-klimawandel-sorgt-fuer-auftragsboom-20442197.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 10:30:00 GMT",
-      "description": "   Der österreichische Feuerwehrausrüster Rosenbauer ist in die schwarzen Zahlen zurückgekehrt. Ein riesiger Auftragsbestand stützt das Geschäft, der Klimawandel tut sein Übriges. Die Aktie kommt dennoch unter Druck.   "
-    },
-    {
-      "title": "DHL: Die Paketpreise steigen erneut – die Aktie auch?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/dhl-die-paketpreise-steigen-erneut-die-aktie-auch-20442179.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 10:02:00 GMT",
-      "description": "    Es ist wieder einmal so weit: Die DHL plant, ihre Preise für den Paketversand ab Jahresbeginn in mehreren Bereichen anzuheben. Für ein kleines Päckchen der Größe S, das in einer Filiale abgegeben wird, werden dann 5,19 Euro fällig. Das entspricht einem Aufschlag von einem Euro.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Rohöl & Diesel: Rekord-Exporte: Russland lässt den Diesel laufen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21689592-rohoel-diesel-rekord-exporte-russland-laesst-diesel-laufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Laut der Internationalen Energieagentur (IEA) erreichten Russlands Exporteinnahmen aus Rohöl und Erdölprodukten im Oktober den höchsten Stand seit Mai."
+    },
+    {
+      "title": "Neue Hoffnung: Nach dem Abnehm-Boom: Eli Lilly zündet die nächste Milliardenstufe",
+      "url": "https://www.wallstreet-online.de/nachricht/21689433-hoffnung-abnehm-boom-eli-lilly-zuendet-milliardenstufe",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eli Lilly steckt 3,5 Milliarden US-Dollar in einen neuen Produktionsstandort. Dabei geht es um einen Wirkstoff, der das nächste große Geschäft werden könnte."
+    },
+    {
+      "title": "Energieriese winkt Deal: Google braucht gigantische Strommengen: ENGIE vor Milliarden-Chance?",
+      "url": "https://www.wallstreet-online.de/nachricht/21689400-energieriese-winkt-deal-google-gigantische-strommengen-engie-milliarden-chance",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Google plant ein riesiges Rechenzentrum in Frankreich. ENGIE könnte den Strom liefern und vom KI-Boom profitieren. Doch der Milliarden-Deal ist noch nicht sicher."
     },
     {
       "title": "Analysten sehen Comeback: CTS Eventim: Darum dreht die Aktie zum Wochenende trotzdem auf!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Vestas verfehlt die Erwartungen bei Umsatz und operativem Gewinn. Der Cashflow bricht ein, neue Turbinenaufträge schrumpfen um 27 Prozent. Höhere Margen liefern Hoffnung – doch wie stabil ist die Erholung des Windriesen?"
-    },
-    {
-      "title": "Strom ohne Ende?: Siemens Energy zeigt, wie man am Strombedarf der KI Milliarden verdient",
-      "url": "https://www.wallstreet-online.de/nachricht/21673905-strom-ende-siemens-energy-zeigt-strombedarf-ki-milliarden-verdient",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Siemens Energy meldet einen Rekordgewinn und setzt sich ehrgeizige Ziele bis 2030. Der enorme Strombedarf durch den KI-Boom treibt das Wachstum weiter an."
-    },
-    {
-      "title": "Milliardenlast beim KI-Ausbau: CoreWeave schlägt Erwartungen: Diese Risiken sollten Anleger im Blick haben",
-      "url": "https://www.wallstreet-online.de/nachricht/21673404-milliardenlast-ki-ausbau-coreweave-schlaegt-erwartungen-risiken-anleger-blick",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gewinnt der KI-Boom wieder an Fahrt? CoreWeave übertrifft die Erwartungen, hebt die Prognose an und die Aktie zieht nachbörslich an. Doch mit dem Wahlsieg der Demokraten sind für KI-Aktien neue Risiken entstanden."
-    },
-    {
-      "title": "Teure Lektionen: 54 % SpaceX-Crash: Droht Anthropic-Anlegern jetzt die nächste IPO-Falle?",
-      "url": "https://www.wallstreet-online.de/nachricht/21670821-teure-lektionen-54-spacex-crash-droht-anthropic-anlegern-ipo-falle",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Erst der Mega-Hype, dann der Absturz: SpaceX verlor mehr als die Hälfte seines Börsenwerts vom Hoch. Jetzt steht Anthropic vor dem nächsten Billionen-IPO. Was Anleger aus den bisherigen Börsengängen 2026 lernen können."
     }
   ],
   "feedErrors": [
