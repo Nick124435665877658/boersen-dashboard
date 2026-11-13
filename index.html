@@ -24,7 +24,8 @@ h1{font-size:clamp(22px,3vw,34px);margin:0 0 4px}.muted{color:var(--muted)}
 table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:11px 13px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}th{font-size:12px;color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel)}
 .asset-name{font-weight:700}.ticker{font-size:11px;color:var(--muted)}.shares{width:95px;max-width:100%;padding:8px;border-radius:9px;border:1px solid var(--line);background:#0b1423;color:white;text-align:right}
 .total{margin-top:12px;background:linear-gradient(135deg,#142b3a,#14233a);border:1px solid #2b5261;border-radius:18px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-.total strong{display:block;font-size:clamp(30px,5vw,48px);letter-spacing:-1px;color:var(--green);font-variant-numeric:tabular-nums}.total small{color:var(--muted)}
+.total-values{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;flex:1;min-width:0}.total-value-block{min-width:0}.total-value-block>small{display:block;color:var(--muted)}
+.total strong{display:block;font-size:clamp(25px,4.2vw,42px);letter-spacing:-1px;color:var(--green);font-variant-numeric:tabular-nums;white-space:nowrap}.total small{color:var(--muted)}
 .total .total-performance{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:4px 0 2px;font-size:13px;color:var(--muted)}.total .total-performance strong{display:inline;font-size:clamp(16px,2.2vw,21px);letter-spacing:0;color:var(--green)}.total .total-performance strong.down{color:var(--red)}
 .chart-head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 14px;padding:4px 2px}
 .chart-head>div:first-child{min-width:0;grid-column:1;grid-row:1}
@@ -101,7 +102,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 .news-sources h3{font-size:13px;margin:0 0 7px}
 .news-source{display:block;color:#9fc4f5;font-size:11px;line-height:1.4;padding:4px 0;overflow-wrap:anywhere}
 .news-source span{color:var(--muted)}
-@media(max-width:700px){.news-grid{grid-template-columns:1fr}.news-panel{padding:11px}.news-section{padding:10px}}
+@media(max-width:700px){.news-grid{grid-template-columns:1fr}.news-panel{padding:11px}.news-section{padding:10px}.total{padding:13px;gap:8px}.total-values{gap:10px}.total-value-block>small{font-size:9px;line-height:1.3}.total strong{font-size:clamp(18px,4.5vw,28px)}.total .note{display:none}}
 
 </style>
 </head>
@@ -112,7 +113,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
  <div class="table-wrap"><table><thead><tr><th>Wert</th><th>Kurs in €</th><th>Meine Anteile</th><th>Positionswert</th></tr></thead><tbody id="holdings"></tbody></table></div>
- <div class="total"><div><small>GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><div class="total-performance"><span>Gewinn / Verlust:</span><strong id="totalPnl">— €</strong><strong id="totalPnlPct">— %</strong></div><small id="totalTime">Wird aus Kurs × Anteilen berechnet</small></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
+ <div class="total"><div class="total-values"><div class="total-value-block"><small>AKTUELLER GESAMTWERT DEINES DEPOTS</small><strong id="totalValue">— €</strong><div class="total-performance"><span>Gewinn / Verlust:</span><strong id="totalPnl">— €</strong><strong id="totalPnlPct">— %</strong></div></div><div class="total-value-block"><small>GESAMTWERT DEINER INVESTITION</small><strong id="totalInvestedValue">— €</strong><small>Summe deiner Anteile × Einstiegskurs</small></div></div><div class="note">Alle Werte in EUR<br>Wechselkurse werden berücksichtigt</div></div>
 </section>
 <div id="chartPages"></div>
 </main>
@@ -392,11 +393,14 @@ function updatePortfolio(){
   const pnlEl=document.getElementById('ov-pnl-'+a.id),pctEl=document.getElementById('ov-pct-'+a.id);
   const pnl=price!=null&&entry>0&&qty>0?(price-entry)*qty:null;
   const pct=price!=null&&entry>0?(price/entry-1)*100:null;
-  if(pnl!=null){totalInvested+=entry*qty;totalPnl+=pnl;trackedForPnl++;}
+  if(entry>0&&qty>0)totalInvested+=entry*qty;
+  if(pnl!=null){totalPnl+=pnl;trackedForPnl++;}
   if(pnlEl){pnlEl.textContent=pnl==null?'—':(pnl>=0?'+':'')+eur(pnl);pnlEl.classList.toggle('up',pnl!=null&&pnl>=0);pnlEl.classList.toggle('down',pnl!=null&&pnl<0);}
   if(pctEl){pctEl.textContent=pct==null?'—':(pct>=0?'+':'')+pct.toFixed(2).replace('.',',')+' %';pctEl.classList.toggle('up',pct!=null&&pct>=0);pctEl.classList.toggle('down',pct!=null&&pct<0);}
  });
  document.getElementById('totalValue').textContent=eur(total);
+ const investedEl=document.getElementById('totalInvestedValue');
+ if(investedEl)investedEl.textContent=eur(totalInvested);
  const pnlEl=document.getElementById('totalPnl'),pctEl=document.getElementById('totalPnlPct');
  const hasPnl=trackedForPnl>0&&totalInvested>0;
  const totalPct=hasPnl?(totalPnl/totalInvested)*100:null;
