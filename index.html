@@ -136,7 +136,7 @@ const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maxi
 const fmtDate=t=>new Date(t*1000).toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'});
 function yahooUrl(symbol,period,interval){
  const now=Math.floor(Date.now()/1000), secs=period==='5y'?5*366*86400:period==='1y'?366*86400:period==='1mo'?32*86400:period==='5d'?7*86400:86400*2;
- return `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?period1=${now-secs}&period2=${now}&interval=${interval}&events=history`;
+ return `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?period1=${now-secs}&period2=${now}&interval=${interval}&events=history${period==='1d'&&interval==='1m'?'&includePrePost=true':''}`;
 }
 async function fetchYahoo(symbol,period,interval){
  const target=yahooUrl(symbol,period,interval);
