@@ -524,7 +524,8 @@ async function refreshAll(manual=false){
   if(totalTimeEl)totalTimeEl.textContent='Letzter Datenabruf: '+stamp;
  }catch(e){
   const detail=(e&&e.message)?String(e.message):String(e||'Unbekannter Fehler');
-  status.textContent='Kurse teilweise geladen · Anzeige/Update: '+detail.slice(0,90);
+  const stackLine=(e&&e.stack)?String(e.stack).split('\\n').find(line=>line.includes('index.html'))||'':'';
+  status.textContent='Kurse teilweise geladen · '+detail.slice(0,65)+(stackLine?' · '+stackLine.trim().slice(-65):'');
   console.warn('Fehler in refreshAll:',e);
  }finally{
   refreshInFlight=false;
