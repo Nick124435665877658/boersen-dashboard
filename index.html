@@ -487,14 +487,13 @@ document.getElementById('pages').addEventListener('touchend',e=>{if(touchX===nul
                                                                  },{passive:true});
 let quoteCursor=0;
 const QUOTE_BATCH_SIZE=12;
-// Diese beiden US-Werte werden auch im Favoritenmodus bei jedem 30-Sekunden-Zyklus abgefragt.
-const PRIORITY_QUOTE_IDS=['QBTS','RGTI'];
+// Alle gekauften Positionen werden bei jedem 30-Sekunden-Zyklus aktualisiert.
 function nextQuoteBatch(){
- const priority=assets.filter(a=>PRIORITY_QUOTE_IDS.includes(a.id));
- const pool=assets.filter(a=>!PRIORITY_QUOTE_IDS.includes(a.id));
- const n=Math.min(QUOTE_BATCH_SIZE,pool.length),batch=[...priority];
+ const owned=assets.filter(a=>getShares(a)>0);
+ const pool=assets.filter(a=>getShares(a)<=0);
+ const n=Math.min(QUOTE_BATCH_SIZE,pool.length),batch=[...owned];
  for(let i=0;i<n;i++)batch.push(pool[(quoteCursor+i)%pool.length]);
- quoteCursor=(quoteCursor+n)%pool.length;
+ if(pool.length)quoteCursor=(quoteCursor+n)%pool.length;
  return batch;
 }
 async function refreshAll(manual=false){
@@ -505,7 +504,9 @@ async function refreshAll(manual=false){
  try{
   const targets=trackedAssets();
   const historyFailed=dashboardMode==='favoriten'?0:await loadHistory(targets);
-  const quoteTargets=dashboardMode==='favoriten'?nextQuoteBatch():targets;
+  // Im Invest-planen-Modus werden zusätzlich sämtliche gekauften Positionen aktuell gehalten.
+  const quoteTargets=dashboardMode==='favoriten'?nextQuoteBatch():
+   [...new Map([...targets,...assets.filter(a=>getShares(a)>0)].map(a=>[a.id,a])).values()];
   const currentFailed=await loadCurrentPrices(quoteTargets);
   checkFourHourAlerts();
   updatePortfolio();
