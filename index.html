@@ -178,7 +178,7 @@ async function loadCurrentPrices(targets=trackedAssets()){
  const fxResults=await Promise.allSettled(fxSymbols.map(sym=>fetchYahoo(sym,'1d','1m')));
  const fxNow={};fxResults.forEach((r,i)=>{if(r.status==='fulfilled')fxNow[fxSymbols[i]]=r.value;});
  const results=await Promise.allSettled(targets.map(async a=>{
-  const prices=await fetchYahoo(a.symbol,'1d','1m');
+  const prices=await fetchYahoo(a.symbol,'5d','1m');
   const fx=a.currency==='EUR'?[]:fxNow[a.fx];
   if(a.currency!=='EUR'&&!fx?.length)throw new Error('Aktueller Wechselkurs fehlt: '+a.fx);
   const converted=convertSeries(prices,fx,a.currency);
