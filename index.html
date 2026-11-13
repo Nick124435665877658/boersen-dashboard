@@ -523,6 +523,6 @@ buildOverview();
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
 refreshTimer=setInterval(()=>refreshAll(),30000);
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));
 </script>
 </body></html>
