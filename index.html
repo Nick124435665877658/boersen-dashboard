@@ -240,9 +240,9 @@ function renderChartPages(){
    <div class="periods" data-periods><button data-range="1D" class="active">Tag</button><button data-range="1W">Woche</button><button data-range="1M">Monat</button><button data-range="1Y">Jahr</button><button data-range="5Y">5 Jahre</button></div>
    <div id="chart-${a.id}" class="chart"></div><div class="selected" id="selection-${a.id}"></div>
    <section class="news-panel" id="news-${a.id}">
-    <div class="news-top"><h2>📰 Aktuelle Nachrichten</h2><button class="news-refresh" data-news-refresh="${a.id}">↻ Nachrichten aktualisieren</button></div>
+    <div class="news-top"><h2>📰 Aktuelle Nachrichten</h2><button class="news-refresh" data-news-refresh="${a.id}">📰 Nachrichten laden</button></div>
     <div class="news-meta" id="news-meta-${a.id}">Aktuelle Schlagzeilen aus ausgewählten Börsenredaktionen</div>
-    <div class="news-content" id="news-content-${a.id}"><div class="news-status">News-Analyse wird beim Öffnen dieser Chartseite geladen.</div></div>
+    <div class="news-content" id="news-content-${a.id}"><div class="news-status">Nachrichten werden nicht automatisch geladen. Tippe auf „Nachrichten laden“, wenn du aktuelle Schlagzeilen sehen möchtest.</div></div>
    </section>`;
   holder.appendChild(section);
  });
@@ -439,7 +439,6 @@ function showPage(index){
  document.getElementById('pageLabel').textContent=a.name+' · '+(currentPage+1)+' / '+count;
  if(!charts[a.id])makeChart(a);
  if(dailyCache[a.id]?.length||intradayCache[a.id]?.length)setChartData(a,activeRange);
- loadAssetNews(a.id);
 }
 function setRange(range,button){
  activeRange=range;
