@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T16:58:36.634288+00:00",
+  "fetchedAt": "2026-11-13T17:55:29.106018+00:00",
   "articles": [
+    {
+      "title": "DAX-Schluss: Verschnaufpause zum Wochenende – Infineon im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/aktien/dax-schluss-verschnaufpause-zum-wochenende-infineon-im-fokus-20442543.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 17:32:00 GMT",
+      "description": "   Der DAX hat nach seinem Rekordhoch am Donnerstag eine Verschnaufpause eingelegt. Trotz überraschend moderater US-Erzeugerpreise und deutlicher Verluste an der Nasdaq hielt sich der deutsche Leitindex zum Wochenschluss vergleichsweise stabil. Auf Wochensicht steht ein kräftiges Plus zu Buche.  "
+    },
     {
       "title": "„Stück Sch…“ – Nvidia fährt nach Rücktritt Achterbahn",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/stueck-sch-nvidia-faehrt-nach-ruecktritt-achterbahn-20442522.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Ferrari geht mit Rückenwind in die nächsten Jahre. Im dritten Quartal 2026 stieg der Umsatz je Auto um 8,3 Prozent auf 471.000 Euro. Das bereinigte EBIT übertraf die Erwartungen um drei Prozent, obwohl die Auslieferungen leicht zurückgingen. F80, 296 Speciale und Individualisierung sorgten für den besseren Modellmix.  "
     },
     {
-      "title": "CoreWeave: Drei Szenarien nach Huang",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/coreweave-drei-szenarien-nach-huang-20442239.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 11:30:00 GMT",
-      "description": "    Jensen Huangs Rücktritt stellt CoreWeaves enge Verbindung zu Nvidia auf die Probe. Bestehende Verträge bieten Rückhalt, doch höhere Kreditkosten und veränderte Konditionen bei Chiplieferungen könnten das Wachstum belasten. Worauf Anleger jetzt achten sollten.  "
+      "title": "Mehr Reichweite als USA: Kanadas Gasvorkommen sind riesig, aber ungenutzt – das soll sich jetzt ändern",
+      "url": "https://www.wallstreet-online.de/nachricht/21689367-reichweite-usa-kanadas-gasvorkommen-riesig-ungenutzt-aendern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Kanada könnte zu den größten Gewinnern am globalen Gasmarkt werden. Das Land verfügt über Reserven, die länger halten als die der USA oder Australiens. Jetzt will es sie auch nutzen."
     },
     {
       "title": "50 Basispunkte auf einmal?: Fed-Zins-Albtraum im Dezember: Für Aktien könnte es richtig hässlich werden!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "TSMC steigt bei OpenAI und Anthropic ein. Der Chip-Gigant will damit stärker vom KI-Boom profitieren und sein Geschäft breiter aufstellen.ausbauen."
-    },
-    {
-      "title": "Versorger: RWE: Das sieht richtig gut aus – Dividende bestätigt",
-      "url": "https://www.wallstreet-online.de/nachricht/21674568-versorger-rwe-richtig-gut-dividende-bestaetigt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "RWE verdient spürbar mehr als vor einem Jahr und schlägt die Erwartungen. Ein Geschäft treibt das Ergebnis kräftig an. Für das Gesamtjahr rückt das obere Prognoseende in den Fokus. Auch das Dividendenziel für 2026 steht."
     }
   ],
   "feedErrors": [
