@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-11-13T09:36:23.628771+00:00",
+  "fetchedAt": "2026-11-13T10:38:23.081647+00:00",
   "articles": [
     {
-      "title": "Nvida-Gründer Huang: Erst eine Affäre, dann zwei – und jetzt drei?",
+      "title": "AKTIONÄR-Tipp mit Zahlen: Klimawandel sorgt für Auftragsboom",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/aktionaer-tipp-mit-zahlen-klimawandel-sorgt-fuer-auftragsboom-20442197.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 10:30:00 GMT",
+      "description": "   Der österreichische Feuerwehrausrüster Rosenbauer ist in die schwarzen Zahlen zurückgekehrt. Ein riesiger Auftragsbestand stützt das Geschäft, der Klimawandel tut sein Übriges. Die Aktie kommt dennoch unter Druck.   "
+    },
+    {
+      "title": "DHL: Die Paketpreise steigen erneut – die Aktie auch?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/dhl-die-paketpreise-steigen-erneut-die-aktie-auch-20442179.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 10:02:00 GMT",
+      "description": "    Es ist wieder einmal so weit: Die DHL plant, ihre Preise für den Paketversand ab Jahresbeginn in mehreren Bereichen anzuheben. Für ein kleines Päckchen der Größe S, das in einer Filiale abgegeben wird, werden dann 5,19 Euro fällig. Das entspricht einem Aufschlag von einem Euro.  "
+    },
+    {
+      "title": "Nvidia-Gründer Huang: Erst eine Affäre, dann zwei – und jetzt drei?",
       "url": "https://www.deraktionaer.de/artikel/kolumnen/nvida-gruender-huang-erst-eine-affaere-dann-zwei-und-jetzt-drei-20442125.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 13 Nov 2026 09:25:00 GMT",
-      "description": "   Kommentar: Erst räumt Jensen Huang eine außereheliche Beziehung ein, dann wird eine weitere öffentlich und nun soll es bereits drei gewesen sein. Rund um den ehemaligen Nvidia-Chef entwickelt sich ein Skandal, die immer größere Kreise zieht. Zwei der Frauen sollen sogar bei Nvidia gearbeitet haben.  "
+      "description": "   Erst räumt Jensen Huang eine außereheliche Beziehung ein, dann wird eine weitere öffentlich und nun sollen es bereits drei gewesen sein. Rund um den ehemaligen Nvidia-Chef entwickelt sich ein Skandal, die immer größere Kreise zieht. Zwei der Frauen sollen sogar bei Nvidia gearbeitet haben.  "
     },
     {
       "title": "Pfandbriefbank liefert wieder nicht: Talfahrt beschleunigt",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/pfandbriefbank-liefert-wieder-nicht-talfahrt-beschleunigt-20442146.html?feed=directrssfeed",
+      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/pfandbriefbank-20442146.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 13 Nov 2026 09:16:38 GMT",
       "description": "   Aktionäre der Deutschen Pfandbriefbank brauchen weiterhin starke Nerven. Die jüngsten Quartalszahlen geben wenig Anlass zur Hoffnung auf eine baldige Erholung des operativen Geschäfts. Im Gegenteil: Der Vorstand muss bei der Prognose nun Abstriche machen.  "
@@ -58,25 +72,32 @@
       "description": "   DeFi Technologies hat im dritten Quartal 2026 weniger Umsatz erzielt als im Vorjahr. Beim Gewinn überraschte der Betreiber der Digital-Asset-Plattform Valour dagegen positiv. Mit einem Nettogewinn von 22,3 Millionen Dollar und einem gut gefüllten Portfolio verfügt das Unternehmen zudem über eine solide finanzielle Basis.  "
     },
     {
-      "title": "Megatrend Folger: Applied Materials – Produktion bis 2028 verdoppeln: das steckt wirklich dahinter",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-applied-materials-produktion-bis-2028-verdoppeln-das-steckt-wirklich-dahinter-20441990.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 07:35:00 GMT",
-      "description": "   Applied Materials hat starke Quartalszahlen vorgelegt. Spannender als Umsatz und Gewinn ist jedoch eine Aussage aus dem Analystengespräch, die in vielen Berichten kaum Beachtung fand: Der Chipausrüster bereitet sich darauf vor, seinen Systemausstoß bis 2028 gegenüber dem gerade erreichten Rekordquartal verdoppeln zu können.  "
-    },
-    {
-      "title": "Moderna-Aktie knickt ein – die Details zum Analystentag",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/moderna-aktie-knickt-ein-die-details-zum-analystentag-20442008.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 07:31:00 GMT",
-      "description": "   Die Aktie des Impfstoffspezialisten Moderna gab am Donnerstag fast sieben Prozent nach. Auslöser war ein Analystentag, auf dem das Management Finanzprognosen bis zum Jahresende vorstellte, zum Jahr 2027 aber nur wenig verriet.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Chinas KI-Offensive: 50 Milliarden: KI-Geheimfavorit plant den nächsten Mega-IPO",
+      "url": "https://www.wallstreet-online.de/nachricht/21688518-chinas-ki-offensive-50-milliarden-ki-geheimfavorit-plant-naechsten-mega-ipo",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der chinesische KI-Aufsteiger Moonshot AI steht vor einem entscheidenden Schritt. Dabei geht es um Milliarden und eine mögliche Premiere an der Börse."
+    },
+    {
+      "title": "Gold und Kupfer im Fokus: Discovery steigert Goldproduktion und Mogotes erweitert die Exploration!",
+      "url": "https://www.wallstreet-online.de/nachricht/21688578-gold-kupfer-fokus-discovery-steigert-goldproduktion-mogotes-erweitert-exploration",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldnachfrage und Kupferbedarf rücken Minenprojekte in den Fokus. Discovery mit Rekordquartal und Mogotes mit mehr Bohrungen, die die Portfolio-Perspektiven stärken."
+    },
+    {
+      "title": "26 Prozent mehr Gewinn: Milliarden-Hammer aus Japan: Diese Bank belohnt ihre Aktionäre kräftig",
+      "url": "https://www.wallstreet-online.de/nachricht/21688137-26-prozent-gewinn-milliarden-hammer-japan-bank-belohnt-aktionaere-kraeftig",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mitsubishi UFJ steigert den Gewinn um 26 Prozent, hebt die Prognose an und erhöht die Dividende. Zudem plant Japans größte Bank milliardenschwere Aktienrückkäufe."
     },
     {
       "title": "440 Kilo Uran – wo sind sie?: Ölpreis fällt – während im Iran eine nukleare Zeitbombe tickt!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
-    },
-    {
-      "title": "Hoffnung für Europa: Gaspreis vor Halbierung? Die lang ersehnte Entlastung kommt",
-      "url": "https://www.wallstreet-online.de/nachricht/21670971-hoffnung-europa-gaspreis-halbierung-lang-ersehnte-entlastung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Europas Gaspreis fällt kräftig. Einige Experten erwarten bis 2027 eine Halbierung. Neue Lieferungen könnten Industrie und Verbraucher entlasten. Doch ein erhebliches Risiko bleibt."
-    },
-    {
-      "title": "Nach dem Crash: Jetzt wieder bei AMD & Nvidia zugreifen? Eine Kennzahl schlägt Alarm!",
-      "url": "https://www.wallstreet-online.de/nachricht/21670737-crash-amd-nvidia-zugreifen-kennzahl-schlaegt-alarm",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach den massiven Abverkäufen der letzten Tage: Sollte man jetzt die Chips vom Tisch nehmen oder wieder ordentlich zulangen?"
-    },
-    {
-      "title": "Aktien: Nur Strohfeuer oder ab jetzt Jahresend-Rallye?",
-      "url": "https://www.wallstreet-online.de/nachricht/21671325-aktien-strohfeuer-jahresend-rallye",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Oder kommt jetzt die Jahresend-Rallye? Auf diese wichtigen Gegebenheiten sollte man jetzt unbedingt achten."
     }
   ],
   "feedErrors": [
