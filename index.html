@@ -487,10 +487,14 @@ document.getElementById('pages').addEventListener('touchend',e=>{if(touchX===nul
                                                                  },{passive:true});
 let quoteCursor=0;
 const QUOTE_BATCH_SIZE=12;
+// Diese beiden US-Werte werden auch im Favoritenmodus bei jedem 30-Sekunden-Zyklus abgefragt.
+const PRIORITY_QUOTE_IDS=['QBTS','RGTI'];
 function nextQuoteBatch(){
- const n=Math.min(QUOTE_BATCH_SIZE,assets.length),batch=[];
- for(let i=0;i<n;i++)batch.push(assets[(quoteCursor+i)%assets.length]);
- quoteCursor=(quoteCursor+n)%assets.length;
+ const priority=assets.filter(a=>PRIORITY_QUOTE_IDS.includes(a.id));
+ const pool=assets.filter(a=>!PRIORITY_QUOTE_IDS.includes(a.id));
+ const n=Math.min(QUOTE_BATCH_SIZE,pool.length),batch=[...priority];
+ for(let i=0;i<n;i++)batch.push(pool[(quoteCursor+i)%pool.length]);
+ quoteCursor=(quoteCursor+n)%pool.length;
  return batch;
 }
 async function refreshAll(manual=false){
