@@ -533,6 +533,7 @@ async function refreshAll(manual=false){
 }
 renderChartPages();
 buildOverview();
+document.getElementById('status').textContent='Dashboard-Version 13.11.26-B geladen · starte Kursabruf …';
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
 refreshTimer=setInterval(()=>refreshAll(),30000);
