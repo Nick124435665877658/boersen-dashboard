@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-13T10:38:23.081647+00:00",
+  "fetchedAt": "2026-11-13T11:34:11.343732+00:00",
   "articles": [
+    {
+      "title": "Infineon-Aktie: Ruhe bewahren",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/infineon-aktie-ruhe-bewahren-20442154.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 11:12:00 GMT",
+      "description": "   Bei Infineon zündet die KI-Power die nächste Wachstumsstufe. Gleichzeitig gewinnt die zyklische Erholung an Fahrt. Vorstandschef Jochen Hanebeck erwartet ein deutlich anziehendes Wachstum im neuen Fiskaljahr 2026/27. Die DAX-Aktie kann sich trotzdem noch nicht nachhaltig von der 50-Euro-Marke lösen.  "
+    },
+    {
+      "title": "Allianz und Munich Re: Dividendenperlen auf Rekordjagd",
+      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-und-munich-re-aktien-weiter-auf-rekordjagd-20442227.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 11:05:00 GMT",
+      "description": "    Die laufende Börsenwoche steht im Zeichen der Rekorde: Am Donnerstag stieg der DAX erstmals über 27.000 Punkte und lag innerhalb einer Woche mehr als 1.300 Punkte im Plus. Dazu trugen wieder einmal auch die Aktien von Allianz und Munich Re maßgeblich bei.  "
+    },
     {
       "title": "AKTIONÄR-Tipp mit Zahlen: Klimawandel sorgt für Auftragsboom",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/aktionaer-tipp-mit-zahlen-klimawandel-sorgt-fuer-auftragsboom-20442197.html?feed=directrssfeed",
@@ -58,25 +72,39 @@
       "description": "    GEA verliert seinen Erfolgschef: Stefan Klebert hört im April 2027 auf, gut anderthalb Jahre vor Vertragsende. Er hat den Anlagenbauer auf Rendite getrimmt und in den DAX geführt; sein Nachfolger kommt aus dem eigenen Haus. Die Aktie fiel am Donnerstag vom Rekordhoch ans DAX-Ende.  "
     },
     {
-      "title": "Geht die DAX-Rally weiter? Rheinmetall auf Abwegen",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/geht-die-dax-rally-weiter-rheinmetall-auf-abwegen--20442035.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
-      "description": "   Nach seinem Rekordlauf startet der DAX am Freitag mit leichten Verlusten in den Handel. Durchwachsene Vorgaben aus Übersee und fehlende klare Signale für ein Ende des Iran-Kriegs bremsen die Anleger. Der Technologiesektor zeigt sich vom Rücktritt von Nvidia-Chef Jensen Huang derweil weitgehend unbeeindruckt.  "
-    },
-    {
-      "title": "DeFi Technologies: Weniger Umsatz, mehr Gewinn – Aktie springt hoch",
-      "url": "https://www.deraktionaer.de/artikel/aktien/defi-technologies-weniger-umsatz-mehr-gewinn-aktie-springt-hoch-20442028.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 07:55:00 GMT",
-      "description": "   DeFi Technologies hat im dritten Quartal 2026 weniger Umsatz erzielt als im Vorjahr. Beim Gewinn überraschte der Betreiber der Digital-Asset-Plattform Valour dagegen positiv. Mit einem Nettogewinn von 22,3 Millionen Dollar und einem gut gefüllten Portfolio verfügt das Unternehmen zudem über eine solide finanzielle Basis.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Bitcoin: DAS ZEIGT EUCH KEINER!",
+      "url": "https://www.wallstreet-online.de/nachricht/21688941-bitcoin-zeigt-keiner",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Was dafür passieren muss und worauf es jetzt ankommt, erfahrt ihr in dieser Ausgabe."
+    },
+    {
+      "title": "Das ist alles betroffen: Porto-Hammer 2027! Deutsche Post erhöht Preise um bis zu 72 Prozent",
+      "url": "https://www.wallstreet-online.de/nachricht/21688911-betroffen-porto-hammer-2027-deutsche-post-erhoeht-preise-72-prozent",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Deutsche Post erhöht 2027 ihre Preise um bis zu 72 Prozent. Pakete und Briefe werden teurer. Für die DHL-Aktie könnte das zusätzlichen Rückenwind bedeuten."
+    },
+    {
+      "title": "Chef ist weg, die Gier bleibt: Nvidia: Kleinanleger setzen 111 Millionen gegen den Crash – in nur 30 Minuten!",
+      "url": "https://www.wallstreet-online.de/nachricht/21688554-chef-weg-gier-bleibt-nvidia-kleinanleger-111-millionen-crash-30-minuten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist weg, an der Börse wurden Billionen vernichtet. Trotzdem greifen Privatanleger bei Nvidia in Rekordtempo zu. Während die einen auf das große Comeback wetten, folgt von der Wall Street der nächste Dämpfer."
+    },
+    {
+      "title": "Öl-Deal mitten im Iran-Krieg: Öl-Hammer aus Saudi-Arabien: China schnappt sich Millionen Barrel",
+      "url": "https://www.wallstreet-online.de/nachricht/21687672-oel-deal-mitten-iran-krieg-oel-hammer-saudi-arabien-china-schnappt-millionen-barrel",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Saudi Aramco verkauft sieben Millionen Barrel Öl nach Asien. China sichert sich den Großteil. Hohe Preisabschläge zeigen den Druck auf den Ölmarkt."
     },
     {
       "title": "Chinas KI-Offensive: 50 Milliarden: KI-Geheimfavorit plant den nächsten Mega-IPO",
@@ -91,6 +119,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Goldnachfrage und Kupferbedarf rücken Minenprojekte in den Fokus. Discovery mit Rekordquartal und Mogotes mit mehr Bohrungen, die die Portfolio-Perspektiven stärken."
+    },
+    {
+      "title": "Diese Zahlen haben enttäuscht: CTS Eventim: Aktie dreht ins Plus, trotz schwachem Quartal",
+      "url": "https://www.wallstreet-online.de/nachricht/21688719-zahlen-enttaeuscht-cts-eventim-aktie-dreht-plus-trotz-schwachem-quartal",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "CTS Eventim bleibt im dritten Quartal hinter den Erwartungen zurück, eine teure Sonderbelastung trifft das Ticketing. Die DZ Bank hält trotzdem an ihrer Kaufempfehlung fest."
     },
     {
       "title": "26 Prozent mehr Gewinn: Milliarden-Hammer aus Japan: Diese Bank belohnt ihre Aktionäre kräftig",
@@ -742,41 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Regierung und Präsident blockieren sich, der Notenbankchef soll vor ein Sondergericht, und eine große Ratingagentur hat bereits reagiert. Doch Polens Börse liegt dick im Plus. Wie lange kann das noch gutgehen?"
-    },
-    {
-      "title": "Anleger wittern jetzt Chancen: Gold, Silber oder Platin: Ein Metall steckt Inflationsdaten überraschend gut weg",
-      "url": "https://www.wallstreet-online.de/nachricht/21672009-anleger-wittern-chancen-gold-silber-platin-metall-steckt-inflationsdaten-ueberraschend-gut",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Starke US-Inflationsdaten setzen Gold und Silber heftig zu. Ausgerechnet Platin hält sich dagegen stabil. Steht das Edelmetall jetzt womöglich vor der Wende?"
-    },
-    {
-      "title": "Take-Two vor Härtetest: GTA VI bricht Rekorde: Wird Rockstar dem Hype gerecht?",
-      "url": "https://www.wallstreet-online.de/nachricht/21671196-take-two-haertetest-gta-vi-bricht-rekorde-rockstar-hype-gerecht",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "GTA VI steuert auf einen historischen Verkaufsstart zu. Für die Aktie von Take-Two könnte das enorme Chancen bedeuten. Doch der Hype birgt auch Risiken."
-    },
-    {
-      "title": "Geldstrom nach Europa: Japan zieht Milliarden aus den USA ab – Europa profitiert",
-      "url": "https://www.wallstreet-online.de/nachricht/21668823-geldstrom-europa-japan-milliarden-usa-europa-profitiert",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Japanische Anleger verkaufen US-Anleihen für Milliarden und investieren verstärkt in Europa. Deutschland, Italien und Spanien profitieren besonders."
-    },
-    {
-      "title": "94 Milliarden im Ehe-Trust: Nvidia: Jensen Huang droht der größte Absturz seiner Karriere",
-      "url": "https://www.wallstreet-online.de/nachricht/21671220-94-milliarden-ehe-trust-nvidia-jensen-huang-droht-groesste-absturz-karriere",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "94 Milliarden US-Dollar im Familientrust, Spionageverdacht und eine Untersuchung: Für Nvidia-Chef Jensen Huang steht jetzt auch seine Karriere auf dem Spiel."
-    },
-    {
-      "title": "Börsen Aktuell CHART SHOW #69 mit Christoph Geyer live auf Zoom",
-      "url": "https://www.wallstreet-online.de/video/21671553-boersen-aktuell-chart-show-69-christoph-geyer-live-zoom",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
     }
   ],
   "feedErrors": [
