@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-13T17:55:29.106018+00:00",
+  "fetchedAt": "2026-11-13T18:57:33.018926+00:00",
   "articles": [
+    {
+      "title": "Nach 63 Prozent Kursverlust: Nächster Nackenschlag für VW-Rivalen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nach-63-prozent-kursverlust-naechster-nackenschlag-fuer-vw-rivalen-20442563.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 18:37:00 GMT",
+      "description": "   Der Handelsstreit zwischen den USA und Kanada bekommt für Stellantis ein juristisches Nachspiel. Die kanadische Regierung droht dem Autokonzern mit einer Klage. Auslöser ist die geplante Veräußerung eines Werks in Ontario. Für Stellantis kommt der Ärger zur Unzeit: Die Autoaktien stecken ohnehin im Krisenmodus, der Konzern selbst hat seit Jahres"
+    },
+    {
+      "title": "OpenAI startet ChatCPT Wallet: Jetzt kann der KI-Agent auch einkaufen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/openai-startet-chatcpt-wallet-jetzt-kann-der-ki-agent-auch-einkaufen-20442552.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 13 Nov 2026 17:55:54 GMT",
+      "description": "   OpenAI greift den Onlinehandel an: Mit ChatGPT Wallet können die persönlichen KI-Agenten des Unternehmens künftig Einkäufe für ihre Nutzer erledigen. Dafür hat sich der ChatGPT-Entwickler mit Visa, Mastercard und American Express prominente Partner gesichert.  "
+    },
     {
       "title": "DAX-Schluss: Verschnaufpause zum Wochenende – Infineon im Fokus",
       "url": "https://www.deraktionaer.de/artikel/aktien/dax-schluss-verschnaufpause-zum-wochenende-infineon-im-fokus-20442543.html?feed=directrssfeed",
@@ -58,18 +72,11 @@
       "description": "    Was wird das Börsenjahr 2027 bringen? Mit dieser Frage befassen sich nun allmählich immer mehr Experten. So hat sich nun auch die  Commerzbank mit einer Prognose nach vorne gewagt.  "
     },
     {
-      "title": "Richemont: Aktie bricht trotz Gewinnsprung ein – das steckt dahinter",
-      "url": "https://www.deraktionaer.de/artikel/aktien/richemont-aktie-bricht-trotz-gewinnsprung-ein-das-steckt-dahinter-20442113.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 13:11:00 GMT",
-      "description": "   Der Luxusgüterkonzern Richemont hat im ersten Halbjahr kräftig zugelegt. Umsatz und Gewinn stiegen zweistellig, die Erwartungen beim operativen Ergebnis wurden übertroffen. Trotzdem gerät die Aktie nach der Zahlenvorlage massiv unter Druck. Der Grund steckt in einem Sondereffekt.  "
-    },
-    {
-      "title": "Ferrari: Gute Perspektiven, starke Aktie",
-      "url": "https://www.deraktionaer.de/artikel/aktien/ferrari-20442144.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 12:45:00 GMT",
-      "description": "   Ferrari geht mit Rückenwind in die nächsten Jahre. Im dritten Quartal 2026 stieg der Umsatz je Auto um 8,3 Prozent auf 471.000 Euro. Das bereinigte EBIT übertraf die Erwartungen um drei Prozent, obwohl die Auslieferungen leicht zurückgingen. F80, 296 Speciale und Individualisierung sorgten für den besseren Modellmix.  "
+      "title": "20-Milliarden-Skandal: Der Türkei droht der Absturz an den Weltbörsen",
+      "url": "https://www.wallstreet-online.de/nachricht/21688938-20-milliarden-skandal-tuerkei-droht-absturz-weltboersen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein gigantischer Fondsskandal erschüttert die Türkei. Hochrangige Politiker und Finanzaufseher geraten ins Visier der Justiz. Nun droht eine Entscheidung, die ausländische Milliarden vertreiben könnte."
     },
     {
       "title": "Mehr Reichweite als USA: Kanadas Gasvorkommen sind riesig, aber ungenutzt – das soll sich jetzt ändern",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "SFC Energy bestätigt Rekordquartal und Prognose. Der Ukraine-Großauftrag ist abgearbeitet, das Auftragsbuch schrumpft. Neue Märkte in den USA, im Mittleren Osten und in Europa sollen die Lücke füllen."
-    },
-    {
-      "title": "TSMC investiert: OpenAI und Anthropic bekommen mächtige Unterstützung aus Taiwan",
-      "url": "https://www.wallstreet-online.de/nachricht/21674673-tsmc-investiert-openai-anthropic-bekommen-maechtige-unterstuetzung-taiwan",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "TSMC steigt bei OpenAI und Anthropic ein. Der Chip-Gigant will damit stärker vom KI-Boom profitieren und sein Geschäft breiter aufstellen.ausbauen."
     }
   ],
   "feedErrors": [
