@@ -522,8 +522,9 @@ async function refreshAll(manual=false){
   status.textContent=failed?'⚠ '+failed+' Kurs(e) konnten nicht aktualisiert werden · '+stamp:'Kurse aktualisiert · '+stamp+' · Kursliste wird schrittweise aktualisiert';
   document.getElementById('totalTime').textContent='Letzter Datenabruf: '+stamp;
  }catch(e){
-  status.textContent='Kursaktualisierung fehlgeschlagen';
-  console.warn('Kursabruf fehlgeschlagen',e);
+  const detail=(e&&e.message)?String(e.message):String(e||'Unbekannter Fehler');
+  status.textContent='Kurse teilweise geladen · Anzeige/Update: '+detail.slice(0,90);
+  console.warn('Fehler in refreshAll:',e);
  }finally{
   refreshInFlight=false;
  }
