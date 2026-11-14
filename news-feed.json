@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T15:44:58.052897+00:00",
+  "fetchedAt": "2026-11-14T16:19:41.783442+00:00",
   "articles": [
     {
       "title": "Rheinmetall: Pulver verschossen?",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 13 Nov 2026 19:07:00 GMT",
       "description": "   Der KI-Konzern Anthropic steuert auf einen der größten Börsengänge der Geschichte zu. Zusammen mit einer milliardenschweren Privatplatzierung könnte das Unternehmen bis zu 90,4 Milliarden Dollar einnehmen. Werden zusätzliche Aktien platziert, könnte sogar die Marke von 100 Milliarden Dollar fallen.  "
+    },
+    {
+      "title": "27 % weniger neue Medikamente: Trump setzt Europa unter Druck: Jetzt droht ein Medikamenten-Engpass",
+      "url": "https://www.wallstreet-online.de/nachricht/21670236-27-medikamente-trump-europa-druck-droht-medikamenten-engpass",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trumps Arzneimittelpolitik trifft Europa: Die Markteinführung neuer Medikamente sinkt um 27 Prozent. Pharmakonzerne schützen ihre Gewinne, Patienten leiden."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "EasyJet-Aktionäre haben der Milliardenübernahme durch Apollo zugestimmt. Damit rückt der Börsen-Abschied näher. Doch die EU könnte noch zum Problem werden."
-    },
-    {
-      "title": "Tiefster Stand seit August: Bitcoin fällt immer tiefer – US-Inflation verschärft die Talfahrt",
-      "url": "https://www.wallstreet-online.de/nachricht/21676230-tiefster-stand-august-bitcoin-faellt-tiefer-us-inflation-verschaerft-talfahrt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die hohen US-Inflationszahlen haben den Bitcoin-Kurs auf den niedrigsten Stand seit Ende August gedrückt. Massive Liquidationen verschärfen den Abverkauf."
     }
   ],
   "feedErrors": [
