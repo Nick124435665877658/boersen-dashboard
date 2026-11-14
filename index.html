@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 14.11.26-K</span></div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 14.11.26-L</span></div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -236,14 +236,19 @@ function setChartData(a,range){
  const s=chartSeries[a.id];if(!s)return;
  const data=visibleData(a,range);
  let chartData=data;
- if(range==='1D'&&data.length){
-  // Leere Randpunkte verankern die Zeitachse exakt bei 07:30 und 23:00 Uhr Berlin.
-  // Sie enthalten bewusst keinen Kurswert und erzeugen daher keine künstlichen Kursbewegungen.
+ if(range==='1D'&&data.length&&(intradayCache[a.id]||[]).length){
+  // Nur echte Intraday-Daten auf das Tagesfenster 07:30–23:00 begrenzen.
+  // Tages-Schlusskurse im Fallback behalten ihre originalen Zeitpunkte.
   const window=berlinDayRange(data[data.length-1].time);
   const inside=data.filter(p=>p.time>window.from&&p.time<window.to);
-  chartData=[{time:window.from},...inside,{time:window.to}];
-  s.setData(chartData);
-  charts[a.id].timeScale().setVisibleRange({from:window.from,to:window.to});
+  if(inside.length){
+   chartData=[{time:window.from},...inside,{time:window.to}];
+   s.setData(chartData);
+   charts[a.id].timeScale().setVisibleRange({from:window.from,to:window.to});
+  }else{
+   s.setData(data);
+   charts[a.id].timeScale().fitContent();
+  }
  }else if(range==='1W'){
   // Rollierendes Sieben-Tage-Fenster: exakt von jetzt minus sieben Tagen bis jetzt.
   const to=Math.floor(Date.now()/1000),from=to-7*86400;
@@ -590,7 +595,7 @@ if('serviceWorker'in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());
  window.addEventListener('load',async()=>{
   try{
-   const reg=await navigator.serviceWorker.register('./sw.js?v=20261114K',{updateViaCache:'none'});
+   const reg=await navigator.serviceWorker.register('./sw.js?v=20261114L',{updateViaCache:'none'});
    await reg.update();
   }catch(e){console.warn('Service-Worker-Update nicht möglich:',e);}
  });
