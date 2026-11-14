@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 13.11.26-E</span></div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 13.11.26-F</span></div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -201,9 +201,21 @@ function makeChart(a){
  else window.addEventListener('resize',resizeChart);
 }
 function visibleData(a,range){
- const all=range==='1D'?(intradayCache[a.id]||dailyCache[a.id]):dailyCache[a.id];
- if(!all)return [];
- const now=Date.now()/1000, secs={'1D':86400,'1W':7*86400,'1M':31*86400,'1Y':366*86400,'5Y':5*366*86400}[range];
+ if(range==='1D'){
+  const intraday=intradayCache[a.id]||[];
+  if(intraday.length){
+   // Den letzten verfügbaren Handelstag anzeigen, auch wenn die Börse gerade geschlossen ist.
+   const latest=intraday[intraday.length-1].time;
+   const session=intraday.filter(x=>x.time>=latest-86400);
+   if(session.length)return session;
+  }
+  // Fallback: Wenn der Anbieter keine Intraday-Daten liefert (z. B. bei einzelnen HK-Werten),
+  // wenigstens die letzten zwei Handelstage aus der Tageshistorie zeigen statt eines leeren Charts.
+  return (dailyCache[a.id]||[]).slice(-2);
+ }
+ const all=dailyCache[a.id]||[];
+ if(!all.length)return [];
+ const now=Date.now()/1000, secs={'1W':7*86400,'1M':31*86400,'1Y':366*86400,'5Y':5*366*86400}[range];
  return all.filter(x=>x.time>=now-secs);
 }
 function setChartData(a,range){
@@ -533,7 +545,7 @@ async function refreshAll(manual=false){
 }
 renderChartPages();
 buildOverview();
-document.getElementById('status').textContent='Dashboard-Version 13.11.26-E geladen · starte Kursabruf …';
+document.getElementById('status').textContent='Dashboard-Version 13.11.26-F geladen · starte Kursabruf …';
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
 refreshTimer=setInterval(()=>refreshAll(),30000);
