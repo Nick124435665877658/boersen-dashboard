@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T11:50:37.966598+00:00",
+  "fetchedAt": "2026-11-14T12:56:26.949260+00:00",
   "articles": [
     {
       "title": "Rheinmetall: Pulver verschossen?",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Gold wendet Abverkauf ab: Goldpreis-Prognose: Gold stemmt sich gegen den Dollar – bereit für die Wende?",
+      "url": "https://www.wallstreet-online.de/nachricht/21693015-gold-wendet-abverkauf-ab-goldpreis-prognose-gold-stemmt-dollar-bereit-wende",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Goldpreis wendete den Abverkauf ab und rettete sich zum Wochenschluss über die Marke von 3.860 US-Dollar. Das war eminent wichtig, wahrte Gold doch so die womöglich letzte Chance auf eine Wende in 2026."
     },
     {
       "title": "SMI und ATX - Jahresendrallye weiter intakt, aber nicht bei AT&S",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach der Midterm-Schrecksekunde aus der vergangenen Woche haben sich Tech- und KI-Werte wieder erholt. Stehen die Zeichen jetzt wieder auf Rallye? Trading-Experte Benjamin Feingold stellt zwei Zertifikate vor."
-    },
-    {
-      "title": "Solarzellen für Starlink: Aktie springt 80 %: SpaceX vergibt Mega-Auftrag",
-      "url": "https://www.wallstreet-online.de/nachricht/21676110-solarzellen-starlink-aktie-springt-80-spacex-vergibt-mega-auftrag",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "SpaceX vergibt einen wichtigen Auftrag an Singulus. Der deutsche Maschinenbauer soll Solartechnik liefern. Weitere Produktionslinien könnten folgen."
     }
   ],
   "feedErrors": [
