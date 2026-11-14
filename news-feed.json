@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T05:29:52.878077+00:00",
+  "fetchedAt": "2026-11-14T06:30:16.976914+00:00",
   "articles": [
     {
       "title": "Wall Street: Nvidia bleibt unter Druck – doch es gibt einen Lichtblick",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 13 Nov 2026 15:00:00 GMT",
       "description": "   Während die meisten Anleger noch rätseln, sind die nächsten Profiteure womöglich längst auf dem Sprung. Wie sich solche Chancen mit der Elliott-Wellen-Analyse aufspüren lassen, zeigt ein aktueller Volltreffer des TrendRadar-Teams.  "
+    },
+    {
+      "title": "Leopold Aschenbrenner: Kurz vor dem Anthropic-IPO: Für dieses KI-Wunderkind geht es um alles",
+      "url": "https://www.wallstreet-online.de/nachricht/21691269-leopold-aschenbrenner-kurz-anthropic-ipo-ki-wunderkind",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Am 19. November soll Anthropic an der Nasdaq starten. Für Leopold Aschenbrenner geht es um die wichtigste Position seines lädierten Fonds. Doch sein neues Portfolio wankt schon, und seine Ehe wirft Compliance-Fragen auf."
     },
     {
       "title": "20-Milliarden-Skandal: Der Türkei droht der Absturz an den Weltbörsen",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Ein massiver Gewinneinbruch lässt die Aktie eines europäischen Rüstungskonzerns abstürzen. Auch Rheinmetall und Renk verlieren. JPMorgan warnt vor einem noch größeren Ausverkauf."
-    },
-    {
-      "title": "Prognose bestätigt: Gewinn verfünffacht, Auftragsbuch dünner: Ist der Boom bei SFC Energy vorbei?",
-      "url": "https://www.wallstreet-online.de/nachricht/21675846-prognose-bestaetigt-gewinn-verfuenffacht-auftragsbuch-duenner-boom-sfc-energy-vorbei",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "SFC Energy bestätigt Rekordquartal und Prognose. Der Ukraine-Großauftrag ist abgearbeitet, das Auftragsbuch schrumpft. Neue Märkte in den USA, im Mittleren Osten und in Europa sollen die Lücke füllen."
     }
   ],
   "feedErrors": [
