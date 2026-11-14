@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T17:48:02.991889+00:00",
+  "fetchedAt": "2026-11-14T18:49:42.159264+00:00",
   "articles": [
     {
       "title": "Rheinmetall: Pulver verschossen?",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 13 Nov 2026 19:07:00 GMT",
       "description": "   Der KI-Konzern Anthropic steuert auf einen der größten Börsengänge der Geschichte zu. Zusammen mit einer milliardenschweren Privatplatzierung könnte das Unternehmen bis zu 90,4 Milliarden Dollar einnehmen. Werden zusätzliche Aktien platziert, könnte sogar die Marke von 100 Milliarden Dollar fallen.  "
+    },
+    {
+      "title": "KI-Bots greifen Banken an: KI-Bots übernehmen Kreditkarten: Banken zittern vor der Zahlungs-Revolution",
+      "url": "https://www.wallstreet-online.de/nachricht/21689457-ki-bots-greifen-banken-an-ki-bots-uebernehmen-kreditkarten-banken-zittern-zahlungs-revolution",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "KI-Bots übernehmen zunehmend Einkäufe und Zahlungen. Während JPMorgan blockiert, wittern Visa, Mastercard und Stripe große Chancen im neuen Milliardenmarkt."
     },
     {
       "title": "27 % weniger neue Medikamente: Trump setzt Europa unter Druck: Jetzt droht ein Medikamenten-Engpass",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach dem Kursrutsch bei Nvidia wird Michael Burry hellhörig. Doch der Mann, der die Finanzkrise kommen sah, will nur kurz mitspielen. Sein eigenes Geld steckt er in zwei ganz andere Aktien."
-    },
-    {
-      "title": "EU-Prüfung steht noch aus: EasyJet vor dem Börsen-Aus: Anleger machen den Weg frei",
-      "url": "https://www.wallstreet-online.de/nachricht/21676437-eu-pruefung-aus-easyjet-boersen-aus-anleger",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "EasyJet-Aktionäre haben der Milliardenübernahme durch Apollo zugestimmt. Damit rückt der Börsen-Abschied näher. Doch die EU könnte noch zum Problem werden."
     }
   ],
   "feedErrors": [
