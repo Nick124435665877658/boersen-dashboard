@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 13.11.26-F</span></div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 14.11.26-G</span></div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -218,10 +218,30 @@ function visibleData(a,range){
  const now=Date.now()/1000, secs={'1W':7*86400,'1M':31*86400,'1Y':366*86400,'5Y':5*366*86400}[range];
  return all.filter(x=>x.time>=now-secs);
 }
+function berlinLocalEpoch(y,m,d,hour,minute){
+ const target=Date.UTC(y,m-1,d,hour,minute);let guess=target;
+ const formatter=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+ for(let i=0;i<3;i++){
+  const parts=Object.fromEntries(formatter.formatToParts(new Date(guess)).map(p=>[p.type,p.value]));
+  const represented=Date.UTC(Number(parts.year),Number(parts.month)-1,Number(parts.day),Number(parts.hour),Number(parts.minute));
+  guess+=target-represented;
+ }
+ return Math.floor(guess/1000);
+}
+function berlinDayRange(lastTime){
+ const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(lastTime*1000)).map(p=>[p.type,p.value]));
+ return {from:berlinLocalEpoch(Number(parts.year),Number(parts.month),Number(parts.day),7,30),to:berlinLocalEpoch(Number(parts.year),Number(parts.month),Number(parts.day),23,0)};
+}
 function setChartData(a,range){
  const s=chartSeries[a.id];if(!s)return;
  const data=visibleData(a,range);s.setData(data);
- charts[a.id].timeScale().fitContent();
+ if(range==='1D'&&data.length){
+  // Einheitliche Tagesansicht: 07:30 bis 23:00 Uhr deutscher Zeit, unabhängig vom Börsenplatz.
+  const window=berlinDayRange(data[data.length-1].time);
+  charts[a.id].timeScale().setVisibleRange(window);
+ }else{
+  charts[a.id].timeScale().fitContent();
+ }
  const last=data[data.length-1];if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
 }
 function showSelection(a,value,time){
@@ -554,7 +574,7 @@ if('serviceWorker'in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());
  window.addEventListener('load',async()=>{
   try{
-   const reg=await navigator.serviceWorker.register('./sw.js?v=20261113E',{updateViaCache:'none'});
+   const reg=await navigator.serviceWorker.register('./sw.js?v=20261114G',{updateViaCache:'none'});
    await reg.update();
   }catch(e){console.warn('Service-Worker-Update nicht möglich:',e);}
  });
