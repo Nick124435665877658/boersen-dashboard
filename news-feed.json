@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-14T09:26:24.018080+00:00",
+  "fetchedAt": "2026-11-14T10:22:47.772343+00:00",
   "articles": [
+    {
+      "title": "Rheinmetall: Pulver verschossen?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/rheinmetall-pulver-verschossen-20439670.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 14 Nov 2026 10:00:00 GMT",
+      "description": "   Vom Börsenstar zum Krisenfall: Rheinmetall hat mit einer erneuten Gewinnwarnung die Anleger verprellt. Geht die Talfahrt weiter oder hat der Rüstungskonzern noch Pfeile im Köcher?  "
+    },
     {
       "title": "Nach 700 Prozent mit Singulus: Neue Hot-Stock-Wette",
       "url": "https://www.deraktionaer.de/artikel/aktien/nach-700-prozent-mit-singulus-neue-hot-stock-wette-20439631.html?feed=directrssfeed",
@@ -65,18 +72,18 @@
       "description": "   Der KI-Konzern Anthropic steuert auf einen der größten Börsengänge der Geschichte zu. Zusammen mit einer milliardenschweren Privatplatzierung könnte das Unternehmen bis zu 90,4 Milliarden Dollar einnehmen. Werden zusätzliche Aktien platziert, könnte sogar die Marke von 100 Milliarden Dollar fallen.  "
     },
     {
-      "title": "Nach 63 Prozent Kursverlust: Nächster Nackenschlag für VW-Rivalen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nach-63-prozent-kursverlust-naechster-nackenschlag-fuer-vw-rivalen-20442563.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 18:37:00 GMT",
-      "description": "   Der Handelsstreit zwischen den USA und Kanada bekommt für Stellantis ein juristisches Nachspiel. Die kanadische Regierung droht dem Autokonzern mit einer Klage. Auslöser ist die geplante Veräußerung eines Werks in Ontario. Für Stellantis kommt der Ärger zur Unzeit: Die Autoaktien stecken ohnehin im Krisenmodus, der Konzern selbst hat seit Jahres"
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Weltindex: MSCI World: Mindestens 28 Aktien müssen gehen, nur 2 neu kommen",
+      "url": "https://www.wallstreet-online.de/nachricht/21688761-weltindex-msci-world-28-aktien-gehen-2",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Zum 30. November ändert MSCI den MSCI World: Mindestens 28 Aktien müssen gehen, nur Moderna und Aritzia kommen neu hinzu. Was ETF-Sparer jetzt wissen müssen und warum Strategy fliegt."
     },
     {
       "title": "Community Rückblick: wO-User zu Nvidia-CEO-Rücktritt: \"Das wird ne geile Zockerei!\"",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Russland reagiert auf die jüngste Parteinahme Japans im Ukraine-Krieg und enteignet das Russlandgeschäft von Japan Tobacco. Die Japaner üben sich in Vorsicht und das hat einen Grund."
-    },
-    {
-      "title": "Angriff auf Nvidia: Alibaba macht ernst: Jetzt soll die Chipsparte an die Börse",
-      "url": "https://www.wallstreet-online.de/nachricht/21675810-angriff-nvidia-alibaba-ernst-chipsparte-boerse",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Alibaba treibt den Börsengang seiner Chipsparte T-Head voran. Der Schritt könnte dem KI-Geschäft neuen Schwung verleihen und Chinas Chipindustrie stärken."
     }
   ],
   "feedErrors": [
