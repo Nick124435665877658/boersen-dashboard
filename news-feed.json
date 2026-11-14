@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-14T07:42:47.096592+00:00",
+  "fetchedAt": "2026-11-14T08:27:35.141508+00:00",
   "articles": [
+    {
+      "title": "TSMC, SanDisk und Co: Jetzt kaufen?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/tsmc-sandisk-und-co-jetzt-kaufen-20439926.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 14 Nov 2026 08:00:00 GMT",
+      "description": "   Von wegen Chip, Chip, hurra! Ab sofort heißt es: Chip, Chip, buh! Oder doch nicht?  "
+    },
     {
       "title": "30 Jahre Börse. 4 Gespräche. Ein Jubiläumsvorteil.",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/30-jahre-boerse-4-gespraeche-ein-jubilaeumsvorteil-20441408.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   OpenAI greift den Onlinehandel an: Mit ChatGPT Wallet können die persönlichen KI-Agenten des Unternehmens künftig Einkäufe für ihre Nutzer erledigen. Dafür hat sich der ChatGPT-Entwickler mit Visa, Mastercard und American Express prominente Partner gesichert.  "
     },
     {
-      "title": "DAX-Schluss: Verschnaufpause zum Wochenende – Infineon im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/aktien/dax-schluss-verschnaufpause-zum-wochenende-infineon-im-fokus-20442543.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 13 Nov 2026 17:32:00 GMT",
-      "description": "   Der DAX hat nach seinem Rekordhoch am Donnerstag eine Verschnaufpause eingelegt. Trotz überraschend moderater US-Erzeugerpreise und deutlicher Verluste an der Nasdaq hielt sich der deutsche Leitindex zum Wochenschluss vergleichsweise stabil. Auf Wochensicht steht ein kräftiges Plus zu Buche.  "
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Community Rückblick: wO-User zu Nvidia-CEO-Rücktritt: \"Das wird ne geile Zockerei!\"",
+      "url": "https://www.wallstreet-online.de/nachricht/21688683-community-rueckblick-wo-user-nvidia-ceo-ruecktritt-das-ne-geile-zockerei",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang tritt nach zwei Skandalen als Nvidia CEO zurück. Im wO-Forum streiten die User über China-Risiken, mögliche US-Sanktionen und die Frage: Kaufchance oder droht dem KI-Champion noch größeres Ungemach?"
     },
     {
       "title": "Leopold Aschenbrenner: Kurz vor dem Anthropic-IPO: Für dieses KI-Wunderkind geht es um alles",
@@ -763,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Alibaba treibt den Börsengang seiner Chipsparte T-Head voran. Der Schritt könnte dem KI-Geschäft neuen Schwung verleihen und Chinas Chipindustrie stärken."
-    },
-    {
-      "title": "3 Milliarden Euro vernichtet: Rheinmetall-Rivale crasht – jetzt trifft es die ganze Rüstungsbranche!",
-      "url": "https://www.wallstreet-online.de/nachricht/21675789-3-milliarden-euro-vernichtet-rheinmetall-rivale-crasht-trifft-ruestungsbranche",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ein massiver Gewinneinbruch lässt die Aktie eines europäischen Rüstungskonzerns abstürzen. Auch Rheinmetall und Renk verlieren. JPMorgan warnt vor einem noch größeren Ausverkauf."
     }
   ],
   "feedErrors": [
