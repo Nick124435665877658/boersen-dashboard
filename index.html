@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 14.11.26-I</span></div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 14.11.26-J</span></div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -232,46 +232,23 @@ function berlinDayRange(lastTime){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(lastTime*1000)).map(p=>[p.type,p.value]));
  return {from:berlinLocalEpoch(Number(parts.year),Number(parts.month),Number(parts.day),7,30),to:berlinLocalEpoch(Number(parts.year),Number(parts.month),Number(parts.day),23,0)};
 }
-function berlinWeekendRange(now=Date.now()){
- const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(now)).map(p=>[p.type,p.value]));
- const y=Number(parts.year),m=Number(parts.month),d=Number(parts.day),weekday=new Date(Date.UTC(y,m-1,d)).getUTCDay();
- if(weekday!==0&&weekday!==6)return null;
- const daysBack=weekday===6?1:2,friday=new Date(Date.UTC(y,m-1,d-daysBack)),monday=new Date(Date.UTC(friday.getUTCFullYear(),friday.getUTCMonth(),friday.getUTCDate()+3));
- return {
-  from:berlinLocalEpoch(friday.getUTCFullYear(),friday.getUTCMonth()+1,friday.getUTCDate(),23,0),
-  to:berlinLocalEpoch(monday.getUTCFullYear(),monday.getUTCMonth()+1,monday.getUTCDate(),7,30)
- };
-}
 function setChartData(a,range){
  const s=chartSeries[a.id];if(!s)return;
  const data=visibleData(a,range);
- let chartData=data,last=data[data.length-1];
- if(range==='1D'){
-  const weekend=berlinWeekendRange();
-  const history=dailyCache[a.id]||[];
-  if(weekend&&history.length){
-   // Am Wochenende den letzten offiziellen Tagesabschluss als durchgehende Linie darstellen.
-   const close=history[history.length-1];
-   chartData=[{time:weekend.from,value:close.value},{time:weekend.to,value:close.value}];
-   last=close;
-   s.setData(chartData);
-   charts[a.id].timeScale().setVisibleRange({from:weekend.from,to:weekend.to});
-  }else if(data.length){
-   // Leere Randpunkte verankern die Zeitachse exakt bei 07:30 und 23:00 Uhr Berlin.
-   const window=berlinDayRange(data[data.length-1].time);
-   const inside=data.filter(p=>p.time>window.from&&p.time<window.to);
-   chartData=[{time:window.from},...inside,{time:window.to}];
-   s.setData(chartData);
-   charts[a.id].timeScale().setVisibleRange({from:window.from,to:window.to});
-  }else{
-   s.setData(chartData);
-   charts[a.id].timeScale().fitContent();
-  }
+ let chartData=data;
+ if(range==='1D'&&data.length){
+  // Leere Randpunkte verankern die Zeitachse exakt bei 07:30 und 23:00 Uhr Berlin.
+  // Sie enthalten bewusst keinen Kurswert und erzeugen daher keine künstlichen Kursbewegungen.
+  const window=berlinDayRange(data[data.length-1].time);
+  const inside=data.filter(p=>p.time>window.from&&p.time<window.to);
+  chartData=[{time:window.from},...inside,{time:window.to}];
+  s.setData(chartData);
+  charts[a.id].timeScale().setVisibleRange({from:window.from,to:window.to});
  }else{
   s.setData(chartData);
   charts[a.id].timeScale().fitContent();
  }
- if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
+ const last=data[data.length-1];if(last){document.getElementById('price-'+a.id).textContent=eur(last.value);lastValues[a.id]=last.value;showSelection(a,last.value,last.time);}
 }
 function showSelection(a,value,time){
  const history=dailyCache[a.id]||[], labels=[['Tag',86400],['Woche',7*86400],['Monat',30*86400],['Jahr',365*86400],['5 Jahre',5*365*86400]];
@@ -603,7 +580,7 @@ if('serviceWorker'in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());
  window.addEventListener('load',async()=>{
   try{
-   const reg=await navigator.serviceWorker.register('./sw.js?v=20261114I',{updateViaCache:'none'});
+   const reg=await navigator.serviceWorker.register('./sw.js?v=20261114J',{updateViaCache:'none'});
    await reg.update();
   }catch(e){console.warn('Service-Worker-Update nicht möglich:',e);}
  });
