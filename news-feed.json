@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T15:20:24.851135+00:00",
+  "fetchedAt": "2026-11-15T16:18:36.628693+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -70,6 +70,20 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 14 Nov 2026 10:00:00 GMT",
       "description": "   Vom Börsenstar zum Krisenfall: Rheinmetall hat mit einer erneuten Gewinnwarnung die Anleger verprellt. Geht die Talfahrt weiter oder hat der Rüstungskonzern noch Pfeile im Köcher?  "
+    },
+    {
+      "title": "Gold: Mein neuer Plan",
+      "url": "https://www.wallstreet-online.de/nachricht/21693033-gold-plan",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Goldpreis erreicht eine extrem starke Unterstützung. Ist es an der Zeit die Unterstützung zu kaufen?"
+    },
+    {
+      "title": "Sex, Lügen, Millionen: 105 Millionen US-Dollar weg: So brutal endete die Affäre eines McDonald’s-Bosses",
+      "url": "https://www.wallstreet-online.de/nachricht/21689259-sex-luegen-millionen-105-millionen-us-dollar-weg-brutal-endete-affaere-mcdonald-s-bosses",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist nicht der erste Konzernchef, dessen Privatleben zum Karriereproblem wurde. Bei McDonald’s entdeckten Ermittler intime Aufnahmen und eine Spur, die der Ex-Chef offenbar löschen wollte."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Europa baut seine eigene Seltene-Erden-Industrie auf. In Estland werden bereits Magnete produziert, Schweden und Frankreich treiben neue Anlagen voran. Milliardeninvestitionen sollen Chinas Dominanz brechen."
-    },
-    {
-      "title": "Das nächste Varta-Desaster: ABO Energy: 85 Prozent Crash – jetzt sollen Anleger alles verlieren",
-      "url": "https://www.wallstreet-online.de/nachricht/21677055-varta-desaster-abo-energy-85-prozent-crash-anleger-verlieren",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ein Kurssturz wie ein Erdbeben. Doch für Aktionäre und Anleihebesitzer von ABO Energy kommt der eigentliche Schock erst mit dem Sanierungsplan. Was Varta und Leoni damit zu tun haben, macht den Fall noch härter."
-    },
-    {
-      "title": "Anleger feiern Kaufempfehlung: Mehr Gewinn statt nur Umsatz: Darum setzen Analysten jetzt auf Drägerwerk",
-      "url": "https://www.wallstreet-online.de/nachricht/21676605-anleger-feiern-kaufempfehlung-gewinn-umsatz-analysten-draegerwerk",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eine neue Kaufempfehlung der Berenberg Bank sorgt für kräftigen Rückenwind bei den Papieren von Drägerwerk. Was jetzt für die Aktie spricht."
     }
   ],
   "feedErrors": [
