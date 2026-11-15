@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T12:21:59.476889+00:00",
+  "fetchedAt": "2026-11-15T13:34:59.931939+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Geyers Marktkommentar:  Was hat der Bitcoin mit Nvidia zu tun? DAX – 2027 wird großartig!",
+      "url": "https://www.wallstreet-online.de/nachricht/21695508-geyers-marktkommentar-bitcoin-nvidia-tun-dax-2027-grossartig",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia hat die Börsenwelt erschüttert. Zunächst ist es nur ein Börsenrückgang gewesen, weitere Folgen: nicht absehbar. Aber was hat das alles mit dem Bitcoin zu tun? Vielleicht mehr, als man denken möchte."
     },
     {
       "title": "Nach Huang-Rücktritt: Gelingt Nvidia das Comeback? Was geht bei Walt Disney, Alibaba & Walmart?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "IBM stellt einen neuen Quantenprozessor vor und plant bereits den nächsten Technologiesprung. 2027 soll ein System mit mehr als 1.000 Qubits entstehen."
-    },
-    {
-      "title": "\"Lächerlich günstig\": Nvidia zum Schnäppchenpreis – Analysten lockt der Kurssturz",
-      "url": "https://www.wallstreet-online.de/nachricht/21676455-laecherlich-guenstig-nvidia-schnaeppchenpreis-analysten-lockt-kurssturz",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Nvidia-Aktie hat in zwei Wochen über 20 Prozent verloren. Doch trotz der Affäre um CEO Jensen Huang, sehen diese Analysten jetzt DIE Kaufgelegenheit."
     }
   ],
   "feedErrors": [
