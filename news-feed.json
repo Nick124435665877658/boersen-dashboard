@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T11:46:23.268948+00:00",
+  "fetchedAt": "2026-11-15T12:21:59.476889+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Nach Huang-Rücktritt: Gelingt Nvidia das Comeback? Was geht bei Walt Disney, Alibaba & Walmart?",
+      "url": "https://www.wallstreet-online.de/nachricht/21683733-huang-ruecktritt-gelingt-nvidia-comeback-walt-disney-alibaba-walmart",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Diese in den kommenden Tagen (KW47) anstehenden US-Quartalszahlen müssen Anlegerinnen und Anleger kennen: Herausforderungen, Erwartungen und die aktuell eingepreisten Kursreaktionen – alles auf einen Blick!"
     },
     {
       "title": "Edelmetall auf der Kippe: Silberpreis-Prognose: Jetzt droht der Dammbruch bei Silber – Anleger alarmiert",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Nvidia-Aktie hat in zwei Wochen über 20 Prozent verloren. Doch trotz der Affäre um CEO Jensen Huang, sehen diese Analysten jetzt DIE Kaufgelegenheit."
-    },
-    {
-      "title": "Dividenden-Bombe: Zweistellige Sonderdividende: Costco lässt 13 Milliarden Dollar regnen",
-      "url": "https://www.wallstreet-online.de/nachricht/21676482-dividenden-bombe-zweistellige-sonderdividende-costco-laesst-13-milliarden-dollar-regnen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Costco Wholesale lässt die Dividenden-Bombe platzen: Die gewaltigen Liquiditätspolster kommen Anlegern zugute, die rechtzeitig investiert sind!"
     }
   ],
   "feedErrors": [
