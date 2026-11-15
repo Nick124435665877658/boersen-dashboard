@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T13:34:59.931939+00:00",
+  "fetchedAt": "2026-11-15T14:25:08.103082+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Vertrauen verspielt?: Wochenrückblick KW 46-2026 - KI braucht Vertrauen und Kapital!",
+      "url": "https://www.wallstreet-online.de/nachricht/21695385-vertrauen-verspielt-wochenrueckblick-kw-46-2026-ki-vertrauen-kapital",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidias Führungswechsel erschüttert die KI-Branche, höhere Zinserwartungen drücken auf Metalle. Gold verliert in London 3,9 %. Wie belastbar ist die Erholung der Aktienmärkte?"
     },
     {
       "title": "Geyers Marktkommentar:  Was hat der Bitcoin mit Nvidia zu tun? DAX – 2027 wird großartig!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Eine neue Kaufempfehlung der Berenberg Bank sorgt für kräftigen Rückenwind bei den Papieren von Drägerwerk. Was jetzt für die Aktie spricht."
-    },
-    {
-      "title": "Nächster Meilenstein 2027: IBM macht ernst: Dieser Durchbruch könnte Quantencomputer stärken",
-      "url": "https://www.wallstreet-online.de/nachricht/21676848-naechster-meilenstein-2027-ibm-ernst-durchbruch-quantencomputer-staerken",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "IBM stellt einen neuen Quantenprozessor vor und plant bereits den nächsten Technologiesprung. 2027 soll ein System mit mehr als 1.000 Qubits entstehen."
     }
   ],
   "feedErrors": [
