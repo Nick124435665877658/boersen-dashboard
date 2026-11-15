@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-15T09:52:09.609637+00:00",
+  "fetchedAt": "2026-11-15T10:50:09.724176+00:00",
   "articles": [
+    {
+      "title": "Berkshire Hathaway vs. Investor AB: Alter Schwede oder neuer Buffett?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/bershire-hathaway-vs-investor-ab-alter-schwede-oder-neuer-buffett-20439855.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sun, 15 Nov 2026 10:30:00 GMT",
+      "description": "   Ohne Buffett kein Berkshire? Ganz so ist es nicht. Seit Januar steuert Greg Abel mit ruhiger Hand den Konzern. Ist die Investor AB aus der schwedischen Wallenberg-Dynastie nun dennoch die bessere Wahl?  "
+    },
+    {
+      "title": "Altersvorsorgedepot: So soll die Börse unsere Rente retten",
+      "url": "https://www.deraktionaer.de/artikel/anlageschutz/altersvorsorgedepot-so-soll-die-boerse-unsere-rente-retten-20412830.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sun, 15 Nov 2026 10:00:00 GMT",
+      "description": "   Die Babyboomer verabschieden sich in den Ruhestand, die nächsten Generationen müssen mehr schultern. Gleichzeitig entdecken immer mehr Deutsche die Börse für sich. Mit dem Start des Altersvorsorgedepots soll die Börse ab 2027 helfen, die wachsende Rentenlücke zu schließen.  "
+    },
     {
       "title": "Diageo und Co: Ende der Durststrecke bei Alkohol-Aktien?",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/ende-der-durststrecke-20439887.html?feed=directrssfeed",
@@ -58,25 +72,18 @@
       "description": "   An den Börsen hat das Tempo angezogen. Contrarian-Trader Florian Söllner begegnet dem mit 30 Jahren Börsenerfahrung und antizyklischem Gespür. In seinen Depots gibt es jetzt starke Neukäufe inklusive Hintergrundgespräch mit Singulus-CEO zum SpaceX-Deal.  "
     },
     {
-      "title": "TSMC, SanDisk und Co: Jetzt kaufen?",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/tsmc-sandisk-und-co-jetzt-kaufen-20439926.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Sat, 14 Nov 2026 08:00:00 GMT",
-      "description": "   Von wegen Chip, Chip, hurra! Ab sofort heißt es: Chip, Chip, buh! Oder doch nicht?  "
-    },
-    {
-      "title": "30 Jahre Börse. 4 Gespräche. Ein Jubiläumsvorteil.",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/30-jahre-boerse-4-gespraeche-ein-jubilaeumsvorteil-20441408.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Sat, 14 Nov 2026 07:00:00 GMT",
-      "description": "   3 Jahrzehnte Börsengeschichte, gebündelt in 4 spannenden Podcastfolgen: Die Köpfe hinter DER AKTIONÄR erzählen von Tech-Booms, Krisen, überraschenden Wendungen und den Erfahrungen, die Anleger bis heute beschäftigen. Jetzt reinhören – und 30 Prozent Rabatt auf das digitale Jahresabo sichern  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Edelmetall auf der Kippe: Silberpreis-Prognose: Jetzt droht der Dammbruch bei Silber – Anleger alarmiert",
+      "url": "https://www.wallstreet-online.de/nachricht/21694680-edelmetall-kippe-silberpreis-prognose-droht-dammbruch-silber-anleger-alarmiert",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Silberpreis krachte erneut unter die Marke von 50 US-Dollar. Der schwache Wochenschluss lässt für die kommenden Tage nicht viel Gutes erwartet – ein Dammbruch bei Silber droht."
     },
     {
       "title": "Über 12 Mio. Vorbestellungen: 13 Jahre gewartet: GTA VI könnte alle Rekorde brechen",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Costco Wholesale lässt die Dividenden-Bombe platzen: Die gewaltigen Liquiditätspolster kommen Anlegern zugute, die rechtzeitig investiert sind!"
-    },
-    {
-      "title": "Check: Lithium-Aktien & ETF: CoreWeave: Erleichterung | CSG: Absturz | Siemens Energy: Überzeugend",
-      "url": "https://www.wallstreet-online.de/video/21676449-check-lithium-aktien-etf-coreweave-erleichterung-csg-absturz-siemens-energy-ueberzeugend",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Schlagen die Zahlen von CoreWeave die Inflationssorgen? Nachdem die US-Verbraucherpreise über den Erwartungen lagen, verschlechterte sich die Stimmung wieder. Allerdings hellte sie CoreWeave wieder auf! Wie gehts weiter?"
     }
   ],
   "feedErrors": [
