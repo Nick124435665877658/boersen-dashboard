@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T16:18:36.628693+00:00",
+  "fetchedAt": "2026-11-15T17:17:23.700611+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -98,6 +98,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidias Führungswechsel erschüttert die KI-Branche, höhere Zinserwartungen drücken auf Metalle. Gold verliert in London 3,9 %. Wie belastbar ist die Erholung der Aktienmärkte?"
+    },
+    {
+      "title": "KI-Trade heiß gelaufen?: \"Größte Fehlinvestition aller Zeiten\": Vermögensverwalter warnt vor der KI-Blase",
+      "url": "https://www.wallstreet-online.de/video/21695778-ki-trade-heiss-gelaufen-groesste-fehlinvestition-zeiten-vermoegensverwalter-warnt-ki-blase",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Stefan Schrader, Geschäftsführer der Titus Gesellschaft für Finanzdienstleistungen in München, hält den milliardenschweren Ausbau von KI-Rechenzentren für die größte Fehlinvestition aller Zeiten."
     },
     {
       "title": "Geyers Marktkommentar:  Was hat der Bitcoin mit Nvidia zu tun? DAX – 2027 wird großartig!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mehr als 40 Prozent Plus trotz Rezession, Schuldenkrise und politischem Chaos: Rumäniens Aktienmarkt lässt die großen Börsen in diesem Jahr deutlich hinter sich. Was treibt die Rallye an – und wie lange geht das gut?"
-    },
-    {
-      "title": "Seltene Erden: Europa mit ersten Erfolgen, China verliert an Einfluss",
-      "url": "https://www.wallstreet-online.de/nachricht/21677433-seltene-erden-europa-erfolgen-china-verliert-einfluss",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Europa baut seine eigene Seltene-Erden-Industrie auf. In Estland werden bereits Magnete produziert, Schweden und Frankreich treiben neue Anlagen voran. Milliardeninvestitionen sollen Chinas Dominanz brechen."
     }
   ],
   "feedErrors": [
