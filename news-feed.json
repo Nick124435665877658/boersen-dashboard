@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-16T11:01:30.558732+00:00",
+  "fetchedAt": "2026-11-16T12:17:32.344090+00:00",
   "articles": [
+    {
+      "title": "Börsen-Ausblick 2027: Was Goldman Sachs und Morgan Stanley erwarten",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/boersen-ausblick-2027-was-goldman-sachs-und-morgan-stanley-erwarten-20443523.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 12:10:00 GMT",
+      "description": "   Das Jahr 2026 war turbulent: Iran-Krieg, schwankende Ölpreise, ein Umbruch im KI-Sektor und eine US-Zwischenwahl, die die Kontrolle im Kongress an die Demokraten gab. Goldman Sachs und Morgan Stanley teilen für 2027 eine Grundannahme: Die Weltwirtschaft wächst weiter, nur das Tempo unterscheidet sich.  "
+    },
+    {
+      "title": "Rheinmetall zurück an der DAX-Spitze – diese Liste rückt die Aktie ins Rampenlicht",
+      "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-zurueck-an-der-dax-spitze-diese-aktie-rueckt-die-aktie-ins-rampenlicht-20443480.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 11:12:00 GMT",
+      "description": "   Nachdem die Aktie von Rheinmetall in der vergangenen Woche mit einem Minus von rund sechs Prozent noch der schwächste Titel im deutschen Leitindex DAX war, rangiert die Aktie am heutigen Montag an der DAX-Spitze. Gut drei Prozent geht es nach oben. Damit liegt Rheinmetall klar vor den Plätzen zwei und drei, die Daimler Truck und Fresenius mit Zu"
+    },
     {
       "title": "Megatrend Folger: Sandisk – 8:1-Aktiensplit vor dem nächsten KI-Schub",
       "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-sandisk-81-aktiensplit-vor-dem-naechsten-ki-schub-20443415.html?feed=directrssfeed",
@@ -58,25 +72,46 @@
       "description": "   Nach einer schweren Störung bei seinen Büroprogrammen meldet der Konzern am Wochenende, dass wieder alle Systeme laufen. Betroffen war nicht nur der E-Mail-Dienst Outlook, sondern generell das Cloud-Paket Microsoft 365. Doch zum Start in die neue Woche steigen die Suchanfragen zu Outlook-Störungen erneut.  "
     },
     {
-      "title": "Nvidia: Kehrt Huang zurück? Was jetzt im Hintergrund passiert",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-kehrt-huang-zurueck-was-jetzt-im-hintergrund-passiert-20443072.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 07:11:00 GMT",
-      "description": "   Nvidia im Machtkampf: Kehrt Jensen Huang zurück? Der Rücktritt von Jensen Huang an der Spitze des Chipriesen könnte schon bald Makulatur sein. Wie die Financial Times unter Berufung auf informierte Personen berichtet, loten Vertraute des 63-Jährigen bereits aus, wie seine Rückkehr gelingen könnte.  "
-    },
-    {
-      "title": "Tech-Ausverkauf in Asien: TSMC und Co unter Druck",
-      "url": "https://www.deraktionaer.de/artikel/aktien/tech-ausverkauf-in-asien-tsmc-und-co-unter-druck-20443138.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 07:10:00 GMT",
-      "description": "   Die Nervosität an den internationalen Börsen nimmt zu. Vor den mit Spannung erwarteten Quartalszahlen von Nvidia haben asiatische Technologieaktien am Montag kräftig nachgegeben. Besonders hart traf es Taiwan und Südkorea. Nach dem überraschenden Rücktritt von Nvidia-Chef Jensen Huang steht die gesamte KI-Rally vor einer Bewährungsprobe.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Tesla-Revolution : Tesla startet Cybercab-Verkauf: Das steckt hinter dem 299-Dollar-Hammer",
+      "url": "https://www.wallstreet-online.de/nachricht/21698154-tesla-revolution-tesla-cybercab-verkauf-steckt-299-dollar-hammer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Tesla startet den Cybercab-Verkauf für 29.990 US-Dollar. Doch eine monatliche Pflichtgebühr von 299 US-Dollar und strenge Einschränkungen sorgen für einen Haken."
+    },
+    {
+      "title": "Weltindex: MSCI World: Mindestens 28 Aktien fliegen raus – nur 2 kommen hinzu",
+      "url": "https://www.wallstreet-online.de/nachricht/21699630-weltindex-msci-world-28-aktien-fliegen-raus-2-hinzu",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Zum 30. November ändert MSCI den MSCI World: Mindestens 28 Aktien müssen gehen, nur Moderna und Aritzia kommen neu hinzu. Was ETF-Sparer jetzt wissen müssen und warum Strategy fliegt."
+    },
+    {
+      "title": "Uniper vor Milliarden-Coup: KI-Hammer bei Uniper: Aus alten Kraftwerken wird ein Milliardengeschäft",
+      "url": "https://www.wallstreet-online.de/nachricht/21698001-uniper-milliarden-coup-ki-hammer-uniper-alten-kraftwerken-milliardengeschaeft",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Uniper setzt auf den KI-Boom, sichert 700 Megawatt für Rechenzentren und plant Milliardeninvestitionen. Bis 2027 sollen auch die Gewinne deutlich steigen."
+    },
+    {
+      "title": "Eilmeldung: Commerzbank: EU genehmigt Übernahme durch UniCredit ohne Auflagen",
+      "url": "https://www.wallstreet-online.de/nachricht/21699342-eilmeldung-commerzbank-eu-genehmigt-uebernahme-unicredit-auflagen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die EU-Kommission macht den Weg für UniCredits Commerzbank-Pläne frei. Noch fehlt eine Genehmigung aus Polen. Der geplante Zusammenschluss könnte rund 7.000 Arbeitsplätze kosten."
+    },
+    {
+      "title": "Wichtige Zulassung: Neuer Hoffnungsträger: AstraZeneca punktet in Europa und den USA",
+      "url": "https://www.wallstreet-online.de/nachricht/21699189-wichtige-zulassung-hoffnungstraeger-astrazeneca-punktet-europa-usa",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Grünes Licht aus den USA und Europa: AstraZeneca darf ein neuartiges Medikament gegen eine seltene Autoimmunerkrankung auf den Markt bringen."
     },
     {
       "title": "Mega-IPO: Anthropic: Diese neue KI-Aktie könnte wichtiger werden als Nvidia",
@@ -135,8 +170,8 @@
       "description": "Elon Musks SpaceX gelingt ein historischer Coup: Nach dem Start am Freitag kehrt die Starship-Oberstufe am Samstag zur Erde zurück. Der Durchbruch bringt wiederverwendbare Raketen voran. Was macht jetzt die SpaceX-Aktie?"
     },
     {
-      "title": "Gold vor Crash: Gold: Goldpreis im Würgegriff des US-Dollars",
-      "url": "https://www.wallstreet-online.de/nachricht/21697200-gold-crash-gold-goldpreis-wuergegriff-us-dollars",
+      "title": "Gold vor Crash: Goldpreis im Würgegriff des US-Dollars",
+      "url": "https://www.wallstreet-online.de/nachricht/21697200-gold-crash-goldpreis-wuergegriff-us-dollars",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Auch am Montag gibt der Goldpreis wieder deutlich nach. Der starke US-Dollar macht dem gelben Metall zu schaffen. Es droht ein großer Crash."
@@ -280,13 +315,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
-    },
-    {
-      "title": "Weltindex: MSCI World: Mindestens 28 Aktien müssen gehen, nur 2 neue kommen",
-      "url": "https://www.wallstreet-online.de/nachricht/21688761-weltindex-msci-world-28-aktien-gehen-2",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Zum 30. November ändert MSCI den MSCI World: Mindestens 28 Aktien müssen gehen, nur Moderna und Aritzia kommen neu hinzu. Was ETF-Sparer jetzt wissen müssen und warum Strategy fliegt."
     },
     {
       "title": "Community Rückblick: wO-User zu Nvidia-CEO-Rücktritt: \"Das wird ne geile Zockerei!\"",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der deutsche Raumfahrtspezialist und SpaceX-Mitbewerber OHB hat am Donnerstagmorgen starke Zahlen vorgestellt. Die Aktie profitierte allerdings nur kurzzeitig."
-    },
-    {
-      "title": "Prognose angehoben: 6,6 Milliarden Euro Gewinn! Münchener Rück zündet den nächsten Turbo",
-      "url": "https://www.wallstreet-online.de/nachricht/21681123-prognose-angehoben-6-6-milliarden-euro-gewinn-muenchener-rueck-zuendet-naechsten-turbo",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Münchener Rück gibt Gas und hebt ihr Gewinnziel an. Doch wie aussagekräftig ist der Vergleich mit 2025, einem Jahr außergewöhnlich niedriger Großschäden?"
-    },
-    {
-      "title": "Milliardenumbau im Portfolio: Milliarden-Deals und bessere Aussichten: Merck dreht weiter auf",
-      "url": "https://www.wallstreet-online.de/nachricht/21680877-milliardenumbau-portfolio-milliarden-deals-bessere-aussichten-merck-dreht",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Merck ist im dritten Quartal gewachsen und hat die Jahresprognose angehoben. Zugleich baut der Konzern sein Geschäft mit milliardenschweren Deals um."
-    },
-    {
-      "title": "Quartalszahlen: Hapag-Lloyd: Operativer Gewinn fast verfünffacht – doch es gibt einen Haken",
-      "url": "https://www.wallstreet-online.de/nachricht/21680595-quartalszahlen-hapag-lloyd-operativer-gewinn-verfuenffacht-haken",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Hapag-Lloyd steigert das operative Ergebnis auf 935 Millionen Euro. Höhere Frachtraten lassen die Kassen klingeln, die Transportmenge stagniert. Doch hinter den starken Quartalszahlen bleibt ein Problem für die Reederei."
-    },
-    {
-      "title": "Tonies: Zweistelliges Wachstum: Diese Aktie würde Peter Lynch gefallen",
-      "url": "https://www.wallstreet-online.de/nachricht/21680487-tonies-zweistelliges-wachstum-aktie-peter-lynch",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Weltmarktführer und Erfinder der gleichnamigen Tonie-Audioboxen wächst weiter stark. Am Donnerstag hat das Unternehmen seine Zahlen veröffentlicht. Warum sie Lynch gefallen könnte ..."
     }
   ],
   "feedErrors": [
