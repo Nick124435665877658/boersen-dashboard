@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-16T16:56:31.943032+00:00",
+  "fetchedAt": "2026-11-16T18:06:28.614730+00:00",
   "articles": [
+    {
+      "title": "Der heimliche Gewinner",
+      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/der-heimliche-gewinner-20443720.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 18:00:00 GMT",
+      "description": "   Christine Lagarde schlug zuletzt besonders kritische Töne zum KI-Sektor an. So kritisierte die EZB-Präsidentin die Finanzierungsarchitektur des Sektors: Neben klassischer Verschuldung setze die Branche zunehmend auf schuldenähnliche, außerbilanzielle Verpflichtungen zur zukünftigen Nutzung von Rechenzentrumskapazitäten.  "
+    },
+    {
+      "title": "Trump trifft Xi: Was Anleger jetzt wissen müssen",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/trump-trifft-xi-was-anleger-jetzt-wissen-muessen-20443741.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 17:35:00 GMT",
+      "description": "   Trump beginnt die viertägige Reise am Dienstag in Manila mit Gesprächen mit Staats- und Regierungschefs aus Südostasien. Anschließend fliegt er zum APEC-Gipfel nach Shenzhen, der am 18. und 19. November stattfindet. Neben einem bilateralen Treffen mit Xi ist für Donnerstag erstmals ein Dreiergespräch mit Russlands Präsident Wladimir Putin geplan"
+    },
     {
       "title": "DAX schließt auf Tagestief – Tech-Schwäche belastet",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schliesst-auf-tagestief-tech-schwaeche-belastet-20443753.html?feed=directrssfeed",
@@ -58,18 +72,25 @@
       "description": "   Apple plant für das kommende Jahr den Einstieg in einen neuen Produktmarkt. Nach Informationen von Bloomberg-Reporter Mark Gurman will der Konzern auf der Entwicklerkonferenz WWDC im Juni 2027 seine ersten Smart Glasses vorstellen. Das Projekt trägt den Codenamen N50, die Auslieferung soll noch vor Jahresende beginnen.  "
     },
     {
-      "title": "Tesla: 3 Milliarden Dollar für Grünheide",
-      "url": "https://www.deraktionaer.de/artikel/aktien/tesla-3-milliarden-fuer-gruenheide-20443658.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 14:50:11 GMT",
-      "description": "   Tesla setzt auf den Standort Deutschland. Der Elektroautobauer plant eine Milliardeninvestition in seine Fabrik im brandenburgischen Grünheide. Dort sollen künftig auch fahrerlose Robotaxis produziert werden. Langfristig ist eine Kapazität von bis zu einer Million Fahrzeugen pro Jahr vorgesehen.  "
+      "title": "Wohnen wird unbezahlbar: Amerika baut immer billiger – ist das die Lösung für Deutschlands Wohnungsnot?",
+      "url": "https://www.wallstreet-online.de/nachricht/21701097-wohnen-unbezahlbar-amerika-baut-billiger-loesung-deutschlands-wohnungsnot",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die USA bauen immer mehr günstige Holzrahmenhäuser. Könnte serieller Wohnungsbau auch Deutschlands Wohnungsnot lindern?"
     },
     {
-      "title": "Mercedes-Benz: Ein wichtiger Schritt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/mercedes-benz-20443644.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 14:39:00 GMT",
-      "description": "    Mercedes-Benz will neue Fahrassistenzfunktionen zunächst in Deutschland und den USA anbieten. Auf Autobahnen soll es künftig unter bestimmten Bedingungen möglich sein, bei bis zu 130 Kilometern pro Stunde die Hände vom Lenkrad zu nehmen. Das Fahrzeug kann dann auch selbstständig die Spur wechseln.  "
+      "title": "Bitcoin im freien Fall: Coinbase-Aktie: So schlimm kann es jetzt noch werden!",
+      "url": "https://www.wallstreet-online.de/nachricht/21699810-bitcoin-freien-fall-coinbase-aktie-schlimm-werden",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Kryptowährungen haben ihren Abwärtstrend in den vergangenen Tagen beschleunigt und ziehen auch Coinbase nach unten. Dort ist allerdings noch viel Platz."
+    },
+    {
+      "title": "Bullenmarkt vor dem Ende: Noch drei Wochen bis zum Crash, warnen Experten",
+      "url": "https://www.wallstreet-online.de/nachricht/21699864-bullenmarkt-ende-wochen-crash-warnen-experten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mindestens eine kleine Zinserhöhung der Fed wird fest erwartet, eine größere ist möglich. Experten sehen darin ein Startsignal für eine möglicherweise deutliche Korrektur an den Aktienmärkten."
     },
     {
       "title": "Er warnte schon vor 1987!: Ölpreis bei 500 Dollar? Was dieser Mann noch erwartet, könnte Milliarden kosten!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Ein kräftiges Umsatzplus, schrumpfende Margen und ein teurer Konzernumbau: Die secunet-Aktie stürzt um mehr als 12 Prozent ab und landet am SDAX-Ende. Ein Analyst kappt das Kursziel, obwohl die Aufträge sprudeln."
-    },
-    {
-      "title": "Neue Chipgeneration: 33 % mehr Power: AMD macht Nvidia Konkurrenz",
-      "url": "https://www.wallstreet-online.de/nachricht/21682830-chipgeneration-33-power-amd-nvidia-konkurrenz",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Supermicro bringt neue KI-Server auf den Markt. Gemeinsam mit AMD will der Konzern Rechenzentren auf ein neues Leistungsniveau heben."
-    },
-    {
-      "title": "3,6 Milliarden Dollar bewegt: Bitcoin-Anleger flüchten mit Verlusten – die nächste Verkaufswelle droht",
-      "url": "https://www.wallstreet-online.de/nachricht/21682539-3-6-milliarden-dollar-bewegt-bitcoin-anleger-fluechten-verlusten-verkaufswelle-droht",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Anleger übertragen Milliardenbeträge mit Verlusten an Kryptobörsen. Gleichzeitig wächst die Sorge vor weiteren Kursverlusten bei Bitcoin."
-    },
-    {
-      "title": "Gold unter 4.000 US-Dollar: Goldpreis: So weit kann es jetzt noch runter gehen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21682437-gold-4-000-us-dollar-goldpreis-weit-runter-gehen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Goldpreis ist am Donnerstag zum dritten Mal in Folge gefallen und hat damit den niedrigsten Stand seit über einer Woche erreicht. Wie tief kann es jetzt noch abwärts gehen?"
     }
   ],
   "feedErrors": [
