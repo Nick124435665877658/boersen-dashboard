@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-16T15:41:17.205707+00:00",
+  "fetchedAt": "2026-11-16T16:56:31.943032+00:00",
   "articles": [
+    {
+      "title": "DAX schließt auf Tagestief – Tech-Schwäche belastet",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schliesst-auf-tagestief-tech-schwaeche-belastet-20443753.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 16:45:00 GMT",
+      "description": "   Die weltweite Schwäche der Technologiewerte hat den DAX zum Wochenauftakt belastet. Der Leitindex schloss 0,57 Prozent tiefer bei 26.598,64 Punkten und damit auf seinem Tagestief. Am Freitag hatte er bei 26.749,95 Punkten geschlossen, am Donnerstag erstmals kurzzeitig die Marke von 27.  "
+    },
+    {
+      "title": "90-Prozent-Crash! Brisante Statistik vor Anthropic-IPO",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/90-prozent-crash-brisante-statistik-vor-anthropic-ipo-20443744.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 16:18:00 GMT",
+      "description": "   Am Donnerstag hat das Warten ein Ende: Anthropic geht an die Börse. Die KI-Firma strebt eine Bewertung von bis zu rund einer Billion Dollar an. Zwar hat sich die Stimmung im Sektor nicht zuletzt wegen Nvidia verschlechtert. Aber die Chancen auf einen gelungenen Start stehen gut.  "
+    },
+    {
+      "title": "André Fischer: Ist das der nächste Fintech-Gigant?",
+      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/andr-fischer-ist-das-der-naechste-fintech-gigant-20443694.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 16:15:00 GMT",
+      "description": "   Banking, Bezahlen, Bitcoin und KI – alles in einer einzigen App. Was heute noch nach Zukunft klingt, könnte den Finanzsektor grundlegend verändern. Ein US-Fintech-Unternehmen arbeitet bereits mit Hochdruck an genau dieser Vision und will Millionen Händler und Verbraucher in einem gigantischen Finanzökosystem vereinen.  "
+    },
+    {
+      "title": "Nvidia, AMD, Broadcom: Halbleiter-Aktien erneut unter Druck",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/nvidia-amd-broadcom-halbleiter-aktien-erneut-unter-druck-20443725.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 15:50:00 GMT",
+      "description": "   Der Ausverkauf bei Technologiewerten setzt sich zum Start in die neue Handelswoche fort. Rund eine Stunde nach Handelsbeginn an der Wall Street notierte der S&P 500 1,3 Prozent im Minus, der Nasdaq 100 verlor 2,3 Prozent. Der Dow Jones gab mit 0,6 Prozent weniger stark nach.  "
+    },
+    {
+      "title": "Nvidia: Die Techwelt und Trump wollen Huang zurück",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-die-techwelt-und-trump-wollen-huang-zurueck-20443672.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 15:47:00 GMT",
+      "description": "   Der Rückhalt für Jensen Huang wächst. Nach seinem Rücktritt als Nvidia-Chef setzen sich immer mehr prominente Stimmen aus dem Silicon Valley für eine Rückkehr des Mitgründers ein. Selbst US-Präsident Donald Trump hätte offenbar nichts dagegen.  "
+    },
+    {
+      "title": "Deutsche Rohstoff: „Stutziger“ Aktionär und Almonty-Streit",
+      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-rohstoff-stutziger-aktionaer-und-almonty-streit-20443708.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 15:37:00 GMT",
+      "description": "   Seit dem Signal der Turnaround-Formel AKTIONÄR im Januar 2021 war die Deutsche-Rohstoff-Aktie rund 800 Prozent gestiegen. Doch dann gab es im Report 39/2026 ein Warnsignal im Chart und es folgte eine Klage von Almonty.  "
+    },
     {
       "title": "Singulus: Kontakt zu Tesla, Hype dank SpaceX",
       "url": "https://www.deraktionaer.de/artikel/aktien/singulus-kontakt-zu-tesla-hype-dank-spacex-20443659.html?feed=directrssfeed",
@@ -30,46 +72,18 @@
       "description": "    Mercedes-Benz will neue Fahrassistenzfunktionen zunächst in Deutschland und den USA anbieten. Auf Autobahnen soll es künftig unter bestimmten Bedingungen möglich sein, bei bis zu 130 Kilometern pro Stunde die Hände vom Lenkrad zu nehmen. Das Fahrzeug kann dann auch selbstständig die Spur wechseln.  "
     },
     {
-      "title": "BIKE24 mit Rekordumsatz: \"Wir trauen uns durchaus noch mehr zu\"",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/bike24-mit-rekordumsatz-wir-trauen-uns-durchaus-noch-mehr-zu-20429500.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 14:00:00 GMT",
-      "description": "   Das Geschäft von BIKE24 nimmt an Fahrt auf: Im dritten Quartal hat der Dresdner Online-Fahrradhändler 30 Prozent mehr Umsatz in erstmals dreistelliger Millionenhöhe erzielt. Danach sah es lange nicht aus. Auf den Höhenflug während der Pandemie folgte eine rasante Talfahrt, die 2023 ihren Tiefpunkt erreichte.  "
+      "title": "Er warnte schon vor 1987!: Ölpreis bei 500 Dollar? Was dieser Mann noch erwartet, könnte Milliarden kosten!",
+      "url": "https://www.wallstreet-online.de/nachricht/21699897-warnte-1987-oelpreis-500-dollar-erwartet-milliarden-kosten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ulf Lindahls Modell schlug schon vor dem Schwarzen Montag Alarm. Fast 40 Jahre später sieht der Marktveteran wieder gefährliche Signale. Seine Prognosen für Aktien und Öl könnten kaum extremer ausfallen."
     },
     {
-      "title": "Volkswagen: Ehrgeizige Ziele - realistisch oder zu hoch gegriffen?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/volkswagen-ehrgeizige-ziele-aber-auch-realistisch-20443352.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 13:59:00 GMT",
-      "description": "   Volkswagen-Chef Oliver Blume hat für 2030 ehrgeizige Ziele formuliert. Bis dahin will Blume weltweit rund neun Millionen Autos verkaufen. Zugleich soll die Profitabilität deutlich steigen. Realistisch? Oder zu hoch gegriffen?  "
-    },
-    {
-      "title": "Adidas: Nächste Niederlage gegen Nike",
-      "url": "https://www.deraktionaer.de/artikel/aktien/adidas-naechste-niederlage-gegen-nike-20443610.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 13:48:00 GMT",
-      "description": "    Heute Abend wird Deutschlands Fußball-Nationalmannschaft zum vorerst letzten Mal mit Trikots des Ausstatters Adidas auflaufen. Denn ab dem 1. Januar trennen sich nach vielen Jahrzehnten die wegen von Adidas und DFB. Dann wird Nike die verschiedenen deutschen National-Teams ausrüsten.  "
-    },
-    {
-      "title": "Bitcoin nach 4-Monats-Tief: Eher 50.000 als 100.000 Dollar?",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-nach-4-monats-tief-eher-50000-als-100000-dollar-20443584.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 13:45:00 GMT",
-      "description": "   Bitcoin ist am Wochenende weiter unter Druck geraten und bei rund 62.000 Dollar zeitweise auf den tiefsten Stand seit Mitte Juli gefallen. Zwar konnte sich der Kurs seither etwas nach oben absetzen, auf Sieben-Tage-Sicht steht aber dennoch ein Minus von rund 14 Prozent an der Kurstafel.  "
-    },
-    {
-      "title": "Warren Buffett: Milliarden-Spende und eine wichtige Botschaft",
-      "url": "https://www.deraktionaer.de/artikel/aktien/warren-buffett-milliarden-spende-und-eine-wichtige-botschaft-20443569.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 13:42:00 GMT",
-      "description": "   Warren Buffett lässt Taten sprechen: Der 96-jährige Starinvestor hat Berkshire-Hathaway-Aktien im Wert von rund 5,5 Milliarden Dollar an vier gemeinnützige Stiftungen verschenkt. In seinem traditionellen Thanksgiving-Brief verbindet er die milliardenschwere Spende mit einer persönlichen Botschaft – und bekräftigt sein Vertrauen in die Zukunft se"
-    },
-    {
-      "title": "Nvidia: Schwarzer Schwan?",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/nvidia-ein-schwarzer-schwan-20443541.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 13:00:00 GMT",
-      "description": "   Der Nvidia-Skandal wirft eine alte Börsenfrage auf: Ist das ein Schwarzer Schwan – und wann erholen sich die Kurse? Talebs Definition und frühere Krisen zeigen, warum ein überraschender Schock allein wenig über die Folgen für Anleger verrät.  "
+      "title": "Ölschwemme? Von wegen!: Irakisches Öl 13 Dollar teurer als Brent – was ist da los?",
+      "url": "https://www.wallstreet-online.de/nachricht/21699051-oelschwemme-wegen-irakisches-oel-13-dollar-teurer-brent-los",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Experten warnen vor einer Ölschwemme. Trotzdem müssen chinesische Raffinerien für irakisches Öl kräftige Aufschläge zahlen. Dahinter steckt eine außergewöhnliche Verschiebung, bei der ein Konzern groß mitmischt."
     },
     {
       "title": "Nie wieder neue Allzeithochs?!: Bitcoin: Unter dieser Marke könnte der Crash erst richtig losgehen!",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Goldpreis ist am Donnerstag zum dritten Mal in Folge gefallen und hat damit den niedrigsten Stand seit über einer Woche erreicht. Wie tief kann es jetzt noch abwärts gehen?"
-    },
-    {
-      "title": "Nvidia: Kaufen?",
-      "url": "https://www.wallstreet-online.de/nachricht/21682629-nvidia-kaufen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wir besprechen die aktuelle Situation sowie das technische Chartbild und werfen außerdem einen Blick auf den aktuellen Stand bei Bitcoin."
-    },
-    {
-      "title": "Verluste ohne Ende: Rheinmetall im Crash-Modus: Wo ist der Boden?",
-      "url": "https://www.wallstreet-online.de/nachricht/21681330-verluste-ende-rheinmetall-crash-modus-boden",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die kurze Zwischenerholung nach dem Zahlen-Crash ist bei Rheinmetall schon wieder dahin. Die Chancen auf einen Boden bei 800 Euro schwinden – wo liegt der nächste?"
     }
   ],
   "feedErrors": [
