@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T02:40:22.458865+00:00",
+  "fetchedAt": "2026-11-16T05:06:14.886039+00:00",
   "articles": [
     {
       "title": "Wall Street: Diese Statistik müssen Anleger jetzt kennen",
@@ -70,6 +70,27 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 14 Nov 2026 10:00:00 GMT",
       "description": "   Vom Börsenstar zum Krisenfall: Rheinmetall hat mit einer erneuten Gewinnwarnung die Anleger verprellt. Geht die Talfahrt weiter oder hat der Rüstungskonzern noch Pfeile im Köcher?  "
+    },
+    {
+      "title": "Hier geht was…: Silber-Gold-Offensive: 139 % mehr Minen-Cashflow und 30.000 Meter neue Chancen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21695445-was-silber-gold-offensive-139-minen-cashflow-30-000-meter-chancen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Endeavour Silver meldet kräftigen Cashflow-Zuwachs. Sierra Madre verbindet höheren Durchsatz mit neuer Exploration, während die jüngste Silbermarktprognose ein differenziertes Nachfragebild zeichnet."
+    },
+    {
+      "title": "Im strategischen Fokus: Gold auf Jahrestief – Zentralbanken greifen zu: Drei Projekte geben jetzt Gas!",
+      "url": "https://www.wallstreet-online.de/nachricht/21695586-strategischen-fokus-gold-jahrestief-zentralbanken-greifen-zu-projekte-gas",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold fiel am 12. November auf den tiefsten Stand seit über einem Jahr, Zentralbanken kauften kräftig zu. GoldMining, Southern Cross Gold und Osisko Gold treiben ihre Projekte dennoch voran."
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Zahlen-Updates von: Tyson Foods, Baidu, Xpeng, Infleqtion, Red Cat und POET",
+      "url": "https://www.wallstreet-online.de/nachricht/21688548-wichtigsten-termine-zahlen-updates-von-tyson-foods-baidu-xpeng-infleqtion-red-poet",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Passives Einkommen: Logista-Aktionäre dürfen sich freuen: 2027 erneut starke Dividende",
@@ -749,27 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Ökonom Neil Dutta warnt vor einer Entwicklung, auf die der Aktienmarkt seiner Einschätzung nach kaum vorbereitet ist. Die jüngsten Reaktionen an den Anleihemärkten liefern ein erstes Warnsignal."
-    },
-    {
-      "title": "Das gab es noch nie!: Bitcoin vor historischem Debakel",
-      "url": "https://www.wallstreet-online.de/nachricht/21676395-nie-bitcoin-historischem-debakel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bitcoin ist unter 74.000 US-Dollar gefallen. Doch der eigentliche Schock könnte erst noch kommen: Eine historische Serie droht, die es trotz aller bisherigen Crashs nie gab."
-    },
-    {
-      "title": "CoreWeave, AMD: Ist das die größte Bullenfalle des Jahres?",
-      "url": "https://www.wallstreet-online.de/nachricht/21677553-coreweave-amd-groesste-bullenfalle-jahres",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wir analysieren die wichtigsten Kursmarken, Chancen und Risiken und klären, ob es jetzt Zeit ist, Gewinne zu sichern."
-    },
-    {
-      "title": "Wieso denn bloß?: Die beste Aktien-Performance der Welt bietet Rumänien",
-      "url": "https://www.wallstreet-online.de/nachricht/21677310-bloss-beste-aktien-performance-welt-rumaenien",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Mehr als 40 Prozent Plus trotz Rezession, Schuldenkrise und politischem Chaos: Rumäniens Aktienmarkt lässt die großen Börsen in diesem Jahr deutlich hinter sich. Was treibt die Rallye an – und wie lange geht das gut?"
     }
   ],
   "feedErrors": [
