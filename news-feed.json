@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T20:55:30.184744+00:00",
+  "fetchedAt": "2026-11-16T21:53:57.811988+00:00",
   "articles": [
+    {
+      "title": "Wall Street: Chipwerte belasten – Nasdaq 100 verliert rund 2,7 Prozent",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-chipwerte-belasten-nasdaq-100-verliert-deutlich-20443868.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 21:05:00 GMT",
+      "description": "   Die US-Börsen sind mit deutlichen Verlusten in die neue Woche gestartet. Der Dow Jones schloss 1,41 Prozent tiefer bei 51.608,17 Punkten, der S&P 500 verlor 1,92 Prozent auf 7.416,59 Punkte und der Nasdaq 100 büßte 2,67 Prozent auf 27.197,15 Punkte ein.  "
+    },
     {
       "title": "Kursgewinn gegen den Markttrend: Hier sind heute die Bullen los",
       "url": "https://www.deraktionaer.de/artikel/aktien/kursgewinn-gegen-den-markttrend-hier-sind-heute-die-bullen-los-20443836.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Der Rückhalt für Jensen Huang wächst. Nach seinem Rücktritt als Nvidia-Chef setzen sich immer mehr prominente Stimmen aus dem Silicon Valley für eine Rückkehr des Mitgründers ein. Selbst US-Präsident Donald Trump hätte offenbar nichts dagegen.  "
     },
     {
-      "title": "Deutsche Rohstoff: „Stutziger“ Aktionär und Almonty-Streit",
-      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-rohstoff-stutziger-aktionaer-und-almonty-streit-20443708.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 15:37:00 GMT",
-      "description": "   Seit dem Signal der Turnaround-Formel AKTIONÄR im Januar 2021 war die Deutsche-Rohstoff-Aktie rund 800 Prozent gestiegen. Doch dann gab es im Report 39/2026 ein Warnsignal im Chart und es folgte eine Klage von Almonty.  "
+      "title": "Nur noch Platz 3!: Nvidia fällt hinter Microsoft zurück: Chip-Riese vor den Zahlen angeschlagen",
+      "url": "https://www.wallstreet-online.de/nachricht/21702030-platz-3-nvidia-faellt-microsoft-zurueck-chip-riese-zahlen-angeschlagen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Erst der Chef weg, dann der Absturz im Ranking: Nvidia büßt mehr als vier Prozent ein fällt auf Rang drei unter den wertvollsten Konzernen der Welt. Am Dienstagabend muss der Chipriese liefern."
     },
     {
       "title": "Aktien, Öl, Zinsen, US-Dollar: Rallye 2027? Goldman und Morgan Stanley setzen auf diese Märkte",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Chinas Exporte schießen nach oben, die Notenbank verspricht Rückenwind. Doch vor dem großen Gipfel in Shenzhen rückt etwas ganz anderes in den Fokus. Und das bereitet dem Westen Sorgen."
-    },
-    {
-      "title": "Börse, Baby!: Polen in Gefahr? So hoch ist das Risiko jetzt für Anleger!",
-      "url": "https://www.wallstreet-online.de/video/21683367-boerse-baby-polen-gefahr-risiko-anleger",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Regierungschef Donald Tusk und Präsident Karol Nawrocki liegen im Clinch und lösen in Polen eine handfeste Verfassungskrise aus. Wie hoch ist die Gefahr für Anleger?"
     }
   ],
   "feedErrors": [
