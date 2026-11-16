@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T20:00:17.606123+00:00",
+  "fetchedAt": "2026-11-16T20:55:30.184744+00:00",
   "articles": [
     {
       "title": "Kursgewinn gegen den Markttrend: Hier sind heute die Bullen los",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Mon, 16 Nov 2026 15:37:00 GMT",
       "description": "   Seit dem Signal der Turnaround-Formel AKTIONÄR im Januar 2021 war die Deutsche-Rohstoff-Aktie rund 800 Prozent gestiegen. Doch dann gab es im Report 39/2026 ein Warnsignal im Chart und es folgte eine Klage von Almonty.  "
+    },
+    {
+      "title": "Aktien, Öl, Zinsen, US-Dollar: Rallye 2027? Goldman und Morgan Stanley setzen auf diese Märkte",
+      "url": "https://www.wallstreet-online.de/nachricht/21699855-aktien-oel-zinsen-us-dollar-rallye-2027-goldman-morgan-stanley-maerkte",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldman Sachs und Morgan Stanley erwarten 2027 Rückenwind durch KI und billigeres Öl. Doch bei Europa, US-Dollar und Zinsen gehen ihre Prognosen auseinander. Welche Märkte sie jetzt favorisieren – und wo Risiken lauern."
     },
     {
       "title": "Die Fed hat den Krieg verloren: Den USA droht der wirtschaftliche Totalschaden – viel früher als gedacht!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Regierungschef Donald Tusk und Präsident Karol Nawrocki liegen im Clinch und lösen in Polen eine handfeste Verfassungskrise aus. Wie hoch ist die Gefahr für Anleger?"
-    },
-    {
-      "title": "Mitten im Nvidia-Drama: Nebius-Aktie crasht nach den Zahlen: Neocloud unter Druck",
-      "url": "https://www.wallstreet-online.de/nachricht/21684132-mitten-nvidia-drama-nebius-aktie-crasht-zahlen-neocloud-druck",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Nebius-Aktie startet mit minus 22 Prozent und fällt auf den tiefsten Stand seit April. Verzögerte Kapazitäten und ein höheres Investitionsbudget belasten, dazu kommt Unruhe bei Nvidia."
     }
   ],
   "feedErrors": [
