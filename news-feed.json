@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-16T18:06:28.614730+00:00",
+  "fetchedAt": "2026-11-16T18:59:51.310180+00:00",
   "articles": [
+    {
+      "title": "Nvidia: Das sagt der Verwaltungsrat zu einem Huang-Comeback",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-das-sagt-der-verwaltungsrat-zu-einem-huang-comeback-20443818.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 16 Nov 2026 18:08:00 GMT",
+      "description": "   Nach dem Rücktritt von Jensen Huang als Nvidia-CEO in der Vorwoche mehren sich die Stimmen derer, die eine  Rückkehr des Mitgründers an die Konzernspitze fordern .  "
+    },
     {
       "title": "Der heimliche Gewinner",
       "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/der-heimliche-gewinner-20443720.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Kommentar: Totgesagte leben länger. Neuer-Markt-Star Singulus hat sich immer wieder neu erfunden und steht nun plötzlich dank Elon-Musk-Tweet ganz hoch im Kurs der Anleger. Auch der Anthropic-CEO will nun sehr hoch hinaus. Bleiben Sie wachsam und flexibel!  "
     },
     {
-      "title": "„AirPods fürs Gesicht“: Das plant Apple für 2027",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/airpods-fuers-gesicht-das-plant-apple-fuer-2027-20443626.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 15:15:00 GMT",
-      "description": "   Apple plant für das kommende Jahr den Einstieg in einen neuen Produktmarkt. Nach Informationen von Bloomberg-Reporter Mark Gurman will der Konzern auf der Entwicklerkonferenz WWDC im Juni 2027 seine ersten Smart Glasses vorstellen. Das Projekt trägt den Codenamen N50, die Auslieferung soll noch vor Jahresende beginnen.  "
+      "title": "Nicht SAP: Darum lässt diese deutsche Cloud-Aktie jetzt US-Highflyer weit hinter sich!",
+      "url": "https://www.wallstreet-online.de/nachricht/21698874-sap-laesst-deutsche-cloud-aktie-us-highflyer-weit-sich",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Viele US-Technologieaktien befinden sich inzwischen in hartnäckigen Abwärtstrends. Dem stellt sich nicht nur SAP, sondern vor allem auch IONOS entgegen."
     },
     {
       "title": "Wohnen wird unbezahlbar: Amerika baut immer billiger – ist das die Lösung für Deutschlands Wohnungsnot?",
@@ -79,8 +86,8 @@
       "description": "Die USA bauen immer mehr günstige Holzrahmenhäuser. Könnte serieller Wohnungsbau auch Deutschlands Wohnungsnot lindern?"
     },
     {
-      "title": "Bitcoin im freien Fall: Coinbase-Aktie: So schlimm kann es jetzt noch werden!",
-      "url": "https://www.wallstreet-online.de/nachricht/21699810-bitcoin-freien-fall-coinbase-aktie-schlimm-werden",
+      "title": "Bitcoin im freien Fall: Coinbase-Aktie: So tief kann sie jetzt noch fallen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21699810-bitcoin-freien-fall-coinbase-aktie-tief-fallen",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Kryptowährungen haben ihren Abwärtstrend in den vergangenen Tagen beschleunigt und ziehen auch Coinbase nach unten. Dort ist allerdings noch viel Platz."
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Personalie Jensen Huang bleibt das bestimmende Thema an den Märkten. Bleibt er Nvidia-CEO oder muss er gehen? Eine Diskussion, die viele Spekulationen enthält. Wer sind die Gewinner und Verlierer dieses Themas?"
-    },
-    {
-      "title": "Cybersecurity made in Germany: Umsatz top, Aktie Flop: secunet stürzt ans SDAX-Ende",
-      "url": "https://www.wallstreet-online.de/nachricht/21683562-cybersecurity-made-germany-umsatz-top-aktie-flop-secunet-stuerzt-ans-sdax-ende",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ein kräftiges Umsatzplus, schrumpfende Margen und ein teurer Konzernumbau: Die secunet-Aktie stürzt um mehr als 12 Prozent ab und landet am SDAX-Ende. Ein Analyst kappt das Kursziel, obwohl die Aufträge sprudeln."
     }
   ],
   "feedErrors": [
