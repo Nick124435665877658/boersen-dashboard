@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T19:43:18.724198+00:00",
+  "fetchedAt": "2026-11-17T20:29:36.225762+00:00",
   "articles": [
     {
       "title": "Nvidia vor dem Showdown: Gratis-Report MORGEN!",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 13:44:00 GMT",
       "description": "   Die US-Verbraucher haben im Oktober genau so viel ausgegeben wie erwartet – unter der Oberfläche lief es aber deutlich besser. Wie das US-Handelsministerium gerade mitteilte, stiegen die Einzelhandelsumsätze zum Vormonat um 0,2 Prozent. Volkswirte hatten im Schnitt mit genau diesem Plus gerechnet.  "
+    },
+    {
+      "title": "Krypto-Wale verkaufen: Warum das große Geld gerade einen Bogen um Bitcoin macht",
+      "url": "https://www.wallstreet-online.de/nachricht/21707394-krypto-wale-verkaufen-grosse-geld-gerade-bogen-bitcoin",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Hohe Zinsen und Milliardenabflüsse setzen der Kryptowährung zu, große Halter verkaufen. Die DZ Bank nennt die Marke, an der sich jetzt alles entscheidet."
     },
     {
       "title": "Bank warnt vor Überangebot: SanDisk, Micron, SK Hynix: Wen trifft es am härtesten?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Laut der Internationalen Energieagentur (IEA) erreichten Russlands Exporteinnahmen aus Rohöl und Erdölprodukten im Oktober den höchsten Stand seit Mai."
-    },
-    {
-      "title": "Neue Hoffnung: Nach dem Abnehm-Boom: Eli Lilly zündet die nächste Milliardenstufe",
-      "url": "https://www.wallstreet-online.de/nachricht/21689433-hoffnung-abnehm-boom-eli-lilly-zuendet-milliardenstufe",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eli Lilly steckt 3,5 Milliarden US-Dollar in einen neuen Produktionsstandort. Dabei geht es um einen Wirkstoff, der das nächste große Geschäft werden könnte."
     }
   ],
   "feedErrors": [
