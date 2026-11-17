@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-17T15:31:52.589444+00:00",
+  "fetchedAt": "2026-11-17T16:40:29.508233+00:00",
   "articles": [
+    {
+      "title": "Wall-Street-Update: Chipwerte ziehen Indizes vor Nvidia-Zahlen ins Minus",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-chipwerte-ziehen-indizes-vor-nvidia-zahlen-ins-minus-20444781.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 16:10:00 GMT",
+      "description": "   Die US-Börsen haben am Dienstag ihre Verluste vom Wochenbeginn ausgeweitet. Der Dow Jones verlor in den ersten Handelsstunden zeitweise fast 800 Punkte oder 1,5 Prozent. Der S&P 500 gab 1,4 Prozent nach, der Nasdaq Composite 1,6 Prozent. Belastet wird der Markt vor allem von Halbleiterwerten – Anleger meiden sie vor den Quartalszahlen von Nvidia"
+    },
     {
       "title": "UnitedHealth und Co: Langfristige Gewinner mit Renditepotenzial",
       "url": "https://www.deraktionaer.de/artikel/indizes/unitedhealth-und-co-langfristige-gewinner-mit-renditepotenzial-20444571.html?feed=directrssfeed",
@@ -65,11 +72,32 @@
       "description": "    Im Ringen um Evonik ist immer noch keine Einigung in Sicht. BASF hat sein Interesse an einer Übernahme signalisiert und das Angebot offenbar auf 24 Euro je Evonik-Aktie erhöht. Damit würde der Spezialchemiekonzern mit mehr als elf Milliarden Euro bewertet.  "
     },
     {
-      "title": "Allianz: Wachstumsbeschleunigung voraus?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-wachstumsbeschleunigung-voraus-20444451.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 10:34:00 GMT",
-      "description": "   Die Versicherungsbranche wächst weltweit, und der Schub dürfte in den kommenden zwei Jahren noch zunehmen. Das geht aus einer aktuellen Branchenstudie hervor. Für den europäischen Marktführer Allianz wäre das ein klarer Rückenwind. Ist diese Hoffnung berechtigt?  "
+      "title": "KI-Aktien-Crash: Erst der Anfang, Panik steht noch bevor?",
+      "url": "https://www.wallstreet-online.de/nachricht/21707613-ki-aktien-crash-anfang-panik-bevor",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wir werfen einen Blick auf die aktuelle Marktlage und mögliche Szenarien."
+    },
+    {
+      "title": "Lateinamerika-Börsen: Öl treibt Brasilien-Börse an – doch Morgan Stanley warnt vor Kursverlusten",
+      "url": "https://www.wallstreet-online.de/nachricht/21707415-lateinamerika-boersen-oel-treibt-brasilien-boerse-morgan-stanley-warnt-kursverlusten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Brasiliens Börse steigt dank höherer Ölpreise. Doch Morgan Stanley warnt vor Kursverlusten und Chiles Zentralbank sieht wachsende Finanzrisiken."
+    },
+    {
+      "title": "Klarna wächst rasant: Klarna wächst rasant: Warum die Quartalszahlen trotzdem enttäuschen",
+      "url": "https://www.wallstreet-online.de/nachricht/21707109-klarna-waechst-rasant-klarna-waechst-rasant-quartalszahlen-enttaeuschen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Klarna steigert den Umsatz auf 1,01 Milliarden US-Dollar und reduziert den Verlust. Doch die Gewinnerwartungen werden verfehlt und der Ausblick enttäuscht."
+    },
+    {
+      "title": "Cybersecurity trifft Rüstung: Lockheed Martin setzt auf KI – dieser Partner soll es möglich machen",
+      "url": "https://www.wallstreet-online.de/nachricht/21706944-cybersecurity-trifft-ruestung-lockheed-martin-ki-partner",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein F-35-Geschäft mit der Schweiz hat Folgen: Lockheed Martin unterstützt einen Cybersecurity-Spezialisten bei einem ambitionierten Technologieprojekt."
     },
     {
       "title": "Rohstoff-Knall: China unter Druck: Trump schmiedet neue Allianz für Seltene Erden",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Colette Kress übernimmt bis auf Weiteres den Chefposten des weltgrößten Chipdesigners Nvidia. Aber: Wie viel wusste sie von Huangs Fehltritten bereits vor ihrer Veröffentlichung?"
-    },
-    {
-      "title": "Bitcoin: DAS ZEIGT EUCH KEINER!",
-      "url": "https://www.wallstreet-online.de/nachricht/21688941-bitcoin-zeigt-keiner",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Was dafür passieren muss und worauf es jetzt ankommt, erfahrt ihr in dieser Ausgabe."
-    },
-    {
-      "title": "Das ist alles betroffen: Porto-Hammer 2027! Deutsche Post erhöht Preise um bis zu 72 Prozent",
-      "url": "https://www.wallstreet-online.de/nachricht/21688911-betroffen-porto-hammer-2027-deutsche-post-erhoeht-preise-72-prozent",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Deutsche Post erhöht 2027 ihre Preise um bis zu 72 Prozent. Pakete und Briefe werden teurer. Für die DHL-Aktie könnte das zusätzlichen Rückenwind bedeuten."
-    },
-    {
-      "title": "Chef ist weg, die Gier bleibt: Nvidia: Kleinanleger setzen 111 Millionen gegen den Crash – in nur 30 Minuten!",
-      "url": "https://www.wallstreet-online.de/nachricht/21688554-chef-weg-gier-bleibt-nvidia-kleinanleger-111-millionen-crash-30-minuten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Jensen Huang ist weg, an der Börse wurden Billionen vernichtet. Trotzdem greifen Privatanleger bei Nvidia in Rekordtempo zu. Während die einen auf das große Comeback wetten, folgt von der Wall Street der nächste Dämpfer."
-    },
-    {
-      "title": "Öl-Deal mitten im Iran-Krieg: Öl-Hammer aus Saudi-Arabien: China schnappt sich Millionen Barrel",
-      "url": "https://www.wallstreet-online.de/nachricht/21687672-oel-deal-mitten-iran-krieg-oel-hammer-saudi-arabien-china-schnappt-millionen-barrel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Saudi Aramco verkauft sieben Millionen Barrel Öl nach Asien. China sichert sich den Großteil. Hohe Preisabschläge zeigen den Druck auf den Ölmarkt."
     }
   ],
   "feedErrors": [
