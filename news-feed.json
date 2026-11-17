@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T09:08:20.151113+00:00",
+  "fetchedAt": "2026-11-17T10:13:08.292212+00:00",
   "articles": [
     {
       "title": "Medtech-Gigant vor großem Comeback: Bis zu 2.346 Prozent Gewinnchance",
@@ -77,6 +77,20 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Dalio tritt auf die Techbremse: Nvidia, Microsoft, Alphabet verkauft! Bridgewater kehrt Big Tech den Rücken",
+      "url": "https://www.wallstreet-online.de/nachricht/21705270-dalio-tritt-techbremse-nvidia-microsoft-alphabet-verkauft-bridgewater-kehrt-big-tech-ruecken",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bridgewater kappt seine Wetten auf den Gesamtmarkt und Big Tech. Das neue 13F-Filing zeigt, wohin der Hedgefonds stattdessen umschichtet: in Chipwerte, Versorger und Labortechnik. Die wichtigsten Bewegungen im Überblick."
+    },
+    {
+      "title": "Aktie stürzt ab: Deutsche Bank: Jetzt kommt ans Licht, was niemals öffentlich werden sollte!",
+      "url": "https://www.wallstreet-online.de/nachricht/21704295-aktie-stuerzt-ab-deutsche-bank-ans-licht-oeffentlich-sollte",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "15 Millionen interne Dokumente, mehr als 200 recherchierende Journalisten und Geschäftsbeziehungen bis in höchste politische Kreise. Für die Deutsche Bank kehrt ein Alptraum zurück."
     },
     {
       "title": "Tarifkonflikt vor Wende?: Lufthansa macht Piloten ein Traumangebot – mit bitterem Haken",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Zahl der Zwangsversteigerungen in Deutschland nimmt zu. Das Angebot an Häusern und Wohnungen für Käufer wächst. Die Zinswende belastet insbesondere den Immobilienkauf auf Kredit."
-    },
-    {
-      "title": "KI-Boom: DIESE Wallstreet-Unternehmen setzten KI im Alltag profitabel ein",
-      "url": "https://www.wallstreet-online.de/nachricht/21685098-ki-boom-wallstreet-unternehmen-ki-alltag-profitabel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eine zunehmende Anzahl von Unternehmen des S&P 500 profitiert erheblich von künstlicher Intelligenz (KI)."
-    },
-    {
-      "title": "Rallye-Chancen steigen: Siemens-Energy-Aktie: Das Kaufsignal ist jetzt zum Greifen nahe!",
-      "url": "https://www.wallstreet-online.de/nachricht/21684177-rallye-chancen-steigen-siemens-energy-aktie-kaufsignal-greifen-nahe",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Rücktritt von Nvidia-CEO Jensen Huang bremst die Erholung der KI-Branche und damit auch von Siemens Energy aus. Ein Kaufsignal rückt trotzdem immer näher."
     }
   ],
   "feedErrors": [
