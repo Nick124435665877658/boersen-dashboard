@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T11:56:29.427326+00:00",
+  "fetchedAt": "2026-11-17T13:14:16.660168+00:00",
   "articles": [
     {
       "title": "Nur noch bis morgen: 30 Prozent Jubiläumsrabatt sichern!",
@@ -77,6 +77,34 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Trotz Verkaufspanik: Der KI-Boom geht weiter – und diese Bank schafft jetzt Fakten!",
+      "url": "https://www.wallstreet-online.de/nachricht/21704430-trotz-verkaufspanik-ki-boom-bank-schafft-fakten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Vor den Nvidia-Zahlen schmeißen Investoren alles, was mit KI zu tun hat, aus den Depots. Bei der Citigroup setzt man dagegen auf einen anhaltend starken Trend."
+    },
+    {
+      "title": "Was wusste er wann?: Nvidia: Jetzt bekommt auch Trump ein Problem mit der Spionageaffäre!",
+      "url": "https://www.wallstreet-online.de/nachricht/21705291-wusste-wann-nvidia-bekommt-trump-problem-spionageaffaere",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Affäre um Jensen Huang zieht immer größere Kreise. Neue Recherchen offenbaren Donald Trumps millionenschwere Aktiengeschäfte. Besonders der Zeitpunkt eines Verkaufs wirft Fragen auf."
+    },
+    {
+      "title": "Gewinnsprung und Sparkurs: 33 Prozent mehr Dividende: Disney überrascht – doch weitere Entlassungen drohen",
+      "url": "https://www.wallstreet-online.de/nachricht/21705870-gewinnsprung-sparkurs-33-prozent-dividende-disney-ueberrascht-entlassungen-drohen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Disney übertrifft die Erwartungen und erhöht die Dividende. Parks und Streaming treiben das Geschäft an. Milliardenersparnisse und Entlassungen sind geplant."
+    },
+    {
+      "title": "Zweifel am KI-Boom: KI-Blase wird zur echten Gefahr: Jetzt schlägt ein Tech-Boss Alarm",
+      "url": "https://www.wallstreet-online.de/nachricht/21705459-zweifel-ki-boom-ki-blase-echten-gefahr-schlaegt-tech-boss-alarm",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Milliarden fließen in künstliche Intelligenz. Doch ein führender Tech-Chef warnt: Ohne steigende Gewinne könnte der Boom zum gefährlichen Risiko werden."
     },
     {
       "title": "Kampf um Ölreserven: Öl-Poker im Golf von Mexiko: Chevron steht vor Milliarden-Deal",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Generali steigert den Gewinn trotz Milliardenschäden um zwölf Prozent. Die Vermögensverwaltung boomt, doch das Wachstum verliert im dritten Quartal an Tempo."
-    },
-    {
-      "title": "Kursexplosion um +18 %: Darum stiehlt Cerebras jetzt AMD, Nvidia & Co. die Show!",
-      "url": "https://www.wallstreet-online.de/nachricht/21687297-kursexplosion-18-stiehlt-cerebras-amd-nvidia-co-show",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Hersteller von besonders leistungsstarken KI-Halbleitern Cerebras hat starke Zahlen vorgelegt. Die Aktie steht am Freitag vor einer Kursexplosion!"
-    },
-    {
-      "title": "Zurück zu Telefon und Fax!: Microsoft-Desaster: Trader zurück in die Steinzeit, Quartalszahlen vertagt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21687348-telefon-fax-microsoft-desaster-trader-steinzeit-quartalszahlen-vertagt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die weltweite Microsoft-Panne hat weit größere Folgen als ausgefallene E-Mails. Banken können zeitweise Geschäfte nicht abschließen, Händler improvisieren. Selbst große Unternehmen müssen ihre Finanzberichte verschieben."
-    },
-    {
-      "title": "Neue Wendung?: Berliner Dönermann packt aus: Mit welcher Frau war der Ex-Nvidia-CEO unterwegs?",
-      "url": "https://www.wallstreet-online.de/nachricht/21686820-wendung-berliner-doenermann-packt-aus-ex-nvidia-ceo-unterwegs",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ein Berliner Dönerverkäufer will Jensen Huang mit einer unbekannten Frau gesehen haben. Nach dem Rücktritt des Nvidia-Mitgründers wirft seine Schilderung Fragen auf. Die Identität der Begleiterin bleibt weiterhin unklar."
-    },
-    {
-      "title": "Huang weg, DAX auf Rekordjagd: 27.000 Punkte! Doch eine Gefahr aus den USA könnte die deutsche Party beenden",
-      "url": "https://www.wallstreet-online.de/nachricht/21686943-huang-weg-dax-rekordjagd-27-000-punkte-gefahr-usa-deutsche-party-beenden",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der DAX knackt erstmals die 27.000 Punkte, die Konzerne liefern starke Zahlen. Doch in den USA verliert der wichtigste Chipkonzern seinen Chef. Und an einer anderen Front braut sich neuer Ärger zusammen."
     }
   ],
   "feedErrors": [
