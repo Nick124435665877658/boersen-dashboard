@@ -108,7 +108,7 @@ footer.bottom .nav,footer.bottom .nav button{position:relative;z-index:21;pointe
 </head>
 <body>
 <div id="app">
-<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 16.11.26-Z</span></div></div><div id="status">Lade Kurse …</div></header>
+<header><div><div class="brand">▰ MEIN BÖRSEN-DASHBOARD</div><div class="sub">Depotübersicht · Kurse in Euro <span id="buildVersion" style="color:#70a7ff;font-weight:700">· BUILD 17.11.26-A</span></div></div><div id="status">Lade Kurse …</div></header>
 <main id="pages">
 <section class="page active" id="overview">
  <div class="overview-top"><div><h1>Mein Depot</h1><div class="muted">Bestand und Investment-Watchlist</div><div class="mode-switch"><button id="modeBestand" class="active">Bestand sehen</button><button id="modePlan">Invest planen</button><button id="modeFavorites">Favoriten auswählen</button></div></div><button id="refresh">↻ Aktualisieren</button></div>
@@ -362,36 +362,25 @@ function renderNews(assetId,data){
   host.appendChild(a);
  });
  const meta=document.getElementById('news-meta-'+assetId);
- if(meta)meta.textContent='Finanzen.net · DER AKTIONÄR · wallstreet:online · '+articles.length+' passende Meldungen · Stand '+new Date(data.fetchedAt).toLocaleString('de-DE');
+ if(meta)meta.textContent='Google News RSS · '+articles.length+' passende Meldungen · Stand '+new Date(data.fetchedAt).toLocaleString('de-DE');
 }
 async function loadAssetNews(assetId,force=false){
  const host=document.getElementById('news-content-'+assetId);if(!host)return;
  const cached=newsMemory[assetId];
  if(cached&&!force&&Date.now()-cached.cachedAt<5*60*1000){renderNews(assetId,cached);return;}
- host.innerHTML='';host.appendChild(newsText('div','Lade Börsenschlagzeilen …','news-status'));
- const urls=[
-  './news-feed.json?ts='+Date.now(),
-  'https://raw.githubusercontent.com/Nick124435665877658/boersen-dashboard/main/news-feed.json?ts='+Date.now()
- ];
- let data=null,lastError='Unbekannter Fehler';
- for(const url of urls){
-  try{
-   const response=await fetch(url,{cache:'no-store'});
-   if(!response.ok)throw new Error('HTTP '+response.status);
-   const parsed=await response.json();
-   if(!Array.isArray(parsed.articles))throw new Error('Ungültiges Nachrichtenformat');
-   data=parsed;break;
-  }catch(err){lastError=err.message||String(err);}
- }
- if(!data){
-  host.innerHTML='';host.appendChild(newsText('div','Nachrichten-Datei nicht erreichbar: '+lastError,'news-status'));
-  return;
- }
- data.cachedAt=Date.now();newsMemory[assetId]=data;
- renderNews(assetId,data);
- if(!data.articles.length){
-  const status=host.querySelector('.news-status');
-  if(status)status.textContent='Nachrichten-Datei erreichbar, aber noch keine Schlagzeilen gespeichert. Der erste GitHub-Abruf muss noch laufen.';
+ const asset=assets.find(x=>x.id===assetId);if(!asset)return;
+ host.innerHTML='';host.appendChild(newsText('div','Lade aktuelle Google-News-Meldungen …','news-status'));
+ try{
+  const endpoint='https://boersen-dashboard-worker.beckmannnick.workers.dev/api/news?name='+encodeURIComponent(asset.name)+'&symbol='+encodeURIComponent(asset.symbol||asset.id);
+  const response=await fetch(endpoint,{cache:'no-store'});
+  const data=await response.json();
+  if(!response.ok)throw new Error(data.error||('HTTP '+response.status));
+  if(!Array.isArray(data.articles))throw new Error('Ungültige Antwort vom Nachrichten-Worker');
+  data.cachedAt=Date.now();newsMemory[assetId]=data;renderNews(assetId,data);
+  const meta=document.getElementById('news-meta-'+assetId);
+  if(meta)meta.textContent='Google News RSS · '+data.articles.length+' Treffer vor Filterung · Stand '+new Date(data.fetchedAt).toLocaleString('de-DE');
+ }catch(err){
+  host.innerHTML='';host.appendChild(newsText('div','Nachrichten-Worker nicht erreichbar: '+(err.message||String(err)),'news-status'));
  }
 }
 
@@ -616,7 +605,7 @@ renderChartPages();
 buildOverview();
 // Seitenzähler direkt anhand des tatsächlich gespeicherten Bestands initialisieren.
 showPage(0);
-document.getElementById('status').textContent='Dashboard-Version 16.11.26-Z geladen · starte Kursabruf …';
+document.getElementById('status').textContent='Dashboard-Version 17.11.26-A geladen · starte Kursabruf …';
 if(!window.LightweightCharts){document.getElementById('status').textContent='Chart-Bibliothek nicht geladen';}
 refreshAll();
 refreshTimer=setInterval(()=>refreshAll(),30000);
@@ -625,7 +614,7 @@ if('serviceWorker'in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());
  window.addEventListener('load',async()=>{
   try{
-   const reg=await navigator.serviceWorker.register('./sw.js?v=20261117Z',{updateViaCache:'none'});
+   const reg=await navigator.serviceWorker.register('./sw.js?v=20261117A',{updateViaCache:'none'});
    await reg.update();
   }catch(e){console.warn('Service-Worker-Update nicht möglich:',e);}
  });
