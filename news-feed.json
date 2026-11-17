@@ -1,19 +1,33 @@
 {
-  "fetchedAt": "2026-11-17T18:30:26.511910+00:00",
+  "fetchedAt": "2026-11-17T19:43:18.724198+00:00",
   "articles": [
+    {
+      "title": "Nvidia vor dem Showdown: Gratis-Report MORGEN!",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nvidia-vor-dem-showdown-gratis-report-morgen-20444796.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 19:30:00 GMT",
+      "description": "   Affären-Drama, Spionagevorwürfe und ein überraschender CEO-Abgang: Bei Nvidia überschlagen sich die Ereignisse. Gründer Jensen Huang hat eine außereheliche Affäre eingeräumt. Der langjährige Konzernchef ist inzwischen zurückgetreten. Ein beispielloser Skandal für den KI-Giganten!  "
+    },
+    {
+      "title": "UPDATE: Huang spricht über mögliche Rückkehr – Nvidia forciert Nachfolgersuche",
+      "url": "https://www.deraktionaer.de/artikel/aktien/breaking-jetzt-spricht-jensen-huang-es-waere-mir-eine-ehre-20444835.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 19:28:00 GMT",
+      "description": "   Jensen Huang hat sich erstmals seit seinem Rücktritt öffentlich geäußert und sich offen für eine Rückkehr an die Nvidia-Spitze gezeigt. Sollte der Verwaltungsrat zu dem Schluss kommen, dass sein Comeback im besten Interesse der Aktionäre, der Mitarbeiter, des Unternehmens und Amerikas liege, wäre es ihm „eine Ehre“, diesen Rufen zu folgen und er"
+    },
+    {
+      "title": "AKTIONÄR-Depotwert SpaceX steigt gegen den Trend – das ist der Grund",
+      "url": "https://www.deraktionaer.de/artikel/aktien/aktionaer-depotwert-spacex-steigt-gegen-den-trend-das-ist-der-grund-20444884.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 19:00:00 GMT",
+      "description": "   Während Tech-Investoren im Vorfeld der Nvidia-Zahlen am heutigen Dienstagabend nach Handelsschluss an der Wall Street weiter Kasse machen und die US-Leitindizes erneut deutliche Verluste erleiden, steigt die Aktie von SpaceX um fast drei Prozent. Hintergrund ist ein Medienbericht, wonach der KI- und Raumfahrtkonzern bereits in dieser Woche damit"
+    },
     {
       "title": "Sicherer Hafen Apple: Das wurde aus 1.000 Euro",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/sicherer-hafen-apple-das-wurde-aus-1000-euro-20444867.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 17:35:00 GMT",
       "description": "   Der KI-Trade ist zwar nicht tot, macht aber eine richtig harte Zeit durch. Die Nvidia-Aktie ist nach den Affären des CEOs auf 150 Dollar gecrasht. Im laufenden Jahr liegt der ehemalige Highflyer mit 18 Prozent im Minus. Bei Apple indes greifen die Anleger zu.  "
-    },
-    {
-      "title": "Nvidia: Jetzt spricht Jensen Huang – „Es wäre mir eine Ehre..“",
-      "url": "https://www.deraktionaer.de/artikel/aktien/breaking-jetzt-spricht-jensen-huang-es-waere-mir-eine-ehre-20444835.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 16:48:02 GMT",
-      "description": "   Jensen Huang hat sich erstmals seit seinem Rücktritt öffentlich geäußert und sich offen für eine Rückkehr an die Nvidia-Spitze gezeigt. Sollte der Verwaltungsrat zu dem Schluss kommen, dass sein Comeback im besten Interesse der Aktionäre, der Mitarbeiter, des Unternehmens und Amerikas liege, wäre es ihm „eine Ehre“, diesen Rufen zu folgen und er"
     },
     {
       "title": "DAX-Schluss: Verluste vor Nvidia-Zahlen – Deutsche Bank und SAP belasten",
@@ -58,18 +72,32 @@
       "description": "   Die US-Verbraucher haben im Oktober genau so viel ausgegeben wie erwartet – unter der Oberfläche lief es aber deutlich besser. Wie das US-Handelsministerium gerade mitteilte, stiegen die Einzelhandelsumsätze zum Vormonat um 0,2 Prozent. Volkswirte hatten im Schnitt mit genau diesem Plus gerechnet.  "
     },
     {
-      "title": "Nvidia vor Q3-Zahlen: Das erwarten Analysten und DER AKTIONÄR",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-vor-q3-zahlen-das-erwarten-analysten-und-der-aktionaer-20443214.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 13:30:00 GMT",
-      "description": "   Heute nach US-Börsenschluss wird Nvidia seine Zahlen für das dritte Quartal vorlegen. Der Termin, dem alle Börsianer entgegenfiebern, ist dabei nicht nur für den US-Konzern, sondern für die gesamte KI-Rally entscheidend. Im Fokus stehen dieses Mal aber nicht nur die reinen Resultate, sondern auch die Frage, ob Gründer Jensen Huang auf seinen Che"
+      "title": "Bank warnt vor Überangebot: SanDisk, Micron, SK Hynix: Wen trifft es am härtesten?",
+      "url": "https://www.wallstreet-online.de/nachricht/21707193-bank-warnt-ueberangebot-sandisk-micron-sk-hynix-trifft-haertesten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine chinesische Investmentbank schlägt Alarm: Bei Speicherchips droht schon 2027 ein Überangebot. Ein bekannter Hersteller steht dabei besonders im Feuer. Doch die Analysten haben auch klare Favoriten."
     },
     {
-      "title": "Walt Disney: Gewinn steigt, Dividende steigt, aber...",
-      "url": "https://www.deraktionaer.de/artikel/aktien/walt-disney-gewinn-steigt-dividende-steigt-aber-20444639.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 13:26:00 GMT",
-      "description": "    Der US-Unterhaltungskonzern Walt Disney hat im letzten Quartal erneut von starken Geschäften mit Freizeitparks und einer erfolgreichen Streaming-Sparte profitiert. Die Ergebnisse lagen über den durchschnittlichen Analystenschätzungen. Im Gesamtjahr 2025/26 steigerte Disney den Umsatz im Vergleich zum Vorjahr um acht Prozent auf mehr als 102 Mil"
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Bruch nach 20 Jahren: Buffett verschenkt 162 Milliarden Dollar – und einer geht komplett leer aus!",
+      "url": "https://www.wallstreet-online.de/nachricht/21705426-bruch-20-jahren-buffett-verschenkt-162-milliarden-dollar-komplett-aus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warren Buffett beschleunigt die Verteilung seines Vermögens. Ein langjähriger Weggefährte bleibt außen vor – und das hat eine pikante Vorgeschichte."
+    },
+    {
+      "title": "Hebel-Idee | Long-Chance: Dieser Geheimtipp bietet jetzt die Chance auf dreistellige Renditen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21705990-hebel-idee-long-chance-geheimtipp-chance-dreistellige-renditen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die auf ländliche Bedürfnisse zugeschnittene US-Heimwerkerkette Tractor Supply bietet dank eines an Fahrt gewinnenden Turnarounds hohe Rendite-Chancen."
     },
     {
       "title": "Die große Rabatt-Illusion: Black Friday, die Schnäppchen-Falle von Amazon & Co.",
@@ -140,13 +168,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Peter Schiff spricht von der Endphase eines wirtschaftlichen Zusammenbruchs. Besonders gefährlich sei eine Abhängigkeit, die den USA bislang Wachstum beschert – und plötzlich zum Problem werden könnte."
-    },
-    {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
     },
     {
       "title": "Nur 41.000 US-Dollar, um mit Trump am VIP-Tisch zu sitzen",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Eli Lilly steckt 3,5 Milliarden US-Dollar in einen neuen Produktionsstandort. Dabei geht es um einen Wirkstoff, der das nächste große Geschäft werden könnte."
-    },
-    {
-      "title": "Energieriese winkt Deal: Google braucht gigantische Strommengen: ENGIE vor Milliarden-Chance?",
-      "url": "https://www.wallstreet-online.de/nachricht/21689400-energieriese-winkt-deal-google-gigantische-strommengen-engie-milliarden-chance",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Google plant ein riesiges Rechenzentrum in Frankreich. ENGIE könnte den Strom liefern und vom KI-Boom profitieren. Doch der Milliarden-Deal ist noch nicht sicher."
-    },
-    {
-      "title": "Analysten sehen Comeback: CTS Eventim: Darum dreht die Aktie zum Wochenende trotzdem auf!",
-      "url": "https://www.wallstreet-online.de/nachricht/21689547-analysten-comeback-cts-eventim-dreht-aktie-wochenende-auf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "CTS Eventim bleibt im dritten Quartal hinter den Erwartungen zurück, eine teure Sonderbelastung trifft das Ticketing. Die DZ Bank hält trotzdem an ihrer Kaufempfehlung fest."
-    },
-    {
-      "title": "Warnung an alle Tech-Anleger: Michael Burry: \"Nicht das, was sie scheinen\"",
-      "url": "https://www.wallstreet-online.de/nachricht/21687720-warnung-tech-anleger-michael-burry-nicht-das-scheinen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Michael Burry erhöht nach dem Rücktritt von Nvidia-Chef Jensen Huang seine Wetten gegen die Technologiebörse. Doch zwei Chipkonzerne sieht er als Gewinner. Und er hat eine Warnung an alle Tech-Anleger."
     }
   ],
   "feedErrors": [
