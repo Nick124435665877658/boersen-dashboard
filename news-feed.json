@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-17T06:41:02.405307+00:00",
+  "fetchedAt": "2026-11-17T07:57:32.288702+00:00",
   "articles": [
+    {
+      "title": "Nvidia vor Q3-Zahlen: Das erwarten Analysten und DER AKTIONÄR",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-vor-q3-zahlen-das-erwarten-analysten-und-der-aktionaer-20443214.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 07:30:00 GMT",
+      "description": "   Heute nach US-Börsenschluss wird Nvidia seine Zahlen für das dritte Quartal vorlegen. Der Termin, dem alle Börsianer entgegenfiebern, ist dabei nicht nur für den US-Konzern, sondern für die gesamte KI-Rally entscheidend. Im Fokus stehen dieses Mal aber nicht nur die reinen Resultate, sondern auch die Frage, ob Gründer Jensen Huang auf seinen Che"
+    },
+    {
+      "title": "Deutsche Bank: Datenleck entdeckt – Aktie schmiert ab",
+      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-bank-datenleck-entdeckt-aktie-schmiert-ab-20444121.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 07:19:00 GMT",
+      "description": "   Ein gigantisches Datenleck bringt die Deutsche Bank in Erklärungsnot. Mehr als 15 Millionen interne Dokumente gewähren Einblicke in die Geschäfte mit russischen Oligarchen, Donald Trump und dem verurteilten Sexualstraftäter Jeffrey Epstein. Die Börse reagiert bereits: Vorbörslich verliert die Aktie rund drei Prozent.  "
+    },
+    {
+      "title": "Megatrend Folger: Nvidia, Fed, Anthropic – warum Anleger jetzt Ruhe brauchen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-nvidia-fed-anthropic-warum-anleger-jetzt-ruhe-brauchen-20444107.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 07:19:00 GMT",
+      "description": "   Diese Börsenwoche hat es in sich. Nvidia legt seine Quartalszahlen vor, die Federal Reserve veröffentlicht das Protokoll ihrer jüngsten Sitzung und Anthropic wagt den Börsengang. Drei Ereignisse, die einzeln schon für Bewegung sorgen können – zusammen haben sie das Potenzial, die Volatilität deutlich zu erhöhen.  "
+    },
+    {
+      "title": "WTI-Ölpreis: Tankerraten minus 63 Prozent – fällt Öl jetzt weiter?",
+      "url": "https://www.deraktionaer.de/artikel/mobilitaet-oel-energie/wti-oelpreis-tankerraten-minus-63-prozent-faellt-oel-jetzt-weiter-20444105.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 07:15:00 GMT",
+      "description": "   Der WTI-Future für Dezember ist unter seine 200-Tage-Linie gerutscht und kostet am Dienstagmorgen nur noch 85,13 Dollar je Fass. Den Takt geben die Supertanker vor: Die Fracht vom Golf von Oman nach China ist binnen fünf Wochen um 63,4 Prozent eingebrochen.  "
+    },
+    {
+      "title": "Unter Strom: Diese Kupfer-Aktie ist jetzt einen Blick wert",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/unter-strom-diese-kupfer-aktie-ist-jetzt-einen-blick-wert-20444117.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 07:08:00 GMT",
+      "description": "   Keine Frage: Der weltweite Stromhunger wächst überproportional – und mit ihm der Bedarf an Stromerzeugung und -übertragung. Die Wachstumstreiber sind bekannt. Konzerne wie Siemens Energy oder GE Vernova sind in aller Munde. Doch auch Nischenanbieter wie ASTA Energy profitieren von diesem Trend.  "
+    },
+    {
+      "title": "Siemens Energy: Das empfiehlt jetzt die Deutsche Bank",
+      "url": "https://www.deraktionaer.de/artikel/aktien/siemens-energy-20444077.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 06:51:00 GMT",
+      "description": "    Nach einer längeren Talfahrt arbeitet die Aktie von Siemens Energy aktuell weiter an einer nachhaltigen Bodenbildung. Unterstützung erhält der DAX-Konzern dabei auch immer wieder von bullishen Analystenkommentaren.   "
+    },
     {
       "title": "Rheinmetall: Goldman sieht großes Potenzial, aber...",
       "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-goldman-sieht-grosses-potenzial-aber-20444046.html?feed=directrssfeed",
@@ -30,50 +72,22 @@
       "description": "    Die Aktie von Nvidia gab auch im gestrigen Handel weiter nach. Die von diversen Tech-Größen wie etwa Elon Musk ins Spiel gebrachte Rückkehr des Gründers und langjährigen Chefs Jensen Huang soll der Verwaltungsrat des Technologie-Giganten ausgeschlossen haben.  "
     },
     {
-      "title": "Wall Street: Chipwerte belasten – Nasdaq 100 verliert rund 2,7 Prozent",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-chipwerte-belasten-nasdaq-100-verliert-deutlich-20443868.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 21:05:00 GMT",
-      "description": "   Die US-Börsen sind mit deutlichen Verlusten in die neue Woche gestartet. Der Dow Jones schloss 1,41 Prozent tiefer bei 51.608,17 Punkten, der S&P 500 verlor 1,92 Prozent auf 7.416,59 Punkte und der Nasdaq 100 büßte 2,67 Prozent auf 27.197,15 Punkte ein.  "
+      "title": "Kein Weg zurück: Nvidia schließt Huang-Comeback aus",
+      "url": "https://www.wallstreet-online.de/nachricht/21703407-zurueck-nvidia-schliesst-huang-comeback",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mehr als 180.000 Menschen fordern die Rückkehr von Jensen Huang. Doch Nvidia stellt sich quer. Die Aktie hat innerhalb eines Monats 27 Prozent verloren."
     },
     {
-      "title": "Kursgewinn gegen den Markttrend: Hier sind heute die Bullen los",
-      "url": "https://www.deraktionaer.de/artikel/aktien/kursgewinn-gegen-den-markttrend-hier-sind-heute-die-bullen-los-20443836.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 19:05:00 GMT",
-      "description": "   Während der US-Aktienmarkt unter anhaltenden Kursverlusten bei KI- und Chip-Aktien leidet, klettert ein Wert der „Old Economy“ an die Spitze des S&P 500. Rückenwind liefern Quartalszahlen über den Erwartungen und Hinweise auf eine Trendwende im umsatzstärksten Geschäftsbereich.  "
+      "title": "Märkte am Morgen: DAX vor Rückschlag: KI-Angst zurück – jetzt zählen Nvidia und Anthropic!",
+      "url": "https://www.wallstreet-online.de/nachricht/21703017-maerkte-morgen-dax-rueckschlag-ki-angst-zaehlen-nvidia-anthropic",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Wall Street sackt ab, woraufhin auch Asiens Chipwerte folgen. Dem DAX droht ein schwächerer Start. Heute könnten Nvidia und die US-Konsumdaten für neue Impulse sorgen. Der Ölpreis fällt weiter. Märkte am Morgen."
     },
     {
-      "title": "Nvidia: Das sagt der Verwaltungsrat zu einem Huang-Comeback",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-das-sagt-der-verwaltungsrat-zu-einem-huang-comeback-20443818.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 18:08:00 GMT",
-      "description": "   Nach dem Rücktritt von Jensen Huang als Nvidia-CEO in der Vorwoche mehren sich die Stimmen derer, die eine  Rückkehr des Mitgründers an die Konzernspitze fordern .  "
-    },
-    {
-      "title": "Der heimliche Gewinner",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/der-heimliche-gewinner-20443720.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 18:00:00 GMT",
-      "description": "   Christine Lagarde schlug zuletzt besonders kritische Töne zum KI-Sektor an. So kritisierte die EZB-Präsidentin die Finanzierungsarchitektur des Sektors: Neben klassischer Verschuldung setze die Branche zunehmend auf schuldenähnliche, außerbilanzielle Verpflichtungen zur zukünftigen Nutzung von Rechenzentrumskapazitäten.  "
-    },
-    {
-      "title": "Trump trifft Xi: Was Anleger jetzt wissen müssen",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/trump-trifft-xi-was-anleger-jetzt-wissen-muessen-20443741.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 17:35:00 GMT",
-      "description": "   Trump beginnt die viertägige Reise am Dienstag in Manila mit Gesprächen mit Staats- und Regierungschefs aus Südostasien. Anschließend fliegt er zum APEC-Gipfel nach Shenzhen, der am 18. und 19. November stattfindet. Neben einem bilateralen Treffen mit Xi ist für Donnerstag erstmals ein Dreiergespräch mit Russlands Präsident Wladimir Putin geplan"
-    },
-    {
-      "title": "DAX schließt auf Tagestief – Tech-Schwäche belastet",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schliesst-auf-tagestief-tech-schwaeche-belastet-20443753.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 16:45:00 GMT",
-      "description": "   Die weltweite Schwäche der Technologiewerte hat den DAX zum Wochenauftakt belastet. Der Leitindex schloss 0,57 Prozent tiefer bei 26.598,64 Punkten und damit auf seinem Tagestief. Am Freitag hatte er bei 26.749,95 Punkten geschlossen, am Donnerstag erstmals kurzzeitig die Marke von 27.  "
-    },
-    {
-      "title": "Nach neuen Rekordnotierungen: Allianz & Münchner Rück: So viel Rallye-Potenzial steckt jetzt noch in ihnen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21700542-rekordnotierungen-allianz-muenchner-rueck-rallye-potenzial-steckt-ihnen",
+      "title": "Was geht noch?: Allianz & Münchner Rück: So viel Rallye-Potenzial steckt jetzt noch in ihnen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21700542-noch-allianz-muenchner-rueck-rallye-potenzial-steckt-ihnen",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach starken Quartalsergebnissen sind die Anteile der Allianz sowie der Münchner Rück auf neue Allzeithochs geklettert. Wie viel Luft ist jetzt noch nach oben?"
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidia gerät unter Druck, doch der KI-Boom ist längst nicht vorbei. Diese vier Tech-Bereiche könnten Anlegern jetzt neue Chancen eröffnen."
-    },
-    {
-      "title": "NVIDIA: MEINE GRÖSSTE INVESTITION VOR DEM NIEDERGANG???",
-      "url": "https://www.wallstreet-online.de/nachricht/21684918-nvidia-groesste-investition-niedergang",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wir besprechen die aktuelle Situation sowie das technische Chartbild und werfen außerdem einen Blick auf den aktuellen Stand bei Bitcoin."
-    },
-    {
-      "title": "Rekordgewinn überrascht: Allianz schlägt alle Erwartungen – so hoch kann die Dividende ausfallen",
-      "url": "https://www.wallstreet-online.de/nachricht/21684915-rekordgewinn-ueberrascht-allianz-schlaegt-erwartungen-dividende-ausfallen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Allianz übertrifft die Gewinnerwartungen deutlich und hebt ihre Jahresprognose an. Vor allem die Vermögensverwaltung boomt. Für Aktionäre rückt damit auch die nächste Dividendenerhöhung in den Fokus."
     }
   ],
   "feedErrors": [
