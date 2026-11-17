@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T03:30:19.472806+00:00",
+  "fetchedAt": "2026-11-17T04:37:48.331576+00:00",
   "articles": [
     {
       "title": "Wall Street: Chipwerte belasten – Nasdaq 100 verliert rund 2,7 Prozent",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Mon, 16 Nov 2026 15:47:00 GMT",
       "description": "   Der Rückhalt für Jensen Huang wächst. Nach seinem Rücktritt als Nvidia-Chef setzen sich immer mehr prominente Stimmen aus dem Silicon Valley für eine Rückkehr des Mitgründers ein. Selbst US-Präsident Donald Trump hätte offenbar nichts dagegen.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Home Depot, Nvidia, Walt Disney, Klarna, RTL & Alstom legen frische Zahlen vor!",
+      "url": "https://www.wallstreet-online.de/nachricht/21693762-wichtigsten-termine-home-depot-nvidia-walt-disney-klarna-rtl-alstom-frische-zahlen-vor",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Nur noch Platz 3!: Nvidia fällt hinter Microsoft zurück: Chip-Riese vor den Zahlen angeschlagen",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Gold hat fast ein Drittel verloren, Silber mehr als die Hälfte. AXINO-Partner Jan Willhöft erklärt, warum er trotzdem zukauft und was der Rekord-Crash an der Wall Street damit zu tun hat."
-    },
-    {
-      "title": "Exporte +35 %: Überrollt China jetzt die Weltwirtschaft?",
-      "url": "https://www.wallstreet-online.de/nachricht/21682938-exporte-35-ueberrollt-china-weltwirtschaft",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Chinas Exporte schießen nach oben, die Notenbank verspricht Rückenwind. Doch vor dem großen Gipfel in Shenzhen rückt etwas ganz anderes in den Fokus. Und das bereitet dem Westen Sorgen."
     }
   ],
   "feedErrors": [
