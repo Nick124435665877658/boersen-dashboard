@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-17T21:30:26.631414+00:00",
+  "fetchedAt": "2026-11-17T22:32:37.465518+00:00",
   "articles": [
     {
-      "title": "Nvidia: Die Zahlen sind da!",
+      "title": "Nvidia: Die Zahlen sind da! Umsatz und Gewinn erneut verdoppelt",
       "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-die-zahlen-sind-da--20444906.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 21:20:00 GMT",
-      "description": "   Nvidia hat im dritten Quartal des Geschäftsjahres 2027 die Prognosen der Analysten klar übertroffen. Der Umsatz stieg auf 115,8 Milliarden Dollar, erwartet hatte der  Bloomberg -Konsens 109,3 Milliarden Dollar. Damit lag Nvidia auch über der eigenen Prognose von 108 Milliarden Dollar plus/minus zwei Prozent.  "
+      "description": "   Nvidia hat im dritten Quartal des Geschäftsjahres 2027 (bis 25. Oktober) die Erwartungen der Wall Street klar übertroffen. Auch der Ausblick liegt über den Analystenprognosen. Die Aktie legt nachbörslich um 2,2 Prozent zu und machte damit die Verluste aus dem regulären Handel wett.  "
     },
     {
       "title": "Wall Street: Deutliche Verluste vor den Nvidia-Zahlen",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 14:45:00 GMT",
       "description": "   Die Aktie von Palo Alto Network hat seit Jahresbeginn um 76 Prozent zugelegt. Damit entwickelte sich das Papier des Cybersecurity-Spezialisten klar besser als der Nasdaq 100, der im gleichen Zeitraum nur um acht Prozent stieg. Doch jetzt steht die Härtetest an: Der US-Konzern legt zur Wochenmitte nach US-Börsenschluss seine Zahlen zum abgelaufen"
+    },
+    {
+      "title": "Aktie erholt sich: Wieder ein Rekordquartal! Doch jetzt ermittelt die SEC",
+      "url": "https://www.wallstreet-online.de/nachricht/21708693-aktie-erholt-sich-rekordquartal-ermittelt-sec",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die ersten Earnings nach dem CEO-Beben. Nvidia liefert Rekordzahlen, doch die SEC ermittelt und Anleger haben viele Fragen zum Chefwechsel. Was wird aus den zahlreichen Deals der Huang-Ära?"
     },
     {
       "title": "Das erwartet die Märkte: Nvidia: Anleger dürfen sich auf ein Kursspektakel freuen",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Gewinnwarnung hat die init-Aktie hart getroffen. Berenberg hält dennoch an der Kaufempfehlung und 65 Euro Kursziel fest und setzt auf London, Sydney und volle Auftragsbücher."
-    },
-    {
-      "title": "Tiefster Stand seit 2025: Fregatten-Frage bringt Rheinmetall-Aktie in Seenot",
-      "url": "https://www.wallstreet-online.de/nachricht/21689673-tiefster-stand-2025-fregatten-frage-bringt-rheinmetall-aktie-seenot",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Rheinmetall fällt auf den tiefsten Stand seit Februar 2025. Zwei gesenkte Prognosen binnen drei Monaten und Fragezeichen beim Fregattenprojekt F127 setzen die Aktie des Rüstungskonzerns unter Druck."
     }
   ],
   "feedErrors": [
