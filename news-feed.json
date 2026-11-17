@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-17T13:14:16.660168+00:00",
+  "fetchedAt": "2026-11-17T14:26:42.388810+00:00",
   "articles": [
+    {
+      "title": "Wall Street: Die frischen Zahlen sind da – mit Einordnung",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-frischen-zahlen-sind-da-mit-einordnung-20444566.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 13:44:00 GMT",
+      "description": "   Die US-Verbraucher haben im Oktober genau so viel ausgegeben wie erwartet – unter der Oberfläche lief es aber deutlich besser. Wie das US-Handelsministerium gerade mitteilte, stiegen die Einzelhandelsumsätze zum Vormonat um 0,2 Prozent. Volkswirte hatten im Schnitt mit genau diesem Plus gerechnet.  "
+    },
+    {
+      "title": "Nvidia vor Q3-Zahlen: Das erwarten Analysten und DER AKTIONÄR",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-vor-q3-zahlen-das-erwarten-analysten-und-der-aktionaer-20443214.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 13:30:00 GMT",
+      "description": "   Heute nach US-Börsenschluss wird Nvidia seine Zahlen für das dritte Quartal vorlegen. Der Termin, dem alle Börsianer entgegenfiebern, ist dabei nicht nur für den US-Konzern, sondern für die gesamte KI-Rally entscheidend. Im Fokus stehen dieses Mal aber nicht nur die reinen Resultate, sondern auch die Frage, ob Gründer Jensen Huang auf seinen Che"
+    },
+    {
+      "title": "Walt Disney: Gewinn steigt, Dividende steigt, aber...",
+      "url": "https://www.deraktionaer.de/artikel/aktien/walt-disney-gewinn-steigt-dividende-steigt-aber-20444639.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 13:26:00 GMT",
+      "description": "    Der US-Unterhaltungskonzern Walt Disney hat im letzten Quartal erneut von starken Geschäften mit Freizeitparks und einer erfolgreichen Streaming-Sparte profitiert. Die Ergebnisse lagen über den durchschnittlichen Analystenschätzungen. Im Gesamtjahr 2025/26 steigerte Disney den Umsatz im Vergleich zum Vorjahr um acht Prozent auf mehr als 102 Mil"
+    },
+    {
+      "title": "Home Depot: Das reicht nicht",
+      "url": "https://www.deraktionaer.de/artikel/aktien/home-depot-das-reicht-nicht-20444592.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 13:15:00 GMT",
+      "description": "   Home Depot hat im dritten Quartal 2026 mehr umgesetzt als erwartet. Die weltgrößte Baumarktkette profitiert von einer robusten Nachfrage, doch beim Gewinn bleibt das Wachstum überschaubar. Hinzu kommt ein Führungswechsel an der Konzernspitze. Für Anleger ergibt sich damit ein gemischtes Bild.  "
+    },
     {
       "title": "Nur noch bis morgen: 30 Prozent Jubiläumsrabatt sichern!",
       "url": "https://www.deraktionaer.de/artikel/promo/nur-noch-bis-morgen-30-prozent-jubilaeumsrabatt-sichern-20443675.html?feed=directrssfeed",
@@ -30,6 +58,13 @@
       "description": "   Ein Gesundheits-Riese steht vor einem gewaltigen Befreiungsschlag. Nach einer schwachen Phase gewinnt die Aktie wieder an Stärke. Langfristig versprechen der demografische Wandel und der steigende medizinische Versorgungsbedarf weiteres Wachstum. Mutige Anleger sollten dieses explosive Trading-Setup jetzt genauer unter die Lupe nehmen.  "
     },
     {
+      "title": "BITCOIN & ALTCOINS: BLACK-SHOPPING-WEEK?",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-altcoins-black-shopping-week-20444312.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 08:48:36 GMT",
+      "description": "   Nach heftigen Verlusten könnte die Schwächephase zur Black-Shopping-Week für Bitcoin und Altcoins werden. Nahe 62.000 US-Dollar könnte Bitcoin ein erstes Higher Low ausgebildet haben, während institutionelle Pläne für Solana neue Fantasie wecken. Krypto-Experte Oliver Michel hat den Rücksetzer zum Nachkaufen genutzt.  "
+    },
+    {
       "title": "Anleger aufgepasst: DAX-Titel auf Allzeithoch",
       "url": "https://www.deraktionaer.de/artikel/aktien/anleger-aufgepasst-dax-titel-auf-allzeithoch-20444221.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
@@ -37,46 +72,32 @@
       "description": "    Die Nervosität an den Weltbörsen bleibt spürbar. Dennoch präsentiert sich der DAX weiterhin in einer sehr robusten Verfassung. Dies liegt an den zahlreichen defensiven Titeln im Leitindex, die auch in diesen Zeiten für Stabilität sorgen. So hat im gestrigen Handel die Aktie des Logistikriesen DHL ein neues Allzeithoch markiert.  "
     },
     {
-      "title": "DAX im Bann der Wall Street – Deutsche Bank in der Kritik",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-im-bann-der-wall-street-deutsche-bank-in-der-kritik-20444212.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT",
-      "description": "   Der DAX setzt seine Korrektur am Dienstag fort und startet mit Verlusten in den Handel. Schwache Vorgaben aus den USA und Asien sowie die erneute Nervosität im Technologiesektor belasten. Im Blick stehen die Nvidia-Zahlen, der bevorstehende Börsengang von Anthropic und das Treffen von Trump, Xi Jinping und Putin.  "
-    },
-    {
-      "title": "Nvidia vor Q3-Zahlen: Das erwarten Analysten und DER AKTIONÄR",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-vor-q3-zahlen-das-erwarten-analysten-und-der-aktionaer-20443214.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 07:30:00 GMT",
-      "description": "   Heute nach US-Börsenschluss wird Nvidia seine Zahlen für das dritte Quartal vorlegen. Der Termin, dem alle Börsianer entgegenfiebern, ist dabei nicht nur für den US-Konzern, sondern für die gesamte KI-Rally entscheidend. Im Fokus stehen dieses Mal aber nicht nur die reinen Resultate, sondern auch die Frage, ob Gründer Jensen Huang auf seinen Che"
-    },
-    {
-      "title": "Deutsche Bank: Datenleck entdeckt – Aktie schmiert ab",
-      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-bank-datenleck-entdeckt-aktie-schmiert-ab-20444121.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 07:19:00 GMT",
-      "description": "   Ein gigantisches Datenleck bringt die Deutsche Bank in Erklärungsnot. Mehr als 15 Millionen interne Dokumente gewähren Einblicke in die Geschäfte mit russischen Oligarchen, Donald Trump und dem verurteilten Sexualstraftäter Jeffrey Epstein. Die Börse reagiert bereits: Vorbörslich verliert die Aktie rund drei Prozent.  "
-    },
-    {
-      "title": "Megatrend Folger: Nvidia, Fed, Anthropic – warum Anleger jetzt Ruhe brauchen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-nvidia-fed-anthropic-warum-anleger-jetzt-ruhe-brauchen-20444107.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 07:17:00 GMT",
-      "description": "   Diese Börsenwoche hat es in sich. Nvidia legt seine Quartalszahlen vor, die Federal Reserve veröffentlicht das Protokoll ihrer jüngsten Sitzung und Anthropic wagt den Börsengang. Drei Ereignisse, die einzeln schon für Bewegung sorgen können – zusammen haben sie das Potenzial, die Volatilität deutlich zu erhöhen.  "
-    },
-    {
-      "title": "WTI-Ölpreis: Tankerraten minus 63 Prozent – fällt Öl jetzt weiter?",
-      "url": "https://www.deraktionaer.de/artikel/mobilitaet-oel-energie/wti-oelpreis-tankerraten-minus-63-prozent-faellt-oel-jetzt-weiter-20444105.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 07:15:00 GMT",
-      "description": "   Der WTI-Future für Dezember ist unter seine 200-Tage-Linie gerutscht und kostet am Dienstagmorgen nur noch 85,13 Dollar je Fass. Den Takt geben die Supertanker vor: Die Fracht vom Golf von Oman nach China ist binnen fünf Wochen um 63,4 Prozent eingebrochen.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Mutige Anleger wittern Chancen: Gold, Silber und Kupfer brechen ein – jetzt werden Minenaktien zum Schnäppchen",
+      "url": "https://www.wallstreet-online.de/nachricht/21706584-mutige-anleger-wittern-chancen-gold-silber-kupfer-brechen-minenaktien-schnaeppchen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Für Gold, Silber und Kupfer wird die Luft immer dünner. Der haussierende US-Dollar zwingt sie in die Knie. Der anhaltende Preisverfall lässt die Kurse der Minenaktien purzeln. Mutige Anleger wittern Chancen."
+    },
+    {
+      "title": "Die Trades der Börsengurus: Anthropic: Alles zum IPO | Powell: Starke Zahlen | Dt. Bank: Grund zur Sorge?",
+      "url": "https://www.wallstreet-online.de/video/21706206-trades-boersengurus-anthropic-ipo-powell-starke-zahlen-dt-bank-grund-sorge",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während Powell starke Zahlen liefert, wird die Aktie von Red Cat verprügelt. Auch die Papiere der Deutschen Bank stehen unter Druck. Gibt es in Frankfurt wirklich ein Problem oder wurde nur kalter Kaffee aufgewärmt?"
+    },
+    {
+      "title": "NATO-Aufrüstung im Fokus: Umsatzverdopplung bis 2030: Diese zwei Rüstungsriesen bündeln ihre Kräfte",
+      "url": "https://www.wallstreet-online.de/nachricht/21706413-nato-aufruestung-fokus-umsatzverdopplung-2030-ruestungsriesen-buendeln-kraefte",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die EU genehmigt die Rüstungsallianz von Kongsberg und Thales. Das Gemeinschaftsunternehmen für Militärkommunikation will seinen Umsatz bis 2030 verdoppeln."
     },
     {
       "title": "Trotz Verkaufspanik: Der KI-Boom geht weiter – und diese Bank schafft jetzt Fakten!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mitsubishi UFJ steigert den Gewinn um 26 Prozent, hebt die Prognose an und erhöht die Dividende. Zudem plant Japans größte Bank milliardenschwere Aktienrückkäufe."
-    },
-    {
-      "title": "440 Kilo Uran – wo sind sie?: Ölpreis fällt – während im Iran eine nukleare Zeitbombe tickt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21687804-440-kilo-uran-sie-oelpreis-faellt-iran-nukleare-zeitbombe-tickt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Tanker unter Beschuss, Ölanlagen attackiert – trotzdem fällt der Ölpreis. Jetzt sorgt ein vertraulicher Bericht über Irans Atomprogramm für neuen Zündstoff. Die darin genannten Zahlen haben es in sich."
-    },
-    {
-      "title": "Krypto-Crash: Bitcoin crasht unter 70.000 $ – Wie weit geht es noch runter?",
-      "url": "https://www.wallstreet-online.de/nachricht/21687618-krypto-crash-bitcoin-crasht-70-000-weit-runter",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bitcoin fällt auf 68.050 US-Dollar. Nvidia-Schock und Zinssorgen belasten den Kryptomarkt spürbar. Doch ein weiterer Rückschlag könnte folgen: Bei Bitcoin-Firmen drohen Aktienverkäufe von bis zu 2,8 Milliarden US-Dollar."
-    },
-    {
-      "title": "12 Prozent mehr Gewinn: Generali trotzt dem Milliarden-Schock: Ist diese Aktie ein Geheimtipp?",
-      "url": "https://www.wallstreet-online.de/nachricht/21687585-12-prozent-gewinn-generali-trotzt-milliarden-schock-aktie-geheimtipp",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Generali steigert den Gewinn trotz Milliardenschäden um zwölf Prozent. Die Vermögensverwaltung boomt, doch das Wachstum verliert im dritten Quartal an Tempo."
     }
   ],
   "feedErrors": [
