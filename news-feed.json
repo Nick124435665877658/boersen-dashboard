@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T04:37:48.331576+00:00",
+  "fetchedAt": "2026-11-17T05:38:42.452098+00:00",
   "articles": [
     {
       "title": "Wall Street: Chipwerte belasten – Nasdaq 100 verliert rund 2,7 Prozent",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Mon, 16 Nov 2026 15:47:00 GMT",
       "description": "   Der Rückhalt für Jensen Huang wächst. Nach seinem Rücktritt als Nvidia-Chef setzen sich immer mehr prominente Stimmen aus dem Silicon Valley für eine Rückkehr des Mitgründers ein. Selbst US-Präsident Donald Trump hätte offenbar nichts dagegen.  "
+    },
+    {
+      "title": "Wie viel KI steckt im Depot?: KI-Boom vor dem Kollaps? Ein gewaltiges Risiko wird unterschätzt!",
+      "url": "https://www.wallstreet-online.de/nachricht/21700401-ki-steckt-depot-ki-boom-kollaps-gewaltiges-risiko-unterschaetzt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der KI-Ausverkauf deckt ein gefährliches Problem auf: Anleger wissen kaum noch, wie stark ihre Portfolios von künstlicher Intelligenz abhängen. Experten warnen vor einer Kettenreaktion."
     },
     {
       "title": "Ihre wichtigsten Termine: Home Depot, Nvidia, Walt Disney, Klarna, RTL & Alstom legen frische Zahlen vor!",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Jensen Huang ist nicht länger Nvidia-Chef. Jetzt rückt seine Ehe in den Fokus: Bei einer Scheidung könnte seiner Frau nach kalifornischem Recht die Hälfte des Aktienpakets zustehen. Es geht um viele Milliarden US-Dollar."
-    },
-    {
-      "title": "Gold -31 %: Ist der Goldrausch endgültig vorbei? Die ehrliche Antwort",
-      "url": "https://www.wallstreet-online.de/video/21683628-gold-31-goldrausch-endgueltig-vorbei-ehrliche-antwort",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gold hat fast ein Drittel verloren, Silber mehr als die Hälfte. AXINO-Partner Jan Willhöft erklärt, warum er trotzdem zukauft und was der Rekord-Crash an der Wall Street damit zu tun hat."
     }
   ],
   "feedErrors": [
