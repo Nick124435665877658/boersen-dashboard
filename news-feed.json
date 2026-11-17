@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T11:10:41.123289+00:00",
+  "fetchedAt": "2026-11-17T11:56:29.427326+00:00",
   "articles": [
     {
       "title": "Nur noch bis morgen: 30 Prozent Jubiläumsrabatt sichern!",
@@ -77,6 +77,20 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Kampf um Ölreserven: Öl-Poker im Golf von Mexiko: Chevron steht vor Milliarden-Deal",
+      "url": "https://www.wallstreet-online.de/nachricht/21704748-kampf-oelreserven-oel-poker-golf-mexiko-chevron-milliarden-deal",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Chevron steht vor einem Milliarden-Deal im Golf von Mexiko. Der Ölkonzern hat mehrere Konkurrenten ausgestochen. Doch noch ist nichts unterschrieben."
+    },
+    {
+      "title": "Krypto-Crash genutzt: Cathie Wood stößt Nvidia ab, um auf Krypto zu setzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21705333-krypto-crash-genutzt-cathie-wood-stoesst-nvidia-ab-krypto",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Cathie Wood trennt sich von Nvidia-Aktien im Millionenwert. Gleichzeitig nutzt sie den Kursrutsch bei mehreren Krypto-Aktien für neue Käufe."
     },
     {
       "title": "50-Prozent-Grenze: Nvidia schlägt Alarm: China-Remote-Zugriff könnte rechtliche Schritte auslösen",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der DAX knackt erstmals die 27.000 Punkte, die Konzerne liefern starke Zahlen. Doch in den USA verliert der wichtigste Chipkonzern seinen Chef. Und an einer anderen Front braut sich neuer Ärger zusammen."
-    },
-    {
-      "title": "Kunden können nicht warten: Applied Materials erlebt gewaltigen KI-Ansturm – Produktion soll sich verdoppeln",
-      "url": "https://www.wallstreet-online.de/nachricht/21686880-kunden-warten-applied-materials-erlebt-gewaltigen-ki-ansturm-produktion-verdoppeln",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Applied Materials übertrifft die Gewinnerwartungen und erwartet neue Rekorde. Die Nachfrage nach Chipmaschinen wächst schneller als die Kapazitäten."
-    },
-    {
-      "title": "Quartalszahlen: Wise: 23 % mehr Umsatz – doch eine Kennzahl fällt",
-      "url": "https://www.wallstreet-online.de/nachricht/21686673-quartalszahlen-wise-23-umsatz-kennzahl-faellt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wise meldet 23 Prozent mehr Nettoumsatz und bewegt 141 Milliarden US-Dollar für seine Kunden. Doch im Kerngeschäft fällt eine wichtige Kennzahl. Was dahintersteckt und welche Sparte im Konzern besonders dynamisch wächst."
     }
   ],
   "feedErrors": [
