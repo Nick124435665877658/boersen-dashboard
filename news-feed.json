@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-17T05:38:42.452098+00:00",
+  "fetchedAt": "2026-11-17T06:41:02.405307+00:00",
   "articles": [
+    {
+      "title": "Rheinmetall: Goldman sieht großes Potenzial, aber...",
+      "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-goldman-sieht-grosses-potenzial-aber-20444046.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 06:19:00 GMT",
+      "description": "    Die Aktie von Rheinmetall hängt noch immer im Abwärtstrend fest. Auch im gestrigen Handel ging es mit dem DAX-Highflyer der vorangegangenen Jahre ein weiteres Stückchen bergab. Dies lag vermutlich auch an einem Analystenkommentar der US-Investmentbank Goldman Sachs.  "
+    },
+    {
+      "title": "SpaceX-Aktie: Historischer Fang – Wood kauft und verkauft dafür diese Aktie",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/spacex-ark-woods-20444007.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 06:14:00 GMT",
+      "description": "   Cathie Wood setzt nach dem historischen Starship-Flug auf SpaceX und trennt sich dafür von Nvidia. Ihre Fondsgesellschaft ARK kaufte am Montag 378.515 SpaceX-Aktien für die Fonds ARKK und ARKW, zum Schlusskurs von 137,36 Dollar sind das rund 52 Millionen Dollar.  "
+    },
+    {
+      "title": "DAX-Prognose: Schwächer – Nvidia, Disney, Infineon, Siemens Energy, Deutsche Telekom, Bayer im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-schwaecher-nvidia-disney-infineon-siemens-energy-deutsche-telekom-bayer-im-fokus-20444020.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 05:58:00 GMT",
+      "description": "   Der DAX ist gestern, am Montag, mit Verlusten in die neue Woche gestartet. Nach einem Tageshoch von 26.797 Punkten am Vormittag drehte der Leitindex mit der schwachen Entwicklung an der Wall Street ins Minus und schloss 0,6 Prozent tiefer bei 26.599 Punkten – zugleich das Tagestief.  "
+    },
+    {
+      "title": "Nvidia: Keine Huang-Rückkehr und eine tiefgreifende Entscheidung",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-keine-huang-rueckkehr-und-eine-tiefgreifende-entscheidung-20443973.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 05:39:00 GMT",
+      "description": "    Die Aktie von Nvidia gab auch im gestrigen Handel weiter nach. Die von diversen Tech-Größen wie etwa Elon Musk ins Spiel gebrachte Rückkehr des Gründers und langjährigen Chefs Jensen Huang soll der Verwaltungsrat des Technologie-Giganten ausgeschlossen haben.  "
+    },
     {
       "title": "Wall Street: Chipwerte belasten – Nasdaq 100 verliert rund 2,7 Prozent",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-chipwerte-belasten-nasdaq-100-verliert-deutlich-20443868.html?feed=directrssfeed",
@@ -44,32 +72,18 @@
       "description": "   Die weltweite Schwäche der Technologiewerte hat den DAX zum Wochenauftakt belastet. Der Leitindex schloss 0,57 Prozent tiefer bei 26.598,64 Punkten und damit auf seinem Tagestief. Am Freitag hatte er bei 26.749,95 Punkten geschlossen, am Donnerstag erstmals kurzzeitig die Marke von 27.  "
     },
     {
-      "title": "90-Prozent-Crash! Brisante Statistik vor Anthropic-IPO",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/90-prozent-crash-brisante-statistik-vor-anthropic-ipo-20443744.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 16:18:00 GMT",
-      "description": "   Am Donnerstag hat das Warten ein Ende: Anthropic geht an die Börse. Die KI-Firma strebt eine Bewertung von bis zu rund einer Billion Dollar an. Zwar hat sich die Stimmung im Sektor nicht zuletzt wegen Nvidia verschlechtert. Aber die Chancen auf einen gelungenen Start stehen gut.  "
+      "title": "Nach neuen Rekordnotierungen: Allianz & Münchner Rück: So viel Rallye-Potenzial steckt jetzt noch in ihnen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21700542-rekordnotierungen-allianz-muenchner-rueck-rallye-potenzial-steckt-ihnen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach starken Quartalsergebnissen sind die Anteile der Allianz sowie der Münchner Rück auf neue Allzeithochs geklettert. Wie viel Luft ist jetzt noch nach oben?"
     },
     {
-      "title": "André Fischer: Ist das der nächste Fintech-Gigant?",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/andr-fischer-ist-das-der-naechste-fintech-gigant-20443694.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 16:15:00 GMT",
-      "description": "   Banking, Bezahlen, Bitcoin und KI – alles in einer einzigen App. Was heute noch nach Zukunft klingt, könnte den Finanzsektor grundlegend verändern. Ein US-Fintech-Unternehmen arbeitet bereits mit Hochdruck an genau dieser Vision und will Millionen Händler und Verbraucher in einem gigantischen Finanzökosystem vereinen.  "
-    },
-    {
-      "title": "Nvidia, AMD, Broadcom: Halbleiter-Aktien erneut unter Druck",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/nvidia-amd-broadcom-halbleiter-aktien-erneut-unter-druck-20443725.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 15:50:00 GMT",
-      "description": "   Der Ausverkauf bei Technologiewerten setzt sich zum Start in die neue Handelswoche fort. Rund eine Stunde nach Handelsbeginn an der Wall Street notierte der S&P 500 1,3 Prozent im Minus, der Nasdaq 100 verlor 2,3 Prozent. Der Dow Jones gab mit 0,6 Prozent weniger stark nach.  "
-    },
-    {
-      "title": "Nvidia: Die Techwelt und Trump wollen Huang zurück",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-die-techwelt-und-trump-wollen-huang-zurueck-20443672.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 16 Nov 2026 15:47:00 GMT",
-      "description": "   Der Rückhalt für Jensen Huang wächst. Nach seinem Rücktritt als Nvidia-Chef setzen sich immer mehr prominente Stimmen aus dem Silicon Valley für eine Rückkehr des Mitgründers ein. Selbst US-Präsident Donald Trump hätte offenbar nichts dagegen.  "
+      "title": "Nvidia unter Schock: Jensen Huang weg, Vertrauen weg? Jetzt ziehen Analysten Konsequenzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21700860-nvidia-schock-jensen-huang-weg-vertrauen-weg-analysten-konsequenzen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia verliert weiter an Vertrauen und Analysten senken ihre Kursziele. Doch ausgerechnet jetzt könnte ein wichtiger Termin für eine Überraschung sorgen."
     },
     {
       "title": "Wie viel KI steckt im Depot?: KI-Boom vor dem Kollaps? Ein gewaltiges Risiko wird unterschätzt!",
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Allianz übertrifft die Gewinnerwartungen deutlich und hebt ihre Jahresprognose an. Vor allem die Vermögensverwaltung boomt. Für Aktionäre rückt damit auch die nächste Dividendenerhöhung in den Fokus."
-    },
-    {
-      "title": "Schuldendruck: Trump will Amerikas Tafelsilber verkaufen – es geht um Billionen",
-      "url": "https://www.wallstreet-online.de/nachricht/21684297-schuldendruck-trump-amerikas-tafelsilber-verkaufen-billionen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die USA sitzen auf Land im Billionenwert. Nun will Trump Teile davon verkaufen. Dahinter stecken gigantische Schulden, aber auch wirtschaftliche Interessen."
-    },
-    {
-      "title": "Nach dem Rücktritt: Nvidia-Gründer Huang: Wird das die teuerste Scheidung aller Zeiten?",
-      "url": "https://www.wallstreet-online.de/nachricht/21684633-ruecktritt-nvidia-gruender-huang-teuerste-scheidung-zeiten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Jensen Huang ist nicht länger Nvidia-Chef. Jetzt rückt seine Ehe in den Fokus: Bei einer Scheidung könnte seiner Frau nach kalifornischem Recht die Hälfte des Aktienpakets zustehen. Es geht um viele Milliarden US-Dollar."
     }
   ],
   "feedErrors": [
