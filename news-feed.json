@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-17T17:41:02.490394+00:00",
+  "fetchedAt": "2026-11-17T18:30:26.511910+00:00",
   "articles": [
+    {
+      "title": "Sicherer Hafen Apple: Das wurde aus 1.000 Euro",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/sicherer-hafen-apple-das-wurde-aus-1000-euro-20444867.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 17 Nov 2026 17:35:00 GMT",
+      "description": "   Der KI-Trade ist zwar nicht tot, macht aber eine richtig harte Zeit durch. Die Nvidia-Aktie ist nach den Affären des CEOs auf 150 Dollar gecrasht. Im laufenden Jahr liegt der ehemalige Highflyer mit 18 Prozent im Minus. Bei Apple indes greifen die Anleger zu.  "
+    },
     {
       "title": "Nvidia: Jetzt spricht Jensen Huang – „Es wäre mir eine Ehre..“",
       "url": "https://www.deraktionaer.de/artikel/aktien/breaking-jetzt-spricht-jensen-huang-es-waere-mir-eine-ehre-20444835.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "    Der US-Unterhaltungskonzern Walt Disney hat im letzten Quartal erneut von starken Geschäften mit Freizeitparks und einer erfolgreichen Streaming-Sparte profitiert. Die Ergebnisse lagen über den durchschnittlichen Analystenschätzungen. Im Gesamtjahr 2025/26 steigerte Disney den Umsatz im Vergleich zum Vorjahr um acht Prozent auf mehr als 102 Mil"
     },
     {
-      "title": "Home Depot: Das reicht nicht",
-      "url": "https://www.deraktionaer.de/artikel/aktien/home-depot-das-reicht-nicht-20444592.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 13:15:00 GMT",
-      "description": "   Home Depot hat im dritten Quartal 2026 mehr umgesetzt als erwartet. Die weltgrößte Baumarktkette profitiert von einer robusten Nachfrage, doch beim Gewinn bleibt das Wachstum überschaubar. Hinzu kommt ein Führungswechsel an der Konzernspitze. Für Anleger ergibt sich damit ein gemischtes Bild.  "
+      "title": "Die große Rabatt-Illusion: Black Friday, die Schnäppchen-Falle von Amazon & Co.",
+      "url": "https://www.wallstreet-online.de/nachricht/21706434-grosse-rabatt-illusion-black-friday-schnaeppchen-falle-amazon-co",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Black Friday verspricht Rekordrabatte. Viele der Angebote sind aber alles andere als Schnäppchen, wie gleich mehrere Untersuchungen zeigen. Teilweise zahlen Kunden während der Aktionstage sogar mehr als zuvor."
     },
     {
       "title": "Eklatantes Politikversagen: Heizen bald unbezahlbar? Wie Katharina Reiche den Gaspreis immer höher treibt!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Michael Burry erhöht nach dem Rücktritt von Nvidia-Chef Jensen Huang seine Wetten gegen die Technologiebörse. Doch zwei Chipkonzerne sieht er als Gewinner. Und er hat eine Warnung an alle Tech-Anleger."
-    },
-    {
-      "title": "Müssen Anleger nun reagieren?: Gold, Silber oder Kupfer: Welches Metall steht jetzt vor der Neubewertung?",
-      "url": "https://www.wallstreet-online.de/nachricht/21688944-anleger-reagieren-gold-silber-kupfer-metall-neubewertung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der immer stärker werdende US-Dollar übt massiven Druck auf Gold, Silber und Kupfer aus. Der Kupferpreis stemmte sich lange Zeit gegen einen drohenden Abverkauf. Doch die Gegenwehr lässt zusehends nach."
     }
   ],
   "feedErrors": [
