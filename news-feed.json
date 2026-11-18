@@ -1,19 +1,68 @@
 {
-  "fetchedAt": "2026-11-18T12:36:50.197145+00:00",
+  "fetchedAt": "2026-11-18T13:54:47.211744+00:00",
   "articles": [
+    {
+      "title": "Volkswagen-Aktie: Abwärtstrend intakt - Chance auf Turnaround?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/volkswagen-20445250.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 13:45:00 GMT",
+      "description": "   Volkswagen-Chef Oliver Blume hat vor wenigen Tagen in einem Interview mit der  \"Bild\"  sehr ehrgeizige Ziele formuliert.  Im Jahr 2030 will Blume weltweit rund neun Millionen Autos verkaufen. Zugleich soll die Marge Rekordniveaus erreichen. Wie realistisch sind die Zielsetzungen des VW-Chefs?  "
+    },
+    {
+      "title": "76 Prozent in 6 Wochen trotz Marktturbulenzen",
+      "url": "https://www.deraktionaer.de/artikel/technische-analyse/76-prozent-in-6-wochen-trotz-marktturbulenzen-20445623.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 13:26:00 GMT",
+      "description": "   In den vergangenen Wochen brauchten Anleger starke Nerven. Die Aktienmärkte zeigen sich angeschlagen, die Volatilität ist deutlich gestiegen, viele Highflyer-Aktien aus dem ersten Halbjahr haben teilweise hohe zweistellige Verluste von ihren Höchstständen verkraften müssen.  "
+    },
+    {
+      "title": "Tencent: Das schmerzt...",
+      "url": "https://www.deraktionaer.de/artikel/aktien/tencent-das-schmerzt-20445635.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 13:19:00 GMT",
+      "description": "    Hohe Ausgaben für Künstliche Intelligenz setzen Tencent zunehmend unter Druck. Der WeChat-Mutterkonzern verzeichnete im dritten Quartal nicht nur ein schwächeres Umsatzwachstum als erwartet, sondern musste auch erstmals seit Jahren einen Rückgang beim operativen Gewinn hinnehmen.  "
+    },
+    {
+      "title": "Anthropic-IPO: Was Anleger jetzt wissen müssen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-ipo-was-anleger-jetzt-wissen-muessen-20444683.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 13:00:00 GMT",
+      "description": "   Morgen soll es so weit sein: Anthropic wagt den Sprung an die Nasdaq. Für Anleger stellt sich damit die entscheidende Frage: Gleich zum Börsenstart einsteigen oder anders vom Erfolg des Claude-Entwicklers profitieren? Der Aktien-Report von KI-Experte Klaus Madzia liefert Orientierung – und stellt 3 ausgewählte KI-Aktien mit konkreten Kurszielen "
+    },
+    {
+      "title": "Megatrend Folger: Church & Dwight – der stille Megatrend hinter dem nächsten Allzeithoch",
+      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-church-dwight-der-stille-megatrend-hinter-dem-naechsten-allzeithoch-20445599.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 12:50:00 GMT",
+      "description": "   GTA 6 erscheint morgen am 19. November – und kaum ein Produktstart zeigt derzeit eindrucksvoller, wie mächtig ein Megatrend werden kann. Arbeitnehmer nehmen sich für den Release frei, Millionen Spieler haben vorbestellt und die Erwartungen an den Verkaufsstart sind enorm.  "
+    },
+    {
+      "title": "Goldman Sachs: \"Nvidia bleibt ein Kauf\"",
+      "url": "https://www.deraktionaer.de/artikel/aktien/goldman-sachs-nvidia-bleibt-ein-kauf-20445596.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 12:37:00 GMT",
+      "description": "    Nach den gestrigen Zahlen von Nvidia haben sich zahlreiche Analysten zu Wort gemeldet. So hält etwa Goldman Sachs an der Kaufempfehlung für die Aktie fest und bestätigt das Kursziel von 220 Dollar. Analyst James Schneider bewertete den Geschäftsausblick nach der Vorlage der Quartalszahlen am Mittwoch trotz bestehender Unsicherheiten als stark. "
+    },
+    {
+      "title": "Trump und Xi umarmen sich: Ungewöhnliche Geste in China",
+      "url": "https://www.deraktionaer.de/artikel/aktien/trump-und-xi-umarmen-sich-ungewoehnliche-geste-in-china-20445594.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 12:30:00 GMT",
+      "description": "   Mit einer überraschenden Geste hat Chinas Staatschef Xi Jinping US-Präsident Donald Trump in Shenzhen empfangen. Xi begrüßte den US-Präsidenten persönlich am Flughafen. Die beiden Staatsmänner umarmten sich sogar – ein ungewöhnliches Bild in der chinesischen Diplomatie.  "
+    },
+    {
+      "title": "Goldexperte Bußler: Kapitulation bei Gold und Silber",
+      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/goldexperte-bussler-kapitulation-bei-gold-und-silber-20445465.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 12:29:00 GMT",
+      "description": "   Rette sich, wer kann. Das scheint derzeit das Motto im Edelmetallsektor, eigentlich im kompletten Rohstoffsektor zu sein. Die Edelmetalle haben praktisch alle wichtigen Unterstützungen gerissen und befinden sich im freien Fall. „Eine Mischung aus Zinsangst, liquiditätsgetriebenen Verkäufen und Trendfolge-Algorithmen belastet aktuell den Markt“, "
+    },
     {
       "title": "Dividendenperle Generali: Ziele auf dem Prüfstand – das müssen Anleger wissen",
       "url": "https://www.deraktionaer.de/artikel/aktien/dividendenperle-generali-ziele-auf-dem-pruefstand-das-muessen-anleger-wissen-20445569.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 18 Nov 2026 12:22:00 GMT",
       "description": "   Die Generali lässt am Mittwoch aufhorchen. Der italienische Allianz-Konkurrent hat seine Ziele bis 2027 auf den Prüfstand gestellt. Auch zur zukünftigen Dividende äußerte sich Philippe Donnet. DER AKTIONÄR zeigt, was Anleger zu den heutigen Aussagen des Versicherungsriesen wissen müssen.  "
-    },
-    {
-      "title": "Siemens Energy: Aktie legt zu, das sorgt jetzt für neue Fantasie",
-      "url": "https://www.deraktionaer.de/artikel/aktien/siemens-energy-aktie-legt-zu-das-sorgt-jetzt-fuer-neue-fantasie-20445577.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 12:16:00 GMT",
-      "description": "    Die Siemens-Energy-Aktie legt heute kräftig zu: Zwischenzeitlich ging es um satte 3,8 Prozent nach oben. Für Aufmerksamkeit sorgte ein Bericht des „Manager Magazins“ über die Zukunft der Industriesparte „Transformation of Industry“ (TI). Demnach wird das bislang kleinste Segment des Konzerns weiter in einzelne Bereiche gegliedert.  "
     },
     {
       "title": "Die letzten Stunden: 30 Prozent Jubiläumsrabatt sichern!",
@@ -23,60 +72,46 @@
       "description": "   Nur noch heute bis 23:59 Uhr erhalten Sie 30 Prozent Rabatt auf das digitale Jahresabo von DER AKTIONÄR. Seit 30 Jahren begleitet DER AKTIONÄR die wichtigsten Entwicklungen an den Börsen – mit fundierten Analysen, exklusiven Empfehlungen und den entscheidenden Trends aus der Welt der Aktien und Märkte.  "
     },
     {
-      "title": "AKTIONÄR-Hot-Stock Camurus: Entscheidende Phase – Aktie vor Rekordhoch",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/aktionaer-hot-stock-camurus-entscheidende-phase-aktie-vor-rekordhoch-20445514.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 11:14:16 GMT",
-      "description": "   Derzeit findet die Jefferies Global Healthcare Conference in London statt. Seit 16. November bis 19. November präsentieren hier zahlreiche Unternehmen aus den Sektoren Biotech, Pharma, Medizintechnik und Healthcare. Auch die schwedische Camurus, die DER AKTIONÄR im August dieses Jahres als Hot-Stock vorgestellt hat, nutzte die Bühne.  "
-    },
-    {
-      "title": "+1.007 Prozent mit OHB: Jetzt neuer Millionenauftrag für HSR-Tipp",
-      "url": "https://www.deraktionaer.de/artikel/aktien/1007-prozent-mit-ohb-jetzt-neuer-millionenauftrag-fuer-hsr-tipp-20445486.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 10:54:00 GMT",
-      "description": "   Der Bremer Raumfahrtkonzern OHB hat sich einen Großauftrag der Europäischen Weltraumorganisation ESA gesichert. Für mehr als 102 Millionen Euro soll das Unternehmen Europas erste Mission zur aktiven Beseitigung von Weltraumschrott entwickeln. Das ist ein wichtiger Erfolg für OHB – und ein weiterer Schritt in einem wachsenden Zukunftsmarkt.  "
-    },
-    {
-      "title": "Deutsche Bank am DAX-Ende: Aktie vor dem nächsten Test",
-      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-bank-erneut-am-dax-ende-diese-unterstuetzung-muss-jetzt-halten-20445399.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 09:32:00 GMT",
-      "description": "   Trotz eines soliden Marktumfelds geraten die Aktien der Deutschen Bank am Mittwoch erneut unter Druck. Auslöser sind die kritischen Berichte, die mehrere Medien am Vortag nach gemeinsamen Recherchen veröffentlicht hatten. Seit dem Zwischenhoch im November haben die Papiere bereits mehr als zehn Prozent eingebüßt, und die Nachlese zu den Vorwürfe"
-    },
-    {
-      "title": "Analysten erhöhen die Kursziele – dieser Titel greift wieder an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/analysten-erhoehen-die-kursziele-dieser-titel-greift-wieder-an-20445338.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 09:23:00 GMT",
-      "description": "   Bei diesem Konzern bringt nicht nur jede Bestellung Geld. Das Franchise-Modell sorgt zusätzlich für kontinuierliche Einnahmen aus Lizenzen und Mieten – und genau dieses System macht die Ertragskraft so außergewöhnlich. Mit einer operativen Marge von 50 Prozent zählt dieser Titel zu den profitabelsten Konsumwerten überhaupt.  "
-    },
-    {
-      "title": "Munich Re: Insiderkäufe – lohnt der Einstieg?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/munich-re-insiderkaeufe-lohnt-der-einstieg-20445368.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 09:11:00 GMT",
-      "description": "   Insiderkauf bei Munich Re: Ein Vorstand des Versicherungsriesen hat für einen sechsstelligen Betrag Aktien des eigenen Konzerns gekauft. Solche Käufe sind ein Vertrauensbeweis. Allein sind sie aber noch kein Grund zum Kauf. Können Anleger es dem Vorstand gleichtun und ebenfalls zugreifen?  "
-    },
-    {
-      "title": "Microsoft: Minimal wertvoller als Nvidia – und mit weiterem Aufwärtspotenzial",
-      "url": "https://www.deraktionaer.de/artikel/aktien/microsoft-20445283.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 08:33:00 GMT",
-      "description": "    Microsoft und Nvidia liefern sich aktuell einen Zweikampf um den Titel des zweitwertvollsten Unternehmens der Welt (nach Apple). Aktuell hat dabei Microsoft denkbar knapp die Nase vorne: So steht es aktuell 3,76 Billionen Dollar zu 3,75 Billionen Dollar.  "
-    },
-    {
-      "title": "SAP-Aktie: Software-Ausverkauf erreicht Walldorf",
-      "url": "https://www.deraktionaer.de/artikel/aktien/sap-20445189.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 08:29:00 GMT",
-      "description": "   Der KI-Ausverkauf hat sich am Dienstag bei SAP nochmals beschleunigt: Mit einem Minus von mehr als fünf Prozent auf 201,50 Euro nährte sich das Papier in großen Schritten einer charttechnisch wichtigen Unterstützung. Zusätzlich belastet diese Personalie den Aktienkurs des Walldorfer DAX-Konzerns.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Jetzt wird's günstig: Microsoft will Anthropic und OpenAI mit Billig-KI schlagen",
+      "url": "https://www.wallstreet-online.de/nachricht/21711369-wird-s-guenstig-microsoft-anthropic-openai-billig-ki-schlagen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Microsoft fordert Claude und ChatGPT mit eigenen KI-Modellen heraus. Sie sollen bei ähnlicher Leistung nur einen Bruchteil kosten."
+    },
+    {
+      "title": "50 Basispunkte: Fed-Mann Waller fordert den Zinsschock",
+      "url": "https://www.wallstreet-online.de/nachricht/21712806-50-basispunkte-fed-mann-waller-zinsschock",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Fed-Gouverneur Christopher Waller drängt auf eine größere Zinserhöhung im Dezember. Sein Vorstoß geht deutlich über die Markterwartung hinaus. Doch innerhalb der US-Notenbank regt sich Widerstand gegen einen harten Kurs."
+    },
+    {
+      "title": "Kaufempfehlung beflügelt Aktie: KI-Server bringen Siltronic zurück auf Kurs",
+      "url": "https://www.wallstreet-online.de/nachricht/21712821-kaufempfehlung-befluegelt-aktie-ki-server-siltronic-kurs",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Analysten von Berenberg heben Siltronic auf Kaufen. Nach dem Kursrutsch sehen die Analysten beim Waferhersteller die Wende bei Gewinn und Cashflow, angetrieben vom Siliziumhunger der KI-Server."
+    },
+    {
+      "title": "Autonomes Fahren: Robotaxis in Deutschland: Uber wagt den nächsten großen Schritt",
+      "url": "https://www.wallstreet-online.de/nachricht/21711759-autonomes-fahren-robotaxis-deutschland-uber-wagt-naechsten-grossen-schritt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Uber und Momenta starten in München einen Robotaxi-Test. Ausgewählte Fahrgäste können erstmals in Deutschland autonome Fahrten buchen."
+    },
+    {
+      "title": "Bitcoin: Was steckt wirklich hinter der aktuellen Schwäche?",
+      "url": "https://www.wallstreet-online.de/nachricht/21712182-bitcoin-steckt-aktuellen-schwaeche",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "3 Gründe, die kaum jemand sieht oder sehen möchte – plus 2 spannende Szenarien, die Trader jetzt unbedingt beobachten sollten."
     },
     {
       "title": "Milliarden-Poker um Avio: Leonardo unter Druck: Italien warnt vor Verkauf an ICEYE",
@@ -142,8 +177,8 @@
       "description": "Der israelische Rüstungsspezialist Elbit System wächst dank guter Auftragslage weiter stark. Zu den Kunden gehört auch die deutsche Bundeswehr."
     },
     {
-      "title": "Aktie verdreifacht sich: Sellas Life Sciences: Neuer Krebsimpfstoff beflügelt",
-      "url": "https://www.wallstreet-online.de/nachricht/21710913-aktie-verdreifacht-sich-sellas-life-sciences-krebsimpfstoff-befluegelt",
+      "title": "Aktie verdreifacht sich: Sellas Life Sciences: Neuer Krebsimpfstoff – Aktie knallt durch die Decke",
+      "url": "https://www.wallstreet-online.de/nachricht/21710913-aktie-verdreifacht-sich-sellas-life-sciences-krebsimpfstoff-aktie-knallt-decke",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Aktie von Sellas Life Sciences verzeichnet nach überzeugenden Studiendaten zu einem experimentellen Blutkrebs-Impfstoff einen historischen Kurssprung."
@@ -742,41 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mehr als 160.000 Unterschriften für Jensen Huang: Laut Medienberichten wächst die Kampagne für seine Rückkehr an die Nvidia-Spitze. Elon Musk hat auf X angekündigt, die Petition ebenfalls zu unterschreiben."
-    },
-    {
-      "title": "DAX ruhig, Asien tiefrot: Zinsangst, Ölschwemme, Chipkrise: Diese Woche wird zur Zerreißprobe",
-      "url": "https://www.wallstreet-online.de/nachricht/21697203-dax-ruhig-asien-tiefrot-zinsangst-oelschwemme-chipkrise-woche-zerreissprobe",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach dem Rekord über 27.000 Punkte holt der DAX Luft. Doch in Asien rauschen die Chipwerte ab, und am Dienstag schaut die ganze Börsenwelt auf einen einzigen Konzern. Auch die US-Notenbank sorgt für Spannung."
-    },
-    {
-      "title": "Nach Huang-Rücktritt: Gelingt Nvidia das Comeback? Was geht bei Walt Disney, Alibaba & Walmart?",
-      "url": "https://www.wallstreet-online.de/nachricht/21697131-huang-ruecktritt-gelingt-nvidia-comeback-walt-disney-alibaba-walmart",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Diese in den kommenden Tagen (KW47) anstehenden US-Quartalszahlen müssen Anlegerinnen und Anleger kennen: Herausforderungen, Erwartungen und die aktuell eingepreisten Kursreaktionen – alles auf einen Blick!"
-    },
-    {
-      "title": "AMD statt Nvidia: Analyst sieht neuen Sieger im Chipmarkt",
-      "url": "https://www.wallstreet-online.de/nachricht/21689271-amd-nvidia-analyst-sieger-chipmarkt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach dem Rücktritt von Nvidia-CEO Jensen Huang stuft William Blair AMD hoch. Analysten sehen große Chancen auf zusätzliche Marktanteile."
-    },
-    {
-      "title": "Hier geht was…: Silber-Gold-Offensive: 139 % mehr Minen-Cashflow und 30.000 Meter neue Chancen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21695445-was-silber-gold-offensive-139-minen-cashflow-30-000-meter-chancen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Endeavour Silver meldet kräftigen Cashflow-Zuwachs. Sierra Madre verbindet höheren Durchsatz mit neuer Exploration, während die jüngste Silbermarktprognose ein differenziertes Nachfragebild zeichnet."
-    },
-    {
-      "title": "Im strategischen Fokus: Gold auf Jahrestief – Zentralbanken greifen zu: Drei Projekte geben jetzt Gas!",
-      "url": "https://www.wallstreet-online.de/nachricht/21695586-strategischen-fokus-gold-jahrestief-zentralbanken-greifen-zu-projekte-gas",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gold fiel am 12. November auf den tiefsten Stand seit über einem Jahr, Zentralbanken kauften kräftig zu. GoldMining, Southern Cross Gold und Osisko Gold treiben ihre Projekte dennoch voran."
     }
   ],
   "feedErrors": [
