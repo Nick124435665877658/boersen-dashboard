@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T04:00:10.972936+00:00",
+  "fetchedAt": "2026-11-18T05:06:53.551875+00:00",
   "articles": [
     {
       "title": "Nvidia: Die Zahlen sind da! Umsatz und Gewinn erneut verdoppelt",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 14:45:00 GMT",
       "description": "   Die Aktie von Palo Alto Network hat seit Jahresbeginn um 76 Prozent zugelegt. Damit entwickelte sich das Papier des Cybersecurity-Spezialisten klar besser als der Nasdaq 100, der im gleichen Zeitraum nur um acht Prozent stieg. Doch jetzt steht die Härtetest an: Der US-Konzern legt zur Wochenmitte nach US-Börsenschluss seine Zahlen zum abgelaufen"
+    },
+    {
+      "title": "Neue Impulse für Kali: Millennial Potash erweitert Kalimineralisierung!",
+      "url": "https://www.wallstreet-online.de/nachricht/21706923-impulse-kali-millennial-potash-erweitert-kalimineralisierung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während Kali für die Ernährungssicherheit immer wichtiger wird, meldet Millennial Potash weitere Bohrerfolge. Bis Jahresende soll die Machbarkeitsstudie vorliegen."
     },
     {
       "title": "Ihre wichtigsten Termine: Heute im Fokus: Target, Drägerwerk, Oracle, TJX, Lowe's, Bullish und Novartis",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Am Anleihemarkt steigen die Renditen rasant, doch die Börsen wirken erstaunlich gelassen. Goldman Sachs rechnet mit einem härteren Szenario. Schon im Dezember könnte diese Ruhe teuer werden."
-    },
-    {
-      "title": "Iran schießt auf Schiffe: USA kontrolliert: Kein Tropfen Öl geht mehr durch Hormus",
-      "url": "https://www.wallstreet-online.de/nachricht/21689976-iran-schiesst-schiffe-usa-kontrolliert-tropfen-oel-hormus",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die USA blockieren erfolgreich die Straße von Hormus. Dem Iran gelingt es nicht mehr, auch nur einen Tropfen Rohöl zu transportieren."
     }
   ],
   "feedErrors": [
