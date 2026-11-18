@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-18T05:06:53.551875+00:00",
+  "fetchedAt": "2026-11-18T06:11:03.402287+00:00",
   "articles": [
+    {
+      "title": "DAX-Prognose: Stabil, Gold fällt – Nvidia, Fed, Dt. Bank, SAP, Siemens Energy, Anthropic im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-stabil-gold-faellt-nvidia-fed-dt-bank-sap-siemens-energy-anthropic-im-fokus-20445102.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 06:00:00 GMT",
+      "description": "   Der DAX sucht heute, am Mittwoch, nach Halt. Gestern hatte der Leitindex 2,1 Prozent auf 26.045 Punkte verloren, das Minus summierte sich auf 553 Punkte. Seit dem Rekordhoch von gut 27.000 Punkten am vergangenen Donnerstag hat er damit 3,5 Prozent eingebüßt.  "
+    },
+    {
+      "title": "Gold auf Jahrestief: Dieser Termin wird jetzt wichtig",
+      "url": "https://www.deraktionaer.de/artikel/aktien/gold-auf-jahrestief-dieser-termin-wird-jetzt-wichtig-20445092.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 05:54:00 GMT",
+      "description": "    Der Goldpreis ist am Mittwoch erneut um mehr als ein Prozent abgerutscht und fiel damit auf den tiefsten Wert seit über zwölf Monaten. Belastend wirkten der feste US-Dollar und Erwartungen weiterer Zinserhöhungen in den Vereinigten Staaten. Marktteilnehmer verfolgten außerdem mit Spannung das Protokoll der jüngsten Sitzung der US-Notenbank, das"
+    },
+    {
+      "title": "Nvidia-Aktie: 115,8 Milliarden Rekordumsatz – Chance trotz Chefkrise?",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nvidia-aktie-1158-milliarden-rekordumsatz-chance-trotz-chefkrise-20444981.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 05:12:00 GMT",
+      "description": "   Nvidia hat im dritten Geschäftsquartal 2026/27 (bis 25. Oktober), dem ersten Bericht ohne Gründer Jensen Huang, 115,8 Milliarden Dollar umgesetzt, 103 Prozent mehr als vor einem Jahr, und die eigene Prognose von 108 Milliarden Dollar klar übertroffen.  "
+    },
     {
       "title": "Nvidia: Die Zahlen sind da! Umsatz und Gewinn erneut verdoppelt",
       "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-die-zahlen-sind-da--20444906.html?feed=directrssfeed",
@@ -51,25 +72,18 @@
       "description": "   Die Korrektur am deutschen Aktienmarkt hat sich am Dienstag beschleunigt. Der DAX schloss am Dienstag 2,08 Prozent tiefer bei 26.045,37 Punkten. Der MDAX verlor 1,25 Prozent auf 30.147,34 Punkte. Vor den Quartalszahlen von Nvidia nach US-Börsenschluss blieben die Anleger nervös.  "
     },
     {
-      "title": "Wall-Street-Update: Chipwerte ziehen Indizes vor Nvidia-Zahlen ins Minus",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-chipwerte-ziehen-indizes-vor-nvidia-zahlen-ins-minus-20444781.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 16:10:00 GMT",
-      "description": "   Die US-Börsen haben am Dienstag ihre Verluste vom Wochenbeginn ausgeweitet. Der Dow Jones verlor in den ersten Handelsstunden zeitweise fast 800 Punkte oder 1,5 Prozent. Der S&P 500 gab 1,4 Prozent nach, der Nasdaq Composite 1,6 Prozent. Belastet wird der Markt vor allem von Halbleiterwerten – Anleger meiden sie vor den Quartalszahlen von Nvidia"
+      "title": "Noch vor dem IPO: Anthropic bekommt erste Kaufempfehlung – und die hat es in sich",
+      "url": "https://www.wallstreet-online.de/nachricht/21705867-ipo-anthropic-bekommt-kaufempfehlung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anthropic steht kurz vor einem der größten Börsengänge aller Zeiten. Noch vor dem Handelsstart sieht ein Analyst bereits enormes Kurspotenzial."
     },
     {
-      "title": "UnitedHealth und Co: Langfristige Gewinner mit Renditepotenzial",
-      "url": "https://www.deraktionaer.de/artikel/indizes/unitedhealth-und-co-langfristige-gewinner-mit-renditepotenzial-20444571.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 15:00:00 GMT",
-      "description": "    Der Gesundheitskonzern verbindet Versicherung und medizinische Versorgung unter einem Dach. Wie dieses Geschäftsmodell funktioniert, was es für Anleger bedeuten kann und welche Rolle die Aktie im Aktien für immer Index spielt.   "
-    },
-    {
-      "title": "Palo Alto Networks: Das erwartet der Markt vor den Q3-Zahlen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/palo-alto-networks-das-erwartet-der-markt-vor-den-q3-zahlen-20444437.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 17 Nov 2026 14:45:00 GMT",
-      "description": "   Die Aktie von Palo Alto Network hat seit Jahresbeginn um 76 Prozent zugelegt. Damit entwickelte sich das Papier des Cybersecurity-Spezialisten klar besser als der Nasdaq 100, der im gleichen Zeitraum nur um acht Prozent stieg. Doch jetzt steht die Härtetest an: Der US-Konzern legt zur Wochenmitte nach US-Börsenschluss seine Zahlen zum abgelaufen"
+      "title": "Magnificent Seven im Fokus: Star-Investoren verkaufen Alphabet – und kaufen diese Tech-Aktien",
+      "url": "https://www.wallstreet-online.de/nachricht/21707037-magnificent-seven-fokus-star-investoren-verkaufen-alphabet-kaufen-tech-aktien",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Meta, Amazon und Microsoft stehen bei Großinvestoren hoch im Kurs. Gleichzeitig landet Alphabet ganz oben auf den Verkaufslisten. Das zeigt eine Auswertung der jüngsten 13F-Meldungen."
     },
     {
       "title": "Neue Impulse für Kali: Millennial Potash erweitert Kalimineralisierung!",
@@ -86,8 +100,8 @@
       "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
-      "title": "Aktie erholt sich: Wieder ein Rekordquartal! Doch jetzt ermittelt die SEC",
-      "url": "https://www.wallstreet-online.de/nachricht/21708693-aktie-erholt-sich-rekordquartal-ermittelt-sec",
+      "title": "Aktie erholt sich: NVIDIA: Wieder ein Rekordquartal! Doch jetzt ermittelt die SEC",
+      "url": "https://www.wallstreet-online.de/nachricht/21708693-aktie-erholt-sich-nvidia-rekordquartal-ermittelt-sec",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die ersten Earnings nach dem CEO-Beben. Nvidia liefert Rekordzahlen, doch die SEC ermittelt und Anleger haben viele Fragen zum Chefwechsel. Was wird aus den zahlreichen Deals der Huang-Ära?"
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Ein gigantischer Fondsskandal erschüttert die Türkei. Hochrangige Politiker und Finanzaufseher geraten ins Visier der Justiz. Nun droht eine Entscheidung, die ausländische Milliarden vertreiben könnte."
-    },
-    {
-      "title": "Mehr Reichweite als USA: Kanadas Gasvorkommen sind riesig, aber ungenutzt – das soll sich jetzt ändern",
-      "url": "https://www.wallstreet-online.de/nachricht/21689367-reichweite-usa-kanadas-gasvorkommen-riesig-ungenutzt-aendern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Kanada könnte zu den größten Gewinnern am globalen Gasmarkt werden. Das Land verfügt über Reserven, die länger halten als die der USA oder Australiens. Jetzt will es sie auch nutzen."
-    },
-    {
-      "title": "50 Basispunkte auf einmal?: Fed-Zins-Albtraum im Dezember: Für Aktien könnte es richtig hässlich werden!",
-      "url": "https://www.wallstreet-online.de/nachricht/21688644-50-basispunkte-einmal-fed-zins-albtraum-dezember-aktien-richtig-haesslich-werden",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Am Anleihemarkt steigen die Renditen rasant, doch die Börsen wirken erstaunlich gelassen. Goldman Sachs rechnet mit einem härteren Szenario. Schon im Dezember könnte diese Ruhe teuer werden."
     }
   ],
   "feedErrors": [
