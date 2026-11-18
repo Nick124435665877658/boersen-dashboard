@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T02:57:03.273544+00:00",
+  "fetchedAt": "2026-11-18T04:00:10.972936+00:00",
   "articles": [
     {
       "title": "Nvidia: Die Zahlen sind da! Umsatz und Gewinn erneut verdoppelt",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 17 Nov 2026 14:45:00 GMT",
       "description": "   Die Aktie von Palo Alto Network hat seit Jahresbeginn um 76 Prozent zugelegt. Damit entwickelte sich das Papier des Cybersecurity-Spezialisten klar besser als der Nasdaq 100, der im gleichen Zeitraum nur um acht Prozent stieg. Doch jetzt steht die Härtetest an: Der US-Konzern legt zur Wochenmitte nach US-Börsenschluss seine Zahlen zum abgelaufen"
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Heute im Fokus: Target, Drägerwerk, Oracle, TJX, Lowe's, Bullish und Novartis",
+      "url": "https://www.wallstreet-online.de/nachricht/21693807-wichtigsten-termine-fokus-target-draegerwerk-oracle-tjx-lowe-s-bullish-novartis",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Aktie erholt sich: Wieder ein Rekordquartal! Doch jetzt ermittelt die SEC",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die USA blockieren erfolgreich die Straße von Hormus. Dem Iran gelingt es nicht mehr, auch nur einen Tropfen Rohöl zu transportieren."
-    },
-    {
-      "title": "Gewinnwarnung verdaut?: init: Hier könnte die nächste Turnaround-Chance lauern",
-      "url": "https://www.wallstreet-online.de/nachricht/21689757-gewinnwarnung-verdaut-init-turnaround-chance-lauern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Gewinnwarnung hat die init-Aktie hart getroffen. Berenberg hält dennoch an der Kaufempfehlung und 65 Euro Kursziel fest und setzt auf London, Sydney und volle Auftragsbücher."
     }
   ],
   "feedErrors": [
