@@ -1,9 +1,16 @@
 {
-  "fetchedAt": "2026-11-18T09:37:41.151076+00:00",
+  "fetchedAt": "2026-11-18T10:38:35.972627+00:00",
   "articles": [
     {
-      "title": "Die Wall Street erhöht die Ziele – dieser Titel greift wieder an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/die-wall-street-erhoeht-die-ziele-dieser-titel-greift-wieder-an-20445338.html?feed=directrssfeed",
+      "title": "Deutsche Bank am DAX-Ende: Aktie vor dem nächsten Test",
+      "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-bank-erneut-am-dax-ende-diese-unterstuetzung-muss-jetzt-halten-20445399.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 09:32:00 GMT",
+      "description": "   Trotz eines soliden Marktumfelds geraten die Aktien der Deutschen Bank am Mittwoch erneut unter Druck. Auslöser sind die kritischen Berichte, die mehrere Medien am Vortag nach gemeinsamen Recherchen veröffentlicht hatten. Seit dem Zwischenhoch im November haben die Papiere bereits mehr als zehn Prozent eingebüßt, und die Nachlese zu den Vorwürfe"
+    },
+    {
+      "title": "Analysten erhöhen die Kursziele – dieser Titel greift wieder an",
+      "url": "https://www.deraktionaer.de/artikel/aktien/analysten-erhoehen-die-kursziele-dieser-titel-greift-wieder-an-20445338.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 18 Nov 2026 09:23:00 GMT",
       "description": "   Bei diesem Konzern bringt nicht nur jede Bestellung Geld. Das Franchise-Modell sorgt zusätzlich für kontinuierliche Einnahmen aus Lizenzen und Mieten – und genau dieses System macht die Ertragskraft so außergewöhnlich. Mit einer operativen Marge von 50 Prozent zählt dieser Titel zu den profitabelsten Konsumwerten überhaupt.  "
@@ -65,18 +72,32 @@
       "description": "   Nvidia hat erneut starke Quartalszahlen vorgelegt. Der Umsatz sprang im dritten Quartal auf 115,8 Milliarden Dollar und damit um 103 Prozent gegenüber dem Vorjahr. Das Data-Center-Geschäft wuchs sogar um 110 Prozent auf 107,6 Milliarden Dollar. Auch der Ausblick bleibt stark: Für das Geschäftsjahr 2028 stellt Nvidia inzwischen rund 75 Prozent Um"
     },
     {
-      "title": "Bietet BASF bald noch mehr für Evonik?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/bietet-basf-bald-noch-mehr-fuer-evonik-20445127.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 06:33:00 GMT",
-      "description": "    BASF sondiert laut Bloomberg, welche Zusagen nötig sein könnten, um wichtige Interessengruppen für eine Übernahme von Evonik zu gewinnen. Der Konzern bereite sich damit auf einen möglichen neuen Anlauf vor. Grundlage des Berichts ist ein Bloomberg vorliegender Entwurf, in dem Zugeständnisse zu Arbeitsplätzen, Standorten und Investitionen bereit"
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Vorwürfe von Ningi Research: Deutz stürzt zweistellig ab: Shortseller attackiert die Milliardenübernahme",
+      "url": "https://www.wallstreet-online.de/nachricht/21711966-vorwuerfe-ningi-research-deutz-stuerzt-zweistellig-ab-shortseller-attackiert-milliardenuebernahme",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Kurssturz bei Deutz: Ningi Research erhebt schwere Vorwürfe zur FFG-Übernahme. Im Zentrum stehen ein 45-Prozent-Anteil, geteilte Gewinne und die Schuldenlast des Motorenbauers."
+    },
+    {
+      "title": "Robotaxi-Boom: 75 % mehr Umsatz: Doch dieser China-Konzern bleibt tiefrot",
+      "url": "https://www.wallstreet-online.de/nachricht/21711993-robotaxi-boom-75-umsatz-china-konzern-bleibt-tiefrot",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Pony AI hat den Umsatz um 75 Prozent gesteigert. Vor allem Robotaxis boomen, doch unter dem Strich bleibt der chinesische Konzern tief in den roten Zahlen."
+    },
+    {
+      "title": "Mega-IPO: Anthropic vor Börsenstart: Jetzt soll die KI-Aktie noch teurer werden",
+      "url": "https://www.wallstreet-online.de/nachricht/21711009-mega-ipo-anthropic-boersenstart-ki-aktie-teurer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anthropic könnte beim Börsengang mehr verlangen als geplant. Für Anleger schrumpft damit das rechnerische Kurspotenzial. Was hinter dem Preisaufschlag steckt – und worauf es beim Einstieg ankommt."
     },
     {
       "title": "Lässt Rheinmetall hinter sich: Diese Rüstungsaktie hat erneut geliefert!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidias Führungswechsel erschüttert die KI-Branche, höhere Zinserwartungen drücken auf Metalle. Gold verliert in London 3,9 %. Wie belastbar ist die Erholung der Aktienmärkte?"
-    },
-    {
-      "title": "KI-Trade heiß gelaufen?: \"Größte Fehlinvestition aller Zeiten\": Vermögensverwalter warnt vor der KI-Blase",
-      "url": "https://www.wallstreet-online.de/video/21695778-ki-trade-heiss-gelaufen-groesste-fehlinvestition-zeiten-vermoegensverwalter-warnt-ki-blase",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Stefan Schrader, Geschäftsführer der Titus Gesellschaft für Finanzdienstleistungen in München, hält den milliardenschweren Ausbau von KI-Rechenzentren für die größte Fehlinvestition aller Zeiten."
-    },
-    {
-      "title": "Geyers Marktkommentar:  Was hat der Bitcoin mit Nvidia zu tun? DAX – 2027 wird großartig!",
-      "url": "https://www.wallstreet-online.de/nachricht/21695508-geyers-marktkommentar-bitcoin-nvidia-tun-dax-2027-grossartig",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia hat die Börsenwelt erschüttert. Zunächst ist es nur ein Börsenrückgang gewesen, weitere Folgen: nicht absehbar. Aber was hat das alles mit dem Bitcoin zu tun? Vielleicht mehr, als man denken möchte."
-    },
-    {
-      "title": "Edelmetall auf der Kippe: Silberpreis-Prognose: Jetzt droht der Dammbruch bei Silber – Anleger alarmiert",
-      "url": "https://www.wallstreet-online.de/nachricht/21694680-edelmetall-kippe-silberpreis-prognose-droht-dammbruch-silber-anleger-alarmiert",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Silberpreis krachte erneut unter die Marke von 50 US-Dollar. Der schwache Wochenschluss lässt für die kommenden Tage nicht viel Gutes erwartet – ein Dammbruch bei Silber droht."
     }
   ],
   "feedErrors": [
