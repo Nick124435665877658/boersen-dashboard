@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-18T17:12:48.908585+00:00",
+  "fetchedAt": "2026-11-18T17:59:55.560918+00:00",
   "articles": [
+    {
+      "title": "Anthropic-IPO: Wird der Börsengang noch größer?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-ipo-wird-der-boersengang-noch-groesser-20445944.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 17:30:00 GMT",
+      "description": "   Der Börsengang von Anthropic steht unmittelbar bevor und könnte noch größer ausfallen als bisher geplant. Wie  CNBC  unter Berufung auf mit der Angelegenheit vertraute Personen berichtet, erwägt das KI-Unternehmen, das Emissionsvolumen noch aufzustocken.  "
+    },
     {
       "title": "DAX-Schluss: Schwache Wall Street drückt Leitindex unter 26.000 Punkte",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schluss-schwache-wall-street-drueckt-leitindex-unter-26000-punkte-20445922.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "    Hohe Ausgaben für Künstliche Intelligenz setzen Tencent zunehmend unter Druck. Der WeChat-Mutterkonzern verzeichnete im dritten Quartal nicht nur ein schwächeres Umsatzwachstum als erwartet, sondern musste auch erstmals seit Jahren einen Rückgang beim operativen Gewinn hinnehmen.  "
     },
     {
-      "title": "Anthropic-IPO: Was Anleger jetzt wissen müssen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-ipo-was-anleger-jetzt-wissen-muessen-20444683.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 13:00:00 GMT",
-      "description": "   Morgen soll es so weit sein: Anthropic wagt den Sprung an die Nasdaq. Für Anleger stellt sich damit die entscheidende Frage: Gleich zum Börsenstart einsteigen oder anders vom Erfolg des Claude-Entwicklers profitieren? Der Aktien-Report von KI-Experte Klaus Madzia liefert Orientierung – und stellt 3 ausgewählte KI-Aktien mit konkreten Kurszielen "
+      "title": "Milliardenmarkt: Nvidia-Partner Einride wächst rasant: Umsatzplus von 27 Prozent",
+      "url": "https://www.wallstreet-online.de/nachricht/21712701-milliardenmarkt-nvidia-partner-einride-waechst-rasant-umsatzplus-27-prozent",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia-Partner Einride steigert seinen Quartalsumsatz um 27 Prozent und peilt starkes Wachstum bis 2027 an. Doch hohe Verluste belasten den Lkw-Spezialisten."
+    },
+    {
+      "title": "Trump, Putin und Xi: Zölle, KI und Atomwaffen: Das steht beim Mega-Treffen auf dem Spiel",
+      "url": "https://www.wallstreet-online.de/nachricht/21713526-trump-putin-xi-zoelle-ki-atomwaffen-mega-treffen-spiel",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Xi Jinping wirbt beim APEC-Gipfel in Shenzhen für offene Märkte, Putin kritisiert westliche Sanktionen. Am Donnerstag treffen beide auf Donald Trump, den Xi persönlich am Flughafen empfing."
     },
     {
       "title": "Nvidia-Aktie: Das Imperium zerfällt?",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Uniper setzt auf den KI-Boom, sichert 700 Megawatt für Rechenzentren und plant Milliardeninvestitionen. Bis 2027 sollen auch die Gewinne deutlich steigen."
-    },
-    {
-      "title": "Eilmeldung: Commerzbank: EU genehmigt Übernahme durch UniCredit ohne Auflagen",
-      "url": "https://www.wallstreet-online.de/nachricht/21699342-eilmeldung-commerzbank-eu-genehmigt-uebernahme-unicredit-auflagen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die EU-Kommission macht den Weg für UniCredits Commerzbank-Pläne frei. Noch fehlt eine Genehmigung aus Polen. Der geplante Zusammenschluss könnte rund 7.000 Arbeitsplätze kosten."
-    },
-    {
-      "title": "Neue Therapie: Zwei Zulassungen auf einen Schlag: Dieser Pharmakonzern punktet",
-      "url": "https://www.wallstreet-online.de/nachricht/21699189-therapie-zulassungen-schlag-pharmakonzern-punktet",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Grünes Licht aus den USA und Europa: AstraZeneca darf ein neuartiges Medikament gegen eine seltene Autoimmunerkrankung auf den Markt bringen."
     }
   ],
   "feedErrors": [
