@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-18T20:04:16.748260+00:00",
+  "fetchedAt": "2026-11-18T20:58:51.701473+00:00",
   "articles": [
+    {
+      "title": "Fed-Protokoll: US-Notenbank sieht höhere Zinsen – Sorge um KI-Schulden",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/fed-protokoll-zinserhoehungen-und-ki-im-fokus-20445999.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 20:04:00 GMT",
+      "description": "   Die US-Notenbank Fed hat im Oktober zwar stillgehalten, doch das am Mittwoch veröffentlichte Protokoll der Sitzung vom 27. und 28. Oktober zeigt: Fast alle Notenbanker rechnen mit weiteren Zinserhöhungen. Für Anleger rückt damit die Frage in den Vordergrund, wie schnell und wie weit die Fed im kommenden Jahr gehen wird.  "
+    },
     {
       "title": "Nvidia zieht die Zügel an – was bedeutet das für CoreWeave, Nebius & Co?",
       "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-zieht-die-zuegel-an-was-bedeutet-das-fuer-coreweave-nebius-co-20445974.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   So sind die Comeback-Chancen der Börsen-Megastars  "
     },
     {
-      "title": "Abverkauf antizyklisch nutzen?",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/abverkauf-antizyklisch-nutzen-20445750.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "description": "   Die Enthüllungen zu zahlreichen Verfehlungen der Deutschen Bank aus der Vergangenheit eröffnen eien Chance für mutige Anleger.  "
+      "title": "Brent fällt, aber: Huthis rücken vor: Offensive gegen Regierung – Jemen vor Kollaps?",
+      "url": "https://www.wallstreet-online.de/nachricht/21713865-brent-faellt-aber-huthis-ruecken-vor-offensive-regierung-jemen-kollaps",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Huthis im Jemen sind in den letzten Tagen gegen die international unterstützte Regierung vorgerückt und könnten jetzt eine Offensive gegen die provisorische Hauptstadt Aden starten."
     },
     {
       "title": "14.306 % in 30 Jahren: Diese Aktie für die Ewigkeit liefert erneut – und steigt jetzt zweistellig!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Soros stockt bei Intel kräftig auf, während Aktionäre den Chipriesen verklagen. Sie werfen dem Konzern vor, die PC-Flaute zu spät offengelegt zu haben. Die Aktie bleibt trotz Absturz im Plus."
-    },
-    {
-      "title": "Frachtraten-Crash?: Suez-Hammer! Warum Hapag-Lloyd und Maersk jetzt unter Druck geraten könnten",
-      "url": "https://www.wallstreet-online.de/nachricht/21699060-frachtraten-crash-suez-hammer-hapag-lloyd-maersk-druck-geraten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Hapag-Lloyd und Maersk kehren zum Suezkanal zurück. Kürzere Transportwege senken die Kosten, könnten aber die Frachtraten und Gewinne unter Druck setzen."
     }
   ],
   "feedErrors": [
