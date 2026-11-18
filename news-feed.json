@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-11-18T17:59:55.560918+00:00",
+  "fetchedAt": "2026-11-18T19:00:05.204980+00:00",
   "articles": [
+    {
+      "title": "Warum Michael Burry bei dieser Aktie jetzt voll zuschlägt",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/warum-michael-burry-bei-dieser-aktie-jetzt-voll-zuschlaegt-20445892.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Nach dem 80-Prozent-Absturz: Michael Burry wettet auf diesen Turnaround.  "
+    },
+    {
+      "title": "Intel: Zwischen KI-Boom und Krise",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/intel-zwischen-ki-boom-und-krise-20445882.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Intels KI-Geschäft boomt, doch schwache PC-Verkäufe und Probleme in der Produktion belasten den Konzern.  "
+    },
+    {
+      "title": "LVMH: Absturz im Luxus-Olymp",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/lvmh-absturz-im-luxus-olymp-20445876.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Luxus läuft immer – dieses Versprechen gilt schon lange nicht mehr. Gerade der Branchenriese LVMH hat an der Börse mehr Federn lassen müssen als andere Luxuskonzerne.  "
+    },
+    {
+      "title": "Nvidia: Huang ist weg – der Ärger bleibt",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/nvidia-huang-ist-weg-der-aerger-bleibt-20445870.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Der Rücktritt des Gründers schockt den wertvollsten Chip-Konzern der Welt. Ist die Aktie trotzdem ein Kauf?  "
+    },
+    {
+      "title": "Nvidia & Co: 5 Aktien im Comeback-Check",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-co-5-aktien-im-comeback-check-20445762.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Vom Superstar des KI-Booms zum Sorgenkind: Anfang Oktober war Nvidia noch 5,5 Billionen Dollar wert und damit der wertvollste Konzern der Welt. Inzwischen ist der Börsenwert unter 4 Billionen Dollar gefallen. Der Abgang von Nvidia-Chef Jensen Huang hat das Vertrauen der Anleger erschüttert.  "
+    },
+    {
+      "title": "Nvidia-Schock",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/nvidia-schock-20445756.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   So sind die Comeback-Chancen der Börsen-Megastars  "
+    },
+    {
+      "title": "Abverkauf antizyklisch nutzen?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/abverkauf-antizyklisch-nutzen-20445750.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Die Enthüllungen zu zahlreichen Verfehlungen der Deutschen Bank aus der Vergangenheit eröffnen eien Chance für mutige Anleger.  "
+    },
+    {
+      "title": "Novo Nordisk: Bald wieder in Bestform?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/novo-nordisk-bald-wieder-in-bestform-20445739.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Bis 2024 gehörte Novo Nordisk zu den großen Überfliegern an der Börse. Doch seitdem ging es steil nach unten. Die Dänen wollen nicht zuletzt mit starken neuen Produkten wieder zurück auf die Überholspur kommen.   "
+    },
+    {
+      "title": "Siemens Energy: Energie wieder aufgeladen",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/siemens-energy-energie-wieder-aufgeladen-20445727.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "description": "   Nach starken Jahren zählt Siemens Energy in den vergangenen Monaten zu den größten Verlierern im DAX. Dabei läuft es operativ weiter glänzend. Die Chancen für eine Trendwende stehen gut.  "
+    },
     {
       "title": "Anthropic-IPO: Wird der Börsengang noch größer?",
       "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-ipo-wird-der-boersengang-noch-groesser-20445944.html?feed=directrssfeed",
@@ -9,67 +72,18 @@
       "description": "   Der Börsengang von Anthropic steht unmittelbar bevor und könnte noch größer ausfallen als bisher geplant. Wie  CNBC  unter Berufung auf mit der Angelegenheit vertraute Personen berichtet, erwägt das KI-Unternehmen, das Emissionsvolumen noch aufzustocken.  "
     },
     {
-      "title": "DAX-Schluss: Schwache Wall Street drückt Leitindex unter 26.000 Punkte",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schluss-schwache-wall-street-drueckt-leitindex-unter-26000-punkte-20445922.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 16:41:04 GMT",
-      "description": "   Der DAX schloss am Mittwoch 1,19 Prozent tiefer bei 25.736,24 Punkten. Damit fiel der Leitindex unter die Marke von 26.000 Punkten und unterschritt erstmals seit Ende Oktober die 21-Tage-Linie, einen Indikator für den kurzfristigen Trend. Der MDAX verlor 0,89 Prozent auf 29.  "
+      "title": "Vergessene Wachstumsbranchen: Wasser- und Müllaktien klingen nicht so spannend, die Rendite schon",
+      "url": "https://www.wallstreet-online.de/nachricht/21713169-vergessene-wachstumsbranchen-wasser-muellaktien-klingen-spannend-rendite",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Börse feiert Technologie, doch zwei unscheinbare Branchen wachsen leise zweistellig. Ein Fondsmanager hält ihre Aktien für so unterbewertet wie seit Jahren nicht. Ein Faktor könnte ihm aber in die Quere kommen."
     },
     {
-      "title": "Angst vor der Apocalypse – und ein ungeahnter Profiteur",
-      "url": "https://www.deraktionaer.de/artikel/aktien/angst-vor-der-apocalypse-und-ein-ungeahnter-profiteur-20445883.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 16:30:00 GMT",
-      "description": "   Outlook offline, Flugverkehr gestoppt, Bankbuchungen verzögert: Eine Serie von IT-Störungen verunsichert die US-Verbraucher. Das ruft nicht nur Verschwörungstheoretiker auf den Plan, sondern auch Hamsterkäufer, die sich auf die vermeintliche Apokalypse vorbereiten wollen.  "
-    },
-    {
-      "title": "Rheinmetall: Auf diesen Termin kommt es jetzt an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-auf-diesen-termin-kommt-es-jetzt-an-20445760.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 15:52:00 GMT",
-      "description": "   Der Trend bei Rheinmetall zeigt weiter klar nach unten. Nach dem leichten Erholungsversuch zu Wochenbeginn notiert die Aktie mittlerweile wieder nur noch knapp unter dem 52-Wochen-Tief bei 738,70 Euro. Nach wie vor fehlt das Vertrauen der Anleger, umso wichtiger wird ein Termin in der kommenden Woche.  "
-    },
-    {
-      "title": "Wall-Street-Update: Nvidia-Zahlen verpuffen – Dow fällt auf 5-Monats-Tief",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-nvidia-zahlen-verpuffen-dow-faellt-auf-5-monats-tief-20445857.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 15:40:00 GMT",
-      "description": "   Die starken Quartalszahlen von Nvidia haben der Wall Street am Mittwoch keinen nachhaltigen Rückenwind verschafft. Nach der ersten Handelsstunde lagen alle drei großen Indizes im Minus. Der Nasdaq 100 gab seine frühen Gewinne ab und notierte 0,15 Prozent tiefer bei 26.  "
-    },
-    {
-      "title": "Drägerwerk: Eine Milliarde mehr Umsatz bis 2030 – Aktie springt an",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/draegerwerk-eine-milliarde-mehr-umsatz-bis-2030-aktie-springt-an-20445832.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 15:30:00 GMT",
-      "description": "    Der Medizin- und Sicherheitstechnikkonzern Drägerwerk hat sich am Mittwoch ehrgeizige Ziele gesetzt: Vom Umsatz soll ähnlich viel Gewinn bleiben wie zuletzt im Corona-Jahr 2020. Den größten Sprung muss die Sparte machen, die bisher kaum etwas verdient – die Medizintechnik.  "
-    },
-    {
-      "title": "Take-Two-Aktie: Der Startschuss ist gefallen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/take-two-aktie-der-startschuss-ist-gefallen-20445699.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 14:27:00 GMT",
-      "description": "   Jetzt wird es ernst für Take-Two Interactive. Nach jahrelangem Warten ist Grand Theft Auto VI in Neuseeland bereits spielbar. Gleichzeitig sorgen die ersten Testberichte für einen Paukenschlag: Auf Metacritic erreicht der Rockstar-Blockbuster nach 109 Kritiken eine Wertung von 99 von 100 Punkten.  "
-    },
-    {
-      "title": "Volkswagen-Aktie: Abwärtstrend intakt - Chance auf Turnaround?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/volkswagen-20445250.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 13:45:00 GMT",
-      "description": "   Volkswagen-Chef Oliver Blume hat vor wenigen Tagen in einem Interview mit der  \"Bild\"  sehr ehrgeizige Ziele formuliert.  Im Jahr 2030 will Blume weltweit rund neun Millionen Autos verkaufen. Zugleich soll die Marge Rekordniveaus erreichen. Wie realistisch sind die Zielsetzungen des VW-Chefs?  "
-    },
-    {
-      "title": "76 Prozent in 6 Wochen trotz Marktturbulenzen",
-      "url": "https://www.deraktionaer.de/artikel/technische-analyse/76-prozent-in-6-wochen-trotz-marktturbulenzen-20445623.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 13:26:00 GMT",
-      "description": "   In den vergangenen Wochen brauchten Anleger starke Nerven. Die Aktienmärkte zeigen sich angeschlagen, die Volatilität ist deutlich gestiegen, viele Highflyer-Aktien aus dem ersten Halbjahr haben teilweise hohe zweistellige Verluste von ihren Höchstständen verkraften müssen.  "
-    },
-    {
-      "title": "Tencent: Das schmerzt...",
-      "url": "https://www.deraktionaer.de/artikel/aktien/tencent-das-schmerzt-20445635.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 13:19:00 GMT",
-      "description": "    Hohe Ausgaben für Künstliche Intelligenz setzen Tencent zunehmend unter Druck. Der WeChat-Mutterkonzern verzeichnete im dritten Quartal nicht nur ein schwächeres Umsatzwachstum als erwartet, sondern musste auch erstmals seit Jahren einen Rückgang beim operativen Gewinn hinnehmen.  "
+      "title": "33 Prozent Verlust: Gold bricht ein, doch die größten Käufer machen weiter",
+      "url": "https://www.wallstreet-online.de/nachricht/21714018-33-prozent-verlust-gold-bricht-ein-groessten-kaeufer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold verliert seit Monaten an Wert. Doch während Spekulanten verkaufen, greifen Zentralbanken und ETF-Anleger weiter zu. Goldman Sachs erwartet sogar eine kräftige Erholung. Was steckt dahinter?"
     },
     {
       "title": "Milliardenmarkt: Nvidia-Partner Einride wächst rasant: Umsatzplus von 27 Prozent",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Tesla startet den Cybercab-Verkauf für 29.990 US-Dollar. Doch eine monatliche Pflichtgebühr von 299 US-Dollar und strenge Einschränkungen sorgen für einen Haken."
-    },
-    {
-      "title": "Weltindex: MSCI World: Mindestens 28 Aktien fliegen raus – nur 2 kommen hinzu",
-      "url": "https://www.wallstreet-online.de/nachricht/21699630-weltindex-msci-world-28-aktien-fliegen-raus-2-hinzu",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Zum 30. November ändert MSCI den MSCI World: Mindestens 28 Aktien müssen gehen, nur Moderna und Aritzia kommen neu hinzu. Was ETF-Sparer jetzt wissen müssen und warum Strategy fliegt."
-    },
-    {
-      "title": "Uniper vor Milliarden-Coup: KI-Hammer bei Uniper: Aus alten Kraftwerken wird ein Milliardengeschäft",
-      "url": "https://www.wallstreet-online.de/nachricht/21698001-uniper-milliarden-coup-ki-hammer-uniper-alten-kraftwerken-milliardengeschaeft",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Uniper setzt auf den KI-Boom, sichert 700 Megawatt für Rechenzentren und plant Milliardeninvestitionen. Bis 2027 sollen auch die Gewinne deutlich steigen."
     }
   ],
   "feedErrors": [
