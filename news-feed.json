@@ -1,12 +1,26 @@
 {
-  "fetchedAt": "2026-11-18T08:41:49.707563+00:00",
+  "fetchedAt": "2026-11-18T09:37:41.151076+00:00",
   "articles": [
+    {
+      "title": "Die Wall Street erhöht die Ziele – dieser Titel greift wieder an",
+      "url": "https://www.deraktionaer.de/artikel/aktien/die-wall-street-erhoeht-die-ziele-dieser-titel-greift-wieder-an-20445338.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 09:23:00 GMT",
+      "description": "   Bei diesem Konzern bringt nicht nur jede Bestellung Geld. Das Franchise-Modell sorgt zusätzlich für kontinuierliche Einnahmen aus Lizenzen und Mieten – und genau dieses System macht die Ertragskraft so außergewöhnlich. Mit einer operativen Marge von 50 Prozent zählt dieser Titel zu den profitabelsten Konsumwerten überhaupt.  "
+    },
+    {
+      "title": "Munich Re: Insiderkäufe – lohnt der Einstieg?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/munich-re-insiderkaeufe-lohnt-der-einstieg-20445368.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 09:11:00 GMT",
+      "description": "   Insiderkauf bei Munich Re: Ein Vorstand des Versicherungsriesen hat für einen sechsstelligen Betrag Aktien des eigenen Konzerns gekauft. Solche Käufe sind ein Vertrauensbeweis. Allein sind sie aber noch kein Grund zum Kauf. Können Anleger es dem Vorstand gleichtun und ebenfalls zugreifen?  "
+    },
     {
       "title": "Microsoft: Minimal wertvoller als Nvidia – und mit weiterem Aufwärtspotenzial",
       "url": "https://www.deraktionaer.de/artikel/aktien/microsoft-20445283.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 18 Nov 2026 08:33:00 GMT",
-      "description": "    Microsoft und Nvidia liefern sich aktuell einen Zweikampf um den Titel des wertvollsten Unternehmens der Welt. Aktuell hat dabei Microsoft denkbar knapp die Nase vorne: So steht es aktuell 3,76 Billionen Dollar zu 3,75 Billionen Dollar. Geht es nach den Experten von JPMorgan und Bernstein, könnte der Börsenwert des Software-Riesen noch weiter k"
+      "description": "    Microsoft und Nvidia liefern sich aktuell einen Zweikampf um den Titel des zweitwertvollsten Unternehmens der Welt (nach Apple). Aktuell hat dabei Microsoft denkbar knapp die Nase vorne: So steht es aktuell 3,76 Billionen Dollar zu 3,75 Billionen Dollar.  "
     },
     {
       "title": "SAP-Aktie: Software-Ausverkauf erreicht Walldorf",
@@ -58,25 +72,32 @@
       "description": "    BASF sondiert laut Bloomberg, welche Zusagen nötig sein könnten, um wichtige Interessengruppen für eine Übernahme von Evonik zu gewinnen. Der Konzern bereite sich damit auf einen möglichen neuen Anlauf vor. Grundlage des Berichts ist ein Bloomberg vorliegender Entwurf, in dem Zugeständnisse zu Arbeitsplätzen, Standorten und Investitionen bereit"
     },
     {
-      "title": "Rückschlag für Alphabet",
-      "url": "https://www.deraktionaer.de/artikel/aktien/rueckschlag-fuer-alphabet-20445104.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 06:05:00 GMT",
-      "description": "    Die Alphabet-Tochter Waymo setzt den fahrerlosen Betrieb ihrer Fahrzeuge auf Autobahnen aus. Auslöser sind mehrere Vorfälle und eine Anordnung der kalifornischen Verkehrsbehörde: Sie untersagte dem Unternehmen, dort ohne Sicherheitsfahrer unterwegs zu sein.  "
-    },
-    {
-      "title": "DAX-Prognose: Stabil, Gold fällt – Nvidia, Fed, Dt. Bank, SAP, Siemens Energy, Anthropic im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-stabil-gold-faellt-nvidia-fed-dt-bank-sap-siemens-energy-anthropic-im-fokus-20445102.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 06:00:00 GMT",
-      "description": "   Der DAX sucht heute, am Mittwoch, nach Halt. Gestern hatte der Leitindex 2,1 Prozent auf 26.045 Punkte verloren, das Minus summierte sich auf 553 Punkte. Seit dem Rekordhoch von gut 27.000 Punkten am vergangenen Donnerstag hat er damit 3,5 Prozent eingebüßt.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Lässt Rheinmetall hinter sich: Diese Rüstungsaktie hat erneut geliefert!",
+      "url": "https://www.wallstreet-online.de/nachricht/21710469-laesst-rheinmetall-sich-ruestungsaktie-geliefert",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der israelische Rüstungsspezialist Elbit System wächst dank guter Auftragslage weiter stark. Zu den Kunden gehört auch die deutsche Bundeswehr."
+    },
+    {
+      "title": "Aktie verdreifacht sich: Sellas Life Sciences: Neuer Krebsimpfstoff beflügelt",
+      "url": "https://www.wallstreet-online.de/nachricht/21710913-aktie-verdreifacht-sich-sellas-life-sciences-krebsimpfstoff-befluegelt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Aktie von Sellas Life Sciences verzeichnet nach überzeugenden Studiendaten zu einem experimentellen Blutkrebs-Impfstoff einen historischen Kurssprung."
+    },
+    {
+      "title": "KI-Boom als Treiber: Milliarden-Offensive: Amazon sichert sich die Energie der Zukunft",
+      "url": "https://www.wallstreet-online.de/nachricht/21710823-ki-boom-treiber-milliarden-offensive-amazon-sichert-energie-zukunft",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Amazon investiert weitere sieben Milliarden US-Dollar in Indiens Energiewende. Mit insgesamt elf Milliarden US-Dollar sichert sich der Konzern Strom für die Zukunft."
     },
     {
       "title": "Washington als Angriffsziel?: US-Geheimdienste enthüllen mögliche Iran-Pläne – Trump droht wie nie zuvor!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Silberpreis krachte erneut unter die Marke von 50 US-Dollar. Der schwache Wochenschluss lässt für die kommenden Tage nicht viel Gutes erwartet – ein Dammbruch bei Silber droht."
-    },
-    {
-      "title": "Über 12 Mio. Vorbestellungen: 13 Jahre gewartet: GTA VI könnte alle Rekorde brechen",
-      "url": "https://www.wallstreet-online.de/nachricht/21689706-ueber-12-mio-vorbestellungen-13-jahre-gewartet-gta-vi-rekorde-brechen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "12 Millionen Vorbestellungen, Milliardenfantasie und ein schwächelnder Aktienkurs: Warum Analysten bei diesem Gaming-Konzern jetzt große Chancen sehen."
-    },
-    {
-      "title": "27 % weniger neue Medikamente: Trump setzt Europa unter Druck: Jetzt droht ein Medikamenten-Engpass",
-      "url": "https://www.wallstreet-online.de/nachricht/21670236-27-medikamente-trump-europa-druck-droht-medikamenten-engpass",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trumps Arzneimittelpolitik trifft Europa: Die Markteinführung neuer Medikamente sinkt um 27 Prozent. Pharmakonzerne schützen ihre Gewinne, Patienten leiden."
-    },
-    {
-      "title": "Gold wendet Abverkauf ab: Goldpreis-Prognose: Gold stemmt sich gegen den Dollar – bereit für die Wende?",
-      "url": "https://www.wallstreet-online.de/nachricht/21693015-gold-wendet-abverkauf-ab-goldpreis-prognose-gold-stemmt-dollar-bereit-wende",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Goldpreis wendete den Abverkauf ab und rettete sich zum Wochenschluss über die Marke von 3.860 US-Dollar. Das war eminent wichtig, wahrte Gold doch so die womöglich letzte Chance auf eine Wende in 2026."
     }
   ],
   "feedErrors": [
