@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-18T13:54:47.211744+00:00",
+  "fetchedAt": "2026-11-18T15:01:44.013500+00:00",
   "articles": [
+    {
+      "title": "Take-Two-Aktie: Der Startschuss ist gefallen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/take-two-aktie-der-startschuss-ist-gefallen-20445699.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 18 Nov 2026 14:27:00 GMT",
+      "description": "   Jetzt wird es ernst für Take-Two Interactive. Nach jahrelangem Warten ist Grand Theft Auto VI in Neuseeland bereits spielbar. Gleichzeitig sorgen die ersten Testberichte für einen Paukenschlag: Auf Metacritic erreicht der Rockstar-Blockbuster nach 109 Kritiken eine Wertung von 99 von 100 Punkten.  "
+    },
     {
       "title": "Volkswagen-Aktie: Abwärtstrend intakt - Chance auf Turnaround?",
       "url": "https://www.deraktionaer.de/artikel/aktien/volkswagen-20445250.html?feed=directrssfeed",
@@ -65,18 +72,39 @@
       "description": "   Die Generali lässt am Mittwoch aufhorchen. Der italienische Allianz-Konkurrent hat seine Ziele bis 2027 auf den Prüfstand gestellt. Auch zur zukünftigen Dividende äußerte sich Philippe Donnet. DER AKTIONÄR zeigt, was Anleger zu den heutigen Aussagen des Versicherungsriesen wissen müssen.  "
     },
     {
-      "title": "Die letzten Stunden: 30 Prozent Jubiläumsrabatt sichern!",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/die-letzten-stunden-30-prozent-jubilaeumsrabatt-sichern-20445570.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 12:06:23 GMT",
-      "description": "   Nur noch heute bis 23:59 Uhr erhalten Sie 30 Prozent Rabatt auf das digitale Jahresabo von DER AKTIONÄR. Seit 30 Jahren begleitet DER AKTIONÄR die wichtigsten Entwicklungen an den Börsen – mit fundierten Analysen, exklusiven Empfehlungen und den entscheidenden Trends aus der Welt der Aktien und Märkte.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "1,7 Milliarden liquidiert: Bitcoin: Warum der 19. November den nächsten Absturz einleiten könnte",
+      "url": "https://www.wallstreet-online.de/nachricht/21712836-1-7-milliarden-liquidiert-bitcoin-19-november-naechsten-absturz-einleiten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach der milliardenschweren Liquidationswelle droht Bitcoin neues Ungemach. VanEck-Experte Matthew Sigel warnt vor einem Szenario, das sich in diesem Jahr schon einmal abgespielt hat."
+    },
+    {
+      "title": "Aktie marschiert: Target kommt seinem Ziel immer näher – Prognose hochgeschraubt",
+      "url": "https://www.wallstreet-online.de/nachricht/21712914-aktie-marschiert-target-ziel-naeher-prognose-hochgeschraubt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mit Zuwächsen in fast allen Kategorien – in einigen sogar zweistelligen Steigerungsraten – und einem Umsatz, der die Erwartungen übertraf, lieferte Target ein sehr solides Quartal ab."
+    },
+    {
+      "title": "Gold: Bange machen gilt nicht!: Goldpreis stürzt ab: Warum Anleger jetzt dennoch auf Goldminenaktien setzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21713037-gold-bange-gilt-nicht-goldpreis-stuerzt-ab-anleger-goldminenaktien",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bei Gold reiht sich Hiobsbotschaft an Hiobsbotschaft. Der Rücksetzer unter die Marke von 3.860 US-Dollar öffnet die Falltür in Richtung 3.500 Dollar. Doch gerade jetzt könnten sich bei Goldminenaktien Chancen ergeben."
+    },
+    {
+      "title": "Platin-Aktien im Check: Nvidia: Alles wieder im Lot? | Gold: Wie tief noch? | Deutz: Short-Attacke",
+      "url": "https://www.wallstreet-online.de/video/21712665-platin-aktien-check-nvidia-lot-gold-tief-noch-deutz-short-attacke",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Märkte sind nervös, die beste Zeit für eine Short-Attacke. Das muss Deutz heute schmerzlich feststellen. NINGI Research geht auf den Motorenbauer los und der Kurs bricht ein. Was ist dran an den Vorwürfen?"
     },
     {
       "title": "Jetzt wird's günstig: Microsoft will Anthropic und OpenAI mit Billig-KI schlagen",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Berenberg hält nach den Quartalszahlen an der Kaufempfehlung für Siemens Energy fest und sieht die Aktie bei 205 Euro. Ein Rekordauftragsbestand und ein boomendes Servicegeschäft sollen die Margen kräftig treiben."
-    },
-    {
-      "title": "Es wird noch schlimmer: Bitcoin wird sich so schnell nicht erholen",
-      "url": "https://www.wallstreet-online.de/nachricht/21697539-schlimmer-bitcoin-erholen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bitcoin fällt zeitweise auf knapp 62.000 US-Dollar. Während Händler auf weitere Verluste setzen, warnt auch ein Analyst vor 40 Prozent Kursverlust."
-    },
-    {
-      "title": "Mega-Erfolg für SpaceX: Starship-Oberstufe kehrt nach Flug zur Startrampe zurück – Was macht die Aktie?",
-      "url": "https://www.wallstreet-online.de/nachricht/21697299-mega-erfolg-spacex-starship-oberstufe-kehrt-flug-startrampe-aktie",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Elon Musks SpaceX gelingt ein historischer Coup: Nach dem Start am Freitag kehrt die Starship-Oberstufe am Samstag zur Erde zurück. Der Durchbruch bringt wiederverwendbare Raketen voran. Was macht jetzt die SpaceX-Aktie?"
-    },
-    {
-      "title": "Gold vor Crash: Goldpreis im Würgegriff des US-Dollars",
-      "url": "https://www.wallstreet-online.de/nachricht/21697200-gold-crash-goldpreis-wuergegriff-us-dollars",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Auch am Montag gibt der Goldpreis wieder deutlich nach. Der starke US-Dollar macht dem gelben Metall zu schaffen. Es droht ein großer Crash."
-    },
-    {
-      "title": "Musk unterstützt Rückkehr: Nvidia: Über 160.000 fordern Huang zurück – doch Washington macht Druck",
-      "url": "https://www.wallstreet-online.de/nachricht/21696903-musk-unterstuetzt-rueckkehr-nvidia-ueber-160-000-huang-washington-druck",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Mehr als 160.000 Unterschriften für Jensen Huang: Laut Medienberichten wächst die Kampagne für seine Rückkehr an die Nvidia-Spitze. Elon Musk hat auf X angekündigt, die Petition ebenfalls zu unterschreiben."
     }
   ],
   "feedErrors": [
