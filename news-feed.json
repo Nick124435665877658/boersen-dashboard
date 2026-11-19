@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T04:41:31.631752+00:00",
+  "fetchedAt": "2026-11-19T05:39:53.705564+00:00",
   "articles": [
     {
       "title": "Anthropic: Ausgabepreis über der Spanne – Rückenwind für den KI-Sektor?",
@@ -65,11 +65,18 @@
       "description": "   Luxus läuft immer – dieses Versprechen gilt schon lange nicht mehr. Gerade der Branchenriese LVMH hat an der Börse mehr Federn lassen müssen als andere Luxuskonzerne.  "
     },
     {
-      "title": "Nvidia: Huang ist weg – der Ärger bleibt",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/nvidia-huang-ist-weg-der-aerger-bleibt-20445870.html?feed=directrssfeed",
+      "title": "Silber: Tiefer, immer tiefer?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/silber-tiefer-immer-tiefer-20445451.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "description": "   Der Rücktritt des Gründers schockt den wertvollsten Chip-Konzern der Welt. Ist die Aktie trotzdem ein Kauf?  "
+      "publishedAt": "Thu, 19 Nov 2026 05:00:00 GMT",
+      "description": "   Das Edelmetall geht einmal mehr den Weg der Extreme. Doch technisch ist Silber mittlerweile deutlich überverkauft.  "
+    },
+    {
+      "title": "Lehre aus den Nvidia-Zahlen: 3 KI-Kracher ohne Führungskrise - jetzt zugreifen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21713034-lehre-nvidia-zahlen-3-ki-kracher-fuehrungskrise-zugreifen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bei Nvidia donnern die Kanonen, aber aus den Zahlen lässt sich eine wichtige Lehre ziehen. Der KI-Boom ist weiterhin voll im Gange und davon profitiert nicht nur Nvidia. Hier sind 3 weitere Profiteure ohne Führungskrise!"
     },
     {
       "title": "Volltreffer...: Newcore Gold trifft auf hochgradiges Gold unterhalb der Reserventagebaugrube!",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach Bitcoin warnt Peter Schiff jetzt auch vor einem massiven Ethereum-Absturz. Die jüngsten Kursverluste geben seinen Befürchtungen zunehmend recht."
-    },
-    {
-      "title": "Anthropic-Aktie zeichnen: Intel: Sammelklage! | Amazon: 40 Satelliten weg | VW: Kein Wachstum bis 2030?",
-      "url": "https://www.wallstreet-online.de/video/21699975-anthropic-aktie-zeichnen-intel-sammelklage-amazon-40-satelliten-vw-wachstum-2030",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Dienstag nach US-Börsenschluss wird Nvidia seine Zahlen für das 3. Quartal veröffentlichen. Aber interessieren sie wirklich die Anleger? Zu Wochenbeginn wird über ein Comeback von Jensen Huang spekuliert. Was ist daran?"
     }
   ],
   "feedErrors": [
