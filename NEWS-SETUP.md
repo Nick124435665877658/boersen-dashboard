@@ -1,32 +1,32 @@
-# KI-News-Analyse – Einrichtung
+# KI-Nachrichtenanalyse – Einrichtung
 
-Die Chartseiten enthalten bereits die Oberfläche. Für echte Nachrichten und KI-Auswertungen wird ein Cloudflare Worker als geschützter Vermittler benötigt. API-Schlüssel gehören **nicht** in `index.html`.
+Die Chartseiten zeigen pro Wert eine KI-Analyse der Nachrichtenlage: Zusammenfassung, Chancen, Risiken und „Worauf achten“. Grundlage sind die Google-News-Schlagzeilen der letzten 7 Tage auf Deutsch und Englisch.
 
-## 1. Anbieter-Konten und Schlüssel
+## Wie es funktioniert
 
-- GNews: https://gnews.io/ – Free-Tarif ist laut Anbieter für nicht-kommerzielle Tests gedacht, mit 100 Requests/Tag, maximal 10 Artikeln pro Abruf und 12 Stunden Verzögerung. Für aktuelle Echtzeitdaten ist ein kostenpflichtiger Tarif erforderlich.
-- OpenAI API: https://platform.openai.com/api-keys – API-Abrechnung ist separat von einem ChatGPT-Abo.
+1. Das Dashboard ruft `GET /api/analysis` beim Cloudflare-Worker `boersen-dashboard-worker` auf. Mitgeschickt werden Name, Suchbegriffe und die Kursentwicklung über 1 Woche und 1 Monat.
+2. Der Worker holt die passenden Schlagzeilen über Google News RSS.
+3. Workers AI (`@cf/meta/llama-3.3-70b-instruct-fp8-fast`) erstellt daraus die Analyse als JSON. Jede Aussage verweist auf die Nummer ihrer Quelle.
+4. Das Dashboard speichert die Analyse 3 Stunden lokal und lädt sie nur per Knopfdruck neu.
 
-## 2. Worker bereitstellen
+Es wird kein API-Schlüssel benötigt.
 
-1. Bei https://dash.cloudflare.com/ anmelden.
-2. **Workers & Pages → Create → Worker** öffnen.
-3. Einen Worker z. B. `boersen-news-api` nennen.
-4. Den Inhalt von `worker.js` in den Worker kopieren und deployen.
-5. Unter **Settings → Variables and Secrets** drei Secrets/Variablen anlegen:
-   - `GNEWS_API_KEY` (Secret)
-   - `OPENAI_API_KEY` (Secret)
-   - optional `OPENAI_MODEL` (Textvariable, Standard im Code: `gpt-5.5`)
-6. Worker erneut deployen.
+## Kosten
 
-## 3. Dashboard verbinden
+Workers AI Free: 10.000 Neurons pro Tag, Reset um 00:00 UTC (01:00 Uhr MEZ). Eine Analyse braucht grob 200–300 Neurons, das reicht für etwa 30–45 Analysen am Tag. Ist das Limit erreicht, zeigt das Dashboard einen Hinweis. Auf dem Workers-Free-Plan entstehen dabei keine Kosten.
 
-In `index.html` nach `NEWS_WORKER_URL` suchen und die leere Zeichenkette durch die Worker-Adresse ersetzen, z. B. `https://boersen-news-api.DEIN-ACCOUNT.workers.dev`. Danach committen und GitHub Pages neu laden.
+## Worker deployen (Cloudflare-Dashboard)
 
-## Hinweise
+1. https://dash.cloudflare.com → **Workers & Pages** → `boersen-dashboard-worker` → **Edit code**.
+2. Den gesamten Inhalt von `worker.js` aus diesem Repo einfügen und auf **Deploy** tippen.
+3. Zurück zum Worker → **Settings → Bindings → Add → Workers AI**, Variablenname `AI` → speichern bzw. deployen.
+4. Test: `https://boersen-dashboard-worker.beckmannnick.workers.dev/health` muss `"ai":true` zeigen.
 
-- Der Worker erlaubt nur die GitHub-Pages-Origin dieses Dashboards.
-- Ergebnisse werden im Cloudflare-Cache 30 Minuten zwischengespeichert.
-- Die GNews-Free-Stufe liefert verzögerte Nachrichten (bis zu 12 Stunden) und ist nicht für kommerzielle Nutzung bestimmt. Sie reicht zum technischen Testen, nicht für eine verlässliche Echtzeit-Newsversorgung.
-- Die KI ergänzt Branchen-, Wettbewerbs- und Makro-Kontext per Websuche. Prüfe wichtige Originalquellen selbst; KI-Einschätzungen sind keine Anlageberatung.
-- Vor öffentlichem Betrieb sollte zusätzlich ein Cloudflare Rate Limit auf `/api/news` gesetzt werden, damit Dritte die API-Kosten nicht unnötig auslösen.
+Mit Wrangler genügt `wrangler deploy`, die AI-Bindung steht bereits in `wrangler.toml`.
+
+## Grenzen
+
+- Die KI sieht nur Schlagzeilen, keine vollständigen Artikel.
+- Kleine oder exotische Werte haben oft wenige oder keine Treffer. Dann wird bewusst keine Analyse erstellt.
+- Suchnamen und Zusatzbegriffe pro Wert stehen in `index.html` unter `NEWS_HINTS`.
+- KI-Ausgaben können Fehler enthalten und sind keine Anlageberatung.
