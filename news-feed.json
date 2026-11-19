@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T03:34:16.302950+00:00",
+  "fetchedAt": "2026-11-19T04:41:31.631752+00:00",
   "articles": [
     {
       "title": "Anthropic: Ausgabepreis über der Spanne – Rückenwind für den KI-Sektor?",
@@ -70,6 +70,20 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 18 Nov 2026 18:00:00 GMT",
       "description": "   Der Rücktritt des Gründers schockt den wertvollsten Chip-Konzern der Welt. Ist die Aktie trotzdem ein Kauf?  "
+    },
+    {
+      "title": "Volltreffer...: Newcore Gold trifft auf hochgradiges Gold unterhalb der Reserventagebaugrube!",
+      "url": "https://www.wallstreet-online.de/nachricht/21712689-volltreffer-newcore-gold-trifft-hochgradiges-gold-reserventagebaugrube",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "2,16 g/t Gold über 37,0 Meter, einschließlich 5,10 g/t Gold über 9,0 Meter in der Goldlagerstätte ‚Nyam‘."
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Alle Analysten-Augen auf: Procter & Gamble, Anthropic, Sto und Rational",
+      "url": "https://www.wallstreet-online.de/nachricht/21714939-wichtigsten-termine-analysten-augen-auf-procter-gamble-anthropic-sto-rational",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Brent fällt, aber: Huthis rücken vor: Offensive gegen Regierung – Jemen vor Kollaps?",
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Dienstag nach US-Börsenschluss wird Nvidia seine Zahlen für das 3. Quartal veröffentlichen. Aber interessieren sie wirklich die Anleger? Zu Wochenbeginn wird über ein Comeback von Jensen Huang spekuliert. Was ist daran?"
-    },
-    {
-      "title": "Erst 2025 gegründet: Vom Start-up zum Milliarden-Deal: Lilly greift tief in die Tasche",
-      "url": "https://www.wallstreet-online.de/nachricht/21700194-2025-gegruendet-start-up-milliarden-deal-lilly-greift-tief-tasche",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eli Lilly übernimmt Calytrix Bio. Der Deal könnte bis zu 1,5 Milliarden US-Dollar schwer sein. Dahinter steckt ein vielversprechender Therapieansatz."
-    },
-    {
-      "title": "Nach dem Kurssturz: Intel: Soros kauft nach, Anleger ziehen vor Gericht",
-      "url": "https://www.wallstreet-online.de/nachricht/21700065-kurssturz-intel-soros-kauft-nach-anleger-gericht",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Soros stockt bei Intel kräftig auf, während Aktionäre den Chipriesen verklagen. Sie werfen dem Konzern vor, die PC-Flaute zu spät offengelegt zu haben. Die Aktie bleibt trotz Absturz im Plus."
     }
   ],
   "feedErrors": [
