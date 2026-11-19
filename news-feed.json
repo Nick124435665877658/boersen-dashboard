@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-19T14:35:53.309114+00:00",
+  "fetchedAt": "2026-11-19T15:37:12.536939+00:00",
   "articles": [
+    {
+      "title": "Vonovia: Enteignung in Berlin – Mucic kontert mit eigenem Vorschlag",
+      "url": "https://www.deraktionaer.de/artikel/aktien/vonovia--20446793.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 15:13:00 GMT",
+      "description": "   Vonovia sucht den Ausweg aus der Berliner Debatte um Wohnungsnot und Enteignung. Konzernchef Luka Mucic hat nun vorgeschlagen, große Vermieter stärker in die Pflicht zu nehmen, und verlangt dafür mehr Spielraum bei dem Rest des Portfolios. Dürfte das auch der Aktie wieder auf die Sprünge helfen?  "
+    },
+    {
+      "title": "Blackout-Panik nach Microsoft-Ausfall: Generatoren vergriffen! Diese Aktie zieht jetzt an",
+      "url": "https://www.deraktionaer.de/artikel/aktien/blackout-panik-nach-microsoft-ausfall-generatoren-vergriffen-diese-aktie-zieht-jetzt-an-20446765.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 14:53:00 GMT",
+      "description": "   Erst streikt Microsoft Outlook, dann zwingt die Luftfahrtbehörde den US-Flugverkehr an den Boden. Im Netz kochen Weltuntergangs-Gerüchte hoch, in den USA räumen Kunden die Regale leer. An der Börse spielt das Szenario einer laufenden AKTIONÄR-Empfehlung in die Karten.  "
+    },
+    {
+      "title": "Evonik-Aktie bricht ein – das ist der Grund",
+      "url": "https://www.deraktionaer.de/artikel/aktien/uebernahme-abgeblasen-evonik-aktie-bricht-ein-20446780.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 14:46:39 GMT",
+      "description": "   Die Aktie von Evonik gerät am Donnerstagnachmittag massiv unter Druck und bricht zeitweise um mehr als 20 Prozent ein. Der Grund: BASF hat die Pläne zur Übernahme des Essener Spezialchemiekonzerns auf Eis gelegt.  "
+    },
+    {
+      "title": "Bitcoin: Leichte Erholung vor Anthropic-Debüt",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-leichte-erholung-vor-anthropic-debuet-20446715.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 14:30:00 GMT",
+      "description": "   Der Bitcoin stabilisiert sich nach dem jüngsten Abverkauf. Vor dem Börsengang von Anthropic kehrt die Risikobereitschaft an die Märkte zurück. Gleichzeitig wird diskutiert, ob und inwieweit der KI-Börsengang zu den jüngsten Kursverlusten der Digitalwährung beigetragen hat.  "
+    },
     {
       "title": "Salesforce-Aktie nach Absturz unter 200-Tage-Linie: Hilft jetzt Washington?",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/salesforce-aktie-nach-absturz-unter-200-tage-linie-hilft-jetzt-washington-20446710.html?feed=directrssfeed",
@@ -37,13 +65,6 @@
       "description": "   Autoteile, Laborbedarf, Industriegase, Kaffee, Rechenleistung: Die zehn Unternehmen des DER AKTIONÄR Aktien für immer Index verdienen ihr Geld auf ganz unterschiedliche Weise. Während die Börse an der KI zweifelt, konnte der Index zuletzt ein Rekordhoch markieren.  "
     },
     {
-      "title": "Anthropic-IPO: Gleich geht es los – das sind die ersten Kursziele",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/anthropic-ipo-gleich-geht-es-los-das-sind-die-ersten-kursziele--20446665.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 12:59:00 GMT",
-      "description": "   Anthropic hat den bisher größten Börsengang der Branche hingelegt: Die KI-Firma sammelte 107,3 Milliarden Dollar ein und ließ damit Elon Musks SpaceX hinter sich. Mit rund 1,5 Billionen Dollar Bewertung startet der Rivale von ChatGPT-Entwickler OpenAI heute um 15.  "
-    },
-    {
       "title": "SAP-Aktie im Sinkflug: Warum der DAX-Riese immer weiter fällt",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/sap-aktie-im-sinkflug-warum-der-dax-riese-immer-weiter-faellt-20446546.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
@@ -51,25 +72,11 @@
       "description": "   Die SAP-Aktie findet einfach keinen Halt. Seit drei Tagen steht der Softwarekonzern massiv unter Verkaufsdruck und bremst damit auch die Erholung des DAX. Die Nervosität rund um den Börsengang von Anthropic und Gewinnmitnahmen nach der jüngsten Rally dürften eine Rolle spielen.  "
     },
     {
-      "title": "Walmart-Aktie: Starke Zahlen, höhere Prognose – winkt jetzt ein neues Hoch?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/walmart-aktie-starke-zahlen-hoehere-prognose-winkt-jetzt-ein-neues-hoch-20446634.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 12:19:00 GMT",
-      "description": "   Walmart hat im dritten Geschäftsquartal, das Ende Oktober endete, Umsatz und Gewinn knapp über den Analystenerwartungen ausgewiesen und die Jahresprognose angehoben. Treiber war vor allem das Online-Geschäft: Der weltweite E-Commerce wuchs um 17 Prozent, getragen von Lieferungen aus den Filialen sowie Abholungen.  "
-    },
-    {
-      "title": "Evotec: Aktie steigt nach positiven News",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/evotec-aktie-steigt-nach-positiven-news--20446605.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 11:47:48 GMT",
-      "description": "   Evotec legt nach: Gemeinsam mit Bristol-Myers Squibb hat der Wirkstoffentwickler im Feld der Protein-Degradation einen weiteren Erfolg erzielt. Wie das Unternehmen am Donnerstag in Hamburg mitteilte, hat die US-Arzneimittelbehörde FDA grünes Licht gegeben, einen weiteren Kandidaten am Menschen in klinischen Studien einzusetzen.  "
-    },
-    {
-      "title": "Alibaba mit Zahlen – doch reicht das?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/alibaba-mit-zahlen-doch-reicht-das-20446571.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 11:22:00 GMT",
-      "description": "   Die Aktie von Alibaba verliert im vorbörslichen US-Handel 0,1 Prozent auf 84,27 Dollar. Kurz vor der US-Eröffnung hat der Konzern Zahlen zum zweiten Quartal des laufenden Geschäftsjahres 2026/27 vorgelegt. Der Umsatz stieg um knapp zehn Prozent auf rund 271,5 Milliarden Yuan und übertraf damit die Erwartungen von etwa 270,5 Milliarden Yuan knapp"
+      "title": "Deutsche-Bank-Report: Kupfer, Chips und Konsumgüter: Hier läuft die Jahresendrallye schon!",
+      "url": "https://www.wallstreet-online.de/nachricht/21719508-deutsche-bank-report-kupfer-chips-konsumgueter-laeuft-jahresendrallye-schon",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die KI-Sorgen haben Europas Börsen kräftig durchgeschüttelt. Die Strategen der Deutschen Bank wittern darin Chancen und stellen ihre Branchenfavoriten für den Jahresendspurt neu auf."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -77,6 +84,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Michael Burry stichelt: 500 Milliarden versprochen, nichts geflossen: Was ist bei Nvidia los?",
+      "url": "https://www.wallstreet-online.de/nachricht/21718518-michael-burry-stichelt-500-milliarden-versprochen-geflossen-nvidia-los",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Im Sommer versprach die Wall Street Nvidia-Kunden gewaltige Summen. Drei Monate später ist davon nichts angekommen. Ein berühmter Skeptiker zeigt auf das Problem. Woran es hakt und was das für die Aktie heißt."
     },
     {
       "title": "Musk und Ackman rechnen ab: Nvidia: Aktionäre könnten Huangs Comeback gegen den Verwaltungsrat erzwingen",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Worauf es jetzt ankommt und wie die aktuelle Marktsituation aussieht, besprechen wir heute in dieser Ausgabe!"
-    },
-    {
-      "title": "Milliarden aus Banken gezogen: Buffetts Nachfolger setzt auf eine Branche, der die Käufer weglaufen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21704298-milliarden-banken-gezogen-buffetts-nachfolger-branche-kaeufer-weglaufen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Greg Abel krempelt das Depot von Berkshire Hathaway um. Ausgerechnet in einer Branche, deren Verkaufszahlen auf ein 16-Jahres-Tief gefallen sind, hat er eine Beteiligung nahezu verdoppelt."
-    },
-    {
-      "title": "Nur noch Platz 3!: Microsoft zieht an Nvidia vorbei: So viel ist der Chip-Konzern noch wert",
-      "url": "https://www.wallstreet-online.de/nachricht/21705411-platz-3-microsoft-nvidia-vorbei-chip-konzern-wert",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Erst der Chef weg, dann der Absturz im Ranking: Nvidia büßt mehr als vier Prozent ein fällt auf Rang drei unter den wertvollsten Konzernen der Welt. Am Dienstagabend muss der Chipriese liefern."
     }
   ],
   "feedErrors": [
