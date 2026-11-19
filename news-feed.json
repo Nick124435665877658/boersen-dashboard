@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-19T09:12:15.164172+00:00",
+  "fetchedAt": "2026-11-19T10:14:10.183790+00:00",
   "articles": [
+    {
+      "title": "Microsoft-Aktie stark: Was JPMorgan & Co hinter den Kulissen überzeugt",
+      "url": "https://www.deraktionaer.de/artikel/aktien/microsoft-aktie-stark-was-jpmorgan-co-hinter-den-kulissen-ueberzeugt-20446437.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 09:28:00 GMT",
+      "description": "   Die Aktie von Microsoft behauptet sich weiterhin gut. Am Mittwoch hat sie zu den Gewinnerwerten im US-Leitindex Dow Jones gezählt. Sie notiert weiter in der Nähe ihres Allzeithochs. Auch Analysten äußerten sich zuletzt erneut positiv.  "
+    },
+    {
+      "title": "Ausbruch geglückt: Jetzt wird die Lage außergewöhnlich bullish",
+      "url": "https://www.deraktionaer.de/artikel/aktien/ht-20442396.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 09:14:00 GMT",
+      "description": "   Ein neuer Vorstandschef, ein kräftiger Ergebnissprung und eine Aktie mit frischem Kaufsignal: Bei diesem Weltkonzern formiert sich eine hochspannende Comeback-Story. Der Umsatz zog zuletzt um 16 Prozent an, der bereinigte Gewinn je Aktie sprang um fast 60 Prozent und übertraf die Erwartungen deutlich.  "
+    },
     {
       "title": "David gegen Goliath",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/david-gegen-goliath-20445697.html?feed=directrssfeed",
@@ -58,25 +72,32 @@
       "description": "   Nach dem deutlichen Rücksetzer vom Hoch bei 88,83 Euro haben sich die Bewertungsrelationen bei Infineon deutlich normalisiert. Gleichzeitig zündet im KI-Powergeschäft die nächste Wachstumsstufe. Nachdem das KI-Aushängeschild Nvidia mit seinen Zahlen keinen Stimmungswandel ausgelöst hatte, könnte der Börsengang von Anthropic den notwendigen Impul"
     },
     {
-      "title": "Megatrend Folger: Palo Alto Networks – der nächste KI-Megatrend läuft längst",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-palo-alto-networks-der-naechste-ki-megatrend-laeuft-laengst-20446271.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 07:39:00 GMT",
-      "description": "   Je stärker Unternehmen auf KI, Cloud und automatisierte Prozesse setzen, desto wichtiger wird die Absicherung ihrer Systeme. Die neuen Zahlen von Palo Alto zeigen eindrucksvoll, dass Cybersecurity längst keine optionale IT-Ausgabe mehr ist. Der Umsatz sprang im ersten Quartal um 39 Prozent auf 3,44 Milliarden Dollar, die wiederkehrenden Umsätze "
-    },
-    {
-      "title": "Deutz-Aktie: Schock-Minus von 16,6 Prozent – was ist dran?",
-      "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/deutz-aktie-schock-minus-von-166-prozent-was-ist-dran-20446233.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 07:25:00 GMT",
-      "description": "   Die Deutz-Aktie ist gestern um 16,6 Prozent auf 7,66 Euro eingebrochen und war damit der größte Verlierer im MDAX. So tief stand sie zuletzt im November 2025. Auslöser ist ein Bericht des US-Leerverkäufers Ningi Research zur Übernahme des Rüstungsunternehmens FFG.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Meilenstein für Sanofi: Sanofi mit Zulassungserfolg: Beginnt jetzt die nächste Wachstumsstory?",
+      "url": "https://www.wallstreet-online.de/nachricht/21717261-meilenstein-sanofi-sanofi-zulassungserfolg-beginnt-wachstumsstory",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Sanofi erhält die FDA-Zulassung für ein neuartiges Medikament gegen eine seltene Erbkrankheit. Der Erfolg eröffnet neue Marktchancen in den USA."
+    },
+    {
+      "title": "Öl-Schock in China: Chinas Ölkrise spitzt sich zu: Dem Weltmarkt droht die nächste Überraschung",
+      "url": "https://www.wallstreet-online.de/nachricht/21716895-oel-schock-china-chinas-oelkrise-spitzt-zu-weltmarkt-droht-ueberraschung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Chinas kleine Raffinerien kämpfen ums Überleben. Die US-Blockade iranischer Öllieferungen treibt ihre Kosten in die Höhe. Doch die eigentliche Gefahr für den globalen Ölmarkt könnte erst noch kommen."
+    },
+    {
+      "title": "Deutliche Gewinne: DAX nimmt 26.000 ins Visier – Anthropic entfacht neue KI-Hoffnung",
+      "url": "https://www.wallstreet-online.de/nachricht/21717567-deutliche-gewinne-dax-26-000-visier-anthropic-entfacht-ki-hoffnung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX ist am Donnerstag deutlich stärker gestartet und nähert sich wieder der Marke von 26.000 Punkten. Anthropic sorgt vor dem US-Börsenstart für neue KI-Euphorie. Doch die Fed bleibt ein Risiko."
     },
     {
       "title": "Droht ein zweites 1929?: Bitcoin könnte auf 10.000 Dollar stürzen – wenn die Notenbanken nicht eingreifen",
@@ -105,13 +126,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidia liefert gute Zahlen. Doch Jim Cramer sieht ein neues Risiko. Der Börsengang von Anthropic könnte Anleger ablenken, während der Chipkonzern nach dem Rücktritt von Jensen Huang um neues Vertrauen an der Börse ringt."
-    },
-    {
-      "title": "Anthropic sorgt für Rückenwind: DAX erholt sich: Anthropic gibt KI-Aktien neuen Rückenwind",
-      "url": "https://www.wallstreet-online.de/nachricht/21716073-anthropic-sorgt-rueckenwind-dax-erholt-sich-anthropic-ki-aktien-rueckenwind",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der DAX dürfte sich am Donnerstag stabilisieren. Rückenwind kommt von den US-Futures und dem Rekord-Börsengang von Anthropic. Doch die Fed bleibt nach ihren hawkishen Signalen ein Risikofaktor."
     },
     {
       "title": "Rekord-IPO: Anthropic schlägt SpaceX – doch der wahre Gewinner ist ein anderer",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der hohe Dieselpreis betrifft besonders Logistikunternehmen, die um ihre Existenz kämpfen. Der Branchenverband warnt vor einer massiven Pleitewelle."
-    },
-    {
-      "title": "Nicht SAP: Darum lässt diese deutsche Cloud-Aktie jetzt US-Highflyer weit hinter sich!",
-      "url": "https://www.wallstreet-online.de/nachricht/21698874-sap-laesst-deutsche-cloud-aktie-us-highflyer-weit-sich",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Viele US-Technologieaktien befinden sich inzwischen in hartnäckigen Abwärtstrends. Dem stellt sich nicht nur SAP, sondern vor allem auch IONOS entgegen."
-    },
-    {
-      "title": "Wohnen wird unbezahlbar: Amerika baut immer billiger – ist das die Lösung für Deutschlands Wohnungsnot?",
-      "url": "https://www.wallstreet-online.de/nachricht/21701097-wohnen-unbezahlbar-amerika-baut-billiger-loesung-deutschlands-wohnungsnot",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die USA bauen immer mehr günstige Holzrahmenhäuser. Könnte serieller Wohnungsbau auch Deutschlands Wohnungsnot lindern?"
     }
   ],
   "feedErrors": [
