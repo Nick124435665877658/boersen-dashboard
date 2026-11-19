@@ -1,7 +1,8 @@
 // Börsen-Dashboard Worker (Stand 19.11.2026)
 //
 // GET /health        → Status, zeigt auch, ob die Workers-AI-Bindung "AI" aktiv ist
-// GET /api/analysis  → KI-Zusammenfassung mit Chancen und Risiken aus Google-News-Schlagzeilen der letzten 7 Tage
+// GET /api/analysis  → KI-Zusammenfassung mit Chancen und Risiken aus Schlagzeilen der letzten 7 Tage
+//                      (Google News, Bing News, Yahoo Finance, Börsenportale aus news-feed.json)
 // GET /api/news      → nur Schlagzeilen (Übergang für ältere Dashboard-Versionen)
 //
 // Voraussetzung in Cloudflare: Worker → Settings → Bindings → Add → Workers AI, Variablenname "AI".
@@ -29,7 +30,13 @@ function json(data, status, origin) {
   });
 }
 
-// ---------- RSS ----------
+// ---------- Nachrichtenquellen ----------
+// Mehrere Quellen, weil einzelne Anbieter Anfragen aus Cloudflare-Rechenzentren
+// zeitweise blockieren (z. B. Google News mit HTTP 503). Eine erreichbare Quelle genügt.
+
+const NEWS_FEED_URL = "https://nick124435665877658.github.io/boersen-dashboard/news-feed.json";
+const SOURCE_TIMEOUT_MS = 8000;
+const MAX_AGE_MS = 8 * 86400 * 1000;
 
 function decodeXml(value) {
   return (value || "")
@@ -37,7 +44,12 @@ function decodeXml(value) {
     .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
     .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&");
+}
+
+function stripHtml(value) {
+  return String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 const TAG_RX = {};
@@ -47,14 +59,74 @@ function tag(xml, name) {
   return m ? decodeXml(m[1]).trim() : "";
 }
 
-function parseFeed(xml) {
+function isoDate(value) {
+  return value && !isNaN(Date.parse(value)) ? new Date(value).toISOString() : null;
+}
+
+function parseFeed(xml, defaultPublisher, withDescription) {
   const items = [];
   for (const match of xml.matchAll(/<item[^>]*>([\s\S]*?)<\/item>/gi)) {
-    const item = match[1], title = tag(item, "title"), url = tag(item, "link"), date = tag(item, "pubDate");
-    const publisher = tag(item, "source") || "Google News";
-    if (title && url) items.push({ title, url, publisher, publishedAt: date && !isNaN(Date.parse(date)) ? new Date(date).toISOString() : null });
+    const item = match[1];
+    const title = stripHtml(tag(item, "title"));
+    const url = tag(item, "link");
+    const publisher = stripHtml(tag(item, "source") || tag(item, "News:Source")) || defaultPublisher;
+    const description = withDescription ? stripHtml(decodeXml(tag(item, "description"))).slice(0, 300) : "";
+    if (title && url) items.push({ title, url, publisher, publishedAt: isoDate(tag(item, "pubDate")), description });
   }
   return items;
+}
+
+// Bing verpackt den Artikel-Link in einen Klick-Zähler; die echte Adresse steht im Parameter "url".
+function unwrapBingLink(article) {
+  const m = article.url.match(/[?&]url=([^&]+)/i);
+  if (m) { try { article.url = decodeURIComponent(m[1]); } catch (_) {} }
+  return article;
+}
+
+function parseNewsFeedJson(text) {
+  const data = JSON.parse(text);
+  return (Array.isArray(data.articles) ? data.articles : []).map(a => ({
+    title: stripHtml(a.title), url: a.url, publisher: a.publisher || "Börsenportal",
+    publishedAt: isoDate(a.publishedAt), description: stripHtml(a.description).slice(0, 300)
+  })).filter(a => a.title && /^https?:\/\//i.test(a.url || ""));
+}
+
+async function fetchText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), SOURCE_TIMEOUT_MS);
+  try {
+    const r = await fetch(url, {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml;q=0.9, application/json;q=0.8, */*;q=0.5",
+        "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"
+      },
+      signal: controller.signal
+    });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.text();
+  } catch (error) {
+    throw new Error(error && error.name === "AbortError" ? "Zeitüberschreitung" : (error && error.message) || String(error));
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function newsSources(query, symbol) {
+  const q = encodeURIComponent(query);
+  const qGoogle = encodeURIComponent(query + " when:7d");
+  const sources = [
+    { name: "Google News DE", url: "https://news.google.com/rss/search?q=" + qGoogle + "&hl=de&gl=DE&ceid=DE:de", parse: x => parseFeed(x, "Google News", false) },
+    { name: "Google News EN", url: "https://news.google.com/rss/search?q=" + qGoogle + "&hl=en-US&gl=US&ceid=US:en", parse: x => parseFeed(x, "Google News", false) },
+    { name: "Bing News DE", url: "https://www.bing.com/news/search?q=" + q + "&format=rss&mkt=de-DE", parse: x => parseFeed(x, "Bing News", true).map(unwrapBingLink) },
+    { name: "Bing News EN", url: "https://www.bing.com/news/search?q=" + q + "&format=rss&mkt=en-US", parse: x => parseFeed(x, "Bing News", true).map(unwrapBingLink) }
+  ];
+  if (symbol && /^[A-Z0-9.\-=^]{1,20}$/i.test(symbol)) {
+    // Ticker-genauer Feed: Treffer gelten auch ohne Firmennamen im Titel als relevant.
+    sources.push({ name: "Yahoo Finance", trusted: true, url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=" + encodeURIComponent(symbol) + "&region=US&lang=en-US", parse: x => parseFeed(x, "Yahoo Finance", true) });
+  }
+  sources.push({ name: "Börsenportale", url: NEWS_FEED_URL, parse: parseNewsFeedJson });
+  return sources;
 }
 
 // Google-News-Titel enden meist auf " - Quelle"; das kostet nur Tokens.
@@ -73,41 +145,43 @@ function termRegex(term) {
   return new RegExp("(^|[^\\p{L}\\p{N}])" + escaped + "(?=$|[^\\p{L}\\p{N}])", "u");
 }
 
-async function fetchHeadlines(name, terms) {
+async function fetchHeadlines(name, terms, symbol) {
   const phrases = [...new Map([name, ...terms].filter(t => t.length >= 2).map(t => [t.toLocaleLowerCase(), t])).values()].slice(0, 5);
-  const query = phrases.map(p => '"' + p + '"').join(" OR ") + " when:7d";
-  const feeds = [
-    "https://news.google.com/rss/search?q=" + encodeURIComponent(query) + "&hl=de&gl=DE&ceid=DE:de",
-    "https://news.google.com/rss/search?q=" + encodeURIComponent(query) + "&hl=en-US&gl=US&ceid=US:en"
-  ];
-  const results = await Promise.allSettled(feeds.map(async feed => {
-    const r = await fetch(feed, { headers: { "User-Agent": USER_AGENT } });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    return r.text();
-  }));
-  const xmls = results.filter(r => r.status === "fulfilled").map(r => r.value);
-  if (!xmls.length) {
-    throw new Error("Google News nicht erreichbar (" + results.map(r => r.reason && r.reason.message).join(", ") + ")");
-  }
+  const query = phrases.map(p => '"' + p + '"').join(" OR ");
+  const sources = newsSources(query, symbol);
+  const results = await Promise.allSettled(sources.map(async s => s.parse(await fetchText(s.url))));
   const matchers = phrases.map(termRegex);
+  const now = Date.now();
   const unique = new Map();
-  for (const article of xmls.flatMap(parseFeed)) {
-    const title = cleanTitle(article.title, article.publisher);
-    const lower = title.toLocaleLowerCase();
-    if (!matchers.some(rx => rx.test(lower))) continue;
-    const key = lower.replace(/[^\p{L}\p{N}]+/gu, " ").trim();
-    if (!unique.has(key)) unique.set(key, { ...article, title });
+  const status = sources.map((s, i) => {
+    const r = results[i];
+    if (r.status !== "fulfilled") return { name: s.name, status: (r.reason && r.reason.message) || "Fehler", count: 0 };
+    let count = 0;
+    for (const article of r.value) {
+      const title = cleanTitle(article.title, article.publisher);
+      const lower = title.toLocaleLowerCase();
+      const haystack = lower + " " + (article.description || "").toLocaleLowerCase();
+      if (!s.trusted && !matchers.some(rx => rx.test(haystack))) continue;
+      if (article.publishedAt && now - Date.parse(article.publishedAt) > MAX_AGE_MS) continue;
+      count++;
+      const key = lower.replace(/[^\p{L}\p{N}]+/gu, " ").trim().slice(0, 90);
+      if (!unique.has(key)) unique.set(key, { ...article, title, source: s.name });
+    }
+    return { name: s.name, status: "ok", count };
+  });
+  if (!status.some(s => s.status === "ok")) {
+    throw new Error("Keine Nachrichtenquelle erreichbar (" + status.map(s => s.name + ": " + s.status).join(" · ") + ")");
   }
   const articles = [...unique.values()]
     .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
     .slice(0, MAX_HEADLINES);
-  return { articles, query };
+  return { articles, query, sources: status };
 }
 
 // ---------- KI-Analyse ----------
 
 const SYSTEM_PROMPT = `Du bist ein nüchterner, kritischer Finanzanalyst und schreibst für einen erfahrenen Privatanleger auf Deutsch.
-Du bekommst nur Schlagzeilen der letzten 7 Tage (keine vollständigen Artikel) und die Kursentwicklung eines Wertpapiers.
+Du bekommst Schlagzeilen der letzten 7 Tage, teils mit kurzem Anrisstext (keine vollständigen Artikel), und die Kursentwicklung eines Wertpapiers.
 
 Regeln:
 1. Stütze dich auf die gelieferten Schlagzeilen und Kursdaten. Erfinde keine Zahlen, Kursziele, Termine, Zitate oder Ereignisse.
@@ -155,7 +229,11 @@ function pctText(value) {
 }
 
 function buildMessages({ name, symbol, kind, perf, articles }) {
-  const lines = articles.map((a, i) => "[" + (i + 1) + "] " + fmtDate(a.publishedAt) + " · " + a.publisher + " · " + a.title);
+  const lines = articles.map((a, i) => {
+    const desc = (a.description || "").trim();
+    const snippet = desc && !desc.toLocaleLowerCase().startsWith(a.title.toLocaleLowerCase().slice(0, 40)) ? " — " + desc.slice(0, 200) : "";
+    return "[" + (i + 1) + "] " + fmtDate(a.publishedAt) + " · " + a.publisher + " · " + a.title + snippet;
+  });
   const user = [
     "Wertpapier: " + name + (symbol ? " (" + symbol + ")" : "") + " · Typ: " + kind,
     "Heutiges Datum: " + fmtDate(new Date().toISOString()),
@@ -224,11 +302,11 @@ async function handleAnalysis(url, env, origin) {
 
   let headlines;
   try {
-    headlines = await fetchHeadlines(name, terms);
+    headlines = await fetchHeadlines(name, terms, symbol);
   } catch (error) {
     return json({ error: "Nachrichten konnten nicht geladen werden: " + error.message }, 502, origin);
   }
-  const base = { articles: headlines.articles, query: headlines.query, model: AI_MODEL, generatedAt: new Date().toISOString(), source: "Google News RSS + Cloudflare Workers AI" };
+  const base = { articles: headlines.articles, sources: headlines.sources, query: headlines.query, model: AI_MODEL, generatedAt: new Date().toISOString(), source: "News-RSS + Cloudflare Workers AI" };
   if (!headlines.articles.length) {
     return json({ ...base, analysis: null, note: "In den letzten 7 Tagen wurden keine passenden Schlagzeilen gefunden. Ohne Nachrichtenlage erstellt die KI bewusst keine Analyse." }, 200, origin);
   }
