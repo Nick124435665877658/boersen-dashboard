@@ -1,3 +1,7 @@
 name = "boersen-dashboard-worker"
 main = "worker.js"
 compatibility_date = "2026-11-17"
+
+# Workers AI für die KI-Nachrichtenanalyse (/api/analysis)
+[ai]
+binding = "AI"
