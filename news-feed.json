@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-19T17:36:38.548684+00:00",
+  "fetchedAt": "2026-11-19T18:34:54.148582+00:00",
   "articles": [
+    {
+      "title": "AMD: Short-Attacke wegen China – das müssen Anleger wissen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/amd-short-attacke-wegen-china-das-muessen-anleger-wissen-20446956.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 18:20:00 GMT",
+      "description": "   Der Leerverkäufer Hunterbrook hat AMD ins Visier genommen. Im Mittelpunkt stehen die China-Verflechtungen des Chipkonzerns und mögliche Risiken durch US-Exportregeln. AMD weist die Vorwürfe zurück.  "
+    },
+    {
+      "title": "US-Börse auf Tauchstation – deutliche Verluste nach Anthropic-Debüt",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/us-boerse-auf-tauchstation-deutliche-verluste-nach-anthropic-debuet-20446952.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 17:38:18 GMT",
+      "description": "     "
+    },
     {
       "title": "DAX-Schluss: Rekordhoch rückt in die Ferne",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schluss-rekordhoch-rueckt-in-die-ferne-20446933.html?feed=directrssfeed",
@@ -58,18 +72,32 @@
       "description": "   Wenn Waren knapp werden, können sich die Spielregeln für Unternehmen verändern. André Fischer sieht darin Chancen für 2 ausgewählte Aktien. In seinem neuen Report verbindet er ein auffälliges Insidersignal mit einer Investmentthese, bei der ausgerechnet Engpässe zum Vorteil werden könnten.  "
     },
     {
-      "title": "Vonovia: Enteignung in Berlin – Mucic kontert mit eigenem Vorschlag",
-      "url": "https://www.deraktionaer.de/artikel/aktien/vonovia--20446793.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 15:13:00 GMT",
-      "description": "   Vonovia sucht den Ausweg aus der Berliner Debatte um Wohnungsnot und Enteignung. Konzernchef Luka Mucic hat nun vorgeschlagen, große Vermieter stärker in die Pflicht zu nehmen, und verlangt dafür mehr Spielraum bei dem Rest des Portfolios. Dürfte das auch der Aktie wieder auf die Sprünge helfen?  "
+      "title": "Aramco überrascht den Ölmarkt: Ölriese Aramco erhöht Angebot deutlich: Geraten die Preise jetzt unter Druck?",
+      "url": "https://www.wallstreet-online.de/nachricht/21718662-aramco-ueberrascht-oelmarkt-oelriese-aramco-erhoeht-angebot-deutlich-geraten-preise-druck",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Saudi Aramco bietet 6,23 Millionen Barrel Schweröl an. Trotz Kriegsgefahr bleiben die Exporte stabil. Was bedeutet das für Ölpreise?"
     },
     {
-      "title": "Blackout-Panik nach Microsoft-Ausfall: Generatoren vergriffen! Diese Aktie zieht jetzt an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/blackout-panik-nach-microsoft-ausfall-generatoren-vergriffen-diese-aktie-zieht-jetzt-an-20446765.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 14:53:00 GMT",
-      "description": "   Erst streikt Microsoft Outlook, dann zwingt die Luftfahrtbehörde den US-Flugverkehr an den Boden. Im Netz kochen Weltuntergangs-Gerüchte hoch, in den USA räumen Kunden die Regale leer. An der Börse spielt das Szenario einer laufenden AKTIONÄR-Empfehlung in die Karten.  "
+      "title": "Leere Speicher, hoher Preise: Heizen bald unbezahlbar? So ruiniert Katharina Reiche private Haushalte!",
+      "url": "https://www.wallstreet-online.de/nachricht/21720579-leere-speicher-hoher-preise-heizen-unbezahlbar-ruiniert-katharina-reiche-private-haushalte",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warnungen vor leeren Gasspeichern zum Beginn der Heizperiode blieben monatelang ungehört. Das rächt sich jetzt dramatisch. Wird Heizen bald unbezahlbar?"
+    },
+    {
+      "title": "Blase, aber nicht in KI: Coca-Cola-Aktie so teuer wie seit 25 Jahren nicht mehr",
+      "url": "https://www.wallstreet-online.de/nachricht/21719373-blase-ki-coca-cola-aktie-teuer-25-jahren",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Buffett-Liebling und Dividendenwert: Coca-Cola galt als sichere Bank. Nach 40 Prozent Plus liegt das KGV auf einem 25-Jahres-Hoch, und im Softdrink-Geschäft nimmt der Gegenwind zu."
+    },
+    {
+      "title": "Anthropic eröffnet zu $111,50: Anthropic startet durch, doch DAX schließt im Minus",
+      "url": "https://www.wallstreet-online.de/nachricht/21720447-anthropic-111-50-anthropic-durch-dax-schliesst-minus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX hat klar schwächer geschlossen. Anthropic sorgt an der Wall Street dagegen für einen spektakulären Börsenstart. Die Aktie eröffnet 34 Prozent über dem Ausgabepreis."
     },
     {
       "title": "Preisschock: Die Inflation könnte 2027 noch weiter steigen",
@@ -231,13 +259,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Chinas kleine Raffinerien kämpfen ums Überleben. Die US-Blockade iranischer Öllieferungen treibt ihre Kosten in die Höhe. Doch die eigentliche Gefahr für den globalen Ölmarkt könnte erst noch kommen."
-    },
-    {
-      "title": "Deutliche Gewinne: DAX nimmt 26.000 ins Visier – Anthropic entfacht neue KI-Hoffnung",
-      "url": "https://www.wallstreet-online.de/nachricht/21717567-deutliche-gewinne-dax-26-000-visier-anthropic-entfacht-ki-hoffnung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der DAX ist am Donnerstag deutlich stärker gestartet und nähert sich wieder der Marke von 26.000 Punkten. Anthropic sorgt vor dem US-Börsenstart für neue KI-Euphorie. Doch die Fed bleibt ein Risiko."
     },
     {
       "title": "Droht ein zweites 1929?: Bitcoin könnte auf 10.000 Dollar stürzen – wenn die Notenbanken nicht eingreifen",
@@ -660,13 +681,6 @@
       "description": "Black Friday verspricht Rekordrabatte. Viele der Angebote sind aber alles andere als Schnäppchen, wie gleich mehrere Untersuchungen zeigen. Teilweise zahlen Kunden während der Aktionstage sogar mehr als zuvor."
     },
     {
-      "title": "Eklatantes Politikversagen: Heizen bald unbezahlbar? Wie Katharina Reiche den Gaspreis immer höher treibt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21705546-eklatantes-politikversagen-heizen-unbezahlbar-katharina-reiche-gaspreis-hoeher-treibt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Warnungen vor leeren Gasspeichern zum Beginn der Heizperiode blieben monatelang ungehört. Das rächt sich jetzt dramatisch. Wird Heizen bald unbezahlbar?"
-    },
-    {
       "title": "Das erwartet den Euro: Petrodollar vor dem Aus, eine neue Dollar-Ära beginnt",
       "url": "https://www.wallstreet-online.de/nachricht/21705456-erwartet-euro-petrodollar-aus-dollar-aera-beginnt",
       "publisher": "wallstreet:online",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Vor den Nvidia-Zahlen schmeißen Investoren alles, was mit KI zu tun hat, aus den Depots. Bei der Citigroup setzt man dagegen auf einen anhaltend starken Trend."
-    },
-    {
-      "title": "Was wusste er wann?: Nvidia: Jetzt bekommt auch Trump ein Problem mit der Spionageaffäre!",
-      "url": "https://www.wallstreet-online.de/nachricht/21705291-wusste-wann-nvidia-bekommt-trump-problem-spionageaffaere",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Affäre um Jensen Huang zieht immer größere Kreise. Neue Recherchen offenbaren Donald Trumps millionenschwere Aktiengeschäfte. Besonders der Zeitpunkt eines Verkaufs wirft Fragen auf."
-    },
-    {
-      "title": "Gewinnsprung und Sparkurs: 33 Prozent mehr Dividende: Disney überrascht – doch weitere Entlassungen drohen",
-      "url": "https://www.wallstreet-online.de/nachricht/21705870-gewinnsprung-sparkurs-33-prozent-dividende-disney-ueberrascht-entlassungen-drohen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Disney übertrifft die Erwartungen und erhöht die Dividende. Parks und Streaming treiben das Geschäft an. Milliardenersparnisse und Entlassungen sind geplant."
     }
   ],
   "feedErrors": [
