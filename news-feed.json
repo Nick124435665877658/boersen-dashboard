@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T19:43:10.230713+00:00",
+  "fetchedAt": "2026-11-19T20:32:57.916546+00:00",
   "articles": [
     {
       "title": "AMD: Short-Attacke wegen China – das müssen Anleger wissen",
@@ -72,8 +72,22 @@
       "description": "   Wenn Waren knapp werden, können sich die Spielregeln für Unternehmen verändern. André Fischer sieht darin Chancen für 2 ausgewählte Aktien. In seinem neuen Report verbindet er ein auffälliges Insidersignal mit einer Investmentthese, bei der ausgerechnet Engpässe zum Vorteil werden könnten.  "
     },
     {
-      "title": "2.800 neue Millionäre: Nach Mega-IPO: Mit Anthropic wird die KI-Blase platzen",
-      "url": "https://www.wallstreet-online.de/nachricht/21720201-2-800-millionaere-mega-ipo-anthropic-wird-ki-blase-platzen",
+      "title": "2800 neue Millionäre: Anthropic ist an der Börse! Rekord-IPO spült 81 Milliarden USD in die Kasse",
+      "url": "https://www.wallstreet-online.de/nachricht/21721011-2800-millionaere-anthropic-boerse-rekord-ipo-spuelt-81-milliarden-usd-kasse",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anthropic hat den größten Börsengang aller Zeiten hingelegt. Die Aktie startete über dem Ausgabepreis, gab im Handelsverlauf aber schon einen Teil der Gewinne wieder ab. Der breire Markt brach unterdessen heftig ein."
+    },
+    {
+      "title": "Das zwingt Anleger zum Handeln: Cannabisaktien am Wendepunkt: Warum Canopy, Tilray & Co. jetzt im Fokus stehen",
+      "url": "https://www.wallstreet-online.de/nachricht/21720651-zwingt-anleger-handeln-cannabisaktien-wendepunkt-canopy-tilray-co-fokus-stehen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Quartalsberichte der Cannabis-Unternehmen boten Licht und Schatten - oder sollte man besser Hoffnung und Resignation sagen? Die Unterschiede hätten nicht größer sein können. Das zwingt Anleger nun zum Handeln."
+    },
+    {
+      "title": "2.800 neue Millionäre: Nach Mega-IPO: Mit Anthropic könnte die KI-Blase platzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21720201-2-800-millionaere-mega-ipo-anthropic-koennte-ki-blase-platzen",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach dem gigantischen IPO von Anthropic bleiben mehr Fragen als Antworten: Hat das Unternehmen des Claude-Chatbots die KI-Rallye wieder angetrieben?"
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Für Gold, Silber und Kupfer wird die Luft immer dünner. Der haussierende US-Dollar zwingt sie in die Knie. Der anhaltende Preisverfall lässt die Kurse der Minenaktien purzeln. Mutige Anleger wittern Chancen."
-    },
-    {
-      "title": "Die Trades der Börsengurus: Anthropic: Alles zum IPO | Powell: Starke Zahlen | Dt. Bank: Grund zur Sorge?",
-      "url": "https://www.wallstreet-online.de/video/21706206-trades-boersengurus-anthropic-ipo-powell-starke-zahlen-dt-bank-grund-sorge",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während Powell starke Zahlen liefert, wird die Aktie von Red Cat verprügelt. Auch die Papiere der Deutschen Bank stehen unter Druck. Gibt es in Frankfurt wirklich ein Problem oder wurde nur kalter Kaffee aufgewärmt?"
-    },
-    {
-      "title": "NATO-Aufrüstung im Fokus: Umsatzverdopplung bis 2030: Diese zwei Rüstungsriesen bündeln ihre Kräfte",
-      "url": "https://www.wallstreet-online.de/nachricht/21706413-nato-aufruestung-fokus-umsatzverdopplung-2030-ruestungsriesen-buendeln-kraefte",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die EU genehmigt die Rüstungsallianz von Kongsberg und Thales. Das Gemeinschaftsunternehmen für Militärkommunikation will seinen Umsatz bis 2030 verdoppeln."
     }
   ],
   "feedErrors": [
