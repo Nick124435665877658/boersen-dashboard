@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-19T16:42:56.898512+00:00",
+  "fetchedAt": "2026-11-19T17:36:38.548684+00:00",
   "articles": [
+    {
+      "title": "DAX-Schluss: Rekordhoch rückt in die Ferne",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schluss-rekordhoch-rueckt-in-die-ferne-20446933.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 17:10:00 GMT",
+      "description": "   Der Rekord-Börsengang von Anthropic hat dem deutschen Aktienmarkt keinen Rückenwind gegeben. Mit nachgebenden US-Börsen drehte der DAX im späten Handel ins Minus und fiel auf den tiefsten Stand seit mehr als drei Wochen. Zum Handelsschluss stand ein Abschlag von 1,06 Prozent auf 25.  "
+    },
+    {
+      "title": "Die inverse Zinskurve",
+      "url": "https://www.deraktionaer.de/artikel/aktien/die-inverse-zinskurve-20446845.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 17:00:00 GMT",
+      "description": "   Laut der Financial Times versuchen Banken wie ING und Société Générale aktuell, KI-bezogene Investments – darunter Finanzierungen für Oracle-Rechenzentren – im Volumen von bis zu 800 Millionen Dollar weiterzuverkaufen. Dass einige Kredite nur noch im mittleren 80-Prozent-Bereich ihres Nennwerts gehandelt werden, ist bereits ein klares Zeichen fü"
+    },
+    {
+      "title": "Anthropic-IPO: Der erste Kurs ist da!",
+      "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-ipo-der-erste-kurs-ist-da-20446730.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 16:52:00 GMT",
+      "description": "   Der KI-Entwickler Anthropic feiert am heutigen Donnerstag sein Börsendebüt an der New Yorker Nasdaq. Die Nachfrage nach den Papieren war enorm – der Börsengang war mehrfach überzeichnet, der Ausgabepreis lag mit 83 Dollar über der angepeilten Spanne von 70 bis 78 Dollar.  "
+    },
+    {
+      "title": "Sanofi prüft Milliarden-Übernahme: Diese Aktie springt um bis zu 24 Prozent",
+      "url": "https://www.deraktionaer.de/artikel/aktien/uebernahmegeruecht-im-biotech-sektor-diese-aktie-springt-um-bis-zu-24-prozent-hoch-20446864.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 16:30:00 GMT",
+      "description": "   Der französische Pharmakonzern Sanofi erwägt laut einem Bericht der Nachrichtenagentur Bloomberg die Übernahme des US-Biotechunternehmens Insmed. Es wäre der größte Biopharma-Deal seit Jahren. Die Insmed-Aktie springt am Donnerstag deutlich an, die Papiere von Sanofi geben nach.  "
+    },
     {
       "title": "Wall-Street-Update: Nasdaq 100 dreht nach starkem Start ins Minus",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-nasdaq-100-dreht-nach-starkem-start-ins-minus-20446841.html?feed=directrssfeed",
@@ -44,32 +72,25 @@
       "description": "   Erst streikt Microsoft Outlook, dann zwingt die Luftfahrtbehörde den US-Flugverkehr an den Boden. Im Netz kochen Weltuntergangs-Gerüchte hoch, in den USA räumen Kunden die Regale leer. An der Börse spielt das Szenario einer laufenden AKTIONÄR-Empfehlung in die Karten.  "
     },
     {
-      "title": "Evonik-Aktie bricht ein – das ist der Grund",
-      "url": "https://www.deraktionaer.de/artikel/aktien/uebernahme-abgeblasen-evonik-aktie-bricht-ein-20446780.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 14:46:39 GMT",
-      "description": "   Die Aktie von Evonik gerät am Donnerstagnachmittag massiv unter Druck und bricht zeitweise um mehr als 20 Prozent ein. Der Grund: BASF hat die Pläne zur Übernahme des Essener Spezialchemiekonzerns auf Eis gelegt.  "
+      "title": "Preisschock: Die Inflation könnte 2027 noch weiter steigen",
+      "url": "https://www.wallstreet-online.de/nachricht/21719988-preisschock-inflation-2027",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trotz neuer Entlastungen droht Verbrauchern 2027 eine weitere Teuerungswelle. Bundesbank und Experten warnen vor steigenden Preisen. Besonders in Bereichen wie Energie, Gesundheit und Lebensmitteln."
     },
     {
-      "title": "Bitcoin: Leichte Erholung vor Anthropic-Debüt",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-leichte-erholung-vor-anthropic-debuet-20446715.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 14:30:00 GMT",
-      "description": "   Der Bitcoin stabilisiert sich nach dem jüngsten Abverkauf. Vor dem Börsengang von Anthropic kehrt die Risikobereitschaft an die Märkte zurück. Gleichzeitig wird diskutiert, ob und inwieweit der KI-Börsengang zu den jüngsten Kursverlusten der Digitalwährung beigetragen hat.  "
+      "title": "AMD, Coreweave und Take-Two | Nasdaq stürzt ab!",
+      "url": "https://www.wallstreet-online.de/nachricht/21720243-amd-coreweave-take-two-nasdaq-stuerzt-ab",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "In der heutigen Ausgabe schauen wir auf die oben genannten Werte und lassen dabei aber nicht ausser Acht, dass der Nasdaq gerade gerade deutlich unter Druck gerät"
     },
     {
-      "title": "Salesforce-Aktie nach Absturz unter 200-Tage-Linie: Hilft jetzt Washington?",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/salesforce-aktie-nach-absturz-unter-200-tage-linie-hilft-jetzt-washington-20446710.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 14:00:00 GMT",
-      "description": "   Salesforce gehört zu den ersten 33 Konsortien, deren Exportpakete das US-Handelsministerium im American SI Exports Program bevorzugt behandelt. Regierungsvertreter bieten das Angebot rund um die Agentenplattform Agentforce damit weltweit ausländischen Käufern an.  "
-    },
-    {
-      "title": "Wall Street: Die frischen Zahlen sind da – mit Einordnung",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-frischen-zahlen-sind-da-mit-einordnung-20446438.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 13:39:00 GMT",
-      "description": "   Gerade kamen gleich zwei Konjunkturdaten aus den USA. Das US-Arbeitsministerium meldete die wöchentlichen Erstanträge auf Arbeitslosenhilfe: In der Woche bis zum 14. November stellten saisonbereinigt 203.000 Amerikaner erstmals einen Antrag, nach revidiert 202.  "
+      "title": "Das ist erst der Anfang: Banken, Flughäfen, Geheimdienste – den USA droht ein technologisches Desaster",
+      "url": "https://www.wallstreet-online.de/nachricht/21718626-anfang-banken-flughaefen-geheimdienste-usa-droht-technologisches-desaster",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die renommierte Cybersicherheitsexpertin Nicole Perlroth warnt vor einer Ära beispielloser technologischer Instabilität. Ausgerechnet künstliche Intelligenz könnte das Problem massiv verschärfen."
     },
     {
       "title": "Von wegen sicherer Hafen: US-Blase gefährdet die Finanzstabilität Europas",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Disney übertrifft die Erwartungen und erhöht die Dividende. Parks und Streaming treiben das Geschäft an. Milliardenersparnisse und Entlassungen sind geplant."
-    },
-    {
-      "title": "Zweifel am KI-Boom: KI-Blase wird zur echten Gefahr: Jetzt schlägt ein Tech-Boss Alarm",
-      "url": "https://www.wallstreet-online.de/nachricht/21705459-zweifel-ki-boom-ki-blase-echten-gefahr-schlaegt-tech-boss-alarm",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Milliarden fließen in künstliche Intelligenz. Doch ein führender Tech-Chef warnt: Ohne steigende Gewinne könnte der Boom zum gefährlichen Risiko werden."
-    },
-    {
-      "title": "Kampf um Ölreserven: Öl-Poker im Golf von Mexiko: Chevron steht vor Milliarden-Deal",
-      "url": "https://www.wallstreet-online.de/nachricht/21704748-kampf-oelreserven-oel-poker-golf-mexiko-chevron-milliarden-deal",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Chevron steht vor einem Milliarden-Deal im Golf von Mexiko. Der Ölkonzern hat mehrere Konkurrenten ausgestochen. Doch noch ist nichts unterschrieben."
-    },
-    {
-      "title": "Krypto-Crash genutzt: Cathie Wood stößt Nvidia ab, um auf Krypto zu setzen",
-      "url": "https://www.wallstreet-online.de/nachricht/21705333-krypto-crash-genutzt-cathie-wood-stoesst-nvidia-ab-krypto",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Cathie Wood trennt sich von Nvidia-Aktien im Millionenwert. Gleichzeitig nutzt sie den Kursrutsch bei mehreren Krypto-Aktien für neue Käufe."
     }
   ],
   "feedErrors": [
