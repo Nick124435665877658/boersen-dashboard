@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T18:34:54.148582+00:00",
+  "fetchedAt": "2026-11-19T19:43:10.230713+00:00",
   "articles": [
     {
       "title": "AMD: Short-Attacke wegen China – das müssen Anleger wissen",
@@ -72,6 +72,20 @@
       "description": "   Wenn Waren knapp werden, können sich die Spielregeln für Unternehmen verändern. André Fischer sieht darin Chancen für 2 ausgewählte Aktien. In seinem neuen Report verbindet er ein auffälliges Insidersignal mit einer Investmentthese, bei der ausgerechnet Engpässe zum Vorteil werden könnten.  "
     },
     {
+      "title": "2.800 neue Millionäre: Nach Mega-IPO: Mit Anthropic wird die KI-Blase platzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21720201-2-800-millionaere-mega-ipo-anthropic-wird-ki-blase-platzen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach dem gigantischen IPO von Anthropic bleiben mehr Fragen als Antworten: Hat das Unternehmen des Claude-Chatbots die KI-Rallye wieder angetrieben?"
+    },
+    {
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
       "title": "Aramco überrascht den Ölmarkt: Ölriese Aramco erhöht Angebot deutlich: Geraten die Preise jetzt unter Druck?",
       "url": "https://www.wallstreet-online.de/nachricht/21718662-aramco-ueberrascht-oelmarkt-oelriese-aramco-erhoeht-angebot-deutlich-geraten-preise-druck",
       "publisher": "wallstreet:online",
@@ -140,13 +154,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die KI-Sorgen haben Europas Börsen kräftig durchgeschüttelt. Die Strategen der Deutschen Bank wittern darin Chancen und stellen ihre Branchenfavoriten für den Jahresendspurt neu auf."
-    },
-    {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
     },
     {
       "title": "Michael Burry stichelt: 500 Milliarden versprochen, nichts geflossen: Was ist bei Nvidia los?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die EU genehmigt die Rüstungsallianz von Kongsberg und Thales. Das Gemeinschaftsunternehmen für Militärkommunikation will seinen Umsatz bis 2030 verdoppeln."
-    },
-    {
-      "title": "Trotz Verkaufspanik: Der KI-Boom geht weiter – und diese Bank schafft jetzt Fakten!",
-      "url": "https://www.wallstreet-online.de/nachricht/21704430-trotz-verkaufspanik-ki-boom-bank-schafft-fakten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Vor den Nvidia-Zahlen schmeißen Investoren alles, was mit KI zu tun hat, aus den Depots. Bei der Citigroup setzt man dagegen auf einen anhaltend starken Trend."
     }
   ],
   "feedErrors": [
