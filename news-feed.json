@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-11-19T07:58:13.808256+00:00",
+  "fetchedAt": "2026-11-19T09:12:15.164172+00:00",
   "articles": [
+    {
+      "title": "David gegen Goliath",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/david-gegen-goliath-20445697.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 09:00:00 GMT",
+      "description": "   Die britische BP setzt auf das \"alte\" fossile Geschäft, während sich die österreichische OMV zu einem Chemiekonzern transformiert.  "
+    },
+    {
+      "title": "Auf dem Weg zu alter Stärke",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/auf-dem-weg-zu-alter-staerke-20445573.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 09:00:00 GMT",
+      "description": "   Auf dem Weg zu alter Stärke  "
+    },
+    {
+      "title": "Kaufchance",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/kaufchance-20445485.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 09:00:00 GMT",
+      "description": "   Eine Blick auf die Zahlen zeigt: Diese Aktie könnte nun wieder aufdrehen.  "
+    },
+    {
+      "title": "Aixtron, Siltronic, SUSS MicroTec: Plötzlich Top-Gewinner – jetzt handeln?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/aixtron-siltronic-suss-microtec-ploetzlich-top-gewinner-20446352.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 08:55:00 GMT",
+      "description": "   Nachdem das KI-Aushängeschild Nvidia mit seinen Zahlen keinen Stimmungswandel in der Branche ausgelöst hatte, könnte der Börsengang von Anthropic nun den notwendigen Impuls geben. Ein Blick auf die Kurse zeigt: Investoren setzen heute genau auf dieses Szenario.  "
+    },
+    {
+      "title": "Mega-IPO Anthropic hilft DAX – Commerzbank im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/mega-ipo-anthropic-hilft-dax-commerzbank-im-fokus-20446308.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 08:30:00 GMT",
+      "description": "   Nach dem deutlichen Rücksetzer vom Rekordhoch zeigt sich der DAX am Donnerstag zum Auftakt etwas fester. Der Börsengang des Claude-Entwicklers Anthropic hellt die Stimmung im Technologiesektor auf, nachdem selbst starke Nvidia-Zahlen kaum für Entlastung gesorgt hatten.  "
+    },
+    {
+      "title": "GTA 6 startet furios – und befeuert die Aktie von Take-Two",
+      "url": "https://www.deraktionaer.de/artikel/aktien/gta-6-startet-furios-und-befeuert-die-aktie-von-take-two-20446350.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 08:21:00 GMT",
+      "description": "   GTA 6 ist da, und die Anleger feiern schon mit. Am Donnerstag dürfte die Börse auf den Start von „Grand Theft Auto VI“ positiv reagieren. Für die Aktien von Take-Two Interactive zeichnen sich Kursgewinne ab: Im deutschen Handel auf Tradegate lag das Papier zuletzt mehr als drei Prozent über dem Schlusskurs der Nasdaq vom Vorabend.  "
+    },
+    {
+      "title": "Anthropic-Aktie: Rekord-IPO zu 83 Dollar – jetzt kaufen?",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/anthropic-aktie-rekordstart-zu-83-dollar-jetzt-kaufen-20446290.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 08:02:00 GMT",
+      "description": "   Der Börsengang ist gelaufen, heute, am 19. November, folgt der erste Nasdaq-Kurs ab 15:30 Uhr deutscher Zeit unter dem Kürzel ANT. Der Ausgabepreis lag mit 83 Dollar über der Spanne von 70 bis 78 Dollar, verkauft wurden 980 statt 825 Millionen Aktien.  "
+    },
+    {
+      "title": "Infineon-Aktie: Jetzt gilt es – die Rolle von Anthropic",
+      "url": "https://www.deraktionaer.de/artikel/aktien/infineon-aktie-jetzt-gilt-es-die-rolle-von-anthropic-20446278.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 19 Nov 2026 07:50:00 GMT",
+      "description": "   Nach dem deutlichen Rücksetzer vom Hoch bei 88,83 Euro haben sich die Bewertungsrelationen bei Infineon deutlich normalisiert. Gleichzeitig zündet im KI-Powergeschäft die nächste Wachstumsstufe. Nachdem das KI-Aushängeschild Nvidia mit seinen Zahlen keinen Stimmungswandel ausgelöst hatte, könnte der Börsengang von Anthropic den notwendigen Impul"
+    },
     {
       "title": "Megatrend Folger: Palo Alto Networks – der nächste KI-Megatrend läuft längst",
       "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-palo-alto-networks-der-naechste-ki-megatrend-laeuft-laengst-20446271.html?feed=directrssfeed",
@@ -16,60 +72,32 @@
       "description": "   Die Deutz-Aktie ist gestern um 16,6 Prozent auf 7,66 Euro eingebrochen und war damit der größte Verlierer im MDAX. So tief stand sie zuletzt im November 2025. Auslöser ist ein Bericht des US-Leerverkäufers Ningi Research zur Übernahme des Rüstungsunternehmens FFG.  "
     },
     {
-      "title": "Gold fällt und fällt – so tief kann es noch gehen",
-      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/gold-faellt-und-faellt-so-tief-kann-es-noch-gehen-20446265.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 07:19:00 GMT",
-      "description": "   Gold und Silber haben zuletzt kräftig nachgegeben. Am Mittwoch ist der Goldpreis erstmals seit September 2025 wieder unter die Marke von 3.800 Dollar je Feinunze gefallen. Am Donnerstagmorgen riss das Edelmetall sogar zeitweise die 3.700er-Marke. Schuld sind ein erstarkender Dollar und die Sorge vor weiteren Zinserhöhungen der US-Notenbank Fed n"
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
     },
     {
-      "title": "Anleger als Freiwild?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/anleger-als-freiwild-20446262.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 07:15:00 GMT",
-      "description": "   Einmal mehr hört man aus der Regierung Ideen, die dem Thema Aktienkultur in Deutschland komplett zuwiderlaufen. Meine Gedanken zu Vermögens­aufbau, Zinseszins und Aktien in einem Umfeld  leistungsfeindlicher Politiker.  "
+      "title": "Droht ein zweites 1929?: Bitcoin könnte auf 10.000 Dollar stürzen – wenn die Notenbanken nicht eingreifen",
+      "url": "https://www.wallstreet-online.de/nachricht/21716829-droht-zweites-1929-bitcoin-10-000-dollar-stuerzen-notenbanken-eingreifen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Arthur Hayes sieht im KI-Boom den Nährboden für einen historischen Börsencrash. Sollte die Politik einen fatalen Fehler begehen, könnte Bitcoin mehr als 80 Prozent seines Wertes verlieren."
     },
     {
-      "title": "Allianz: Neues Gefahrenpotenzial?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-neues-gefahrenpotenzial-20446238.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 07:09:00 GMT",
-      "description": "   Der Höhenflug der Allianz wurde gestern vorerst ausgebremst. Vom neuen Allzeithoch bei 479,00 Euro ging es bis Handelsende um 3,5 Prozent nach unten. Für Gegenwind sorgte vor allem ein skeptischer Analystenkommentar. Am heutigen Donnerstag sorgt zudem eine neue Studie zum Gefahrenpotenzial der KI für Aufsehen.  "
+      "title": "US-Dollar auf 19-Monats-Hoch: Warum die Dollar-Stärke eine Gefahr für Aktien und Gold ist",
+      "url": "https://www.wallstreet-online.de/nachricht/21716601-us-dollar-19-monats-hoch-dollar-staerke-gefahr-aktien-gold",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der US-Dollar steigt auf ein 19-Monats-Hoch, während Gold und Aktien fallen. Hinter der Rallye könnten mehr als Fed-Zinssorgen stecken. Ein Analyst nennt eine Marke, ab der er wachsende Risiken für die Wall Street sieht."
     },
     {
-      "title": "Commerzbank-Aktie: Berlin gibt jetzt Weg frei – Kontrolle 2027?",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/commerzbank--20446205.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 06:45:00 GMT",
-      "description": "   Commerzbank: Der Bund gibt seinen Widerstand gegen die Übernahme durch UniCredit auf. Nach einem Brief von UniCredit-Chef Andrea Orcel vom Mittwoch erklärte Finanzminister Lars Klingbeil in der Nacht zu Donnerstag, beide Seiten hätten eine gemeinsame Basis gefunden.  "
-    },
-    {
-      "title": "Nvidia-Aktie unter Druck: Wird Anthropic zur heißeren KI-Wette?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-aktie-unter-druck-wird-anthropic-zur-heisseren-ki-wette--20446198.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 06:31:00 GMT",
-      "description": "   Nvidia steht vor der nächsten Belastungsprobe. Nach dem spektakulären Rücktritt von Langzeit-CEO Jensen Huang sieht   CNBC -Moderator Jim Cramer  den Chipgiganten weiter unter Druck, trotz glänzender Zahlen.  "
-    },
-    {
-      "title": "Meta-Aktie: Mega-Plan mit 2,5 Milliarden Aktien jetzt auf Eis",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/meta-aktie-mega-plan-mit-25-milliarden-aktien-jetzt-auf-eis-20446131.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 06:00:00 GMT",
-      "description": "   Mark Zuckerbergs Umbau der Meta-Aktie muss warten. Der Facebook-Konzern legt die geplante Aktiengattung ohne Stimmrecht vorerst auf Eis, nachdem mehrere Anleger dagegen vor Gericht gezogen sind. Im Kern geht es um die Frage, wie viel Macht der Gründer behält.  "
-    },
-    {
-      "title": "200-Prozent-Chance: Dieser KI-Profiteur wird jetzt spannend",
-      "url": "https://www.deraktionaer.de/artikel/aktien/200-prozent-chance-dieser-ki-profiteur-wird-jetzt-spannend-20445867.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 06:00:00 GMT",
-      "description": "   Die nächste große KI-Chance muss kein Chipkonzern sein. Ein anderer Profiteur liefert gerade Rekordzahlen – und die Aktie ist nach einem Rücksetzer wieder günstiger zu haben. Wer nur auf die üblichen Börsenlieblinge schaut, könnte hier den nächsten Schub verpassen.  "
-    },
-    {
-      "title": "DAX-Prognose: Fest, Gold schwach – Anthropic, Nvidia, Zalando, Siemens Energy, SAP, Walmart im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-fest-gold-schwach-anthropic-nvidia-zalando-siemens-energy-sap-walmart-im-fokus-20446154.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 19 Nov 2026 05:51:00 GMT",
-      "description": "   Der DAX hat gestern, am Mittwoch, im Sog einer schwachen Wall Street nachgegeben. Der Leitindex verlor zum Xetra-Schluss 1,2 Prozent auf 25.736 Punkte, rutschte unter die Marke von 26.000 Punkten und durchbrach erstmals seit Ende Oktober die 21-Tage-Linie.  "
+      "title": "Beteiligung um 59 % erhöht: Peter Thiel setzt fast genauso viel auf diese Öl-Aktie wie auf Amazon",
+      "url": "https://www.wallstreet-online.de/nachricht/21716622-beteiligung-59-erhoeht-peter-thiel-genauso-oel-aktie-amazon",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Palantir-Mitgründer hat seine Beteiligung an einem südamerikanischen Ölproduzenten um 59 Prozent erhöht. Hinter seiner Millionenwette steckt auch eine politische Dimension."
     },
     {
       "title": "Jim Cramer: Nvidia hat ein neues Problem – Die Quartalszahlen sind es nicht",
@@ -749,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die USA bauen immer mehr günstige Holzrahmenhäuser. Könnte serieller Wohnungsbau auch Deutschlands Wohnungsnot lindern?"
-    },
-    {
-      "title": "Bitcoin im freien Fall: Coinbase-Aktie: So tief kann sie jetzt noch fallen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21699810-bitcoin-freien-fall-coinbase-aktie-tief-fallen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Kryptowährungen haben ihren Abwärtstrend in den vergangenen Tagen beschleunigt und ziehen auch Coinbase nach unten. Dort ist allerdings noch viel Platz."
-    },
-    {
-      "title": "Bullenmarkt vor dem Ende: Noch drei Wochen bis zum Crash, warnen Experten",
-      "url": "https://www.wallstreet-online.de/nachricht/21699864-bullenmarkt-ende-wochen-crash-warnen-experten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Mindestens eine kleine Zinserhöhung der Fed wird fest erwartet, eine größere ist möglich. Experten sehen darin ein Startsignal für eine möglicherweise deutliche Korrektur an den Aktienmärkten."
-    },
-    {
-      "title": "Er warnte schon vor 1987!: Ölpreis bei 500 Dollar? Was dieser Mann noch erwartet, könnte Milliarden kosten!",
-      "url": "https://www.wallstreet-online.de/nachricht/21699897-warnte-1987-oelpreis-500-dollar-erwartet-milliarden-kosten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ulf Lindahls Modell schlug schon vor dem Schwarzen Montag Alarm. Fast 40 Jahre später sieht der Marktveteran wieder gefährliche Signale. Seine Prognosen für Aktien und Öl könnten kaum extremer ausfallen."
     }
   ],
   "feedErrors": [
