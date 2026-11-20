@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T02:54:55.362201+00:00",
+  "fetchedAt": "2026-11-20T03:58:20.486434+00:00",
   "articles": [
     {
       "title": "Wall Street: Anthropic-Funke springt nicht über – dicke Verluste bei Dow & Co",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 19 Nov 2026 16:00:00 GMT",
       "description": "   Wer Risiken frühzeitig erkennt, kann böse Überraschungen vermeiden. Wer ein gutes Gespür für Warnsignale entwickelt, weiß mit brenzligen Situationen umzugehen. Wer Verhaltensmuster zu deuten weiß, kann sich darauf einstellen. Das gilt an der Börse wie im richtigen Leben.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Spannende Updates von Pernod Ricard sowie frische EU-Verbraucherdaten!",
+      "url": "https://www.wallstreet-online.de/nachricht/21720771-wichtigsten-termine-spannende-updates-pernod-ricard-frische-eu-verbraucherdaten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "2800 neue Millionäre: Anthropic ist an der Börse! Rekord-IPO spült 81 Milliarden USD in die Kasse",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Amazon, Google und Meta warnen vor massiven Folgen. Doch Donald Trump will ein Importverbot für chinesische Rechenzentrumstechnik offenbar trotzdem durchsetzen."
-    },
-    {
-      "title": "Mutige Anleger wittern Chancen: Gold, Silber und Kupfer brechen ein – jetzt werden Minenaktien zum Schnäppchen",
-      "url": "https://www.wallstreet-online.de/nachricht/21706584-mutige-anleger-wittern-chancen-gold-silber-kupfer-brechen-minenaktien-schnaeppchen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Für Gold, Silber und Kupfer wird die Luft immer dünner. Der haussierende US-Dollar zwingt sie in die Knie. Der anhaltende Preisverfall lässt die Kurse der Minenaktien purzeln. Mutige Anleger wittern Chancen."
     }
   ],
   "feedErrors": [
