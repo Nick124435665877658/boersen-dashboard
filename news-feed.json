@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T18:02:02.474074+00:00",
+  "fetchedAt": "2026-11-20T19:04:19.933141+00:00",
   "articles": [
+    {
+      "title": "Börsenpunk: Nvidia - Chance oder Risiko? Burggraben-Aktie im Angebot",
+      "url": "https://www.deraktionaer.de/artikel/aktien/boersenpunk-nvidia-chance-oder-risiko-burggraben-aktie-im-angebot-20447557.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 18:13:00 GMT",
+      "description": "   An den Aktienmärkten jagt derzeit ein Aufreger den nächsten. Zunächst sorgte der Rücktritt von Nvidia-Chef Jensen Huang für einen Schock. Kurz darauf legte der Konzern gute Quartalszahlen vor – doch die Aktie steht weiterhin unter Druck. In der neuen Sendung haben wir uns die Situation genauer angesehen und gehen der Frage nach: Bietet sich hier"
+    },
     {
       "title": "Anthropic: -14 Prozent! Aktie stürzt Richtung Ausgabepreis",
       "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-14-prozent-aktie-stuerzt-richtung-ausgabepreis-20447846.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Die Tech-Werte stehen unter Druck. Die Tesla-Aktie hat am Donnerstag rund 2,4 Prozent verloren. Seit Monatsbeginn hat das Papier 7,5 Prozent eingebüßt. Charttechnisch ist das Papier angeschlagen. Dabei rücken die Gespräche über einen möglichen Zusammenschluss von Tesla und SpaceX zunehmend ins Zentrum.  "
     },
     {
-      "title": "Schnelle Richtungswechsel: Die Schnäppchenjagd beginnt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/schnelle-richtungswechsel-die-schnaeppchenjagd-beginnt-20447617.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 13:05:00 GMT",
-      "description": "   Der Börsengang von Anthropic konnte den Wachstums- und Technologiewerten am Ende keinen notwendigen Impuls für eine Gegenbewegung geben – im Gegenteil. Der Verkaufsdruck hat im Handelsverlauf sogar noch zugenommen und sorgt vor dem Wochenende auch bei den heimischen Technologieaktien auf breiter Front für rote Vorzeichen.  "
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Abschied vom billigen Geld: Fed und EZB: Der Zins-Albtraum für Anleger könnte bis mindestens 2031 dauern",
+      "url": "https://www.wallstreet-online.de/nachricht/21724419-abschied-billigen-geld-fed-ezb-zins-albtraum-anleger-2031-dauern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "An den Finanzmärkten vollzieht sich ein radikaler Stimmungswechsel. Händler haben ihre Hoffnungen auf sinkende Kreditkosten weitgehend begraben. Auch der KI-Boom trägt dazu bei."
     },
     {
       "title": "Edelmetalle im freien Fall: Gold und Silber verlieren 1 Billion US-Dollar in 6 Stunden – wie geht es weiter?",
@@ -112,13 +126,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Kapitalmärkte haben ein Liquiditätsproblem. Hier ergeben sich Parallelen zur DotCom-Blase aus dem Jahr 2000, aber auch entscheidende Unterschiede."
-    },
-    {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
     },
     {
       "title": "Nach 14 Monats Tief: Alle sprechen vom Crash, aber was ist wirklich los bei Silber?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Pony AI hat den Umsatz um 75 Prozent gesteigert. Vor allem Robotaxis boomen, doch unter dem Strich bleibt der chinesische Konzern tief in den roten Zahlen."
-    },
-    {
-      "title": "Mega-IPO: Anthropic vor Börsenstart: Jetzt soll die KI-Aktie noch teurer werden",
-      "url": "https://www.wallstreet-online.de/nachricht/21711009-mega-ipo-anthropic-boersenstart-ki-aktie-teurer",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Anthropic könnte beim Börsengang mehr verlangen als geplant. Für Anleger schrumpft damit das rechnerische Kurspotenzial. Was hinter dem Preisaufschlag steckt – und worauf es beim Einstieg ankommt."
     }
   ],
   "feedErrors": [
