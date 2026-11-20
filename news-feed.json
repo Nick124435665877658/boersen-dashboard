@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-11-20T07:24:19.042869+00:00",
+  "fetchedAt": "2026-11-20T08:43:01.529034+00:00",
   "articles": [
+    {
+      "title": "Bitcoin: Seit dem Rekordhoch mehr als halbiert – warum auch das Anthropic-IPO im Fokus steht",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-seit-dem-rekordhoch-mehr-als-halbiert-warum-auch-das-anthropic-ipo-im-fokus-steht-20447364.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 08:28:00 GMT",
+      "description": "   Die älteste und bekannteste Kryptowährung hat sich am Freitag nach einem nächtlichen Rutsch wieder gefangen. Am Morgen war der Bitcoin auf 61.242 Dollar gefallen und damit auf den tiefsten Stand seit Juli. Dann setzte aber eine Stabilisierung ein. Zuletzt kostete die Digitalwährung wieder 61.  "
+    },
+    {
+      "title": "SpaceX-Aktie: Rekord-Deal für Nvidia-Chips kostet 8,26 Prozent",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/spacex-aktie-rekord-deal-fuer-nvidia-chips-kostet-826-prozent-20447249.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 08:01:00 GMT",
+      "description": "   SpaceX hat am Donnerstag Anleihen über 32 Milliarden Dollar verkauft, um Nvidia-Chips zu finanzieren – und muss Investoren dafür eine Rendite bieten, die kaum zu einem soliden Schuldner passt. Die größte Tranche bringt 8,26 Prozent.  "
+    },
+    {
+      "title": "DAX-Abverkauf nimmt Fahrt auf – Siemens Energy & Co im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-abverkauf-nimmt-fahrt-auf-siemens-energy-co-im-fokus-20447306.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 08:00:00 GMT",
+      "description": "   Der DAX steht am Freitag erneut unter Druck und steuert auf den sechsten Verlusttag in Folge zu. Die Euphorie um das Börsendebüt von Anthropic ist schnell verpufft, während der Nasdaq 100 auf den tiefsten Stand seit April gefallen ist. Sorgen um den weiteren Ausbau von Rechenzentren in den USA und anhaltende Zinssorgen belasten die Stimmung zusä"
+    },
+    {
+      "title": "Bund und UniCredit einig: Was heißt das für Commerzbank-Aktionäre?",
+      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/commerzbank-20447321.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 07:59:58 GMT",
+      "description": "   Der Bund und UniCredit sind sich scheinbar einig, was die Übernahme der Commerzbank angeht. Denn Mitte der Woche wurden Eckpunkte zum weiteren Vorgehen bei der Fusion bekannt. An der Börse stellt sich daher die Frage, was all das für Aktionäre bedeutet.  "
+    },
+    {
+      "title": "Nervosität nach Anthropic-Start: Asiens Techwerte unter Druck – SoftBank verliert 15 Prozent",
+      "url": "https://www.deraktionaer.de/artikel/indizes/nervositaet-nach-anthropic-start-asiens-techwerte-unter-druck-softbank-verliert-15-prozent-20447271.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 07:19:00 GMT",
+      "description": "   Kräftig nach unten ging es am Freitagmorgen an den asiatischen Märkten. Der japanische Leitindex verlor gut fünf Prozent. Der südkoreanische KOSPI gab ebenfalls mehr als fünf Prozent nach. Die Aktien der SoftBank Group sind am Freitag sogar um 14,5 Prozent eingebrochen und haben einen breiten Ausverkauf bei asiatischen Techwerten angeführt.  "
+    },
     {
       "title": "BASF: Keine Evonik-Übernahme – ist die Aktie jetzt ein Kauf?",
       "url": "https://www.deraktionaer.de/artikel/aktien/basf-keine-evonik-uebernahme-ist-die-aktie-jetzt-ein-kauf-20447220.html?feed=directrssfeed",
@@ -30,46 +65,39 @@
       "description": "   Infineon hat sich am Donnerstag gegen den KI-Ausverkauf gestemmt und bis zum Xetra-Schluss 0,3 Prozent auf 49,35 Euro gewonnen. Heute wird es ernster: Nach dem Rekord-Börsengang von Anthropic fielen Nasdaq und Chipwerte, der Nikkei lag am Freitagmorgen über vier Prozent im Minus.  "
     },
     {
-      "title": "Lufthansa mit überraschender Ankündigung",
-      "url": "https://www.deraktionaer.de/artikel/aktien/lufthansa-mit-ueberraschender-ankuendigung-20447194.html?feed=directrssfeed",
+      "title": "Deutz: Der Vorstand hat reagiert",
+      "url": "https://www.deraktionaer.de/artikel/aktien/deutz-der-vorstand-hat-reagiert-20427104.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 06:18:00 GMT",
-      "description": "    Die Lufthansa will an ihren Standorten Frankfurt und München insgesamt 1.000 Vollzeitstellen abbauen. Das geht aus einem internen Schreiben an die Beschäftigten hervor, das der Deutschen Presse-Agentur vorliegt. Über den geplanten Einschnitt hatten zuvor auch das „Handelsblatt“, „The Pioneer“ und „airliners.  "
+      "publishedAt": "Fri, 20 Nov 2026 06:33:00 GMT",
+      "description": "   Nach einer sorgfältigen Prüfung hat Deutz wie angekündigt zum kritischen Bericht von Ningi Research Stellung genommen. Die zentralen Schlussfolgerungen daraus seien unbegründet, heißt es in einer online veröffentlichten Stellungnahme. Ob diese ausreicht, um die Aktie wieder auf Kurs zu bringen, muss sich erst noch zeigen.  "
     },
     {
-      "title": "SAP-Aktie: Intuit-Schock nach 3 Verlusttagen – was kommt jetzt?",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/sap-aktie-intuit-schock-nach-3-verlusttagen-was-kommt-jetzt-20447176.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 06:08:00 GMT",
-      "description": "   Die SAP-Aktie hat den dritten Verlusttag in Folge hinter sich und schloss am Donnerstag auf Xetra 3,56 Prozent tiefer bei 187,02 Euro. Am Abend kam die nächste Belastung aus den USA: Intuit, Anbieter von TurboTax und QuickBooks, senkte die Umsatzprognose für das laufende Geschäftsjahr, die Aktie fiel nachbörslich um 9,8 Prozent.  "
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
     },
     {
-      "title": "Dividenden-Geheimtipp: 6,1 Prozent Rendite und neue Rekordkurse",
-      "url": "https://www.deraktionaer.de/artikel/aktien/dividenden-geheimtipp-61-prozent-rendite-und-neue-rekordkurse-20446683.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 06:00:00 GMT",
-      "description": "   Hohe Dividenden und steigende Aktienkurse müssen sich nicht ausschließen. Ein wenig beachteter Telekomkonzern liefert dafür ein eindrucksvolles Beispiel: Die Aktie ist nach starken Quartalszahlen auf ein neues Rekordhoch geklettert, gleichzeitig lockt eine Dividendenrendite von 6,1 Prozent.  "
+      "title": "2027 nächste Inflationswelle?: Alarmstufe Inflation! Erzeugerpreise schießen um 8,1 Prozent nach oben",
+      "url": "https://www.wallstreet-online.de/nachricht/21723228-2027-inflationswelle-alarmstufe-inflation-erzeugerpreise-schiessen-8-1-prozent",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Deutschlands Erzeugerpreise steigen um 8,1 Prozent. Energie und Rohstoffe treiben die Kosten. Droht 2027 eine neue Inflationswelle?"
     },
     {
-      "title": "DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-verluste-asien-tiefrot-gold-rutscht-ab-dt-bank-infineon-sap-anthropic-im-fokus-20447183.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 05:58:00 GMT",
-      "description": "   Der DAX hat den Donnerstag auf dem tiefsten Stand seit mehr als drei Wochen beendet. Nach freundlichem Start drehte er im späten Handel mit den US-Börsen ins Minus und schloss im Xetra-Handel 1,1 Prozent tiefer bei 25.464 Punkten, 5,7 Prozent unter dem Rekordhoch von vor einer Woche.  "
+      "title": "Shortseller-Attacke: AMD: Chips sollen illegal nach China gekommen sein",
+      "url": "https://www.wallstreet-online.de/nachricht/21722706-shortseller-attacke-amd-chips-illegal-china",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Hunterbrook rechnet mit AMDs China-Geschäft ab: Der Shortseller behauptet, dass AMD seine Chips illegal an China verkauft. Das Schweigen von AMD macht die Sache nicht besser."
     },
     {
-      "title": "Rheinmetall: Das schmerzt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-das-schmerzt-20447174.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 05:57:00 GMT",
-      "description": "    Die Rheinmetall-Aktie konnte sich am Donnerstag der vorsichtigen Erholung an den Börsen nicht anschließen. Stattdessen gab sie rund 1,5 Prozent nach und fiel mit etwa 733 Euro auf den niedrigsten Stand seit Februar 2025.   "
-    },
-    {
-      "title": "Nvidia: Weiter unter Druck",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-weiter-unter-druck-20447166.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 05:34:00 GMT",
-      "description": "     Der Druck auf Nvidia wächst: Kaliforniens Generalstaatsanwalt Rob Bonta hat dem Chipkonzern einen offiziellen Fragenkatalog zugeschickt. Die Ermittler wollen unter anderem klären, ob leistungsstarke Nvidia-Chips oder vertrauliche Informationen nach China gelangt sein könnten.  "
+      "title": "Tiefster Stand seit Juli: Anthropic-IPO verschärft Bitcoin-Crash – fällt jetzt die 60.000-Dollar-Marke?",
+      "url": "https://www.wallstreet-online.de/nachricht/21722703-tiefster-stand-juli-anthropic-ipo-verschaerft-bitcoin-crash-faellt-60-000-dollar-marke",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bitcoin fällt auf den tiefsten Stand seit vier Monaten. Das Rekord-IPO von Anthropic saugt Kapital ab. Gleichzeitig fließen Milliarden aus Bitcoin-ETFs."
     },
     {
       "title": "Anthropic-Euphorie verpufft: Asien stürzt ab, auch Wall Street, DAX und Gold im Crash-Modus!",
@@ -749,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Wir werfen einen Blick auf die aktuelle Marktlage und mögliche Szenarien."
-    },
-    {
-      "title": "Lateinamerika-Börsen: Öl treibt Brasilien-Börse an – doch Morgan Stanley warnt vor Kursverlusten",
-      "url": "https://www.wallstreet-online.de/nachricht/21707415-lateinamerika-boersen-oel-treibt-brasilien-boerse-morgan-stanley-warnt-kursverlusten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Brasiliens Börse steigt dank höherer Ölpreise. Doch Morgan Stanley warnt vor Kursverlusten und Chiles Zentralbank sieht wachsende Finanzrisiken."
-    },
-    {
-      "title": "Klarna wächst rasant: Klarna wächst rasant: Warum die Quartalszahlen trotzdem enttäuschen",
-      "url": "https://www.wallstreet-online.de/nachricht/21707109-klarna-waechst-rasant-klarna-waechst-rasant-quartalszahlen-enttaeuschen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Klarna steigert den Umsatz auf 1,01 Milliarden US-Dollar und reduziert den Verlust. Doch die Gewinnerwartungen werden verfehlt und der Ausblick enttäuscht."
-    },
-    {
-      "title": "Cybersecurity trifft Rüstung: Lockheed Martin setzt auf KI – dieser Partner soll es möglich machen",
-      "url": "https://www.wallstreet-online.de/nachricht/21706944-cybersecurity-trifft-ruestung-lockheed-martin-ki-partner",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ein F-35-Geschäft mit der Schweiz hat Folgen: Lockheed Martin unterstützt einen Cybersecurity-Spezialisten bei einem ambitionierten Technologieprojekt."
     }
   ],
   "feedErrors": [
