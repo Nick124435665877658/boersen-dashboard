@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-20T12:38:45.649331+00:00",
+  "fetchedAt": "2026-11-20T13:55:24.727180+00:00",
   "articles": [
+    {
+      "title": "Arbeitet Apple an KI-Assistenten?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/arbeitet-apple-an-ki-assistenten-20447638.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 13:34:00 GMT",
+      "description": "    Apple arbeitet offenbar an einem KI-Assistenten, der Aufgaben eigenständig erledigen soll. Das wurde heute anhand von Stellenanzeigen auf Apples Website bekannt. Der Konzern sucht unter anderem eine erfahrene Führungskraft für einen „proaktiven KI-Assistenten“.  "
+    },
+    {
+      "title": "Tesla: Unter Druck",
+      "url": "https://www.deraktionaer.de/artikel/aktien/tesla-unter-druck-20447359.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 13:34:00 GMT",
+      "description": "   Die Tech-Werte stehen unter Druck. Die Tesla-Aktie hat am Donnerstag rund 2,4 Prozent verloren. Seit Monatsbeginn hat das Papier 7,5 Prozent eingebüßt. Charttechnisch ist das Papier angeschlagen. Dabei rücken die Gespräche über einen möglichen Zusammenschluss von Tesla und SpaceX zunehmend ins Zentrum.  "
+    },
+    {
+      "title": "Schnelle Richtungswechsel: Die Schnäppchenjagd beginnt",
+      "url": "https://www.deraktionaer.de/artikel/aktien/schnelle-richtungswechsel-die-schnaeppchenjagd-beginnt-20447617.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 13:05:00 GMT",
+      "description": "   Der Börsengang von Anthropic konnte den Wachstums- und Technologiewerten am Ende keinen notwendigen Impuls für eine Gegenbewegung geben – im Gegenteil. Der Verkaufsdruck hat im Handelsverlauf sogar noch zugenommen und sorgt vor dem Wochenende auch bei den heimischen Technologieaktien auf breiter Front für rote Vorzeichen.  "
+    },
+    {
+      "title": "Gut für DHL: Grünes Licht für größte Portoerhöhung der Geschichte",
+      "url": "https://www.deraktionaer.de/artikel/aktien/gut-fuer-dhl-gruenes-licht-fuer-groesste-portoerhoehung-der-geschichte--20447604.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 12:45:00 GMT",
+      "description": "    Die Briefpreise könnten 2027 kräftig steigen: Die Bundesnetzagentur hat der Deutschen Post für die Jahre 2027 und 2028 einen Preiserhöhungsspielraum von bis zu 20,4 Prozent eingeräumt. Damit wäre der mögliche Anstieg größer als bei jeder bisherigen Portoanpassung.  "
+    },
     {
       "title": "130 Prozent mit diesem AKTIONÄR-Tipp – was geht noch?",
       "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/130-prozent-mit-diesem-aktionaer-tipp-was-geht-noch-20447498.html?feed=directrssfeed",
@@ -44,39 +72,25 @@
       "description": "   Die Zahlen allein wären schon ein Ausrufezeichen: Der Umsatz zog im jüngsten Quartal um 39 Prozent an, der bereinigte Gewinn je Aktie übertraf die Erwartungen der Analysten deutlich. Doch sie erzählen nur die halbe Geschichte. Denn der Konzern bereitet gerade einen Schritt vor, der eine vollkommen neue Wachstumsphase eröffnen könnte.  "
     },
     {
-      "title": "DAX-Titel kräftig unter Druck – 6 Prozent Minus",
-      "url": "https://www.deraktionaer.de/artikel/aktien/dax-titel-kraeftig-unter-druck-6-prozent-mius-20447422.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 09:31:00 GMT",
-      "description": "    Dieser Anblick dürfte den Anteilseignern eines in den vorangegangenen Wochen durchaus gut gelaufenen DAX-Titels überhaupt nicht gefallen. So verliert die Aktie von Scout24 am Freitag nach einer Herabstufung deutlich an Wert. Aktuell beläuft sich der Kursrückgang auf stattliche sechs Prozent.  "
-    },
-    {
-      "title": "Siemens Energy: KI-Rutsch – Aktie wieder auf Talfahrt",
-      "url": "https://www.deraktionaer.de/artikel/mobilitaet-oel-energie/siemens-energy-ki-rutsch-aktie-wieder-auf-talfahrt-20447349.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 08:41:00 GMT",
-      "description": "   Die zarte Erholungsbewegung bei Siemens Energy zuletzt war nur von kurzer Dauer. Die Aktie des Energietechnikkonzerns zählt im schwachen Marktumfeld am Freitag wieder einmal zu den größten Verlierern im DAX. Der erneute Abverkauf bei Aktien aus dem KI-Bereich sorgt für Verkaufsdruck.  "
-    },
-    {
-      "title": "Bitcoin: Seit dem Rekordhoch mehr als halbiert – warum auch das Anthropic-IPO im Fokus steht",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-seit-dem-rekordhoch-mehr-als-halbiert-warum-auch-das-anthropic-ipo-im-fokus-steht-20447364.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 08:28:00 GMT",
-      "description": "   Die älteste und bekannteste Kryptowährung hat sich am Freitag nach einem nächtlichen Rutsch wieder gefangen. Am Morgen war der Bitcoin auf 61.242 Dollar gefallen und damit auf den tiefsten Stand seit Juli. Dann setzte aber eine Stabilisierung ein. Zuletzt kostete die Digitalwährung wieder 61.  "
-    },
-    {
-      "title": "SpaceX-Aktie: Rekord-Deal für Nvidia-Chips kostet 8,26 Prozent",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/spacex-aktie-rekord-deal-fuer-nvidia-chips-kostet-826-prozent-20447249.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 08:01:00 GMT",
-      "description": "   SpaceX hat am Donnerstag Anleihen über 32 Milliarden Dollar verkauft, um Nvidia-Chips zu finanzieren – und muss Investoren dafür eine Rendite bieten, die kaum zu einem soliden Schuldner passt. Die größte Tranche bringt 8,26 Prozent.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Nach 50 % Verlust: Coinbase setzt auf zwei neue Märkte – ist das die Rettung?",
+      "url": "https://www.wallstreet-online.de/nachricht/21724686-50-verlust-coinbase-maerkte-rettung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Coinbase will mit eigenen Prognosemärkten und Krypto-Optionen wachsen. Kann die Expansion die abgestürzte Aktie wieder nach oben treiben?"
+    },
+    {
+      "title": "Teslas Europa-Offensive: Tesla feiert Durchbruch in Europa! Italien gibt grünes Licht für FSD",
+      "url": "https://www.wallstreet-online.de/nachricht/21724932-teslas-europa-offensive-tesla-feiert-durchbruch-europa-italien-gruenes-licht-fsd",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Tesla erzielt einen wichtigen Erfolg in Europa. Italien genehmigt das Fahrassistenzsystem des US-Konzerns. Die Einführung steht bevor. Auch eine EU-weite Zulassung rückt stärker in den Fokus."
     },
     {
       "title": "Filialschließungen drohen: Gewinn verdoppelt! Eurocash überrascht mit Börsenplänen für Frisco",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidia erhöht im Analystencall das Wachstumsziel auf 75 Prozent und weist Huang zurück. Kress äußert sich zu milliardenschweren Zusagen. Doch die SEC prüft laut einem Medienbericht eine mögliche Irreführung von Anlegern."
-    },
-    {
-      "title": "Noch vor dem IPO: Anthropic bekommt erste Kaufempfehlung – und die hat es in sich",
-      "url": "https://www.wallstreet-online.de/nachricht/21705867-ipo-anthropic-bekommt-kaufempfehlung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Anthropic steht kurz vor einem der größten Börsengänge aller Zeiten. Noch vor dem Handelsstart sieht ein Analyst bereits enormes Kurspotenzial."
-    },
-    {
-      "title": "Magnificent Seven im Fokus: Star-Investoren verkaufen Alphabet – und kaufen diese Tech-Aktien",
-      "url": "https://www.wallstreet-online.de/nachricht/21707037-magnificent-seven-fokus-star-investoren-verkaufen-alphabet-kaufen-tech-aktien",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Meta, Amazon und Microsoft stehen bei Großinvestoren hoch im Kurs. Gleichzeitig landet Alphabet ganz oben auf den Verkaufslisten. Das zeigt eine Auswertung der jüngsten 13F-Meldungen."
     }
   ],
   "feedErrors": [
