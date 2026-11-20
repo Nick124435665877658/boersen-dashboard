@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T13:55:24.727180+00:00",
+  "fetchedAt": "2026-11-20T15:00:09.475188+00:00",
   "articles": [
+    {
+      "title": "Bitcoin droht Verlustserie wie 2022 – diese Marken müssen jetzt halten",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-droht-verlustserie-wie-2022-diese-marken-muessen-jetzt-halten-20447643.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 14:27:00 GMT",
+      "description": "   Der Bitcoin findet keinen Halt. Am Freitag rutschte die größte Kryptowährung zeitweise bis auf rund 61.200 Dollar ab und markierte damit den tiefsten Stand seit Anfang Juli. Zuletzt notierte sie bei etwa 61.800 Dollar. Auf Wochensicht steht ein Minus von rund elf Prozent zu Buche.  "
+    },
+    {
+      "title": "Opening Bell: Wall Street weitet Verluste aus; Gold, Volatilität, S&P500, Anthrophic, Nvidia, AMD, Target, Walmart im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/aktien/opening-bell-wall-street-weitet-verluste-aus-gold-volatilitaet-sp500-anthrophic-nvidia-amd-target-walmart-im-fokus-20447659.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 14:00:07 GMT",
+      "description": "   Entgegen allen Hoffnungen hat der Rekord-Börsengang des KI-Riesen Anthropic am Vortag die Misere von Technologieaktien nicht beenden können. Im Gegenteil: Der Ausverkauf dürfte auch am Freitag weitergehen.  Der Broker IG taxierte den Nasdaq 100 rund eineinhalb Stunden vor dem Auftakt auf 26.  "
+    },
     {
       "title": "Arbeitet Apple an KI-Assistenten?",
       "url": "https://www.deraktionaer.de/artikel/aktien/arbeitet-apple-an-ki-assistenten-20447638.html?feed=directrssfeed",
@@ -58,25 +72,25 @@
       "description": "   Nach 13 Jahren Wartezeit seit der Vorgängerversion ist GTA VI endlich da, und die Fans feiern weltweit. Vor allem die Lebendigkeit dieser gewaltigen Spielwelt begeistert die Kritiker. Gute Computerspiele sind eben mehr als Zeitvertreib: Sie können Gesamtkunstwerke sein, in denen Wort, Bild und Klang verschmelzen.  "
     },
     {
-      "title": "Im Schatten der Allianz: AKTIONÄR-Geheimtipp dreht hoch",
-      "url": "https://www.deraktionaer.de/artikel/aktien/im-schatten-der-allianz-aktionaer-geheimtipp-dreht-hoch-20447408.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 09:45:00 GMT",
-      "description": "   Plus 54 Prozent seit AKTIONÄR-Empfehlung und noch lange nicht Schluss. Dieser Allianz-Konkurrent liefert heute nicht nur einmal mehr bärenstarke Zahlen. Auch die Prognose schraubt der Versicherungs-Geheimtipp in diesem Zuge nach oben. Und das Beste: Trotz der Kursrally ist auch die Bewertung weiter attraktiv.  "
-    },
-    {
-      "title": "KI-Angriff: Dieser Konzern macht jetzt Ernst",
-      "url": "https://www.deraktionaer.de/artikel/aktien/ht-20442400.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 09:38:00 GMT",
-      "description": "   Die Zahlen allein wären schon ein Ausrufezeichen: Der Umsatz zog im jüngsten Quartal um 39 Prozent an, der bereinigte Gewinn je Aktie übertraf die Erwartungen der Analysten deutlich. Doch sie erzählen nur die halbe Geschichte. Denn der Konzern bereitet gerade einen Schritt vor, der eine vollkommen neue Wachstumsphase eröffnen könnte.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "50% Kursplus in einem Monat: Diese Biotech-Aktie hilft gegen den KI-Blues",
+      "url": "https://www.wallstreet-online.de/nachricht/21725148-50-kursplus-monat-biotech-aktie-hilft-ki-blues",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während KI-Werte schwächeln, zieht eine Biotech-Aktie davon. Die Bank of America steigt bei Viridian Therapeutics mit Kaufempfehlung ein und traut dem Herausforderer von Amgen noch deutlich mehr zu."
+    },
+    {
+      "title": "Geht der Crash weiter?: AMD: Short-Attacke | Apple: Sicherer Hafen | SAP: Neue Panik-Welle",
+      "url": "https://www.wallstreet-online.de/video/21724941-crash-weiter-amd-short-attacke-apple-sicherer-hafen-sap-panik-welle",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Das kam jetzt überraschend. Obwohl der Anthropic-IPO erfolgreich war, kippte die Stimmung an der Wall Street erneut und es folgte der nächste harte Kursrutsch, besonders für Tech-Aktien. War das der finale Abverkauf?"
     },
     {
       "title": "Nach 50 % Verlust: Coinbase setzt auf zwei neue Märkte – ist das die Rettung?",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Erst E-Mails, dann Flüge und Bankgeschäfte, schließlich Apple und die NSA: In den USA häufen sich massive Systemstörungen. Experten erklären, weshalb selbst alltägliche Wartungsarbeiten weitreichende Folgen haben können."
-    },
-    {
-      "title": "Märkte am Morgen: Nvidia mit Rekord, Stromsteuer runter, Anthropic vor dem Rekord-IPO",
-      "url": "https://www.wallstreet-online.de/nachricht/21709947-maerkte-morgen-nvidia-rekord-stromsteuer-runter-anthropic-rekord-ipo",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia übertrifft die Erwartungen, die Aktie antwortet mit Gewinnen. Berlin senkt die Stromsteuer, Anthropic steuert auf einen Rekord-Börsengang zu und Xi, Putin und Trump treffen sich in Shenzhen. Der Überblick."
-    },
-    {
-      "title": "Huang bekommt eine Absage: Nvidia-Call: 75 Prozent Wachstum angepeilt – SEC prüft mögliche Irreführung",
-      "url": "https://www.wallstreet-online.de/nachricht/21709686-huang-bekommt-absage-nvidia-call-75-prozent-wachstum-angepeilt-sec-prueft-irrefuehrung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia erhöht im Analystencall das Wachstumsziel auf 75 Prozent und weist Huang zurück. Kress äußert sich zu milliardenschweren Zusagen. Doch die SEC prüft laut einem Medienbericht eine mögliche Irreführung von Anlegern."
     }
   ],
   "feedErrors": [
