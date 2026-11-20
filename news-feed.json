@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T20:56:32.518828+00:00",
+  "fetchedAt": "2026-11-20T21:54:22.810098+00:00",
   "articles": [
+    {
+      "title": "Übernahmehammer am Freitagabend? Zscaler explodiert um 20 Prozent",
+      "url": "https://www.deraktionaer.de/artikel/aktien/uebernahmehammer-am-freitagabend-zscaler-explodiert-um-20-prozent-20447925.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 21:29:23 GMT",
+      "description": "   Paukenschlag vor dem Wochenende: Der Cybersecurity-Spezialist CrowdStrike führt einem Medienbericht zufolge Gespräche über eine Übernahme des Konkurrenten Zscaler. Es wäre einer der größten Deals in der Geschichte der Branche. Die Aktien beider AKTIONÄR-Empfehlungen bewegen sich nachbörslich deutlich – in entgegengesetzte Richtungen.  "
+    },
+    {
+      "title": "Wall Street: Ausverkauf vor dem Wochenende – S&P 500 und Dow in der Korrektur",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-ausverkauf-vor-dem-wochenende-sp-500-und-dow-in-der-korrektur-20447909.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 21:10:00 GMT",
+      "description": "   Der Ausverkauf bei Technologiewerten hat sich am Freitag deutlich verschärft und auch andere Branchen erfasst. Der Dow Jones schloss 1,93 Prozent tiefer bei 48.147,33 Punkten. Der S&P 500 brach um 3,70 Prozent auf 6.910,39 Punkte ein und verlor damit den siebten Tag in Folge.  "
+    },
     {
       "title": "Nvidia-Aktie: -13% nach Bericht über Bilanzprüfung der SEC",
       "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-sec-prueft-bilanzierung-aktie-faellt-und-faellt-20447888.html?feed=directrssfeed",
@@ -56,20 +70,6 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 20 Nov 2026 16:19:00 GMT",
       "description": "   Die Bullen erleben ihr blaues Wunder. Passend zum Wetter geht es mit den Kursen weiter nach unten. Der S&P 500 hat im November 5,5 Prozent eingebüßt, was den schlechtesten November seit der Finanzkrise bedeutet. Noch viel stärker kommt Nvidia unter die Räder.  "
-    },
-    {
-      "title": "Wall-Street-Update: Tech-Ausverkauf geht weiter – Anthropic verliert mehr als zehn Prozent",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-tech-ausverkauf-geht-weiter-anthropic-verliert-mehr-als-zehn-prozent-20447750.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 15:55:00 GMT",
-      "description": "   Die Talfahrt an der Nasdaq setzt sich auch am Freitag fort. Nach dem Kursrutsch vom Donnerstag geraten Technologiewerte erneut unter Druck, auch die Anthropic-Aktie verliert an ihrem zweiten Handelstag zweistellig. Der Dow Jones stemmt sich dagegen mit leichten Gewinnen gegen den Trend.  "
-    },
-    {
-      "title": "Bitcoin droht Verlustserie wie 2022 – diese Marken müssen jetzt halten",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-droht-verlustserie-wie-2022-diese-marken-muessen-jetzt-halten-20447643.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 14:27:00 GMT",
-      "description": "   Der Bitcoin findet keinen Halt. Am Freitag rutschte die größte Kryptowährung zeitweise bis auf rund 61.200 Dollar ab und markierte damit den tiefsten Stand seit Anfang Juli. Zuletzt notierte sie bei etwa 61.800 Dollar. Auf Wochensicht steht ein Minus von rund elf Prozent zu Buche.  "
     },
     {
       "title": "IPO: Nicht Anthropic: Blue Lagoon bringt Wellness an die Börse",
