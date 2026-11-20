@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T08:43:01.529034+00:00",
+  "fetchedAt": "2026-11-20T09:37:47.876185+00:00",
   "articles": [
+    {
+      "title": "Siemens Energy: KI-Rutsch – Aktie wieder auf Talfahrt",
+      "url": "https://www.deraktionaer.de/artikel/mobilitaet-oel-energie/siemens-energy-ki-rutsch-aktie-wieder-auf-talfahrt-20447349.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 08:41:00 GMT",
+      "description": "   Die zarte Erholungsbewegung bei Siemens Energy zuletzt war nur von kurzer Dauer. Die Aktie des Energietechnikkonzerns zählt im schwachen Marktumfeld am Freitag wieder einmal zu den größten Verlierern im DAX. Der erneute Abverkauf bei Aktien aus dem KI-Bereich sorgt für Verkaufsdruck.  "
+    },
     {
       "title": "Bitcoin: Seit dem Rekordhoch mehr als halbiert – warum auch das Anthropic-IPO im Fokus steht",
       "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-seit-dem-rekordhoch-mehr-als-halbiert-warum-auch-das-anthropic-ipo-im-fokus-steht-20447364.html?feed=directrssfeed",
@@ -65,18 +72,39 @@
       "description": "   Infineon hat sich am Donnerstag gegen den KI-Ausverkauf gestemmt und bis zum Xetra-Schluss 0,3 Prozent auf 49,35 Euro gewonnen. Heute wird es ernster: Nach dem Rekord-Börsengang von Anthropic fielen Nasdaq und Chipwerte, der Nikkei lag am Freitagmorgen über vier Prozent im Minus.  "
     },
     {
-      "title": "Deutz: Der Vorstand hat reagiert",
-      "url": "https://www.deraktionaer.de/artikel/aktien/deutz-der-vorstand-hat-reagiert-20427104.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 06:33:00 GMT",
-      "description": "   Nach einer sorgfältigen Prüfung hat Deutz wie angekündigt zum kritischen Bericht von Ningi Research Stellung genommen. Die zentralen Schlussfolgerungen daraus seien unbegründet, heißt es in einer online veröffentlichten Stellungnahme. Ob diese ausreicht, um die Aktie wieder auf Kurs zu bringen, muss sich erst noch zeigen.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Nvidia, Palantir, SpaceX: Trumps Millionen-Depot: Bei diesem Timing dürften viele Anleger neidisch werden",
+      "url": "https://www.wallstreet-online.de/nachricht/21722994-nvidia-palantir-spacex-trumps-millionen-depot-timing-duerften-anleger-neidisch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Donald Trumps jüngste Finanzoffenlegung gewährt Einblick in Hunderte Wertpapiergeschäfte. Besonders bemerkenswert ist, was kurz nach einigen Käufen auf Regierungsebene geschah."
+    },
+    {
+      "title": "Geheime Chip-Deals enthüllt: Nvidia unter Druck! Brisante Enthüllungen über KI-Chips für China",
+      "url": "https://www.wallstreet-online.de/nachricht/21723255-geheime-chip-deals-enthuellt-nvidia-druck-brisante-enthuellungen-ki-chips-china",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Brisante Zahlen aus Washington: Die USA erlaubten den Export von fast 900.000 KI-Chips nach China. Auch Alibaba und Tencent erhielten Genehmigungen. Für Nvidia wächst der politische Druck."
+    },
+    {
+      "title": "Gold und Silber crashen: Blutbad bei Goldproduzenten! Wird der Crash dank hoher Margen zur Chance?",
+      "url": "https://www.wallstreet-online.de/nachricht/21722931-gold-silber-crashen-blutbad-goldproduzenten-crash-hoher-margen-chance",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold und Silber stürzen ab und reißen Minenaktien mit. Newmont, Barrick und Pan American Silver geben stark nach. Trotz des Kursrutsches bleiben Kostenpuffer. Daraus könnte für Anleger eine langfristige Chance entstehen."
+    },
+    {
+      "title": "Aktie mit neuem Mehrjahrestief: SAP-Rivale Oracle: Das sieht jetzt ganz finster aus!",
+      "url": "https://www.wallstreet-online.de/nachricht/21722862-aktie-mehrjahrestief-sap-rivale-oracle-finster-aus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Anteile von Hyperscaler Oracle stehen am Freitag vor neuen Mehrjahrestiefs. Zweistellige Kurse sind jetzt nur noch eine Frage der Zeit."
     },
     {
       "title": "2027 nächste Inflationswelle?: Alarmstufe Inflation! Erzeugerpreise schießen um 8,1 Prozent nach oben",
@@ -177,8 +205,8 @@
       "description": "Buffett-Liebling und Dividendenwert: Coca-Cola galt als sichere Bank. Nach 40 Prozent Plus liegt das KGV auf einem 25-Jahres-Hoch, und im Softdrink-Geschäft nimmt der Gegenwind zu."
     },
     {
-      "title": "Anthropic eröffnet zu $111,50: Anthropic startet durch, doch DAX schließt im Minus",
-      "url": "https://www.wallstreet-online.de/nachricht/21720447-anthropic-111-50-anthropic-durch-dax-schliesst-minus",
+      "title": "Techwerte fallen zurück: DAX schließt im Minus, doch Anthropic startet durch",
+      "url": "https://www.wallstreet-online.de/nachricht/21720447-techwerte-fallen-zurueck-dax-schliesst-minus-anthropic",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der DAX hat klar schwächer geschlossen. Anthropic sorgt an der Wall Street dagegen für einen spektakulären Börsenstart. Die Aktie eröffnet 34 Prozent über dem Ausgabepreis."
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die auf ländliche Bedürfnisse zugeschnittene US-Heimwerkerkette Tractor Supply bietet dank eines an Fahrt gewinnenden Turnarounds hohe Rendite-Chancen."
-    },
-    {
-      "title": "Black Friday: Das bringen die Schnäppchen von Amazon & Co.",
-      "url": "https://www.wallstreet-online.de/nachricht/21706434-black-friday-schnaeppchen-amazon-co",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Black Friday verspricht Rekordrabatte. Viele der Angebote sind aber alles andere als Schnäppchen, wie gleich mehrere Untersuchungen zeigen. Teilweise zahlen Kunden während der Aktionstage sogar mehr als zuvor."
-    },
-    {
-      "title": "Das erwartet den Euro: Petrodollar vor dem Aus, eine neue Dollar-Ära beginnt",
-      "url": "https://www.wallstreet-online.de/nachricht/21705456-erwartet-euro-petrodollar-aus-dollar-aera-beginnt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der US-Dollar steigt auf den höchsten Stand seit 19 Monaten, der Euro stürzt ab. Dahinter steckt eine unerwartete Entwicklung weg vom Petrodollar und hin zu einem so genannten \"Chip-Dollar\"."
-    },
-    {
-      "title": "Börse, Baby!: Clorox: Diese Aktie kann mehr als sauber!",
-      "url": "https://www.wallstreet-online.de/nachricht/21707376-boerse-baby-clorox-aktie-sauber",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Saubere 4,7 Prozent Dividendenrendite trotz jüngstem Kurssprung – und immer noch unter historischer Bewertung? Das ist die Dividendenaktie Clorox."
-    },
-    {
-      "title": "KI-Aktien-Crash: Erst der Anfang, Panik steht noch bevor?",
-      "url": "https://www.wallstreet-online.de/nachricht/21707613-ki-aktien-crash-anfang-panik-bevor",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wir werfen einen Blick auf die aktuelle Marktlage und mögliche Szenarien."
     }
   ],
   "feedErrors": [
