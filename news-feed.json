@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T19:04:19.933141+00:00",
+  "fetchedAt": "2026-11-20T20:05:47.183143+00:00",
   "articles": [
+    {
+      "title": "Thyssenkrupp Nucera: Schlechte Nachrichten am Freitagabend",
+      "url": "https://www.deraktionaer.de/artikel/aktien/thyssenkrupp-nucera-schlechte-nachrichten-am-freitagabend-20447876.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 19:30:00 GMT",
+      "description": "   Der Elektrolyse-Spezialist Thyssenkrupp Nucera hat am Freitagabend überraschend vorläufige Zahlen für das Geschäftsjahr 2025/26 vorgelegt – und die eigene Prognose verfehlt. Fehlerbehebungen, Mehrkosten bei Neubauprojekten und eine Wertberichtigung auf eine Pilotanlage belasteten das Ergebnis stärker als gedacht.  "
+    },
+    {
+      "title": "Bitcoin & Co auf Talfahrt – jetzt rückt das Jahrestief in Reichweite",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-co-auf-talfahrt-jetzt-rueckt-das-jahrestief-in-reichweite-20447870.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 19:10:00 GMT",
+      "description": "   Der Ausverkauf am Kryptomarkt hat sich am Freitagabend deutlich verschärft. Der Bitcoin fiel erstmals seit Juli unter die Marke von 60.000 Dollar und sackte zeitweise bis auf 58.018 Dollar ab. Damit trennen ihn nur noch wenige Prozentpunkte vom Jahrestief bei rund 57.  "
+    },
     {
       "title": "Börsenpunk: Nvidia - Chance oder Risiko? Burggraben-Aktie im Angebot",
       "url": "https://www.deraktionaer.de/artikel/aktien/boersenpunk-nvidia-chance-oder-risiko-burggraben-aktie-im-angebot-20447557.html?feed=directrssfeed",
@@ -58,18 +72,11 @@
       "description": "   Entgegen allen Hoffnungen hat der Rekord-Börsengang des KI-Riesen Anthropic am Vortag die Misere von Technologieaktien nicht beenden können. Im Gegenteil: Der Ausverkauf dürfte auch am Freitag weitergehen.  Der Broker IG taxierte den Nasdaq 100 rund eineinhalb Stunden vor dem Auftakt auf 26.  "
     },
     {
-      "title": "Arbeitet Apple an KI-Assistenten?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/arbeitet-apple-an-ki-assistenten-20447638.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 13:34:00 GMT",
-      "description": "    Apple arbeitet offenbar an einem KI-Assistenten, der Aufgaben eigenständig erledigen soll. Das wurde heute anhand von Stellenanzeigen auf Apples Website bekannt. Der Konzern sucht unter anderem eine erfahrene Führungskraft für einen „proaktiven KI-Assistenten“.  "
-    },
-    {
-      "title": "Tesla: Unter Druck",
-      "url": "https://www.deraktionaer.de/artikel/aktien/tesla-unter-druck-20447359.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 13:34:00 GMT",
-      "description": "   Die Tech-Werte stehen unter Druck. Die Tesla-Aktie hat am Donnerstag rund 2,4 Prozent verloren. Seit Monatsbeginn hat das Papier 7,5 Prozent eingebüßt. Charttechnisch ist das Papier angeschlagen. Dabei rücken die Gespräche über einen möglichen Zusammenschluss von Tesla und SpaceX zunehmend ins Zentrum.  "
+      "title": "IPO: Nicht Anthropic: Blue Lagoon bringt Wellness an die Börse",
+      "url": "https://www.wallstreet-online.de/nachricht/21724728-ipo-anthropic-blue-lagoon-bringt-wellness-boerse",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während Anleger auf Anthropic blicken, wagt Islands Blue Lagoon den Börsengang. Der Betreiber des berühmten Thermalbads setzt auf den Wellness-Boom und erwartet einen deutlichen Umsatzsprung. Das steckt hinter der Aktie."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Kurssturz bei Deutz: Ningi Research erhebt schwere Vorwürfe zur FFG-Übernahme. Im Zentrum stehen ein 45-Prozent-Anteil, geteilte Gewinne und die Schuldenlast des Motorenbauers."
-    },
-    {
-      "title": "Robotaxi-Boom: 75 % mehr Umsatz: Doch dieser China-Konzern bleibt tiefrot",
-      "url": "https://www.wallstreet-online.de/nachricht/21711993-robotaxi-boom-75-umsatz-china-konzern-bleibt-tiefrot",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Pony AI hat den Umsatz um 75 Prozent gesteigert. Vor allem Robotaxis boomen, doch unter dem Strich bleibt der chinesische Konzern tief in den roten Zahlen."
     }
   ],
   "feedErrors": [
