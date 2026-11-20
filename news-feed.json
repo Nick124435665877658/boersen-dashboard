@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T15:00:09.475188+00:00",
+  "fetchedAt": "2026-11-20T16:01:26.420094+00:00",
   "articles": [
     {
       "title": "Bitcoin droht Verlustserie wie 2022 – diese Marken müssen jetzt halten",
@@ -72,11 +72,25 @@
       "description": "   Nach 13 Jahren Wartezeit seit der Vorgängerversion ist GTA VI endlich da, und die Fans feiern weltweit. Vor allem die Lebendigkeit dieser gewaltigen Spielwelt begeistert die Kritiker. Gute Computerspiele sind eben mehr als Zeitvertreib: Sie können Gesamtkunstwerke sein, in denen Wort, Bild und Klang verschmelzen.  "
     },
     {
+      "title": "Parallelen zu DotCom: KI-Crash: Sind wir schon in 1998?",
+      "url": "https://www.wallstreet-online.de/nachricht/21725073-parallelen-dotcom-ki-crash-1998",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Kapitalmärkte haben ein Liquiditätsproblem. Hier ergeben sich Parallelen zur DotCom-Blase aus dem Jahr 2000, aber auch entscheidende Unterschiede."
+    },
+    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Nach 14 Monats Tief: Alle sprechen vom Crash, aber was ist wirklich los bei Silber?",
+      "url": "https://www.wallstreet-online.de/nachricht/21724812-14-monats-tief-sprechen-crash-los-silber",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Silber stürzt auf den tiefsten Stand seit 14 Monaten. Doch trotz des massiven Ausverkaufs sehen Experten Chancen auf eine Erholung. Warum der Markt Hoffnung macht und welche Gefahren Anleger nicht unterschätzen sollten."
     },
     {
       "title": "50% Kursplus in einem Monat: Diese Biotech-Aktie hilft gegen den KI-Blues",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Krypto-Trader setzen auf einen deutlich größeren Börsenerfolg von Anthropic als erwartet und hoffen auf einen enormen Kurssprung."
-    },
-    {
-      "title": "New Momentum for Potash: Millennial Potash Expands Potash Mineralization!",
-      "url": "https://www.wallstreet-online.de/nachricht/21706995-new-momentum-for-potash-millennial-potash-expands-potash-mineralization",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "As potash becomes increasingly important for food security, Millennial Potash reports further drilling success. The feasibility study is expected by year-end."
-    },
-    {
-      "title": "Vier Tage IT-Chaos: Apple, Banken, Flüge, NSA: IT-Pannenserie trifft die USA – das steckt dahinter",
-      "url": "https://www.wallstreet-online.de/nachricht/21710076-tage-it-chaos-apple-banken-fluege-nsa-it-pannenserie-trifft-usa-steckt-dahinter",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Erst E-Mails, dann Flüge und Bankgeschäfte, schließlich Apple und die NSA: In den USA häufen sich massive Systemstörungen. Experten erklären, weshalb selbst alltägliche Wartungsarbeiten weitreichende Folgen haben können."
     }
   ],
   "feedErrors": [
