@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T16:01:26.420094+00:00",
+  "fetchedAt": "2026-11-20T17:03:37.559556+00:00",
   "articles": [
+    {
+      "title": "Kapitulation bei Nvidia: Wie tief geht’s noch?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/kapitulation-bei-nvidia-wie-tief-gehts-noch-20447782.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 16:19:00 GMT",
+      "description": "   Die Bullen erleben ihr blaues Wunder. Passend zum Wetter geht es mit den Kursen weiter nach unten. Der S&P 500 hat im November 5,5 Prozent eingebüßt, was den schlechtesten November seit der Finanzkrise bedeutet. Noch viel stärker kommt Nvidia unter die Räder.  "
+    },
+    {
+      "title": "Wall-Street-Update: Tech-Ausverkauf geht weiter – Anthropic verliert mehr als zehn Prozent",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-update-tech-ausverkauf-geht-weiter-anthropic-verliert-mehr-als-zehn-prozent-20447750.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 15:55:00 GMT",
+      "description": "   Die Talfahrt an der Nasdaq setzt sich auch am Freitag fort. Nach dem Kursrutsch vom Donnerstag geraten Technologiewerte erneut unter Druck, auch die Anthropic-Aktie verliert an ihrem zweiten Handelstag zweistellig. Der Dow Jones stemmt sich dagegen mit leichten Gewinnen gegen den Trend.  "
+    },
     {
       "title": "Bitcoin droht Verlustserie wie 2022 – diese Marken müssen jetzt halten",
       "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-droht-verlustserie-wie-2022-diese-marken-muessen-jetzt-halten-20447643.html?feed=directrssfeed",
@@ -58,18 +72,18 @@
       "description": "   Anthropic startete am Donnerstag stark in den Handel. Vom Ausgabepreis bei 83 Dollar stieg die Aktie zeitweise auf über 115 Dollar. Doch dann setzten Gewinnmitnahmen ein. Die Aktie schloss am Ende 17 Prozent im Plus bei 97,17 Dollar. Zum Start in den Freitagshandel dürfte es allerdings noch weiter nach unten gehen.  "
     },
     {
-      "title": "Nvidia-Aktie: Huang-Stiftung jetzt mit 350-Millionen-Rekordzusage",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/coreweave-aktie-huang-stiftung-sagt-350-millionen-zu-chance-20447450.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 10:11:00 GMT",
-      "description": "   Die Stiftung von Jensen Huang und seiner Frau Lori will 350 Millionen Dollar für Rechenzeit bei CoreWeave ausgeben. Das geht aus ihrer jüngsten Steuererklärung hervor, über die Bloomberg am Donnerstag berichtete. Es ist die größte Zusage seit Gründung der Stiftung im Jahr 2007 – und sie kommt in der Woche, in der Nvidias Verwaltungsrat eine Rück"
+      "title": "2008 war ein Kindergeburtstag: Schiff: Goldpreisverfall könnte finanzielles Blutbad durch die Fed ankündigen",
+      "url": "https://www.wallstreet-online.de/nachricht/21723252-2008-kindergeburtstag-schiff-goldpreisverfall-finanzielles-blutbad-fed-ankuendigen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ausgerechnet der Einbruch des Goldpreises ist für Peter Schiff ein Alarmsignal. Der Ökonom fürchtet wesentlich größere Vermögensverluste und sieht die US-Notenbank in einer gefährlichen Zwickmühle."
     },
     {
-      "title": "Rekordstart für GTA 6, Rückschlag für Take-Two Aktie: Chance für Anleger oder Warnschuss?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/rekordstart-fuer-gta-6-rueckschlag-fuer-take-two-aktie-chance-fuer-anleger-oder-warnschuss-20447453.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 09:56:00 GMT",
-      "description": "   Nach 13 Jahren Wartezeit seit der Vorgängerversion ist GTA VI endlich da, und die Fans feiern weltweit. Vor allem die Lebendigkeit dieser gewaltigen Spielwelt begeistert die Kritiker. Gute Computerspiele sind eben mehr als Zeitvertreib: Sie können Gesamtkunstwerke sein, in denen Wort, Bild und Klang verschmelzen.  "
+      "title": "Polen hängt Deutschland ab: Polnische Aktien: Lohnt sich jetzt der Einstieg an der Warschauer Börse",
+      "url": "https://www.wallstreet-online.de/video/21725832-polen-haengt-deutschland-ab-polnische-aktien-lohnt-einstieg-warschauer-boerse",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Polens Wirtschaft ist 2025 um 3,8 Prozent gewachsen und lässt Deutschland damit klar hinter sich. Für Martin Lück, Chefanlagestratege von Franklin Templeton Deutschland, ist das kein Zufall."
     },
     {
       "title": "Parallelen zu DotCom: KI-Crash: Sind wir schon in 1998?",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Amazon investiert weitere sieben Milliarden US-Dollar in Indiens Energiewende. Mit insgesamt elf Milliarden US-Dollar sichert sich der Konzern Strom für die Zukunft."
-    },
-    {
-      "title": "Washington als Angriffsziel?: US-Geheimdienste enthüllen mögliche Iran-Pläne – Trump droht wie nie zuvor!",
-      "url": "https://www.wallstreet-online.de/nachricht/21710214-washington-angriffsziel-us-geheimdienste-enthuellen-iran-plaene-trump-droht-zuvor",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "US-Geheimdienste sollen auf erschreckende Angriffspläne des Iran gestoßen sein. Donald Trump droht mit Konsequenzen von historischem Ausmaß. Am Ölmarkt zeichnet sich eine überraschende Entwicklung ab."
-    },
-    {
-      "title": "Krypto-Wetten auf Anthropic – ist der KI-Gigant wertvoller als erwartet?",
-      "url": "https://www.wallstreet-online.de/nachricht/21710433-krypto-wetten-anthropic-ki-gigant-wertvoller-erwartet",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Krypto-Trader setzen auf einen deutlich größeren Börsenerfolg von Anthropic als erwartet und hoffen auf einen enormen Kurssprung."
     }
   ],
   "feedErrors": [
