@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T10:37:58.658765+00:00",
+  "fetchedAt": "2026-11-20T11:34:24.852767+00:00",
   "articles": [
     {
       "title": "Nvidia-Aktie: Huang-Stiftung jetzt mit 350-Millionen-Rekordzusage",
@@ -77,6 +77,34 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+    },
+    {
+      "title": "Europas Gasriese: Cyberangriff auf Equinor gestoppt: Öl- und Gasproduktion läuft normal",
+      "url": "https://www.wallstreet-online.de/nachricht/21724497-europas-gasriese-cyberangriff-equinor-gestoppt-oel-gasproduktion-laeuft-normal",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Equinor hat einen mehrtägigen Cyberangriff gestoppt. Die Öl- und Gasproduktion blieb unbeeinträchtigt. Hinweise auf Datendiebstahl gibt es bislang nicht."
+    },
+    {
+      "title": "Bitcoin: Die Zyklus-Lüge?!",
+      "url": "https://www.wallstreet-online.de/nachricht/21724533-bitcoin-zyklus-luege",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Und welche Faktoren könnten dem Ganzen noch einen Strich durch die Rechnung machen?"
+    },
+    {
+      "title": "Aktionäre ziehen vor Gericht: Klage gegen Alibaba: Haben die Chinesen Risiken beim Export verschwiegen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21724326-aktionaere-gericht-klage-alibaba-chinesen-risiken-export-verschwiegen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Aktionäre verklagen Alibaba, Washington dreht den Chip-Hahn weiter zu, und der Gewinn enttäuscht. Konzernchef Eddie Wu rechnet bereits mit langsamerem Cloudwachstum. Was jetzt für die Aktie auf dem Spiel steht."
+    },
+    {
+      "title": "Alarm an der Nato-Ostflanke: Russischer Marschflugkörper in Polen explodiert! Was machen Rheinmetall und Co?",
+      "url": "https://www.wallstreet-online.de/nachricht/21724416-alarm-nato-ostflanke-russischer-marschflugkoerper-polen-explodiert-rheinmetall-co",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein russischer Marschflugkörper ist in Polen abgestürzt. Nach Luftalarm in 42 Kreisen und Städten gibt Warschau Entwarnung. Rheinmetall, Hensoldt und Renk liegen am Vormittag im Minus. So bewegen sich die Rüstungsaktien."
     },
     {
       "title": "Kaufen, wenn andere flüchten: Michael Burry nutzt das Börsenbeben eiskalt aus – diese sieben Titel kauft er",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
-    },
-    {
-      "title": "Aktie erholt sich: NVIDIA: Wieder ein Rekordquartal! Doch jetzt ermittelt die SEC",
-      "url": "https://www.wallstreet-online.de/nachricht/21708693-aktie-erholt-sich-nvidia-rekordquartal-ermittelt-sec",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die ersten Earnings nach dem CEO-Beben. Nvidia liefert Rekordzahlen, doch die SEC ermittelt und Anleger haben viele Fragen zum Chefwechsel. Was wird aus den zahlreichen Deals der Huang-Ära?"
-    },
-    {
-      "title": "Das erwartet die Märkte: Nvidia: Anleger dürfen sich auf ein Kursspektakel freuen",
-      "url": "https://www.wallstreet-online.de/nachricht/21708246-erwartet-maerkte-nvidia-anleger-kursspektakel-freuen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Optionshändler rechnen nach den Zahlen mit einem Kurssprung von rund 335 Milliarden US-Dollar in die eine oder andere Richtung. Der Gewinn könnte in Zukunft das BIP Thailands oder Österreichs übersteigen."
-    },
-    {
-      "title": "Krypto-Wale verkaufen: Warum das große Geld gerade einen Bogen um Bitcoin macht",
-      "url": "https://www.wallstreet-online.de/nachricht/21707394-krypto-wale-verkaufen-grosse-geld-gerade-bogen-bitcoin",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Hohe Zinsen und Milliardenabflüsse setzen der Kryptowährung zu, große Halter verkaufen. Die DZ Bank nennt die Marke, an der sich jetzt alles entscheidet."
-    },
-    {
-      "title": "Bank warnt vor Überangebot: SanDisk, Micron, SK Hynix: Wen trifft es am härtesten?",
-      "url": "https://www.wallstreet-online.de/nachricht/21707193-bank-warnt-ueberangebot-sandisk-micron-sk-hynix-trifft-haertesten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eine chinesische Investmentbank schlägt Alarm: Bei Speicherchips droht schon 2027 ein Überangebot. Ein bekannter Hersteller steht dabei besonders im Feuer. Doch die Analysten haben auch klare Favoriten."
     }
   ],
   "feedErrors": [
