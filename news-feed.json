@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T11:34:24.852767+00:00",
+  "fetchedAt": "2026-11-20T12:38:45.649331+00:00",
   "articles": [
+    {
+      "title": "130 Prozent mit diesem AKTIONÄR-Tipp – was geht noch?",
+      "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/130-prozent-mit-diesem-aktionaer-tipp-was-geht-noch-20447498.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 12:00:00 GMT",
+      "description": "   Ob Staubsauger, Heißluftfritteuse, Eismaschine oder Gesichtsmaske – SharkNinja trifft mit immer neuen Produkten den Nerv der Kunden. Die Aktie hat sich seit der AKTIONÄR-Empfehlung mehr als verdoppelt. Doch wie viel Potenzial steckt noch in dem Überflieger?  "
+    },
+    {
+      "title": "Anthropic: Aktie vorbörslich kräftig im Minus – droht jetzt sogar der Rutsch unter den Ausgabepreis?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-aktie-vorboerslich-kraeftig-im-minus-droht-jetzt-sogar-der-rutsch-unter-den-ausgabepreis-20447563.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 11:52:00 GMT",
+      "description": "   Anthropic startete am Donnerstag stark in den Handel. Vom Ausgabepreis bei 83 Dollar stieg die Aktie zeitweise auf über 115 Dollar. Doch dann setzten Gewinnmitnahmen ein. Die Aktie schloss am Ende 17 Prozent im Plus bei 97,17 Dollar. Zum Start in den Freitagshandel dürfte es allerdings noch weiter nach unten gehen.  "
+    },
     {
       "title": "Nvidia-Aktie: Huang-Stiftung jetzt mit 350-Millionen-Rekordzusage",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/coreweave-aktie-huang-stiftung-sagt-350-millionen-zu-chance-20447450.html?feed=directrssfeed",
@@ -58,25 +72,25 @@
       "description": "   SpaceX hat am Donnerstag Anleihen über 32 Milliarden Dollar verkauft, um Nvidia-Chips zu finanzieren – und muss Investoren dafür eine Rendite bieten, die kaum zu einem soliden Schuldner passt. Die größte Tranche bringt 8,26 Prozent.  "
     },
     {
-      "title": "DAX-Abverkauf nimmt Fahrt auf – Siemens Energy & Co im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-abverkauf-nimmt-fahrt-auf-siemens-energy-co-im-fokus-20447306.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 08:00:00 GMT",
-      "description": "   Der DAX steht am Freitag erneut unter Druck und steuert auf den sechsten Verlusttag in Folge zu. Die Euphorie um das Börsendebüt von Anthropic ist schnell verpufft, während der Nasdaq 100 auf den tiefsten Stand seit April gefallen ist. Sorgen um den weiteren Ausbau von Rechenzentren in den USA und anhaltende Zinssorgen belasten die Stimmung zusä"
-    },
-    {
-      "title": "Bund und UniCredit einig: Was heißt das für Commerzbank-Aktionäre?",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/commerzbank-20447321.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 07:59:58 GMT",
-      "description": "   Der Bund und UniCredit sind sich scheinbar einig, was die Übernahme der Commerzbank angeht. Denn Mitte der Woche wurden Eckpunkte zum weiteren Vorgehen bei der Fusion bekannt. An der Börse stellt sich daher die Frage, was all das für Aktionäre bedeutet.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (12/2025)."
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Filialschließungen drohen: Gewinn verdoppelt! Eurocash überrascht mit Börsenplänen für Frisco",
+      "url": "https://www.wallstreet-online.de/nachricht/21723321-filialschliessungen-drohen-gewinn-verdoppelt-eurocash-ueberrascht-boersenplaenen-frisco",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Polens Einzelhandelskonzern Eurocash treibt seinen Umbau voran. Die Online-Tochter Frisco könnte an die Börse gehen. Gleichzeitig sollen unrentable Filialen schließen. Der Quartalsgewinn steigt deutlich."
+    },
+    {
+      "title": "Nach dem Aktiensplit: SanDisk: Ist die Aktie jetzt ein Schnäppchen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21724734-aktiensplit-sandisk-aktie-schnaeppchen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wer in sein Depot schaut und seine SanDisk-Position betrachtet, mag sich vielleicht kurz erschrocken haben."
     },
     {
       "title": "Europas Gasriese: Cyberangriff auf Equinor gestoppt: Öl- und Gasproduktion läuft normal",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Meta, Amazon und Microsoft stehen bei Großinvestoren hoch im Kurs. Gleichzeitig landet Alphabet ganz oben auf den Verkaufslisten. Das zeigt eine Auswertung der jüngsten 13F-Meldungen."
-    },
-    {
-      "title": "Neue Impulse für Kali: Millennial Potash erweitert Kalimineralisierung!",
-      "url": "https://www.wallstreet-online.de/nachricht/21706923-impulse-kali-millennial-potash-erweitert-kalimineralisierung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während Kali für die Ernährungssicherheit immer wichtiger wird, meldet Millennial Potash weitere Bohrerfolge. Bis Jahresende soll die Machbarkeitsstudie vorliegen."
-    },
-    {
-      "title": "Ihre wichtigsten Termine: Heute im Fokus: Target, Drägerwerk, Oracle, TJX, Lowe's, Bullish und Novartis",
-      "url": "https://www.wallstreet-online.de/nachricht/21693807-wichtigsten-termine-fokus-target-draegerwerk-oracle-tjx-lowe-s-bullish-novartis",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     }
   ],
   "feedErrors": [
