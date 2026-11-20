@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T20:05:47.183143+00:00",
+  "fetchedAt": "2026-11-20T20:56:32.518828+00:00",
   "articles": [
+    {
+      "title": "Nvidia-Aktie: -13% nach Bericht über Bilanzprüfung der SEC",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-sec-prueft-bilanzierung-aktie-faellt-und-faellt-20447888.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 20 Nov 2026 20:00:00 GMT",
+      "description": "   Die Krise bei Nvidia weitet sich aus. Die US-Börsenaufsicht SEC untersucht nach einem Exklusivbericht der Nachrichtenagentur Reuters die Bilanzierungspraktiken des Chipkonzerns. Zwei eingeweihte Personen hätten bestätigt, dass Ermittler der Vollzugsabteilung mögliche Unregelmäßigkeiten in der Rechnungslegung prüften.  "
+    },
     {
       "title": "Thyssenkrupp Nucera: Schlechte Nachrichten am Freitagabend",
       "url": "https://www.deraktionaer.de/artikel/aktien/thyssenkrupp-nucera-schlechte-nachrichten-am-freitagabend-20447876.html?feed=directrssfeed",
@@ -63,13 +70,6 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 20 Nov 2026 14:27:00 GMT",
       "description": "   Der Bitcoin findet keinen Halt. Am Freitag rutschte die größte Kryptowährung zeitweise bis auf rund 61.200 Dollar ab und markierte damit den tiefsten Stand seit Anfang Juli. Zuletzt notierte sie bei etwa 61.800 Dollar. Auf Wochensicht steht ein Minus von rund elf Prozent zu Buche.  "
-    },
-    {
-      "title": "Opening Bell: Wall Street weitet Verluste aus; Gold, Volatilität, S&P500, Anthrophic, Nvidia, AMD, Target, Walmart im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/aktien/opening-bell-wall-street-weitet-verluste-aus-gold-volatilitaet-sp500-anthrophic-nvidia-amd-target-walmart-im-fokus-20447659.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 14:00:07 GMT",
-      "description": "   Entgegen allen Hoffnungen hat der Rekord-Börsengang des KI-Riesen Anthropic am Vortag die Misere von Technologieaktien nicht beenden können. Im Gegenteil: Der Ausverkauf dürfte auch am Freitag weitergehen.  Der Broker IG taxierte den Nasdaq 100 rund eineinhalb Stunden vor dem Auftakt auf 26.  "
     },
     {
       "title": "IPO: Nicht Anthropic: Blue Lagoon bringt Wellness an die Börse",
