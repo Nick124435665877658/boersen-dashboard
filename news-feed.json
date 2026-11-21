@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T07:52:15.780669+00:00",
+  "fetchedAt": "2026-11-21T08:54:59.536842+00:00",
   "articles": [
     {
       "title": "Dank Palo Alto: Startet jetzt die nächste Cybersecurity-Kaufwelle?",
@@ -70,6 +70,34 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 20 Nov 2026 17:10:00 GMT",
       "description": "   Im schwachen Gesamtmarkt sticht am Freitag die Aktie von Gap mit einem Kursplus von rund 13 Prozent heraus. Auslöser sind die Zahlen zum dritten Geschäftsquartal, die der US-Modehändler am Vorabend vorgelegt hat. Der Kurssprung ist umso erstaunlicher, da Gap dabei die Jahresprognose gesenkt hat.  "
+    },
+    {
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Nickel und Platin: Canada Nickel gönnt sich Zeit – Sibanye-Stillwater startet den 500 Millionen-Dollar-Schritt!",
+      "url": "https://www.wallstreet-online.de/nachricht/21723375-nickel-platin-canada-nickel-goennt-zeit-sibanye-stillwater-500-millionen-dollar-schritt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der WPIC erwartet für Platin 2027 ein Defizit. Canada Nickel verlängert Kredit, Sibanye-Stillwater leitet den Abbau von 500 Mio. USD Schulden ein. Was folgt jetzt?"
+    },
+    {
+      "title": "Gold und Projektfortschritte: AMEX legt bei Perron nach: 200 Meter Rampe und Baustart für die Stromversorgung!",
+      "url": "https://www.wallstreet-online.de/nachricht/21724164-gold-projektfortschritte-amex-legt-perron-nach-200-meter-rampe-baustart-stromversorgung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "AMEX meldet 200 Meter Rampenvortrieb, startet den Bau der Stromleitung und installiert die Bewetterung. Wie diese Fortschritte Perrons nächste Entwicklungsphase vorbereiten."
+    },
+    {
+      "title": "Community Rückblick: Nvidia Crash: \"Das was jetzt passiert, ist das Resultat aus ungezügelter Gier\"",
+      "url": "https://www.wallstreet-online.de/nachricht/21725841-community-rueckblick-nvidia-crash-das-passiert-resultat-ungezuegelter-gier",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia im freien Fall: Trotz starker Quartalszahlen rauscht die Aktie ab. Während einige wallstreetONLINE User Kaufkurse wittern, warnen andere vor einer tiefgreifenden Krise. Wie weit geht der Absturz noch?"
     },
     {
       "title": "IPO: Nicht Anthropic: Blue Lagoon bringt Wellness an die Börse",
@@ -749,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Im wallstreetONLINE Trading Desk erklärt Trading-Experte Benjamin Feingold, wieso er ausgerechnet für Rheinmetall starke Chancen auf eine Konsolidierung sieht."
-    },
-    {
-      "title": "Milliardenpoker bei BASF: Bis zu 28 Euro je Evonik-Aktie: Warum BASF damit noch nicht am Ziel wäre",
-      "url": "https://www.wallstreet-online.de/nachricht/21712050-milliardenpoker-basf-28-euro-evonik-aktie-basf-ziel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bis zu 28 Euro je Evonik-Aktie: Insider nennen eine neue Preisspanne im Übernahmepoker mit BASF. Doch der Widerstand bleibt groß. Warum ein höheres Gebot allein den Weg zum milliardenschweren Deal kaum freimachen dürfte."
-    },
-    {
-      "title": "Dividende von 30 USD je Aktie: Hamsterkäufe bei Costco: Was die US-Kundschaft jetzt in Panik bunkert",
-      "url": "https://www.wallstreet-online.de/nachricht/21711840-dividende-30-usd-aktie-hamsterkaeufe-costco-us-kundschaft-panik-bunkert",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach einem großen E-Mail-Ausfall und dem landesweiten Flugstopp in den USA decken sich Kundinnen und Kunden mit Notvorräten ein. Die Analysten sehen darin Rückenwind für den Großhändler."
-    },
-    {
-      "title": "Vorwürfe von Ningi Research: Deutz stürzt zweistellig ab: Shortseller attackiert die Milliardenübernahme",
-      "url": "https://www.wallstreet-online.de/nachricht/21711966-vorwuerfe-ningi-research-deutz-stuerzt-zweistellig-ab-shortseller-attackiert-milliardenuebernahme",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Kurssturz bei Deutz: Ningi Research erhebt schwere Vorwürfe zur FFG-Übernahme. Im Zentrum stehen ein 45-Prozent-Anteil, geteilte Gewinne und die Schuldenlast des Motorenbauers."
     }
   ],
   "feedErrors": [
