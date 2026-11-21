@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-21T10:53:07.109753+00:00",
+  "fetchedAt": "2026-11-21T11:50:42.756557+00:00",
   "articles": [
+    {
+      "title": "Diese Expertin rät: Vorsicht vor falschen Signalen!",
+      "url": "https://www.deraktionaer.de/artikel/promo/diese-expertin-raet-vorsicht-vor-falschen-signalen-20446481.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 21 Nov 2026 11:00:00 GMT",
+      "description": "   Wer Risiken frühzeitig erkennt, kann böse Überraschungen vermeiden. Wer ein gutes Gespür für Warnsignale entwickelt, weiß mit brenzligen Situationen umzugehen. Wer Verhaltensmuster zu deuten weiß, kann sich darauf einstellen. Das gilt an der Börse wie im richtigen Leben.  "
+    },
+    {
+      "title": "Geht Bitcoin jetzt unter?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/geht-bitcoin-jetzt-unter-20445525.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 21 Nov 2026 11:00:00 GMT",
+      "description": "   Die Kryptowährung steht unter Druck, die Stimmung ist im Keller. Jetzt rückt die Marke von 60.000 Dollar ins Zentrum. Doch zwischen angeschlagenem Chart und endgültigem Absturz liegt ein großer Unterschied.  "
+    },
     {
       "title": "Twitter ist weg von der Börse, oder doch nicht?",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/twitter-ist-weg-von-der-boerse-oder-doch-nicht-20445617.html?feed=directrssfeed",
@@ -58,25 +72,18 @@
       "description": "   Die Krise bei Nvidia weitet sich aus. Die US-Börsenaufsicht SEC untersucht nach einem Exklusivbericht der Nachrichtenagentur Reuters die Bilanzierungspraktiken des Chipkonzerns. Zwei eingeweihte Personen hätten bestätigt, dass Ermittler der Vollzugsabteilung mögliche Unregelmäßigkeiten in der Rechnungslegung prüften.  "
     },
     {
-      "title": "Thyssenkrupp Nucera: Schlechte Nachrichten am Freitagabend",
-      "url": "https://www.deraktionaer.de/artikel/aktien/thyssenkrupp-nucera-schlechte-nachrichten-am-freitagabend-20447876.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 19:30:00 GMT",
-      "description": "   Der Elektrolyse-Spezialist Thyssenkrupp Nucera hat am Freitagabend überraschend vorläufige Zahlen für das Geschäftsjahr 2025/26 vorgelegt – und die eigene Prognose verfehlt. Fehlerbehebungen, Mehrkosten bei Neubauprojekten und eine Wertberichtigung auf eine Pilotanlage belasteten das Ergebnis stärker als gedacht.  "
-    },
-    {
-      "title": "Bitcoin & Co auf Talfahrt – jetzt rückt das Jahrestief in Reichweite",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-co-auf-talfahrt-jetzt-rueckt-das-jahrestief-in-reichweite-20447870.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 19:10:00 GMT",
-      "description": "   Der Ausverkauf am Kryptomarkt hat sich am Freitagabend deutlich verschärft. Der Bitcoin fiel erstmals seit Juli unter die Marke von 60.000 Dollar und sackte zeitweise bis auf 58.018 Dollar ab. Damit trennen ihn nur noch wenige Prozentpunkte vom Jahrestief bei rund 57.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Aktien: Steigt 2027 alles?! Dieses Zeichen übersieht der Markt",
+      "url": "https://www.wallstreet-online.de/nachricht/21728601-aktien-2027-alles-zeichen-uebersieht-markt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Aktien sehen in der abgelaufenen Woche einen heftigen Ausverkauf. Allerdings gibt es klare Zeichen, die für die Bullen sprechen. Welche das sind, besprechen wir in dieser Ausgabe."
     },
     {
       "title": "Bis 2031: Solana vor 1.450-%-Rallye? – Bitwise wagt Mega-Prognose",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Uber und Momenta starten in München einen Robotaxi-Test. Ausgewählte Fahrgäste können erstmals in Deutschland autonome Fahrten buchen."
-    },
-    {
-      "title": "Bitcoin: Was steckt wirklich hinter der aktuellen Schwäche?",
-      "url": "https://www.wallstreet-online.de/nachricht/21712182-bitcoin-steckt-aktuellen-schwaeche",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "3 Gründe, die kaum jemand sieht oder sehen möchte – plus 2 spannende Szenarien, die Trader jetzt unbedingt beobachten sollten."
     }
   ],
   "feedErrors": [
