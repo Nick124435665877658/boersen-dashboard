@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T17:48:29.665212+00:00",
+  "fetchedAt": "2026-11-21T18:53:52.344775+00:00",
   "articles": [
     {
       "title": "Diese Expertin rät: Vorsicht vor falschen Signalen!",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 20 Nov 2026 20:00:00 GMT",
       "description": "   Die Krise bei Nvidia weitet sich aus. Die US-Börsenaufsicht SEC untersucht nach einem Exklusivbericht der Nachrichtenagentur Reuters die Bilanzierungspraktiken des Chipkonzerns. Zwei eingeweihte Personen hätten bestätigt, dass Ermittler der Vollzugsabteilung mögliche Unregelmäßigkeiten in der Rechnungslegung prüften.  "
+    },
+    {
+      "title": "Aktie vor Befreiungsschlag?: Roundup-Vergleich durch: Bayer fällt ein milliardenschwerer Stein vom Herzen",
+      "url": "https://www.wallstreet-online.de/nachricht/21728640-aktie-befreiungsschlag-roundup-vergleich-durch-bayer-faellt-milliardenschwerer-stein-herzen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein Richter in St. Louis hat den Roundup-Vergleich über 7,25 Milliarden US-Dollar genehmigt. Für Bayer ist das ein wichtiger Schritt, doch Klägeranwälte kündigen bereits Berufung an."
     },
     {
       "title": "Kampf um die Zuschauer: Streaming-Giganten rüsten auf: Netflix steht vor einem neuen Problem",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Märkte sind nervös, die beste Zeit für eine Short-Attacke. Das muss Deutz heute schmerzlich feststellen. NINGI Research geht auf den Motorenbauer los und der Kurs bricht ein. Was ist dran an den Vorwürfen?"
-    },
-    {
-      "title": "Jetzt wird's günstig: Microsoft will Anthropic und OpenAI mit Billig-KI schlagen",
-      "url": "https://www.wallstreet-online.de/nachricht/21711369-wird-s-guenstig-microsoft-anthropic-openai-billig-ki-schlagen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Microsoft fordert Claude und ChatGPT mit eigenen KI-Modellen heraus. Sie sollen bei ähnlicher Leistung nur einen Bruchteil kosten."
     }
   ],
   "feedErrors": [
