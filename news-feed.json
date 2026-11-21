@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-21T09:53:39.965225+00:00",
+  "fetchedAt": "2026-11-21T10:53:07.109753+00:00",
   "articles": [
+    {
+      "title": "Twitter ist weg von der Börse, oder doch nicht?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/twitter-ist-weg-von-der-boerse-oder-doch-nicht-20445617.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 21 Nov 2026 10:00:00 GMT",
+      "description": "   2013 feiert Twitter einen fulminanten Börsenstart. Es folgen  ein tiefer Absturz, ein beeindruckendes Comeback und ein Milliardendeal.   Doch damit ist die Geschichte noch lange nicht zu Ende erzählt.  "
+    },
     {
       "title": "Die Schattenseite des KI-Booms",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/die-schattenseite-des-ki-booms-20445713.html?feed=directrssfeed",
@@ -65,18 +72,25 @@
       "description": "   Der Ausverkauf am Kryptomarkt hat sich am Freitagabend deutlich verschärft. Der Bitcoin fiel erstmals seit Juli unter die Marke von 60.000 Dollar und sackte zeitweise bis auf 58.018 Dollar ab. Damit trennen ihn nur noch wenige Prozentpunkte vom Jahrestief bei rund 57.  "
     },
     {
-      "title": "Börsenpunk: Nvidia - Chance oder Risiko? Burggraben-Aktie im Angebot",
-      "url": "https://www.deraktionaer.de/artikel/aktien/boersenpunk-nvidia-chance-oder-risiko-burggraben-aktie-im-angebot-20447557.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 18:13:00 GMT",
-      "description": "   An den Aktienmärkten jagt derzeit ein Aufreger den nächsten. Zunächst sorgte der Rücktritt von Nvidia-Chef Jensen Huang für einen Schock. Kurz darauf legte der Konzern gute Quartalszahlen vor – doch die Aktie steht weiterhin unter Druck. In der neuen Sendung haben wir uns die Situation genauer angesehen und gehen der Frage nach: Bietet sich hier"
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Bis 2031: Solana vor 1.450-%-Rallye? – Bitwise wagt Mega-Prognose",
+      "url": "https://www.wallstreet-online.de/nachricht/21719097-2031-solana-1-450-rallye-bitwise-wagt-mega-prognose",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Solana hat seit Jahresbeginn über 40 Prozent verloren. Trotzdem sieht Bitwise enormes Kurspotenzial für die kommenden Jahre."
+    },
+    {
+      "title": "SMI und ATX - resistent gegen internationale Crashs, Helvetia Baloise kennt keinen Crash",
+      "url": "https://www.wallstreet-online.de/video/21728568-smi-atx-resistent-internationale-crashs-helvetia-baloise-kennt-crash",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
     },
     {
       "title": "DAX - wie lange geht der Crash auf Raten noch weiter? Eine überraschende Grafik!",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "3 Gründe, die kaum jemand sieht oder sehen möchte – plus 2 spannende Szenarien, die Trader jetzt unbedingt beobachten sollten."
-    },
-    {
-      "title": "Milliarden-Poker um Avio: Leonardo unter Druck: Italien warnt vor Verkauf an ICEYE",
-      "url": "https://www.wallstreet-online.de/nachricht/21711990-milliarden-poker-avio-leonardo-druck-italien-warnt-verkauf-iceye",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "ICEYE bietet rund zwei Milliarden Euro für Avio. Doch Italiens Verteidigungsminister warnt Großaktionär Leonardo vor einem Verkauf seiner Beteiligung."
-    },
-    {
-      "title": "Höhere Kosten belasten: Lowe’s: Erst 4 Prozent Plus – dann kippt die Aktie trotz starker Zahlen",
-      "url": "https://www.wallstreet-online.de/nachricht/21712368-hoehere-kosten-belasten-lowe-s-4-prozent-plus-kippt-aktie-trotz-starker-zahlen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Lowe’s übertrifft die Erwartungen und hebt den Umsatzausblick an. Trotzdem kippt die Aktie nach einem Kurssprung ins Minus. Steigende Kosten trüben die Freude über die Zahlen – und setzen dem Gewinnausblick enge Grenzen."
     }
   ],
   "feedErrors": [
