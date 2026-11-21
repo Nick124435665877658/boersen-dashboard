@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T11:50:42.756557+00:00",
+  "fetchedAt": "2026-11-21T13:00:17.313267+00:00",
   "articles": [
     {
       "title": "Diese Expertin rät: Vorsicht vor falschen Signalen!",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Zwischen Angst & Kapitulation: Goldpreis-Prognose: Gold und Goldminenaktien im Panik-Modus. Jetzt schon kaufen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21728586-angst-kapitulation-goldpreis-prognose-gold-goldminenaktien-panik-modus-kaufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Goldpreis rauscht ungebremst in die Tiefe. Die Nerven der Akteure liegen blank. Der Goldmarkt scheint kurz vor der Kapitulation zu stehen. Doch genau daraus könnten sich außergewöhnliche Chancen ergeben."
     },
     {
       "title": "Aktien: Steigt 2027 alles?! Dieses Zeichen übersieht der Markt",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Analysten von Berenberg heben Siltronic auf Kaufen. Nach dem Kursrutsch sehen die Analysten beim Waferhersteller die Wende bei Gewinn und Cashflow, angetrieben vom Siliziumhunger der KI-Server."
-    },
-    {
-      "title": "Autonomes Fahren: Robotaxis in Deutschland: Uber wagt den nächsten großen Schritt",
-      "url": "https://www.wallstreet-online.de/nachricht/21711759-autonomes-fahren-robotaxis-deutschland-uber-wagt-naechsten-grossen-schritt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Uber und Momenta starten in München einen Robotaxi-Test. Ausgewählte Fahrgäste können erstmals in Deutschland autonome Fahrten buchen."
     }
   ],
   "feedErrors": [
