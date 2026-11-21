@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T13:00:17.313267+00:00",
+  "fetchedAt": "2026-11-21T14:04:13.757753+00:00",
   "articles": [
     {
       "title": "Diese Expertin rät: Vorsicht vor falschen Signalen!",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Passives Einkommen: Diese Bank bietet fast doppelt so viel Rendite wie die Allianz",
+      "url": "https://www.wallstreet-online.de/nachricht/21726180-passives-einkommen-bank-rendite-allianz",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Europas größte Bank bietet eine deutlich höhere Dividendenrendite als die Allianz oder die Deutsche Bank. Jetzt könnten die Ausschüttungen weiter steigen. Wie nachhaltig ist der Geldsegen?"
     },
     {
       "title": "Zwischen Angst & Kapitulation: Goldpreis-Prognose: Gold und Goldminenaktien im Panik-Modus. Jetzt schon kaufen?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Fed-Gouverneur Christopher Waller drängt auf eine größere Zinserhöhung im Dezember. Sein Vorstoß geht deutlich über die Markterwartung hinaus. Doch innerhalb der US-Notenbank regt sich Widerstand gegen einen harten Kurs."
-    },
-    {
-      "title": "Kaufempfehlung beflügelt Aktie: KI-Server bringen Siltronic zurück auf Kurs",
-      "url": "https://www.wallstreet-online.de/nachricht/21712821-kaufempfehlung-befluegelt-aktie-ki-server-siltronic-kurs",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Analysten von Berenberg heben Siltronic auf Kaufen. Nach dem Kursrutsch sehen die Analysten beim Waferhersteller die Wende bei Gewinn und Cashflow, angetrieben vom Siliziumhunger der KI-Server."
     }
   ],
   "feedErrors": [
