@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T12:26:05.170513+00:00",
+  "fetchedAt": "2026-11-22T13:39:56.881689+00:00",
   "articles": [
     {
       "title": "DER AKTIONÄR Wochenradar: 23. bis 29. November 2026",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "CRASH?!: Wochenrückblick KW 47-2026 - KI-Skepsis wird zur Wachstumsangst!",
+      "url": "https://www.wallstreet-online.de/nachricht/21730909-crash-wochenrueckblick-kw-47-2026-ki-skepsis-wachstumsangst",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidias Zahlen und Anthropics Börsengang stoppen den Ausverkauf nicht. Der Nasdaq Composite verliert 10 %, während Anleger Staatsanleihen suchen und Gold, Silber sowie Kupfer deutlich nachgeben."
     },
     {
       "title": "KI-Crash an der Wall Street! : Bringen diese Zahlen jetzt die Wende?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Berichtssaison ist fast durch und hält eine Überraschung bereit: Die meisten Firmen schlagen die Prognosen, doch so knapp wie lange nicht. Ein Speicherhersteller sticht heraus. Und zwei Riesen verderben die Bilanz."
-    },
-    {
-      "title": "Erst muss es richtig krachen: Michael Burry verrät, bei welchen Kursen er bei Alibaba und Netflix zuschlägt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21713268-richtig-krachen-michael-burry-verraet-kursen-alibaba-netflix-zuschlaegt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während Michael Burry an seiner Wette gegen Nvidia festhält, hat er zwei andere Tech-Giganten bereits auf der Einkaufsliste. Seine Preisvorstellungen dürften deren Aktionären allerdings gar nicht gefallen."
     }
   ],
   "feedErrors": [
