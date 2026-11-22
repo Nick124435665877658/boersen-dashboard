@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-22T07:15:28.457822+00:00",
+  "fetchedAt": "2026-11-22T08:19:24.372306+00:00",
   "articles": [
+    {
+      "title": "Der Verteidiger für Datensicherheit",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/der-verteidiger-fuer-datensicherheit-20445583.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sun, 22 Nov 2026 08:00:00 GMT",
+      "description": "   Die weltweiten Angriffe zeigen, wie wichtig Datensicherung vor unberechtigten Angriffen ist. Mit der KI entstehen neue Risiken, die es abzuwehren gilt.  "
+    },
     {
       "title": "Kater nach der Rekordrally: Ist das Schlimmste bei Silber vorbei?",
       "url": "https://www.deraktionaer.de/artikel/aktien/kater-nach-der-rekordrally-ist-das-schlimmste-bei-silber-vorbei-20437467.html?feed=directrssfeed",
@@ -65,11 +72,25 @@
       "description": "   Paukenschlag vor dem Wochenende: Der Cybersecurity-Spezialist CrowdStrike führt einem Medienbericht zufolge Gespräche über eine Übernahme des Konkurrenten Zscaler. Es wäre einer der größten Deals in der Geschichte der Branche. Die Aktien beider AKTIONÄR-Empfehlungen bewegen sich nachbörslich deutlich – in entgegengesetzte Richtungen.  "
     },
     {
-      "title": "Wall Street: Ausverkauf vor dem Wochenende – S&P 500 und Dow in der Korrektur",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-ausverkauf-vor-dem-wochenende-sp-500-und-dow-in-der-korrektur-20447909.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 20 Nov 2026 21:10:00 GMT",
-      "description": "   Der Ausverkauf bei Technologiewerten hat sich am Freitag deutlich verschärft und auch andere Branchen erfasst. Der Dow Jones schloss 1,93 Prozent tiefer bei 48.147,33 Punkten. Der S&P 500 brach um 3,70 Prozent auf 6.910,39 Punkte ein und verlor damit den siebten Tag in Folge.  "
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Im freien Fall: Nvidia – Der Anfang des Ausverkaufs?",
+      "url": "https://www.wallstreet-online.de/nachricht/21727818-freien-fall-nvidia-anfang-ausverkaufs",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia verdient Milliarden, die Aktie stürzt trotzdem ab. Nach dem Rücktritt von Jensen Huang und neuen Ermittlungen wächst die Nervosität. Dabei ist der KI-Gigant inzwischen erstaunlich günstig bewertet."
+    },
+    {
+      "title": "Börse, Baby!: Joel Greenblatt: Mit der Magischen Formel den Markt schlagen",
+      "url": "https://www.wallstreet-online.de/nachricht/21725532-boerse-baby-joel-greenblatt-magischen-formel-markt-schlagen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Joel Greenblatt ist der Erfinder der sogenannten Magischen Formel, mit der er große Erfolge erzielen konnte."
     },
     {
       "title": "Aktie vor Befreiungsschlag?: Roundup-Vergleich durch: Bayer fällt ein milliardenschwerer Stein vom Herzen",
@@ -756,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mit Zuwächsen in fast allen Kategorien – in einigen sogar zweistelligen Steigerungsraten – und einem Umsatz, der die Erwartungen übertraf, lieferte Target ein sehr solides Quartal ab."
-    },
-    {
-      "title": "Gold: Bange machen gilt nicht!: Goldpreis stürzt ab: Warum Anleger jetzt dennoch auf Goldminenaktien setzen",
-      "url": "https://www.wallstreet-online.de/nachricht/21713037-gold-bange-gilt-nicht-goldpreis-stuerzt-ab-anleger-goldminenaktien",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bei Gold reiht sich Hiobsbotschaft an Hiobsbotschaft. Der Rücksetzer unter die Marke von 3.860 US-Dollar öffnet die Falltür in Richtung 3.500 Dollar. Doch gerade jetzt könnten sich bei Goldminenaktien Chancen ergeben."
-    },
-    {
-      "title": "Platin-Aktien im Check: Nvidia: Alles wieder im Lot? | Gold: Wie tief noch? | Deutz: Short-Attacke",
-      "url": "https://www.wallstreet-online.de/video/21712665-platin-aktien-check-nvidia-lot-gold-tief-noch-deutz-short-attacke",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Märkte sind nervös, die beste Zeit für eine Short-Attacke. Das muss Deutz heute schmerzlich feststellen. NINGI Research geht auf den Motorenbauer los und der Kurs bricht ein. Was ist dran an den Vorwürfen?"
     }
   ],
   "feedErrors": [
