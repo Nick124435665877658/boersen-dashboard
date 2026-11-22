@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T11:25:10.824405+00:00",
+  "fetchedAt": "2026-11-22T12:26:05.170513+00:00",
   "articles": [
     {
       "title": "DER AKTIONÄR Wochenradar: 23. bis 29. November 2026",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "KI-Crash an der Wall Street! : Bringen diese Zahlen jetzt die Wende?",
+      "url": "https://www.wallstreet-online.de/nachricht/21683742-ki-crash-wall-street-zahlen-wende",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Diese in den kommenden Tagen (KW48) anstehenden US-Quartalszahlen müssen Anlegerinnen und Anleger kennen: Herausforderungen, Erwartungen und die aktuell eingepreisten Kursreaktionen – alles auf einen Blick!"
     },
     {
       "title": "Geyers Marktkommentar: DAX – Wie eine Affäre die Börsen erschüttern kann",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Während Michael Burry an seiner Wette gegen Nvidia festhält, hat er zwei andere Tech-Giganten bereits auf der Einkaufsliste. Seine Preisvorstellungen dürften deren Aktionären allerdings gar nicht gefallen."
-    },
-    {
-      "title": "Diesel verlieren: Überraschende Wende: Gebrauchte E-Autos werden zum Verkaufsschlager",
-      "url": "https://www.wallstreet-online.de/nachricht/21712458-diesel-verlieren-ueberraschende-wende-gebrauchte-e-autos-verkaufsschlager",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gebrauchte Elektroautos verkaufen sich in Großbritannien deutlich schneller als Benziner und Diesel. Besonders Hyundai profitiert von der steigenden Nachfrage."
     }
   ],
   "feedErrors": [
