@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T21:24:34.378531+00:00",
+  "fetchedAt": "2026-11-22T22:25:03.643374+00:00",
   "articles": [
     {
       "title": "Kraft Heinz: 700 Millionen Dollar für die Wende – Aktie vor dem Ausbruch",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 21 Nov 2026 09:30:00 GMT",
       "description": "   Vom Highflyer zum Crashpiloten – ist Applied Optolectronics am Ende?  "
+    },
+    {
+      "title": "Europas größte Bank: BNP Paribas bietet fast doppelt so viel Rendite wie die Allianz",
+      "url": "https://www.wallstreet-online.de/nachricht/21731725-europas-groesste-bank-bnp-paribas-rendite-allianz",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Europas größte Bank bietet eine deutlich höhere Dividendenrendite als die Allianz oder die Deutsche Bank. Jetzt könnten die Ausschüttungen weiter steigen. Wie nachhaltig ist der Geldsegen?"
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -147,13 +154,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Netflix dominiert das Streaminggeschäft, doch YouTube wächst und neue Konkurrenten rüsten auf. Selbst der Konzernchef sieht den Wettbewerb erst am Anfang."
-    },
-    {
-      "title": "Passives Einkommen: Diese Bank bietet fast doppelt so viel Rendite wie die Allianz",
-      "url": "https://www.wallstreet-online.de/nachricht/21726180-passives-einkommen-bank-rendite-allianz",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Europas größte Bank bietet eine deutlich höhere Dividendenrendite als die Allianz oder die Deutsche Bank. Jetzt könnten die Ausschüttungen weiter steigen. Wie nachhaltig ist der Geldsegen?"
     },
     {
       "title": "Zwischen Angst & Kapitulation: Goldpreis-Prognose: Gold und Goldminenaktien im Panik-Modus. Jetzt schon kaufen?",
