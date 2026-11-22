@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T09:27:58.456562+00:00",
+  "fetchedAt": "2026-11-22T10:28:19.898330+00:00",
   "articles": [
     {
       "title": "DER AKTIONÄR Wochenradar: 23. bis 29. November 2026",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Absturz: Rheinmetall – Ausgebombte Aktie, gefährliche Rechnung",
+      "url": "https://www.wallstreet-online.de/nachricht/21730884-absturz-rheinmetall-ausgebombte-aktie-gefaehrliche-rechnung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein KGV von rund 10 für 2028 lässt Rheinmetall nach dem Kurssturz günstig erscheinen. Doch der schwache Cashflow, sinkende Analystenschätzungen und ein möglicher Frieden in der Ukraine werfen unbequeme Fragen auf."
     },
     {
       "title": "Im freien Fall: Nvidia – Der Anfang des Ausverkaufs?",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach der milliardenschweren Liquidationswelle droht Bitcoin neues Ungemach. VanEck-Experte Matthew Sigel warnt vor einem Szenario, das sich in diesem Jahr schon einmal abgespielt hat."
-    },
-    {
-      "title": "Aktie marschiert: Target kommt seinem Ziel immer näher – Prognose hochgeschraubt",
-      "url": "https://www.wallstreet-online.de/nachricht/21712914-aktie-marschiert-target-ziel-naeher-prognose-hochgeschraubt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Mit Zuwächsen in fast allen Kategorien – in einigen sogar zweistelligen Steigerungsraten – und einem Umsatz, der die Erwartungen übertraf, lieferte Target ein sehr solides Quartal ab."
     }
   ],
   "feedErrors": [
