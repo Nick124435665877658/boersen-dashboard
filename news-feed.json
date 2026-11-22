@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T14:29:05.278846+00:00",
+  "fetchedAt": "2026-11-22T15:25:57.711454+00:00",
   "articles": [
     {
       "title": "DER AKTIONÄR Wochenradar: 23. bis 29. November 2026",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Die Schattenseite des KI-Stars: Anthropic: Worauf sich Aktionäre bei diesem KI-Giganten wirklich einlassen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21724464-schattenseite-ki-stars-anthropic-worauf-aktionaere-ki-giganten-einlassen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine einzige Aktie sichert den Gründern die Mehrheit der Stimmrechte. Hinzu kommen gigantische Zahlungsverpflichtungen und ungewöhnliche Geschäftsrisiken. Anthropics Börsenprospekt hat es in sich."
     },
     {
       "title": "CRASH?!: Wochenrückblick KW 47-2026 - KI-Skepsis wird zur Wachstumsangst!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Führende Experten rechnen mit einer Fortsetzung der Wall-Street-Rallye. Bei sieben Aktien des S&P 500 sehen sie sogar ein Kurspotenzial von mehr als 100 Prozent."
-    },
-    {
-      "title": "Top 5 der Berichtssaison: Auf Platz 1 landet ein Speicherriese",
-      "url": "https://www.wallstreet-online.de/nachricht/21712809-top-5-berichtssaison-platz-1-landet-speicherriese",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Berichtssaison ist fast durch und hält eine Überraschung bereit: Die meisten Firmen schlagen die Prognosen, doch so knapp wie lange nicht. Ein Speicherhersteller sticht heraus. Und zwei Riesen verderben die Bilanz."
     }
   ],
   "feedErrors": [
