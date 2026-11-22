@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T10:28:19.898330+00:00",
+  "fetchedAt": "2026-11-22T11:25:10.824405+00:00",
   "articles": [
     {
       "title": "DER AKTIONÄR Wochenradar: 23. bis 29. November 2026",
@@ -77,6 +77,20 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Geyers Marktkommentar: DAX – Wie eine Affäre die Börsen erschüttern kann",
+      "url": "https://www.wallstreet-online.de/nachricht/21730906-geyers-marktkommentar-dax-affaere-boersen-erschuettern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "In der kommenden Woche sollten sich Chancen auftun, die von mutigen Anlegern genutzt werden sollten."
+    },
+    {
+      "title": "Silber: Der Countdown läuft: Silberpreis-Prognose: Mittwoch könnte der entscheidende Tag für Silber werden",
+      "url": "https://www.wallstreet-online.de/nachricht/21730875-silber-countdown-laeuft-silberpreis-prognose-mittwoch-entscheidende-tag-silber",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Silberpreisschwäche weitet sich aus. Ein Preissturz unter die 40 US-Dollar ist wohl kaum mehr zu vermeiden. Der Mittwoch könnte nun zum entscheidenden Tag für Silber werden – weiterer Abverkauf oder Comeback?"
     },
     {
       "title": "Absturz: Rheinmetall – Ausgebombte Aktie, gefährliche Rechnung",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Gebrauchte Elektroautos verkaufen sich in Großbritannien deutlich schneller als Benziner und Diesel. Besonders Hyundai profitiert von der steigenden Nachfrage."
-    },
-    {
-      "title": "Trotz Frieden: Inflations-Schock: Warum die Preise weiter steigen könnten",
-      "url": "https://www.wallstreet-online.de/nachricht/21712365-trotz-frieden-inflations-schock-preise",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Selbst ein Kriegsende dürfte die Inflation kaum schnell bremsen. Experten warnen vor anhaltenden Kostensteigerungen und einer neuen Preiswelle bis 2027."
-    },
-    {
-      "title": "1,7 Milliarden liquidiert: Bitcoin: Warum der 19. November den nächsten Absturz einleiten könnte",
-      "url": "https://www.wallstreet-online.de/nachricht/21712836-1-7-milliarden-liquidiert-bitcoin-19-november-naechsten-absturz-einleiten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach der milliardenschweren Liquidationswelle droht Bitcoin neues Ungemach. VanEck-Experte Matthew Sigel warnt vor einem Szenario, das sich in diesem Jahr schon einmal abgespielt hat."
     }
   ],
   "feedErrors": [
