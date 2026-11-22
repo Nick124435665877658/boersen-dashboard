@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T17:25:37.866492+00:00",
+  "fetchedAt": "2026-11-22T18:19:52.494980+00:00",
   "articles": [
     {
       "title": "Kraft Heinz: 700 Millionen Dollar für die Wende – Aktie vor dem Ausbruch",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 21 Nov 2026 09:30:00 GMT",
       "description": "   Vom Highflyer zum Crashpiloten – ist Applied Optolectronics am Ende?  "
+    },
+    {
+      "title": "Geht's weiter aufwärts?: Wer den DAX jetzt Richtung 30.000 treibt",
+      "url": "https://www.wallstreet-online.de/video/21731383-geht-s-aufwaerts-dax-richtung-30-000-treibt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX hat erstmals die Marke von 27.000 Punkten überwunden, und für Carsten Klude ist das noch nicht das Ende. Der Chefvolkswirt der Hamburger Privatbank M.M. Warburg hält 30.000 Punkte bereits 2027 für möglich"
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Konnte der KI-Gigant die hohen Erwartungen der Wall Street erfüllen? Und wie sieht der weitere Ausblick aus? Alles wichtige im Video jetzt!"
-    },
-    {
-      "title": "Darauf setzt die Wall Street: Bei diesen 7 Aktien sagen Analysten eine Verdopplung voraus",
-      "url": "https://www.wallstreet-online.de/nachricht/21713670-wall-street-7-aktien-analysten-verdopplung-voraus",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Führende Experten rechnen mit einer Fortsetzung der Wall-Street-Rallye. Bei sieben Aktien des S&P 500 sehen sie sogar ein Kurspotenzial von mehr als 100 Prozent."
     }
   ],
   "feedErrors": [
