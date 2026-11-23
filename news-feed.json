@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-23T16:36:18.294642+00:00",
+  "fetchedAt": "2026-11-23T17:36:09.481781+00:00",
   "articles": [
+    {
+      "title": "DAX zurück über 25.000: Chip-Aktien schlagen zurück",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-schluss-20449063.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 17:15:00 GMT",
+      "description": "   Die Frankfurter Börse schafft den großen Befreiungsschlag – auch dank Nvidia. Nach sechs Verlusttagen in Folge griffen die Anleger zum Wochenauftakt wieder kräftig zu. Der deutsche Leitindex arbeitete sich im Tagesverlauf Stück für Stück nach oben, ehe er am Nachmittag den Turbo zündet.  "
+    },
     {
       "title": "CrowdStrike-Aktie stürzt ab: 44-Milliarden-Dollar-Deal schockt",
       "url": "https://www.deraktionaer.de/artikel/aktien/crowdstrike-aktie-stuerzt-ab-44-milliarden-dollar-deal-schockt-20449043.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Es ist der blanke Horror. Zahlreiche KI-Aktien haben sich in den zurückliegenden Wochen mehr als halbiert, bei einigen Aktien, wie etwa bei Nebius, summieren sich die Abschläge sogar auf über 70 Prozent. Aber auch der KI-Gigant Nvidia hat in der Spitze um fast 50 Prozent nachgegeben.  "
     },
     {
-      "title": "Ausblick Wall Street: Nach dem KI-Crash müssen heute diese fünf Konzerne liefern",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/ausblick-wall-street-nach-dem-ki-crash-muessen-heute-diese-fuenf-konzerne-liefern-20448848.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 13:30:00 GMT",
-      "description": "   Vergangene Woche hat der KI-Sektor einen empfindlichen Realitätsschock erlitten. Der Wochenverlust von 10,4 Prozent beim technologielastigen Nasdaq 100 war der heftigste seit dem Corona-Crash im März 2020. Heute nach US-Börsenschluss stehen die Quartalsberichte von Hewlett Packard Enterprise, Agilent, Zoom, Symbotic und Semtech auf der Agenda.  "
+      "title": "Infrastruktur im Fokus: Rechenzentren, Energie, Milliarden: Dieser Markt steht vor dem Durchbruch",
+      "url": "https://www.wallstreet-online.de/nachricht/21735568-infrastruktur-fokus-rechenzentren-energie-milliarden-markt-durchbruch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der KI-Boom treibt Investitionen in Rechenzentren und Energieversorgung. Institutionelle Anleger stocken ihre Infrastrukturquoten auf und sehen mehr Potenzial."
+    },
+    {
+      "title": "Panikindex fast am Maximum: Börsen-Comeback in Gefahr! Goldman warnt vor 80-Milliarden-Verkaufswelle",
+      "url": "https://www.wallstreet-online.de/nachricht/21734926-panikindex-maximum-boersen-comeback-gefahr-goldman-warnt-80-milliarden-verkaufswelle",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach dem heftigen Ausverkauf melden sich die Käufer zurück. Doch Goldman Sachs entdeckt in seinen Marktdaten einen Widerspruch, der die Erholung schneller beenden könnte, als vielen lieb ist."
     },
     {
       "title": "Das düstere Muster von 2008: Peter Schiff: Gold erholt sich – für Aktien könnte der Albtraum erst beginnen",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Bund beseitigt die letzten Zweifel an der Übernahme der Commerzbank durch die UniCredit und gibt grünes Licht. Das bestimmende Thema ist allerdings der IPO von Anthropic. Hebt er die Stimmung und wer profitiert?"
-    },
-    {
-      "title": "Glanz verloren?: Trotz Crash: Bitcoin hängt Gold ab",
-      "url": "https://www.wallstreet-online.de/nachricht/21718563-glanz-verloren-trotz-crash-bitcoin-haengt-gold",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bitcoin und Gold verzeichnen deutliche Kursverluste. Doch während die Zinssorgen beide belasten, scheint Bitcoin langfristig besser dazustehen."
-    },
-    {
-      "title": "Quartalszahlen: Walmart mit Rekordumsatz – und darum fällt die Aktie trotzdem",
-      "url": "https://www.wallstreet-online.de/nachricht/21718830-quartalszahlen-walmart-rekordumsatz-faellt-aktie",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Quartalszahlen von Walmart sind stark, aber die Aktie fällt trotzdem. Warum ist das so?"
     }
   ],
   "feedErrors": [
