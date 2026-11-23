@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-23T11:12:44.737419+00:00",
+  "fetchedAt": "2026-11-23T12:00:15.866967+00:00",
   "articles": [
+    {
+      "title": "Nicht nur Gold: Auch dieser Rohstoff ist abgestürzt – KI-Angst lässt Anleger nervös werden",
+      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/nicht-nur-gold-auch-dieser-rohstoff-stuerzt-ab-ki-angst-laesst-anleger-nervoes-werden-20448831.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 11:47:00 GMT",
+      "description": "   Kupfer steht auch zum Wochenstart weiter unter Druck. Bereits in der Vorwoche war der Kurs um etwa neun Prozent eingebrochen, nun setzt der Rohstoff seine Talfahrt fort. Viele Anleger fürchten, dass der KI-Boom an Schwung verlieren könnte. Dann würde auch die Nachfrage nach dem Rohstoff nachlassen.  "
+    },
     {
       "title": "Thyssenkrupp Nucera: Das sieht nicht gut aus...",
       "url": "https://www.deraktionaer.de/artikel/aktien/thyssenkrupp-nucera-das-sieht-nicht-gut-aus-20448727.html?feed=directrssfeed",
@@ -65,18 +72,25 @@
       "description": "    Die chinesische Regierung hat am Wochenende Maßnahmen verkündet, um den Abverkauf am Aktienmarkt zu stoppen . Der Hang Seng reagierte am Montag positiv auf die News und beendete seine jüngste Talfahrt.  "
     },
     {
-      "title": "GTA 6 sprengt alle Rekorde – was bei Take-Two jetzt zählt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/gta-6-sprengt-alle-rekorde-was-bei-take-two-jetzt-zaehlt-20448534.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:48:00 GMT",
-      "description": "   Neuer Rekord bei GTA 6. Publisher Take-Two Interactive sammelte am ersten Verkaufstag fast vier Milliarden Dollar ein. Damit legte das Videospiel den besten Start eines Entertainment-Produkts in der Geschichte hin. Die Aktie von Take-Two konnte am Freitag in einem schwachen Umfeld leicht zulegen.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Mega-Übernahme geplant: 43.000.000.000 US-Dollar: CrowdStrike greift nach Mitbewerber Zscaler!",
+      "url": "https://www.wallstreet-online.de/nachricht/21734884-mega-uebernahme-geplant-43-000-000-000-us-dollar-crowdstrike-greift-mitbewerber-zscaler",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Anbieter von Cybersicherheitslösungen CrowdStrike übernimmt seinen Rivalen Zscaler und hat gleichzeitig seine Quartalszahlen vorgezogen."
+    },
+    {
+      "title": "90 Prozent Inflation im Iran: Trump droht Iran mit dem nächsten Militärschlag – das Land steht am Abgrund!",
+      "url": "https://www.wallstreet-online.de/nachricht/21733510-90-prozent-inflation-iran-trump-droht-iran-naechsten-militaerschlag-land-abgrund",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Irans Wirtschaft leidet unter einer Inflationsrate von rund 90 Prozent. Während neue Angriffe die Golfregion erschüttern, verschärft Donald Trump seine Drohungen – und stellt weitere Militärschläge in Aussicht."
     },
     {
       "title": "Rohstoff Gas: Kältewelle im Winter droht: Gaspreise ziehen an",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Arthur Hayes sieht im KI-Boom den Nährboden für einen historischen Börsencrash. Sollte die Politik einen fatalen Fehler begehen, könnte Bitcoin mehr als 80 Prozent seines Wertes verlieren."
-    },
-    {
-      "title": "US-Dollar auf 19-Monats-Hoch: Warum die Dollar-Stärke eine Gefahr für Aktien und Gold ist",
-      "url": "https://www.wallstreet-online.de/nachricht/21716601-us-dollar-19-monats-hoch-dollar-staerke-gefahr-aktien-gold",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der US-Dollar steigt auf ein 19-Monats-Hoch, während Gold und Aktien fallen. Hinter der Rallye könnten mehr als Fed-Zinssorgen stecken. Ein Analyst nennt eine Marke, ab der er wachsende Risiken für die Wall Street sieht."
-    },
-    {
-      "title": "Beteiligung um 59 % erhöht: Peter Thiel setzt fast genauso viel auf diese Öl-Aktie wie auf Amazon",
-      "url": "https://www.wallstreet-online.de/nachricht/21716622-beteiligung-59-erhoeht-peter-thiel-genauso-oel-aktie-amazon",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Palantir-Mitgründer hat seine Beteiligung an einem südamerikanischen Ölproduzenten um 59 Prozent erhöht. Hinter seiner Millionenwette steckt auch eine politische Dimension."
     }
   ],
   "feedErrors": [
