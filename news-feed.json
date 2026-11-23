@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T00:23:34.134462+00:00",
+  "fetchedAt": "2026-11-23T01:58:35.905144+00:00",
   "articles": [
     {
       "title": "Kraft Heinz: 700 Millionen Dollar für die Wende – Aktie vor dem Ausbruch",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 21 Nov 2026 09:30:00 GMT",
       "description": "   Vom Highflyer zum Crashpiloten – ist Applied Optolectronics am Ende?  "
+    },
+    {
+      "title": "Osteuropa im Fokus :  Nach Nvidia- ,KI- und Bitcoin-Crash – was jetzt kaufen?",
+      "url": "https://www.wallstreet-online.de/nachricht/21732001-osteuropa-fokus-nvidia-ki-bitcoin-crash-kaufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Dre Black Friday führte infolge des Nvidia, KI- und Bitcoin-Mini.Crash zu Ausverkaufkursen. Die Osteuropabörsen bleiben in 2026 die beste Anlageregion der Welt. Die Börse Sofia konnt sogar um 65% zulegen."
     },
     {
       "title": "Europas größte Bank: BNP Paribas bietet fast doppelt so viel Rendite wie die Allianz",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Konnte der KI-Gigant die hohen Erwartungen der Wall Street erfüllen? Und wie sieht der weitere Ausblick aus? Alles wichtige im Video jetzt!"
-    },
-    {
-      "title": "Darauf setzt die Wall Street: Bei diesen 7 Aktien sagen Analysten eine Verdopplung voraus",
-      "url": "https://www.wallstreet-online.de/nachricht/21713670-wall-street-7-aktien-analysten-verdopplung-voraus",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Führende Experten rechnen mit einer Fortsetzung der Wall-Street-Rallye. Bei sieben Aktien des S&P 500 sehen sie sogar ein Kurspotenzial von mehr als 100 Prozent."
     }
   ],
   "feedErrors": [
