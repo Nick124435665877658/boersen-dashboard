@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T03:00:29.922462+00:00",
+  "fetchedAt": "2026-11-23T04:12:19.493999+00:00",
   "articles": [
     {
       "title": "Kraft Heinz: 700 Millionen Dollar für die Wende – Aktie vor dem Ausbruch",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 21 Nov 2026 09:30:00 GMT",
       "description": "   Vom Highflyer zum Crashpiloten – ist Applied Optolectronics am Ende?  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Heute im Fokus: Zoom, Hewlett Packard Enterprise, BASF und Borussia Dortmund",
+      "url": "https://www.wallstreet-online.de/nachricht/21731773-wichtigsten-termine-fokus-zoom-hewlett-packard-enterprise-basf-borussia-dortmund",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Osteuropa im Fokus :  Nach Nvidia- ,KI- und Bitcoin-Crash – was jetzt kaufen?",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Xi Jinping wirbt beim APEC-Gipfel in Shenzhen für offene Märkte, Putin kritisiert westliche Sanktionen. Am Donnerstag treffen beide auf Donald Trump, den Xi persönlich am Flughafen empfing."
-    },
-    {
-      "title": "Nvidia-Aktie: Das Imperium zerfällt?",
-      "url": "https://www.wallstreet-online.de/nachricht/21713985-nvidia-aktie-imperium-zerfaellt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Konnte der KI-Gigant die hohen Erwartungen der Wall Street erfüllen? Und wie sieht der weitere Ausblick aus? Alles wichtige im Video jetzt!"
     }
   ],
   "feedErrors": [
