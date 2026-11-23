@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-23T15:44:27.757317+00:00",
+  "fetchedAt": "2026-11-23T16:36:18.294642+00:00",
   "articles": [
+    {
+      "title": "CrowdStrike-Aktie stürzt ab: 44-Milliarden-Dollar-Deal schockt",
+      "url": "https://www.deraktionaer.de/artikel/aktien/crowdstrike-aktie-stuerzt-ab-44-milliarden-dollar-deal-schockt-20449043.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 16:12:00 GMT",
+      "description": "   An den New Yorker Börsen gehen  Technologieaktien heute durch die Decke . Alle Technologieaktien?  "
+    },
     {
       "title": "Nvidia entfacht Kursfeuerwerk: Der KI-Trade ist zurück",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nvidia-sorgt-fuer-kursfeuerwerk-der-ki-trade-ist-zurueck-an-der-wall-street-20448989.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Vergangene Woche hat der KI-Sektor einen empfindlichen Realitätsschock erlitten. Der Wochenverlust von 10,4 Prozent beim technologielastigen Nasdaq 100 war der heftigste seit dem Corona-Crash im März 2020. Heute nach US-Börsenschluss stehen die Quartalsberichte von Hewlett Packard Enterprise, Agilent, Zoom, Symbotic und Semtech auf der Agenda.  "
     },
     {
-      "title": "Rekordhoch im KI-Crash: Dieser AKTIONÄR-Hot-Stock gibt mächtig Gas",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/rekordhoch-im-ki-crash-dieser-aktionaer-hot-stock-gibt-maechtig-gas-20448849.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 12:53:00 GMT",
-      "description": "   Zahlreiche Aktien sind in der vergangenen Handelswoche unter Druck geraten. Besonders KI-Aktien wurden teils kräftig abverkauft. Doch es gibt auch Ausnahmen.  "
+      "title": "Das düstere Muster von 2008: Peter Schiff: Gold erholt sich – für Aktien könnte der Albtraum erst beginnen",
+      "url": "https://www.wallstreet-online.de/nachricht/21734695-duestere-muster-2008-peter-schiff-gold-erholt-aktien-albtraum",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold erholt sich nach dem heftigen Ausverkauf. Peter Schiff erkennt darin ein Muster aus der Finanzkrise 2008. Damals nahm die Entwicklung für Gold und Aktien eine völlig unterschiedliche Richtung."
+    },
+    {
+      "title": "\"Feuer im Theater\": Der lauteste Tech-Bulle wird vorsichtig",
+      "url": "https://www.wallstreet-online.de/nachricht/21736255-feuer-theater-lauteste-tech-bulle-vorsichtig",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ausgerechnet einer der größten Tech-Optimisten der Wall Street warnt: Die Skeptiker dürften lauter werden. Und ein Rekord-Börsengang zeigt, wie viel das Wachstum der Branche wirklich kostet."
     },
     {
       "title": "Gaspreis verdoppelt: Dieser Winter könnte für Stromkunden in Deutschland richtig teuer werden",
@@ -240,8 +254,8 @@
       "description": "Ein KGV von rund 10 für 2028 lässt Rheinmetall nach dem Kurssturz günstig erscheinen. Doch der schwache Cashflow, sinkende Analystenschätzungen und ein möglicher Frieden in der Ukraine werfen unbequeme Fragen auf."
     },
     {
-      "title": "KI-Crash an der Wall Street! : Bringen diese Zahlen jetzt die Wende?",
-      "url": "https://www.wallstreet-online.de/nachricht/21732646-ki-crash-wall-street-zahlen-wende",
+      "title": "Nach Nvidia-Comeback: Geht die Rallye jetzt dank dieser Zahlen weiter?",
+      "url": "https://www.wallstreet-online.de/nachricht/21732646-nvidia-comeback-rallye-zahlen-weiter",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Diese in den kommenden Tagen (KW48) anstehenden US-Quartalszahlen müssen Anlegerinnen und Anleger kennen: Herausforderungen, Erwartungen und die aktuell eingepreisten Kursreaktionen – alles auf einen Blick!"
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Quartalszahlen von Walmart sind stark, aber die Aktie fällt trotzdem. Warum ist das so?"
-    },
-    {
-      "title": "Das gab es seit 7 Jahren nicht: Nvidia-Aktie: Diese Kursmarke ist jetzt entscheidend!",
-      "url": "https://www.wallstreet-online.de/nachricht/21716778-7-jahren-nicht-nvidia-aktie-kursmarke-entscheidend",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trotz starker Zahlen und einem Ausblick über den Erwartungen konnte sich die Nvidia-Aktie noch nicht wieder erholen. Jetzt wartet eine zentrale Unterstützung."
-    },
-    {
-      "title": "Nvidia - 3 GRÜNDE!",
-      "url": "https://www.wallstreet-online.de/nachricht/21718242-nvidia-3-gruende",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "warum dieser Rücksetzer eine der spannendsten Chancen des Jahres und kommenden Jahres sein könnte. Im Chart schauen wir uns an, an welchen Kursmarken die Käufer wieder ins Spiel kommen könnten."
     }
   ],
   "feedErrors": [
