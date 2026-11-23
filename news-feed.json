@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-23T12:00:15.866967+00:00",
+  "fetchedAt": "2026-11-23T13:26:03.439790+00:00",
   "articles": [
+    {
+      "title": "Rekordhoch im KI-Crash: Dieser AKTIONÄR-Hot-Stock gibt mächtig Gas",
+      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/rekordhoch-im-ki-crash-dieser-aktionaer-hot-stock-gibt-maechtig-gas-20448849.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 12:53:00 GMT",
+      "description": "   Zahlreiche Aktien sind in der vergangenen Handelswoche unter Druck geraten. Besonders KI-Aktien wurden teils kräftig abverkauft. Doch es gibt auch Ausnahmen.  "
+    },
+    {
+      "title": "Coca-Cola: Es droht Ärger",
+      "url": "https://www.deraktionaer.de/artikel/aktien/coca-cola-es-droht-aerger-20448837.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 12:05:00 GMT",
+      "description": "    Die Aktie von Coca-Cola hat sich auch in diesem Börsenjahr bislang sehr gut entwickelt. Nun droht dem US-Getränkeriesen allerdings Ärger. S  o hat nun die EU-Kommission ein förmliches Verfahren gegen Coca-Cola eingeleitet, um mögliche Verstöße gegen das europäische Wettbewerbsrecht zu klären.  "
+    },
     {
       "title": "Nicht nur Gold: Auch dieser Rohstoff ist abgestürzt – KI-Angst lässt Anleger nervös werden",
       "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/nicht-nur-gold-auch-dieser-rohstoff-stuerzt-ab-ki-angst-laesst-anleger-nervoes-werden-20448831.html?feed=directrssfeed",
@@ -58,20 +72,6 @@
       "description": "   Die allgemeine Verunsicherung am Markt hat Ende letzter Woche auch bei den Papieren der Deutschen Bank für einen Kursrutsch gesorgt. Vergangene Woche veröffentlichten verschiedene Medien Berichte zu zahlreichen Vorwürfen aus der Vergangenheit.  "
     },
     {
-      "title": "DAX unter 200-Tage-Linie – Infineon & Co wegen Nvidia im Fokus",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-unter-200-tage-linie-infineon-co-wegen-nvidia-im-fokus-20448539.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "description": "   Nach sechs Verlusttagen in Folge setzt der DAX am Montag zu einer Gegenbewegung an, bleibt aber unter der 200-Tage-Linie. Die Erholung steht auf Bewährung, denn Sorgen um den Ausbau von Rechenzentren in den USA und anhaltende Zinssorgen belasten den Technologiesektor weiter.  "
-    },
-    {
-      "title": "Xiaomi: Das erwarten die Analysten",
-      "url": "https://www.deraktionaer.de/artikel/aktien/xiaomi-das-erwarten-die-analysten-20448404.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "description": "    Die chinesische Regierung hat am Wochenende Maßnahmen verkündet, um den Abverkauf am Aktienmarkt zu stoppen . Der Hang Seng reagierte am Montag positiv auf die News und beendete seine jüngste Talfahrt.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
@@ -79,8 +79,29 @@
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
     },
     {
-      "title": "Mega-Übernahme geplant: 43.000.000.000 US-Dollar: CrowdStrike greift nach Mitbewerber Zscaler!",
-      "url": "https://www.wallstreet-online.de/nachricht/21734884-mega-uebernahme-geplant-43-000-000-000-us-dollar-crowdstrike-greift-mitbewerber-zscaler",
+      "title": "240 Millionen Euro: Großer Raumfahrt-Deal: Rückenwind für Thales",
+      "url": "https://www.wallstreet-online.de/nachricht/21735262-240-millionen-euro-grosser-raumfahrt-deal-rueckenwind-thales",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Thales Alenia Space erhält einen Auftrag über mehr als 240 Millionen Euro. Eine neue Satellitentechnik soll die Erdbeobachtung revolutionieren."
+    },
+    {
+      "title": "Sie schlägt zu!: Anthropic verliert – Cathie Wood greift für 146 Millionen zu",
+      "url": "https://www.wallstreet-online.de/nachricht/21735202-schlaegt-zu-anthropic-verliert-cathie-wood-greift-146-millionen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Anthropic verliert nach seinem historischen Börsengang deutlich an Wert. Cathie Wood nutzt den Kursrückgang und investiert Millionen."
+    },
+    {
+      "title": "Analyst schaltet auf Buy: Plus 6 Prozent! Infineon mit Traumstart in die neue Woche",
+      "url": "https://www.wallstreet-online.de/nachricht/21735091-analyst-schaltet-buy-plus-6-prozent-infineon-traumstart-woche",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Infineon erholt sich nach dem Freitagseinbruch und zählt zu den Gewinnern im DAX. Die Analysten von Redburn empfiehlen den Kauf, dazu läuft der Aktienrückkauf, und auch andere Chipwerte legen zu."
+    },
+    {
+      "title": "Übernahme-Hammer: 43.000.000.000 US-Dollar: CrowdStrike greift nach Mitbewerber Zscaler!",
+      "url": "https://www.wallstreet-online.de/nachricht/21734884-uebernahme-hammer-43-000-000-000-us-dollar-crowdstrike-greift-mitbewerber-zscaler",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Anbieter von Cybersicherheitslösungen CrowdStrike übernimmt seinen Rivalen Zscaler und hat gleichzeitig seine Quartalszahlen vorgezogen."
@@ -184,8 +205,8 @@
       "description": "Weltweite IT-Ausfälle haben für Unsicherheit gesorgt. Morgan Stanley sieht SpaceX als Profiteur und traut der Aktie mehr als 100 Prozent Kurspotenzial zu."
     },
     {
-      "title": "Commerzbank Übernahme: Aus\"Eigenständigkeit\" wird \"gut für Frankfurt\": Klingbeils Weihnachtsgeschenk",
-      "url": "https://www.wallstreet-online.de/nachricht/21731140-commerzbank-uebernahme-aus-eigenstaendigkeit-gut-frankfurt-klingbeils-weihnachtsgeschenk",
+      "title": "Commerzbank Übernahme: Aus \"Eigenständigkeit\" wird \"gut für Frankfurt\": Klingbeils Weihnachtsgeschenk",
+      "url": "https://www.wallstreet-online.de/nachricht/21731140-commerzbank-uebernahme-eigenstaendigkeit-gut-frankfurt-klingbeils-weihnachtsgeschenk",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Vor etwas mehr als einem Jahr kämpfte Lars Klingbeil gegen die Commerzbank-Übernahme. Jetzt verteidigt er plötzlich das grüne Licht der Bundesregierung für die UniCredit. Für Aktionäre verändert sich damit einiges."
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Mega-Börsengang von Anthropic belastet Aktien aus der Software-Branche, auch die SAP-Aktie hat zu kämpfen. Beginnt jetzt ein neuer Abwärtstrend?"
-    },
-    {
-      "title": "Meilenstein für Sanofi: Sanofi mit Zulassungserfolg: Beginnt jetzt die nächste Wachstumsstory?",
-      "url": "https://www.wallstreet-online.de/nachricht/21717261-meilenstein-sanofi-sanofi-zulassungserfolg-beginnt-wachstumsstory",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Sanofi erhält die FDA-Zulassung für ein neuartiges Medikament gegen eine seltene Erbkrankheit. Der Erfolg eröffnet neue Marktchancen in den USA."
-    },
-    {
-      "title": "Öl-Schock in China: Chinas Ölkrise spitzt sich zu: Dem Weltmarkt droht die nächste Überraschung",
-      "url": "https://www.wallstreet-online.de/nachricht/21716895-oel-schock-china-chinas-oelkrise-spitzt-zu-weltmarkt-droht-ueberraschung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Chinas kleine Raffinerien kämpfen ums Überleben. Die US-Blockade iranischer Öllieferungen treibt ihre Kosten in die Höhe. Doch die eigentliche Gefahr für den globalen Ölmarkt könnte erst noch kommen."
-    },
-    {
-      "title": "Droht ein zweites 1929?: Bitcoin könnte auf 10.000 Dollar stürzen – wenn die Notenbanken nicht eingreifen",
-      "url": "https://www.wallstreet-online.de/nachricht/21716829-droht-zweites-1929-bitcoin-10-000-dollar-stuerzen-notenbanken-eingreifen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Arthur Hayes sieht im KI-Boom den Nährboden für einen historischen Börsencrash. Sollte die Politik einen fatalen Fehler begehen, könnte Bitcoin mehr als 80 Prozent seines Wertes verlieren."
     }
   ],
   "feedErrors": [
