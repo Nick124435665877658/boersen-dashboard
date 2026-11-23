@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-23T08:42:18.269316+00:00",
+  "fetchedAt": "2026-11-23T09:56:29.688168+00:00",
   "articles": [
+    {
+      "title": "Infineon und Siemens Energy zurück an der DAX-Spitze – Startschuss für die Trendwende?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/infineon-und-siemens-energy-zurueck-an-der-dax-spitze-startschuss-fuer-die-trendwende-20448693.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 09:39:00 GMT",
+      "description": "   Nach dem Ausverkauf vom Freitag keimt am Montag Hoffnung auf: Siemens Energy und Infineon sind im frühen Handel die stärksten Werte im DAX. Gerade bei Infineon war die Erholung überfällig. Die Aktie hatte zum Wochenschluss fast acht Prozent eingebüßt und legt nun um 3,6 Prozent zu.  "
+    },
+    {
+      "title": "Der Turnaround-Trade mit technischem Doppelschlag",
+      "url": "https://www.deraktionaer.de/artikel/aktien/der-turnaround-trade-mit-technischem-doppelschlag-20448662.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 09:20:00 GMT",
+      "description": "   Diese Dividendenperle befreit sich gerade aus dem Abwärtstrend. Mit 2 starken Kaufsignalen nimmt der Weltkonzern Kurs auf den Turnaround – und das bei einer jetzt historisch günstigen Bewertung. Um diese mögliche Wende zu nutzen, setzt der HEBELTRADER auf einen Call-Optionsschein mit außergewöhnlichem Renditepotenzial.  "
+    },
     {
       "title": "Nemetschek-Aktie stürzt ab: Kursziel mehr als halbiert",
       "url": "https://www.deraktionaer.de/artikel/aktien/nemetschek-aktie-stuerzt-ab-kursziel-mehr-als-halbiert-20448595.html?feed=directrssfeed",
@@ -58,25 +72,32 @@
       "description": "   Das DAX-Unternehmen Bayer ist am großen Ziel angekommen. Nach vielen Jahren hat es der Konzern endlich geschafft, die Glyphosat-Rechtsstreitigkeiten nachhaltig in die Schranken zu weisen. Ende vergangener Woche erteilte ein Gericht in den USA die finale Genehmigung für einen Sammelvergleich.  "
     },
     {
-      "title": "Tech-Aktien: Wer profitiert jetzt von Anthropics 4-Chip-Plan?",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/tech-aktien-wer-profitiert-jetzt-von-anthropics-4-chip-plan-20448469.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:38:00 GMT",
-      "description": "    Anthropics Chipstrategie verschiebt die Gewichte im Techsektor. Der Claude-Entwickler nutzt vier Chipfamilien – Nvidia, AMD, Googles TPUs und Amazons Trainium.  "
-    },
-    {
-      "title": "Crash bei Gold und Silber - und jetzt?",
-      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/crash-bei-gold-und-silber-und-jetzt-20448053.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:32:00 GMT",
-      "description": "   Als Kevin Warsh seinen Job als Präsident der US-Notenbank angetreten hat, hatte er durchaus gute Absichten: Die Fed-Mitglieder sollten weniger reden, weniger Interviews geben und sich stattdessen auf ihre eigentliche Arbeit konzentrieren. Doch davon ist wenig zu sehen.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Glyphosat-Streit: Bayer-Aktie unter Druck – trotz lang ersehntem Durchbruch",
+      "url": "https://www.wallstreet-online.de/nachricht/21733504-glyphosat-streit-bayer-aktie-druck-trotz-lang-ersehntem-durchbruch",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Glyphosat-Vergleich ist gebilligt, Analysten sehen Bayer auf einem guten Weg. Doch an der Börse kommt der Erfolg zunächst nicht an."
+    },
+    {
+      "title": "Panik-Index bei 9 von 10: Nach Nvidias 14%-Crash: Anfang vom Ende des KI-Booms oder Kaufchance?",
+      "url": "https://www.wallstreet-online.de/nachricht/21733474-panik-index-9-10-nvidias-14-crash-anfang-ki-booms-kaufchance",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach Nvidias 14-Prozent-Crash steigen die US-Futures kräftig. Goldman Sachs und Morgan Stanley wittern Kaufchancen. Doch die Sorge um den KI-Boom bleibt. Anleger stehen vor der Frage, ob die Erholung diesmal Bestand hat."
+    },
+    {
+      "title": "Verkürzte Handelswoche: US-Futures springen an – DAX startet Erholung",
+      "url": "https://www.wallstreet-online.de/nachricht/21733597-verkuerzte-handelswoche-us-futures-springen-dax-erholung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Während die US-Futures nach dem KI-Ausverkauf deutlich zulegen, bleiben die asiatischen Börsen unter Druck. Der DAX startet am Montag mit Gewinnen. BASF und Bayer sorgen für neue Unternehmensimpulse."
     },
     {
       "title": "Ölriese räumt auf: ConocoPhillips trennt sich von seinem Nordsee-Juwel",
@@ -98,13 +119,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach neun Prozent Wochenverlust legt Gold nun wieder kräftig zu. Käufer aus China und neue Zinshoffnungen stützen den Preis. Ein Experte hält den Crash vorerst für ausgereizt. Doch für Anleger bleiben erhebliche Risiken."
-    },
-    {
-      "title": "Verkürzte Handelswoche: US-Futures springen an – DAX vor Erholung?",
-      "url": "https://www.wallstreet-online.de/nachricht/21732874-verkuerzte-handelswoche-us-futures-springen-dax-erholung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während die US-Futures nach dem KI-Ausverkauf deutlich zulegen, bleiben die asiatischen Börsen unter Druck. Der DAX dürfte am Montag kaum verändert starten. BASF und Bayer sorgen für neue Unternehmensimpulse."
     },
     {
       "title": "Absturz: Rheinmetall – Kursdebakel! Ist die Aktie wirklich so billig?",
@@ -161,6 +175,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Europas größte Bank bietet eine deutlich höhere Dividendenrendite als die Allianz oder die Deutsche Bank. Jetzt könnten die Ausschüttungen weiter steigen. Wie nachhaltig ist der Geldsegen?"
+    },
+    {
+      "title": "Geht's weiter aufwärts?: Wer den DAX jetzt Richtung 30.000 treibt",
+      "url": "https://www.wallstreet-online.de/video/21731383-geht-s-aufwaerts-dax-richtung-30-000-treibt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der DAX hat erstmals die Marke von 27.000 Punkten überwunden, und für Carsten Klude ist das noch nicht das Ende. Der Chefvolkswirt der Hamburger Privatbank M.M. Warburg hält 30.000 Punkte bereits 2027 für möglich"
     },
     {
       "title": "Die Schattenseite des KI-Stars: Anthropic: Worauf sich Aktionäre bei diesem KI-Giganten wirklich einlassen!",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Robinhood sieht in Kalshi keine ernsthafte Konkurrenz. Nach hohen Kursverlusten sieht Mizuho jetzt enormes Aufwärtspotenzial."
-    },
-    {
-      "title": "Lehre aus den Nvidia-Zahlen: 3 KI-Kracher ohne Führungskrise - jetzt zugreifen?",
-      "url": "https://www.wallstreet-online.de/nachricht/21713034-lehre-nvidia-zahlen-3-ki-kracher-fuehrungskrise-zugreifen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bei Nvidia donnern die Kanonen, aber aus den Zahlen lässt sich eine wichtige Lehre ziehen. Der KI-Boom ist weiterhin voll im Gange und davon profitiert nicht nur Nvidia. Hier sind 3 weitere Profiteure ohne Führungskrise!"
-    },
-    {
-      "title": "Volltreffer...: Newcore Gold trifft auf hochgradiges Gold unterhalb der Reserventagebaugrube!",
-      "url": "https://www.wallstreet-online.de/nachricht/21712689-volltreffer-newcore-gold-trifft-hochgradiges-gold-reserventagebaugrube",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "2,16 g/t Gold über 37,0 Meter, einschließlich 5,10 g/t Gold über 9,0 Meter in der Goldlagerstätte ‚Nyam‘."
-    },
-    {
-      "title": "Ihre wichtigsten Termine: Alle Analysten-Augen auf: Procter & Gamble, Anthropic, Sto und Rational",
-      "url": "https://www.wallstreet-online.de/nachricht/21714939-wichtigsten-termine-analysten-augen-auf-procter-gamble-anthropic-sto-rational",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     }
   ],
   "feedErrors": [
