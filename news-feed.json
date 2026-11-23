@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T04:12:19.493999+00:00",
+  "fetchedAt": "2026-11-23T05:26:01.409985+00:00",
   "articles": [
     {
       "title": "Kraft Heinz: 700 Millionen Dollar für die Wende – Aktie vor dem Ausbruch",
@@ -70,6 +70,20 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Sat, 21 Nov 2026 09:30:00 GMT",
       "description": "   Vom Highflyer zum Crashpiloten – ist Applied Optolectronics am Ende?  "
+    },
+    {
+      "title": "Commerzbank Übernahme: Aus\"Eigenständigkeit\" wird \"gut für Frankfurt\": Klingbeils Weihnachtsgeschenk",
+      "url": "https://www.wallstreet-online.de/nachricht/21731140-commerzbank-uebernahme-aus-eigenstaendigkeit-gut-frankfurt-klingbeils-weihnachtsgeschenk",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Vor etwas mehr als einem Jahr kämpfte Lars Klingbeil gegen die Commerzbank-Übernahme. Jetzt verteidigt er plötzlich das grüne Licht der Bundesregierung für die UniCredit. Für Aktionäre verändert sich damit einiges."
+    },
+    {
+      "title": "Goldwerte im Fokus: Gold korrigiert, die Projekte nicht: Skeena, U.S. GoldMining und Aurania legen nach!",
+      "url": "https://www.wallstreet-online.de/nachricht/21731467-goldwerte-fokus-gold-korrigiert-projekte-nicht-skeena-u-s-goldmining-aurania-nach",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold fiel auf ein Einjahrestief, Zentralbanken kaufen zu. Skeena meldet über 80 % Projektfortschritt, U.S. GoldMining Rückenwind aus Alaska, Aurania 10,10 g/t Gold über 4,15 Meter."
     },
     {
       "title": "Ihre wichtigsten Termine: Heute im Fokus: Zoom, Hewlett Packard Enterprise, BASF und Borussia Dortmund",
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Gold verliert seit Monaten an Wert. Doch während Spekulanten verkaufen, greifen Zentralbanken und ETF-Anleger weiter zu. Goldman Sachs erwartet sogar eine kräftige Erholung. Was steckt dahinter?"
-    },
-    {
-      "title": "Milliardenmarkt: Nvidia-Partner Einride wächst rasant: Umsatzplus von 27 Prozent",
-      "url": "https://www.wallstreet-online.de/nachricht/21712701-milliardenmarkt-nvidia-partner-einride-waechst-rasant-umsatzplus-27-prozent",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia-Partner Einride steigert seinen Quartalsumsatz um 27 Prozent und peilt starkes Wachstum bis 2027 an. Doch hohe Verluste belasten den Lkw-Spezialisten."
-    },
-    {
-      "title": "Trump, Putin und Xi: Zölle, KI und Atomwaffen: Das steht beim Mega-Treffen auf dem Spiel",
-      "url": "https://www.wallstreet-online.de/nachricht/21713526-trump-putin-xi-zoelle-ki-atomwaffen-mega-treffen-spiel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Xi Jinping wirbt beim APEC-Gipfel in Shenzhen für offene Märkte, Putin kritisiert westliche Sanktionen. Am Donnerstag treffen beide auf Donald Trump, den Xi persönlich am Flughafen empfing."
     }
   ],
   "feedErrors": [
