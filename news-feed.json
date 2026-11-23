@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-23T09:56:29.688168+00:00",
+  "fetchedAt": "2026-11-23T11:12:44.737419+00:00",
   "articles": [
+    {
+      "title": "Thyssenkrupp Nucera: Das sieht nicht gut aus...",
+      "url": "https://www.deraktionaer.de/artikel/aktien/thyssenkrupp-nucera-das-sieht-nicht-gut-aus-20448727.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 10:21:00 GMT",
+      "description": "    Thyssenkrupp Nucera wurde im Geschäftsjahr 2025/26 von Fehlerkorrekturen, Mehrkosten bei Neubauvorhaben und einer Abschreibung auf eine Pilotanlage stärker belastet als erwartet. In den zwölf Monaten bis Ende September belief sich der Verlust vor Zinsen und Steuern (EBIT) auf 136 Millionen Euro, teilte die Thyssenkrupp-Tochter am Freitagabend ü"
+    },
+    {
+      "title": "Megatrend Folger: Nvidia – KI-Crash oder Kaufchance? Diese drei Faktoren entscheiden jetzt",
+      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-nvidia-ki-crash-oder-kaufchance-diese-drei-faktoren-entscheiden-jetzt-20448681.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 10:05:00 GMT",
+      "description": "   Die Nervosität rund um KI-Aktien hält an. Nvidia und andere Technologiewerte sind vergangene Woche unter Druck geraten, während Anleger zunehmend fragen, ob die milliardenschweren Investitionen in Rechenzentren überhaupt ausreichende Erträge bringen können.  "
+    },
+    {
+      "title": "Sichere Häfen in stürmischen Zeiten: Bei diesen beiden DAX-Titeln lohnt sich der Kauf",
+      "url": "https://www.deraktionaer.de/artikel/aktien/sichere-haefen-in-stuermischen-zeiten-bei-diesen-beiden-dax-titeln-lohnt-sich-der-kauf-20448639.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Mon, 23 Nov 2026 09:44:00 GMT",
+      "description": "    Die Nervosität an den Märkten ist greifbar. Dementsprechend ging es an den Weltbörsen zuletzt wieder deutlich bergab. In Deutschland gibt es allerdings einige Aktien, die sich auch in diesen stürmischen Zeiten relativ robust zeigen.    "
+    },
     {
       "title": "Infineon und Siemens Energy zurück an der DAX-Spitze – Startschuss für die Trendwende?",
       "url": "https://www.deraktionaer.de/artikel/aktien/infineon-und-siemens-energy-zurueck-an-der-dax-spitze-startschuss-fuer-die-trendwende-20448693.html?feed=directrssfeed",
@@ -51,32 +72,39 @@
       "description": "   Neuer Rekord bei GTA 6. Publisher Take-Two Interactive sammelte am ersten Verkaufstag fast vier Milliarden Dollar ein. Damit legte das Videospiel den besten Start eines Entertainment-Produkts in der Geschichte hin. Die Aktie von Take-Two konnte am Freitag in einem schwachen Umfeld leicht zulegen.  "
     },
     {
-      "title": "Munich Re: Der Anker im KI-Sturm?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/munich-re-der-anker-im-ki-sturm-20448492.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:43:00 GMT",
-      "description": "   De KI-Wirbelsturm hat am Freitag auch im DAX deutliche Spuren hinterlassen. Der Leitindex ging mit einem satten Minus von 2,6 Prozent ins Wochenende. Einzelwerte sackten sogar um über acht Prozent ab. Nicht jedoch die Rückversicherer. Hannover Rück und Munich Re fuhren sogar ein Plus ein.  "
-    },
-    {
-      "title": "BASF: Morgen wird es spannend",
-      "url": "https://www.deraktionaer.de/artikel/aktien/basf-morgen-wird-es-spannend-20448464.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:42:00 GMT",
-      "description": "    Es wird spannend bei BASF. Denn der DAX-Konzern lädt am morgigen Dienstag in Ludwigshafen zum Kapitalmarkttag. Um 8:30 Uhr erscheint eine Pressemitteilung, um 9:00 Uhr folgt die Konzernpräsentation von Vorstandschef Markus Kamieth und Finanzchef Dirk Elvermann, um 13:00 Uhr stellt der Vorstand von Agricultural Solutions seine Sparte vor.  "
-    },
-    {
-      "title": "Bayer: Am Ziel – Aktie dreht auf",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/bayer-am-ziel-aktie-dreht-auf-20448389.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 07:40:00 GMT",
-      "description": "   Das DAX-Unternehmen Bayer ist am großen Ziel angekommen. Nach vielen Jahren hat es der Konzern endlich geschafft, die Glyphosat-Rechtsstreitigkeiten nachhaltig in die Schranken zu weisen. Ende vergangener Woche erteilte ein Gericht in den USA die finale Genehmigung für einen Sammelvergleich.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Rohstoff Gas: Kältewelle im Winter droht: Gaspreise ziehen an",
+      "url": "https://www.wallstreet-online.de/nachricht/21734632-rohstoff-gas-kaeltewelle-winter-droht-gaspreise",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die europäischen Erdgaspreise steigen sprunghaft an: Eine Kältewelle soll Europa heimsuchen."
+    },
+    {
+      "title": "Milliardendeal für Kühltechnik: ABB übernimmt Ziehl-Abegg: 2,65-Milliarden-Deal für Kühltechnik",
+      "url": "https://www.wallstreet-online.de/nachricht/21734623-milliardendeal-kuehltechnik-abb-uebernimmt-ziehl-abegg-2-65-milliarden-deal-kuehltechnik",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "ABB möchte Ziehl-Abegg übernehmen und sein Kühlgeschäft ausbauen. Der Unternehmenswert liegt bei 2,65 Milliarden US-Dollar. Rechenzentren treiben die Nachfrage. Bei der Profitabilität setzt sich ABB ein ehrgeiziges Ziel."
+    },
+    {
+      "title": "Auch SAP unter Druck: Für diese deutsche Software-Aktie wurde das Kursziel jetzt brutal gekürzt!",
+      "url": "https://www.wallstreet-online.de/nachricht/21734452-sap-druck-deutsche-software-aktie-kursziel-brutal-gekuerzt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "In den vergangenen Wochen hat die Nemetschek-Aktie 34 Prozent an Wert verloren. Ein Analyst reagiert darauf jetzt mit der Halbierung seines Kursziels!"
+    },
+    {
+      "title": "Streikwelle droht: VW, BMW und Mercedes steuern auf einen Krisenwinter zu",
+      "url": "https://www.wallstreet-online.de/nachricht/21734053-streikwelle-droht-vw-bmw-mercedes-steuern-krisenwinter",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Deutschlands Autobauer stecken tief in der Krise. Tausende Arbeitsplätze stehen auf dem Spiel, während Gewerkschaften mit weiteren Streiks drohen."
     },
     {
       "title": "Glyphosat-Streit: Bayer-Aktie unter Druck – trotz lang ersehntem Durchbruch",
@@ -93,11 +121,11 @@
       "description": "Nach Nvidias 14-Prozent-Crash steigen die US-Futures kräftig. Goldman Sachs und Morgan Stanley wittern Kaufchancen. Doch die Sorge um den KI-Boom bleibt. Anleger stehen vor der Frage, ob die Erholung diesmal Bestand hat."
     },
     {
-      "title": "Verkürzte Handelswoche: US-Futures springen an – DAX startet Erholung",
-      "url": "https://www.wallstreet-online.de/nachricht/21733597-verkuerzte-handelswoche-us-futures-springen-dax-erholung",
+      "title": "Deutschland Wachstumsmotor: US-Futures springen an – DAX startet Erholung",
+      "url": "https://www.wallstreet-online.de/nachricht/21733597-deutschland-wachstumsmotor-us-futures-springen-dax-erholung",
       "publisher": "wallstreet:online",
       "publishedAt": "",
-      "description": "Während die US-Futures nach dem KI-Ausverkauf deutlich zulegen, bleiben die asiatischen Börsen unter Druck. Der DAX startet am Montag mit Gewinnen. BASF und Bayer sorgen für neue Unternehmensimpulse."
+      "description": "Während die US-Futures nach dem KI-Ausverkauf deutlich zulegen, bleiben die asiatischen Börsen unter Druck. Der DAX legt am Montag zu. Deutschland wird zum Wachstumsmotor, zeigen neue Daten."
     },
     {
       "title": "Ölriese räumt auf: ConocoPhillips trennt sich von seinem Nordsee-Juwel",
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Palantir-Mitgründer hat seine Beteiligung an einem südamerikanischen Ölproduzenten um 59 Prozent erhöht. Hinter seiner Millionenwette steckt auch eine politische Dimension."
-    },
-    {
-      "title": "Jim Cramer: Nvidia hat ein neues Problem – Die Quartalszahlen sind es nicht",
-      "url": "https://www.wallstreet-online.de/nachricht/21715887-jim-cramer-nvidia-problem-quartalszahlen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia liefert gute Zahlen. Doch Jim Cramer sieht ein neues Risiko. Der Börsengang von Anthropic könnte Anleger ablenken, während der Chipkonzern nach dem Rücktritt von Jensen Huang um neues Vertrauen an der Börse ringt."
-    },
-    {
-      "title": "Rekord-IPO: Anthropic schlägt SpaceX – doch der wahre Gewinner ist ein anderer",
-      "url": "https://www.wallstreet-online.de/nachricht/21715974-rekord-ipo-anthropic-schlaegt-spacex-wahre-gewinner",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Anthropic stellt den bisherigen IPO-Rekord von SpaceX in den Schatten. Doch die größten Gewinner könnten vor allem andere Tech-Giganten sein."
-    },
-    {
-      "title": "Milliarden für KI: Palo Alto Networks hebt Prognose an – Aktie knallt nachbörslich hoch",
-      "url": "https://www.wallstreet-online.de/nachricht/21715686-milliarden-ki-palo-alto-networks-hebt-prognose-aktie-knallt-nachboerslich",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Palo Alto Networks übertrifft die Erwartungen und erhöht auch die Jahresprognose. Zudem will der Konzern Applied Compute für 4,5 Milliarden US-Dollar übernehmen. Die Aktie legt nachbörslich um mehr als neun Prozent zu."
-    },
-    {
-      "title": "Rivale abgeschrieben: Robinhood fürchtet Kalshi nicht – jetzt könnte der Kurssturz enden",
-      "url": "https://www.wallstreet-online.de/nachricht/21713790-rivale-abgeschrieben-robinhood-fuerchtet-kalshi-kurssturz-enden",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Robinhood sieht in Kalshi keine ernsthafte Konkurrenz. Nach hohen Kursverlusten sieht Mizuho jetzt enormes Aufwärtspotenzial."
     }
   ],
   "feedErrors": [
