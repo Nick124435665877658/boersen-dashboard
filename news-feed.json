@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T10:59:47.057983+00:00",
+  "fetchedAt": "2026-11-24T12:04:01.524558+00:00",
   "articles": [
+    {
+      "title": "Countdown für Rheinmetall: Warum Anleger den Donnerstag im Blick haben sollten",
+      "url": "https://www.deraktionaer.de/artikel/aktien/countdown-fuer-rheinmetall-warum-anleger-den-donnerstag-im-blick-haben-sollten-20449710.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 10:55:00 GMT",
+      "description": "   Bereits am Montag gehört die Aktie von Rheinmetall zu den stärksten Werten im DAX. Und auch am Dienstag kann der Rüstungswert mit Stärke glänzen. Gegen Mittag notiert die Aktie fast zwei Prozent im Plus und führt damit die Gewinnerliste im deutschen Leitindex vor MTU Aero Engines und RWE an.  "
+    },
     {
       "title": "Das schmerzt gewaltig: MDAX-Titel stürzt 14 Prozent ab",
       "url": "https://www.deraktionaer.de/artikel/aktien/aurubis-das-schmerzt-gewaltig-mdax-titel-stuerzt-14-prozent-ab-20449662.html?feed=directrssfeed",
@@ -65,18 +72,25 @@
       "description": "   Nach dem kräftigen Wochenauftakt hält der DAX am Dienstag seine Gewinne. Die Rückkehr von Jensen Huang an die Nvidia-Spitze hat eine Rally bei Technologiewerten ausgelöst. Jetzt muss sich zeigen, ob die Käufer nachlegen oder die Sorgen um den Ausbau von KI-Rechenzentren und die Zinsen wieder in den Vordergrund rücken.  "
     },
     {
-      "title": "Bitcoin vor der Bewährungsprobe: Huang sorgt für Hoffnung, doch Nvidia-Power verpufft",
-      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-vor-der-bewaehrungsprobe-huang-sorgt-fuer-hoffnung-doch-der-druck-bleibt-hoch-20449489.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 07:42:00 GMT",
-      "description": "   Der Bitcoin hat am Montag nur einen kurzen Höhenflug hingelegt. Auslöser war die Nachricht, dass Jensen Huang auf den Chefsessel bei Nvidia zurückkehrt. Die Stimmung an den Finanzmärkten hellte sich spürbar auf, und die älteste und bekannteste Kryptowährung kletterte bis auf 64.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Börse korrigiert: Fette Chance oder Value Trap? Analysten wittern Morgenluft!",
+      "url": "https://www.wallstreet-online.de/nachricht/21740731-boerse-korrigiert-fette-chance-value-trap-analysten-wittern-morgenluft",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "\"Das ist die fette Chance, auf die wir geduldig gewartet haben, und die werden wir uns nicht entgehen lassen\", schreibt Mike Wilson, Stratege bei Morgan Stanley, am Montag."
+    },
+    {
+      "title": "Neun Monate Wachstum: E-Auto-Boom treibt Europas Absatz – doch VW und Stellantis zahlen den Preis",
+      "url": "https://www.wallstreet-online.de/nachricht/21740218-monate-wachstum-e-auto-boom-treibt-europas-absatz-vw-stellantis-zahlen-preis",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Europas Autoabsatz steigt den neunten Monat in Folge. E-Autos treiben die Erholung. In Deutschland und Frankreich legen sie kräftig zu. Doch für VW und Stellantis hat der Boom einen Haken. Chinas Hersteller machen Druck."
     },
     {
       "title": "Gewinn bricht um 56,8 % ein: Margen-Implosion bei Xiaomi! Wie viel tiefer geht es jetzt noch?",
@@ -338,7 +352,7 @@
       "description": "ABB möchte Ziehl-Abegg übernehmen und sein Kühlgeschäft ausbauen. Der Unternehmenswert liegt bei 2,65 Milliarden US-Dollar. Rechenzentren treiben die Nachfrage. Bei der Profitabilität setzt sich ABB ein ehrgeiziges Ziel."
     },
     {
-      "title": "Auch SAP unter Druck: Darum wurde das Kursziel für TecDAX Wert Nemetschek jetzt brutal gekürzt!",
+      "title": "Auch SAP unter Druck: Darum wurde das Kursziel für TecDAX-Wert Nemetschek jetzt brutal gekürzt!",
       "url": "https://www.wallstreet-online.de/nachricht/21734452-sap-druck-kursziel-tecdax-wert-nemetschek-brutal-gekuerzt",
       "publisher": "wallstreet:online",
       "publishedAt": "",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Bitcoin fällt auf den tiefsten Stand seit vier Monaten. Das Rekord-IPO von Anthropic saugt Kapital ab. Gleichzeitig fließen Milliarden aus Bitcoin-ETFs."
-    },
-    {
-      "title": "Anthropic-Euphorie verpufft: Asien stürzt ab, auch Wall Street, DAX und Gold im Crash-Modus!",
-      "url": "https://www.wallstreet-online.de/nachricht/21722325-anthropic-euphorie-verpufft-asien-stuerzt-ab-wall-street-dax-gold-crash-modus",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nur kurz kehrte mit dem Anthropic-IPO die KI-Begeisterung zurück, anschließend setzte die Wall Street ihren Absturz fort und belastete auch Asien und den DAX."
-    },
-    {
-      "title": "Milliardenkosten im Fokus: Anthropic-Aktie fällt nachbörslich: Der Rekord-IPO stoppt die KI-Angst nicht",
-      "url": "https://www.wallstreet-online.de/nachricht/21722301-milliardenkosten-fokus-anthropic-aktie-faellt-nachboerslich-rekord-ipo-stoppt-ki-angst",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Anthropic-Aktie ist bei ihrem Börsen-Debüt an der Nasdaq zunächst bis zu 39 Prozent gestiegen. Die Aktie ging mit einem Plus von 17 Prozent aus dem Handel. Doch nachbörslich geht es um bis zu 5 Prozent nach unten."
     }
   ],
   "feedErrors": [
