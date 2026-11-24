@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T21:35:47.460088+00:00",
+  "fetchedAt": "2026-11-24T22:37:44.191075+00:00",
   "articles": [
+    {
+      "title": "Schlussglocke: Nvidia knickt ein, Anthropic verspielt IPO-Gewinne",
+      "url": "https://www.deraktionaer.de/artikel/indizes/schlussglocke-nvidia-knickt-ein-anthropic-verspielt-ipo-gewinne-20450144.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 22:06:00 GMT",
+      "description": "   Die Rally zum Wochenauftakt entpuppt sich vorerst als Strohfeuer. Nur einen Tag nach der stärksten Erholung seit April 2025 kehrt die Nervosität an den New Yorker Börsen zurück. Der S&P 500 und Nasdaq 100 geben um rund ein Prozent nach, einzig der Dow Jones kann sich gegen den Trend stemmen.  "
+    },
     {
       "title": "Dell: Die Zahlen sind da – Aktie zieht an",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/dell-die-zahlen-sind-da-20450138.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Starke Unternehmen erkennen, langfristige Aufwärtstrends nutzen und konsequent investiert bleiben: Der Megatrend Folger zeigt, was mit dieser Strategie möglich ist. Seit Auflage stehen im Aktien-Depot mehr als 483 Prozent Plus zu Buche. Das Optionsschein-Depot kommt sogar auf 1.  "
     },
     {
-      "title": "Neue Gewinnführer: Mag 7 plötzlich schwächer als gedacht",
-      "url": "https://www.deraktionaer.de/artikel/technische-analyse/neue-gewinnfuehrer-mag-7-ploetzlich-schwaecher-als-gedacht-20449952.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 15:57:00 GMT",
-      "description": "   Die bekanntesten US-Techkonzerne dominieren die Schlagzeilen – doch bei den Gewinnen verschiebt sich das Kräfteverhältnis plötzlich. Eine aktuelle statistische Auswertung aus der noch laufenden Quartalssaison zeigt stärkeres Wachstum bei den übrigen S&P-500-Unternehmen als bei den „Magnificent 7“.  "
+      "title": "Aktie nach brutalem Tag: Dell sprengt die Erwartungen und hebt die Prognose zum 3. Mal an",
+      "url": "https://www.wallstreet-online.de/nachricht/21743188-aktie-brutalem-tag-dell-sprengt-erwartungen-hebt-prognose-3",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Dell übertrifft im dritten Quartal alle Erwartungen und erhöht die Jahresziele zum dritten Mal. Nachbörslich legt die Aktie um 2 Prozent zu, nachdem sie im regulären Handel 12 Prozent verloren hatte."
     },
     {
       "title": "Teure Energie heizt Zinsen an: Gleich 4 Notenbanken holen zum Schlag aus",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Kapitalmärkte haben ein Liquiditätsproblem. Hier ergeben sich Parallelen zur DotCom-Blase aus dem Jahr 2000, aber auch entscheidende Unterschiede."
-    },
-    {
-      "title": "Nach 14 Monats Tief: Alle sprechen vom Crash, aber was ist wirklich los bei Silber?",
-      "url": "https://www.wallstreet-online.de/nachricht/21724812-14-monats-tief-sprechen-crash-los-silber",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Silber stürzt auf den tiefsten Stand seit 14 Monaten. Doch trotz des massiven Ausverkaufs sehen Experten Chancen auf eine Erholung. Warum der Markt Hoffnung macht und welche Gefahren Anleger nicht unterschätzen sollten."
     }
   ],
   "feedErrors": [
