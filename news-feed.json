@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T02:58:00.051952+00:00",
+  "fetchedAt": "2026-11-24T04:05:39.683098+00:00",
   "articles": [
     {
       "title": "Schlussglocke: Unglaubliche Rekordrally – ein Mann größer als die Wall Street?",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Mon, 23 Nov 2026 14:52:00 GMT",
       "description": "    Ein sehr wilder Tag an den Weltbörsen: Bereits zu Beginn des Handels legten viele Aktien kräftig zu. Und als am Nachmittag noch die Meldung über die Ticker lief, dass der langjährige Nvidia-Chef Jensen Huang wieder zu dem von ihm gegründeten Unternehmen zurückkehren wird, kannten einige Aktien kein Halten mehr.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Frische Q-Zahlen von: Dell, Medtronic, Kingfisher, Best Buy, Analog Devices & HP",
+      "url": "https://www.wallstreet-online.de/nachricht/21731818-wichtigsten-termine-frische-q-zahlen-von-dell-medtronic-kingfisher-best-buy-analog-devices-hp",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Warnung an die Notenbank: Bill Ackman: Fed, ihr macht einen gewaltigen Fehler!",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die renommierte Cybersicherheitsexpertin Nicole Perlroth warnt vor einer Ära beispielloser technologischer Instabilität. Ausgerechnet künstliche Intelligenz könnte das Problem massiv verschärfen."
-    },
-    {
-      "title": "Notenbank warnt: KI-Boom gefährdet die Finanzstabilität Europas",
-      "url": "https://www.wallstreet-online.de/nachricht/21719208-notenbank-warnt-ki-boom-gefaehrdet-finanzstabilitaet-europas",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der KI-Boom könnte eine gefährliche Kettenreaktion an den Finanzmärkten auslösen, warnt die EZB. Selbst Europas vermeintlich sichere Börsen wären betroffen. Droht eine neue Finanzkrise wie im Jahr 2008?"
     }
   ],
   "feedErrors": [
