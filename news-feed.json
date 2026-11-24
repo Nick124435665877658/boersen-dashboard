@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T18:32:43.213910+00:00",
+  "fetchedAt": "2026-11-24T19:43:37.325091+00:00",
   "articles": [
     {
       "title": "AKTIONÄR-Tipp stürmt an die Spitze: Jetzt kaufen?",
@@ -72,6 +72,27 @@
       "description": "   Die Halbwertszeit der Euphorie an der Wall Street scheint momentan ausgesprochen kurz zu sein. Gestern feierte der Markt noch die Rückkehr von Jensen Huang bei Nvidia. Der Dow Jones, S&P 500 und Nasdaq 100 hatten dank des Kursfeuerwerks zwischen drei und sieben Prozent zugelegt.  "
     },
     {
+      "title": "Auffällige ETF-Geldströme: 57 Milliarden trotz KI-Crash: Was hinter dem ETF-Ansturm steckt",
+      "url": "https://www.wallstreet-online.de/nachricht/21740428-auffaellige-etf-geldstroeme-57-milliarden-trotz-ki-crash-etf-ansturm-steckt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mitten im KI-Ausverkauf fließen Milliarden in ETFs. Doch ein großer Anteil der Zuflüsse konzentriert sich auf drei ARK-Fonds. Kurz darauf fließen Milliarden wieder ab. Was steckt hinter diesen auffälligen Geldbewegungen?"
+    },
+    {
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Wenn die Börsen kollabieren: Legende Steve Eisman: \"Bitcoin ist nichts wert – ich würde niemals kaufen!\"",
+      "url": "https://www.wallstreet-online.de/nachricht/21742141-boersen-kollabieren-legende-steve-eisman-bitcoin-wert-kaufen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Steve Eisman hält Bitcoin langfristig für wertlos und schließt einen Einstieg kategorisch aus. Der berühmte Crash-Investor erklärt, warum die Kryptowährung gerade in Finanzkrisen versagt."
+    },
+    {
       "title": "Hebel-Idee | Long-Chance: Fette Kursgewinne pünktlich zu Weihnachten? Das bietet jetzt diese Aktie!",
       "url": "https://www.wallstreet-online.de/nachricht/21740806-hebel-idee-long-chance-fette-kursgewinne-puenktlich-weihnachten-aktie",
       "publisher": "wallstreet:online",
@@ -126,13 +147,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mehr Passagiere als je zuvor, Carnival für 2027 schon halb ausgebucht und das zu Rekordpreisen. Trotzdem laufen die Aktien der großen Reedereien weit auseinander. Und ein Risiko lauert unter Deck."
-    },
-    {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
     },
     {
       "title": "Mercedes' Erbe im Visier: Neue Konkurrenz aus China: BYD fordert Europas Autobauer heraus",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Während KI-Werte schwächeln, zieht eine Biotech-Aktie davon. Die Bank of America steigt bei Viridian Therapeutics mit Kaufempfehlung ein und traut dem Herausforderer von Amgen noch deutlich mehr zu."
-    },
-    {
-      "title": "Geht der Crash weiter?: AMD: Short-Attacke | Apple: Sicherer Hafen | SAP: Neue Panik-Welle",
-      "url": "https://www.wallstreet-online.de/video/21724941-crash-weiter-amd-short-attacke-apple-sicherer-hafen-sap-panik-welle",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Das kam jetzt überraschend. Obwohl der Anthropic-IPO erfolgreich war, kippte die Stimmung an der Wall Street erneut und es folgte der nächste harte Kursrutsch, besonders für Tech-Aktien. War das der finale Abverkauf?"
-    },
-    {
-      "title": "Nach 50 % Verlust: Coinbase setzt auf zwei neue Märkte – ist das die Rettung?",
-      "url": "https://www.wallstreet-online.de/nachricht/21724686-50-verlust-coinbase-maerkte-rettung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Coinbase will mit eigenen Prognosemärkten und Krypto-Optionen wachsen. Kann die Expansion die abgestürzte Aktie wieder nach oben treiben?"
     }
   ],
   "feedErrors": [
