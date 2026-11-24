@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-24T05:14:10.318002+00:00",
+  "fetchedAt": "2026-11-24T06:07:44.094094+00:00",
   "articles": [
+    {
+      "title": "Exklusive Black-Week-Deals: Jetzt 20 Prozent sparen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/black-week-startet-20-prozent-auf-digitale-magazin-abos-und-boersenbriefe-20447257.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 06:00:00 GMT",
+      "description": "   Rabatte gibt es rund um den Black Friday viele – doch nur wenige Angebote verbinden Sparen mit der Chance, mehr aus dem eigenen Geld zu machen. Jetzt heißt es zugreifen: Smarte Anleger sichern sich starke 20 Prozent Rabatt auf alle digitalen Magazin-Abos und Börsenbriefe der Börsenmedien AG.  "
+    },
+    {
+      "title": "DAX-Prognose: Fest – Nvidia-Rally, Siemens Energy, Infineon, Rheinnetall, Bayer, RWE, BASF im Fokus",
+      "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-fest-nvidia-rally-siemens-energy-infineon-rheinnetall-bayer-rwe-basf-im-fokus-20449341.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 05:51:00 GMT",
+      "description": "   Nach sechs Verlusttagen in Folge hat der DAX gestern, am Montag, die Kehrtwende geschafft. Der deutsche Leitindex schloss im Xetra-Handel 2,2 Prozent höher bei 25.337 Punkten und liegt damit wieder über der Marke von 25.000 Punkten. Zum Start in den Dienstag dürfte er noch ein paar Punkte zulegen können.  "
+    },
     {
       "title": "Schlussglocke: Unglaubliche Rekordrally – ein Mann größer als die Wall Street?",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-unglaubliche-rekordrally-ein-mann-groesser-als-die-wall-street-20449182.html?feed=directrssfeed",
@@ -58,18 +72,18 @@
       "description": "   Das Unmögliche ist möglich: Der Verwaltungsrat von Nvidia hat überraschend Jensen Huang als CEO des KI-Pioniers zurückgeholt. Die Anleger sind aus dem Häuschen und katapultieren den Kurs durch die Decke. Alles andere aus dem KI-Bereich zieht mit – selbst der DAX legt nach der Mitteilung um rund 270 Punkte zu.  "
     },
     {
-      "title": "Plötzlich wieder Rally dank Nvidia? Weiterer Milliarden-Paukenschlag",
-      "url": "https://www.deraktionaer.de/artikel/technische-analyse/ploetzlich-wieder-rally-dank-nvidia-weiterer-milliarden-paukenschlag-20448992.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 14:55:00 GMT",
-      "description": "   Am Freitag herrschte an der Wall Street noch gefühlte Weltuntergangsstimmung mit starken Kursverlusten. Der Wochenstart sorgt plötzlich mit mehreren starken News für ein Kursfeuerwerk bei US-Tech-Aktien. Im Cybersecurity-Sektor sorgt ein angekündigter Milliarden-Deal ebenfalls für Aufsehen: Ein Branchenriese will einen wichtigen Rivalen übernehm"
+      "title": "Kaufempfehlung nach Kursrutsch: SpaceX: Jefferies sieht 64 Prozent Kurspotenzial",
+      "url": "https://www.wallstreet-online.de/nachricht/21735412-kaufempfehlung-kursrutsch-spacex-jefferies-64-prozent-kurspotenzial",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die SpaceX-Aktie fällt zeitweise unter ihren Ausgabepreis. Doch Jefferies sieht 64 Prozent Kurspotenzial und rät zum Kauf. Hinter der Zuversicht steckt weitaus mehr als das Raketengeschäft. Die Hintergründe."
     },
     {
-      "title": "Kurssprung bei Siemens Energy, Infineon & Co",
-      "url": "https://www.deraktionaer.de/artikel/aktien/kurssprung-bei-siemens-energy-infineon-co-20448983.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Mon, 23 Nov 2026 14:52:00 GMT",
-      "description": "    Ein sehr wilder Tag an den Weltbörsen: Bereits zu Beginn des Handels legten viele Aktien kräftig zu. Und als am Nachmittag noch die Meldung über die Ticker lief, dass der langjährige Nvidia-Chef Jensen Huang wieder zu dem von ihm gegründeten Unternehmen zurückkehren wird, kannten einige Aktien kein Halten mehr.  "
+      "title": "Lieblinge der Hedgefonds: Bei diesen 10 Aktien haben die Profis besonders häufig zugegriffen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21735754-lieblinge-hedgefonds-10-aktien-profis-haeufig-zugegriffen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldman Sachs enthüllt die 16 Aktien, bei denen Hedgefonds zuletzt besonders stark eingestiegen sind. Intel führt die Liste an, Meta feiert ein Comeback. Welche Titel jetzt die Profis überzeugen."
     },
     {
       "title": "Strategischer Fokus: Uran-Terminpreis auf Rekord: IsoEnergy trifft 15,4 %, PUR und UEC gewinnen starke Partner!",
@@ -756,20 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der DAX hat klar schwächer geschlossen. Anthropic sorgt an der Wall Street dagegen für einen spektakulären Börsenstart. Die Aktie eröffnet 34 Prozent über dem Ausgabepreis."
-    },
-    {
-      "title": "Gas, Lebensmittel teurer: Die Inflation soll 2027 noch weiter steigen, Entlastungen verpuffen",
-      "url": "https://www.wallstreet-online.de/nachricht/21719988-gas-lebensmittel-teurer-inflation-2027-steigen-entlastungen-verpuffen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trotz neuer Entlastungen droht Verbrauchern 2027 eine weitere Teuerungswelle. Bundesbank und Experten warnen vor steigenden Preisen. Besonders in Bereichen wie Energie, Gesundheit und Lebensmitteln."
-    },
-    {
-      "title": "AMD, Coreweave und Take-Two | Nasdaq stürzt ab!",
-      "url": "https://www.wallstreet-online.de/nachricht/21720243-amd-coreweave-take-two-nasdaq-stuerzt-ab",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "In der heutigen Ausgabe schauen wir auf die oben genannten Werte und lassen dabei aber nicht ausser Acht, dass der Nasdaq gerade gerade deutlich unter Druck gerät"
     }
   ],
   "feedErrors": [
