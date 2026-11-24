@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T19:43:37.325091+00:00",
+  "fetchedAt": "2026-11-24T20:31:17.528963+00:00",
   "articles": [
+    {
+      "title": "Nvidia: Ist das CEO-Comeback ein Kaufsignal?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-ist-das-ceo-comeback-ein-kaufsignal-20450084.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 19:40:00 GMT",
+      "description": "   Was ist ein Konzernchef wert? Im Falle von Nvidia lautet die Antwort seit gestern offenbar: fast eine Billion Dollar. Um sage und schreibe 952 Milliarden Dollar ist der Börsenwert des Chip-Giganten am Montag gestiegen, nachdem die Rückkehr von Jensen Huang als CEO bekannt geworden war.  "
+    },
     {
       "title": "AKTIONÄR-Tipp stürmt an die Spitze: Jetzt kaufen?",
       "url": "https://www.deraktionaer.de/artikel/aktien/aktionaer-tipp-stuermt-an-die-spitze-jetzt-kaufen-20450085.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Jensen Huang ist zurück, Nvidia feiert ein spektakuläres Comeback. Doch Börsenexperte André Fischer blickt bereits weiter: Wo könnte der nächste 100-Bagger entstehen?  "
     },
     {
-      "title": "Wall Street: Der Tag nach der großen KI-Party",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-der-tag-nach-der-grossen-ki-party-20449890.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 15:25:00 GMT",
-      "description": "   Die Halbwertszeit der Euphorie an der Wall Street scheint momentan ausgesprochen kurz zu sein. Gestern feierte der Markt noch die Rückkehr von Jensen Huang bei Nvidia. Der Dow Jones, S&P 500 und Nasdaq 100 hatten dank des Kursfeuerwerks zwischen drei und sieben Prozent zugelegt.  "
+      "title": "Teure Energie heizt Zinsen an: Gleich 4 Notenbanken holen zum Schlag aus",
+      "url": "https://www.wallstreet-online.de/nachricht/21741415-teure-energie-heizt-zinsen-an-4-notenbanken-holen-schlag",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gleich vier große Notenbanken wollen die Zinsen noch einmal anheben. Doch Analysten sehen schon das Ende des Zyklus kommen. Und an den Aktienmärkten setzt ein Vermögensverwalter auf eine klare Strategie."
     },
     {
       "title": "Auffällige ETF-Geldströme: 57 Milliarden trotz KI-Crash: Was hinter dem ETF-Ansturm steckt",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Silber stürzt auf den tiefsten Stand seit 14 Monaten. Doch trotz des massiven Ausverkaufs sehen Experten Chancen auf eine Erholung. Warum der Markt Hoffnung macht und welche Gefahren Anleger nicht unterschätzen sollten."
-    },
-    {
-      "title": "50% Kursplus in einem Monat: Diese Biotech-Aktie hilft gegen den KI-Blues",
-      "url": "https://www.wallstreet-online.de/nachricht/21725148-50-kursplus-monat-biotech-aktie-hilft-ki-blues",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während KI-Werte schwächeln, zieht eine Biotech-Aktie davon. Die Bank of America steigt bei Viridian Therapeutics mit Kaufempfehlung ein und traut dem Herausforderer von Amgen noch deutlich mehr zu."
     }
   ],
   "feedErrors": [
