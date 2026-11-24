@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-24T17:30:16.384695+00:00",
+  "fetchedAt": "2026-11-24T18:32:43.213910+00:00",
   "articles": [
+    {
+      "title": "AKTIONÄR-Tipp stürmt an die Spitze: Jetzt kaufen?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/aktionaer-tipp-stuermt-an-die-spitze-jetzt-kaufen-20450085.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 18:18:00 GMT",
+      "description": "   Den KI-Highflyern geht am Dienstag erneut die Puste aus. Dafür finden Anleger ihr Glück im Discounter-Regal: Die AKTIONÄR-Empfehlung Dollar Tree belegt mit einem Kursplus von gut zwölf Prozent heute den ersten Platz im S&P 500. Aus charttechnischer Sicht gelingt der Aktie damit ein Befreiungsschlag.  "
+    },
+    {
+      "title": "Das Aktienangebot",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/das-aktienangebot--20449976.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 17:30:00 GMT",
+      "description": "   Das Netto-Aktienangebot (die Differenz zwischen neu emittierten Papieren und Aktien, die Unternehmen durch Rückkäufe oder Übernahmen vom Markt nehmen) war zuletzt viele Jahre negativ. So haben die US-Unternehmen Jahr für Jahr für gut eine Billion Dollar eigene Aktien am Markt aufgekauft und eingezogen.  "
+    },
+    {
+      "title": "Neue Hiobsbotschaft aus Washington – DAX knickt ein",
+      "url": "https://www.deraktionaer.de/artikel/indizes/dax-gestern-erloesung-heute--20449969.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 17:30:00 GMT",
+      "description": "   Einen Tag lang durften die internationalen Aktienmärkte aufatmen. Heute rücken die Sorgen der Anleger wieder in den Vordergrund. Tech-Aktien stehen erneut unter Druck, aus Washington droht neues Ungemach und auch die Europäische Zentralbank könnte den Anlegern kurz vor Jahresende noch eine unangenehme Überraschung bescheren.  "
+    },
     {
       "title": "Autodesk und Workday vor Zahlen: Das erwarten die Analysten",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/autodesk-und-workday-vor-zahlen-das-erwarten-die-analysten-20450001.html?feed=directrssfeed",
@@ -51,25 +72,25 @@
       "description": "   Die Halbwertszeit der Euphorie an der Wall Street scheint momentan ausgesprochen kurz zu sein. Gestern feierte der Markt noch die Rückkehr von Jensen Huang bei Nvidia. Der Dow Jones, S&P 500 und Nasdaq 100 hatten dank des Kursfeuerwerks zwischen drei und sieben Prozent zugelegt.  "
     },
     {
-      "title": "Dell und HP vor Zahlen: Nächste Bewährungsprobe für den KI-Trade",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/dell-und-hp-vor-zahlen-naechste-bewaehrungsprobe-fuer-den-ki-trade-20449765.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 14:45:00 GMT",
-      "description": "   Einst waren Dell und HP vor allem als PC-Giganten bekannt. Heute stehen sie auch dank des gewaltigen Hungers nach KI-Rechenleistung im Rampenlicht – insbesondere Dell. Das Unternehmen stattet KI-Rechenzentren mit Servern aus. HP wiederum profitiert vom Umstieg der Unternehmen auf KI-fähige PCs.  "
+      "title": "Hebel-Idee | Long-Chance: Fette Kursgewinne pünktlich zu Weihnachten? Das bietet jetzt diese Aktie!",
+      "url": "https://www.wallstreet-online.de/nachricht/21740806-hebel-idee-long-chance-fette-kursgewinne-puenktlich-weihnachten-aktie",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Mit dem unmittelbar bevorstehenden Black Friday startet auch das Weihnachtsgeschäft. Davon könnte jetzt vor allem die Aktie von Birkenstock profitieren."
     },
     {
-      "title": "Konsumflaute? Diese drei Aktien explodieren nach Zahlen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/konsumflaute-diese-drei-aktien-explodieren-nach-zahlen-20449808.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 13:58:00 GMT",
-      "description": "   Nach dem Thanksgiving-Fest an diesem Donnerstag fällt der Startschuss für die heiße Phase des Weihnachtsgeschäfts: Am Black Friday gehen Konsumenten auf große Schnäppchenjagd und für den Einzelhandel bricht die umsatzstärkste Zeit des Jahres an. Abercrombie & Fitch, Best Buy sowie Dollar Tree liefern pünktlich dazu heute überraschend starke Zahl"
+      "title": "Engpässe: Nach dem Kupfer-Crash sehen Experten wieder Potenzial – zu früh?",
+      "url": "https://www.wallstreet-online.de/nachricht/21741682-engpaesse-kupfer-crash-experten-potenzial-frueh",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Kupferpreis stürzt erneut ab. Nichts scheint den Ausverkauf stoppen zu können. Doch UBS und Goldman Sachs erwarten eine kräftige Rallye. Ab 2028 könnte sogar ein Engpass drohen."
     },
     {
-      "title": "AKTIONÄR-Tipp Agilent Technologies: Top-Prognose – Aktie schießt auf ein neues Rekordhoch",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/aktionaer-tipp-agilent-technologies-gibt-gas-neues-allzeithoch-20449853.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 13:48:00 GMT",
-      "description": "   Der US-amerikanische Analytik-Spezialist Agilent Technologies hat am Montag nach US-Börsenschluss die Zahlen zum abgelaufenen vierten Quartal des Fiskaljahres 2025/26 veröffentlicht. Sowohl beim Umsatz als auch beim Ergebnis je Aktie konnte das Unternehmen die Markterwartungen übertreffen.  "
+      "title": "Too big to Fail!: Hellmeyer zur Nvidia-Rallye: \"Der Negativzyklus ist beendet\"",
+      "url": "https://www.wallstreet-online.de/video/21742501-too-big-to-fail-hellmeyer-nvidia-rallye-der-negativzyklus-beendet",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Rückkehr von Jensen Huang an die Nvidia-Spitze hat die Aktie an einem Tag um mehr als 30 Prozent nach oben katapultiert. Für Folker Hellmeyer, Chefvolkswirt der Netfonds AG, ist das mehr als ein Kursfeuerwerk."
     },
     {
       "title": "3 Milliarden Euro für nichts: Strom-Irrsinn kostet Milliarden – dieses System ist zu teuer",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Coinbase will mit eigenen Prognosemärkten und Krypto-Optionen wachsen. Kann die Expansion die abgestürzte Aktie wieder nach oben treiben?"
-    },
-    {
-      "title": "Teslas Europa-Offensive: Tesla feiert Durchbruch in Europa! Italien gibt grünes Licht für FSD",
-      "url": "https://www.wallstreet-online.de/nachricht/21724932-teslas-europa-offensive-tesla-feiert-durchbruch-europa-italien-gruenes-licht-fsd",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Tesla erzielt einen wichtigen Erfolg in Europa. Italien genehmigt das Fahrassistenzsystem des US-Konzerns. Die Einführung steht bevor. Auch eine EU-weite Zulassung rückt stärker in den Fokus."
-    },
-    {
-      "title": "Filialschließungen drohen: Gewinn verdoppelt! Eurocash überrascht mit Börsenplänen für Frisco",
-      "url": "https://www.wallstreet-online.de/nachricht/21723321-filialschliessungen-drohen-gewinn-verdoppelt-eurocash-ueberrascht-boersenplaenen-frisco",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Polens Einzelhandelskonzern Eurocash treibt seinen Umbau voran. Die Online-Tochter Frisco könnte an die Börse gehen. Gleichzeitig sollen unrentable Filialen schließen. Der Quartalsgewinn steigt deutlich."
-    },
-    {
-      "title": "Nach dem Aktiensplit: SanDisk: Ist die Aktie jetzt ein Schnäppchen?",
-      "url": "https://www.wallstreet-online.de/nachricht/21724734-aktiensplit-sandisk-aktie-schnaeppchen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Wer in sein Depot schaut und seine SanDisk-Position betrachtet, mag sich vielleicht kurz erschrocken haben."
     }
   ],
   "feedErrors": [
