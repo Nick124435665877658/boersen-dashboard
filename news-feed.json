@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T16:42:41.227106+00:00",
+  "fetchedAt": "2026-11-24T17:30:16.384695+00:00",
   "articles": [
+    {
+      "title": "Autodesk und Workday vor Zahlen: Das erwarten die Analysten",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/autodesk-und-workday-vor-zahlen-das-erwarten-die-analysten-20450001.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 16:45:00 GMT",
+      "description": "   Nach einem turbulenten Börsenjahr müssen Autodesk und Workday am Dienstag nach US-Börsenschluss beweisen, dass ihr Geschäft auch in einem schwierigen Umfeld weiter wächst. Zumal die Erholung an der Wall Street schon wieder auf wackligen Beinen steht.  "
+    },
     {
       "title": "Heißer Nvidia-Trade: So sind 100 Prozent drin",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/heisser-nvidia-trade-so-sind-100-prozent-drin-20450002.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Der US-amerikanische Analytik-Spezialist Agilent Technologies hat am Montag nach US-Börsenschluss die Zahlen zum abgelaufenen vierten Quartal des Fiskaljahres 2025/26 veröffentlicht. Sowohl beim Umsatz als auch beim Ergebnis je Aktie konnte das Unternehmen die Markterwartungen übertreffen.  "
     },
     {
-      "title": "BASF: Eine wichtige Nachricht für Dividendenjäger",
-      "url": "https://www.deraktionaer.de/artikel/aktien/basf-eine-wichtige-nachricht-fuer-dividendenjaeger-20449838.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 13:37:00 GMT",
-      "description": "    Heute hielt der Chemieriese BASF seinen Kapitalmarkttag ab. Eine der wichtigsten Aussagen: Der Rückzug aus den Gesprächen über Evonik bedeutet für BASF nicht, dass Übernahmen vom Tisch sind. Gezielte Zukäufe könnten weiterhin dazu beitragen, die eigenen Kerngeschäfte in einer Branche mit zunehmender Konsolidierung auszubauen.  "
+      "title": "3 Milliarden Euro für nichts: Strom-Irrsinn kostet Milliarden – dieses System ist zu teuer",
+      "url": "https://www.wallstreet-online.de/nachricht/21741361-3-milliarden-euro-nichts-strom-irrsinn-kostet-milliarden-system-teuer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Großbritannien warnt vor knappen Stromreserven, fehlende Stromtrassen verursachen Milliardenkosten. Auch Deutschland steckt in dieser Falle. Die Rechnung zahlen Bürger und Unternehmen."
+    },
+    {
+      "title": "AMD-Aktie, SAP, Bitcoin: Wie groß ist deine Angst? Meine Zuversicht ist groß!",
+      "url": "https://www.wallstreet-online.de/nachricht/21742231-amd-aktie-sap-bitcoin-gross-angst-zuversicht-gross",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
     },
     {
       "title": "Die Wette auf den Untergang: Kiyosaki: Der Crash des Jahrhunderts hat begonnen",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Wer in sein Depot schaut und seine SanDisk-Position betrachtet, mag sich vielleicht kurz erschrocken haben."
-    },
-    {
-      "title": "Europas Gasriese: Cyberangriff auf Equinor gestoppt: Öl- und Gasproduktion läuft normal",
-      "url": "https://www.wallstreet-online.de/nachricht/21724497-europas-gasriese-cyberangriff-equinor-gestoppt-oel-gasproduktion-laeuft-normal",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Equinor hat einen mehrtägigen Cyberangriff gestoppt. Die Öl- und Gasproduktion blieb unbeeinträchtigt. Hinweise auf Datendiebstahl gibt es bislang nicht."
-    },
-    {
-      "title": "Bitcoin: Die Zyklus-Lüge?!",
-      "url": "https://www.wallstreet-online.de/nachricht/21724533-bitcoin-zyklus-luege",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Und welche Faktoren könnten dem Ganzen noch einen Strich durch die Rechnung machen?"
     }
   ],
   "feedErrors": [
