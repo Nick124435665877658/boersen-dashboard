@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-24T20:31:17.528963+00:00",
+  "fetchedAt": "2026-11-24T21:35:47.460088+00:00",
   "articles": [
+    {
+      "title": "Dell: Die Zahlen sind da – Aktie zieht an",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/dell-die-zahlen-sind-da-20450138.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 21:14:00 GMT",
+      "description": "   Kaum ein Wert hat in diesem Jahr so vom Ausbau der KI-Infrastruktur profitiert wie Dell. In den letzten beiden Monaten ist die Aktie allerdings in einen Abwärtsstrudel geraten. Nun hat der texanische Hardware-Gigant seine Bücher geöffnet. Die Analystenschätzungen wurden pulverisiert.  "
+    },
+    {
+      "title": "S&P 500 vor dem Bärenmarkt? Diese Statistik hat es in sich",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/sp-500-vor-dem-baerenmarkt-diese-statistik-hat-es-in-sich-20450125.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Tue, 24 Nov 2026 20:34:00 GMT",
+      "description": "   Nach der spektakulären Rally zum Wochenauftakt steht die Wall Street vor einer Richtungsentscheidung. Ein Ökonom warnt mit einer brisanten Statistik vor dem nächsten Bärenmarkt, die Deutsche Bank hält genau das für historisch ungewöhnlich. Entscheidend könnte die Fed werden – und ein Blick ins Jahr 1962.  "
+    },
     {
       "title": "Nvidia: Ist das CEO-Comeback ein Kaufsignal?",
       "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-ist-das-ceo-comeback-ein-kaufsignal-20450084.html?feed=directrssfeed",
@@ -56,20 +70,6 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 24 Nov 2026 15:57:00 GMT",
       "description": "   Die bekanntesten US-Techkonzerne dominieren die Schlagzeilen – doch bei den Gewinnen verschiebt sich das Kräfteverhältnis plötzlich. Eine aktuelle statistische Auswertung aus der noch laufenden Quartalssaison zeigt stärkeres Wachstum bei den übrigen S&P-500-Unternehmen als bei den „Magnificent 7“.  "
-    },
-    {
-      "title": "Xiaomi: Die Zahlen sind da",
-      "url": "https://www.deraktionaer.de/artikel/aktien/xiaomi-die-zahlen-sind-da-20449871.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 15:50:00 GMT",
-      "description": "   Xiaomi hat am Dienstag seine Quartalszahlen vorgelegt und konnte  die Erwartungen  teilweise übertreffen. Im Vergleich zum Vorjahr verschlechterten sich die Zahlen des Smart-Devices- und EV-Herstellers jedoch.  "
-    },
-    {
-      "title": "Nvidia vor dem GAU? André Fischer enthüllt nächste Mega-Chance",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/nvidia-vor-dem-absturz-andr-fischer-enthuellt-naechste-mega-chance-20449967.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Tue, 24 Nov 2026 15:32:31 GMT",
-      "description": "   Jensen Huang ist zurück, Nvidia feiert ein spektakuläres Comeback. Doch Börsenexperte André Fischer blickt bereits weiter: Wo könnte der nächste 100-Bagger entstehen?  "
     },
     {
       "title": "Teure Energie heizt Zinsen an: Gleich 4 Notenbanken holen zum Schlag aus",
