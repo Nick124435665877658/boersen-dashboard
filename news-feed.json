@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T04:05:39.683098+00:00",
+  "fetchedAt": "2026-11-24T05:14:10.318002+00:00",
   "articles": [
     {
       "title": "Schlussglocke: Unglaubliche Rekordrally – ein Mann größer als die Wall Street?",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Mon, 23 Nov 2026 14:52:00 GMT",
       "description": "    Ein sehr wilder Tag an den Weltbörsen: Bereits zu Beginn des Handels legten viele Aktien kräftig zu. Und als am Nachmittag noch die Meldung über die Ticker lief, dass der langjährige Nvidia-Chef Jensen Huang wieder zu dem von ihm gegründeten Unternehmen zurückkehren wird, kannten einige Aktien kein Halten mehr.  "
+    },
+    {
+      "title": "Strategischer Fokus: Uran-Terminpreis auf Rekord: IsoEnergy trifft 15,4 %, PUR und UEC gewinnen starke Partner!",
+      "url": "https://www.wallstreet-online.de/nachricht/21735811-strategischer-fokus-uran-terminpreis-rekord-isoenergy-trifft-15-4-pur-uec-gewinnen-starke-partner",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Uran-Terminpreis erreicht ein Rekordhoch, IsoEnergy meldet bis zu 15,4 % U₃O₈. Premier American Uranium holt strategisches Kapital, UEC sichert sich US-Versorger als Abnehmer."
     },
     {
       "title": "Ihre wichtigsten Termine: Frische Q-Zahlen von: Dell, Medtronic, Kingfisher, Best Buy, Analog Devices & HP",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "In der heutigen Ausgabe schauen wir auf die oben genannten Werte und lassen dabei aber nicht ausser Acht, dass der Nasdaq gerade gerade deutlich unter Druck gerät"
-    },
-    {
-      "title": "Das ist erst der Anfang: Banken, Flughäfen, Geheimdienste – den USA droht ein technologisches Desaster",
-      "url": "https://www.wallstreet-online.de/nachricht/21718626-anfang-banken-flughaefen-geheimdienste-usa-droht-technologisches-desaster",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die renommierte Cybersicherheitsexpertin Nicole Perlroth warnt vor einer Ära beispielloser technologischer Instabilität. Ausgerechnet künstliche Intelligenz könnte das Problem massiv verschärfen."
     }
   ],
   "feedErrors": [
