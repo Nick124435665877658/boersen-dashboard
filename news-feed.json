@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-25T15:14:49.725850+00:00",
+  "fetchedAt": "2026-11-25T16:20:17.723892+00:00",
   "articles": [
+    {
+      "title": "Workday glänzt im Nasdaq 100: Was macht der Softwarekonzern richtig?",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/workday-glaenzt-im-nasdaq-100-was-macht-der-softwarekonzern-richtig-20452168.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 16:07:00 GMT",
+      "description": "   Trotz des breiten Ausverkaufs gibt es sie auch heute – die Gewinner an der Technologiebörse. Die Aktie von Workday setzt sich am Mittwoch mit einem Plus von knapp drei Prozent an die Spitze des Nasdaq 100. Am Vortag legte das Unternehmen Zahlen vor. Die zeigen, dass Workday beim Thema KI offenbar einiges richtig macht.  "
+    },
+    {
+      "title": "KI-Katastrophe: Warum? Wie lange noch? Einsteigen? Aber wo?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/ki-katastrophe-warum-wie-lange-noch-einsteigen-aber-wo-20452170.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 15:31:00 GMT",
+      "description": "   Kann man bei Kursverlusten von 60,70 oder gar 80 Prozent noch von einer Korrektur sprechen? Was ist der wirkliche Grund für die massiven Kursverluste bei CoreWeave, Nebius, Iren und anderen KI-Aktien? Kann man die tiefen Kurse jetzt schon zum Einstieg nutzen?  "
+    },
+    {
+      "title": "Nvidia und das Problem mit \"Jensen 2.0\"",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nvidia-und-das-problem-mit-jensen-20-20451925.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 15:15:00 GMT",
+      "description": "   Mit Jensen Huang kehrt ein Stück Zuversicht für die KI-Branche zurück. Investmentexperte Peter Boockvar glaubt allerdings, dass der Nvidia-Chef nach seinem Comeback einen anderen Kurs einschlagen könnte. Sollte „Jensen 2.0“ künftig weniger großzügig mit seinen Milliarden umgehen, dürfte das die Spielregeln im KI-Ökosystem verändern.  "
+    },
     {
       "title": "Massive Verkaufswelle: Nasdaq 100, S&P 500 und Dow Jones tiefrot",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/massive-verkaufswelle-nasdaq-100-sp-500-und-dow-jones-tiefrot-20452074.html?feed=directrssfeed",
@@ -51,25 +72,18 @@
       "description": "   Erst eine starke Rally, dann ein tiefer Rücksetzer: Eine unbekannte Aktie aus dem Halbleitersektor fliegt unter dem Radar vieler Anleger. Zugleich wächst das Geschäft des Unternehmens kräftig weiter. Eröffnet sich hier eine attraktive Einstiegschance?  "
     },
     {
-      "title": "Immo-Aktien drehen auf: Aroundtown überrascht – doch eine Sorge bleibt",
-      "url": "https://www.deraktionaer.de/artikel/immobilien/immo-aktien-drehen-auf-aroundtown-ueberrascht-doch-eine-sorge-bleibt-20451833.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 11:47:00 GMT",
-      "description": "   Die Papiere von Aroundtown haben am Mittwoch wieder Fahrt aufgenommen. In einem ohnehin freundlichen Branchenumfeld legten sie deutlich zu und gewannen im Xetra-Handel zuletzt 6,5 Prozent auf 1,689 Euro. Damit ist die Aktie der stärkste Wert des Tages im MDAX vor Porsche SE und Schaeffler.  "
+      "title": "Milliardenmarkt im Visier: KI gegen Krebs: Ein langfristiger Deal mit großem Potenzial",
+      "url": "https://www.wallstreet-online.de/nachricht/21747673-milliardenmarkt-visier-ki-krebs-langfristiger-deal-grossem-potenzial",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Tempus AI und AstraZeneca verlängern ihre Kooperation um fünf Jahre. Diese soll KI und Patientendaten stärker für die Entwicklung neuer Krebsmedikamente nutzen."
     },
     {
-      "title": "Allianz: Wichtige Entscheidung gefallen",
-      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-wichtige-entscheidung-gefallen-20451774.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 11:21:00 GMT",
-      "description": "    Heute gab es eine wichtige Nachricht für ein wichtiges Produkt des Münchner Versicherungsriesen Allianz: Der Höchstrechnungszins für klassische Lebensversicherungen soll bis Ende 2028 bei einem Prozent bleiben. Die Deutsche Aktuarvereinigung (DAV), der Berufsverband der Versicherungsmathematiker, empfiehlt dem Bund, den Satz nicht anzuheben.  "
-    },
-    {
-      "title": "Mit Weitblick: Das macht diesen Hidden Champion jetzt interessant",
-      "url": "https://www.deraktionaer.de/artikel/aktien/mit-weitblick-das-macht-diesen-hidden-champion-jetzt-interessant-20451763.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 11:02:00 GMT",
-      "description": "   Infineon, Siemens Energy und Co kennt an der Börse vermutlich jeder Anleger. Doch auf dem heimischen Kurszettel lohnt sich auch ein Blick auf Unternehmen, die nicht so sehr im Rampenlicht stehen, aber dennoch spürbar von aktuellen Megatrends profitieren.  "
+      "title": "Wenn die KI-Blase platzt: Arthur Hayes prophezeit eine Abwanderung von KI zu Krypto",
+      "url": "https://www.wallstreet-online.de/nachricht/21746479-ki-blase-platzt-arthur-hayes-prophezeit-abwanderung-ki-krypto",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Arthur Hayes rechnet mit einem Kollaps des KI-Booms, von dem die Kryptobranche profitieren könnte. Zuvor drohen Bitcoin jedoch weitere Kursverluste."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Dre Black Friday führte infolge des Nvidia, KI- und Bitcoin-Mini.Crash zu Ausverkaufkursen. Die Osteuropabörsen bleiben in 2026 die beste Anlageregion der Welt. Die Börse Sofia konnt sogar um 65% zulegen."
-    },
-    {
-      "title": "Europas größte Bank: BNP Paribas bietet fast doppelt so viel Rendite wie die Allianz",
-      "url": "https://www.wallstreet-online.de/nachricht/21731725-europas-groesste-bank-bnp-paribas-rendite-allianz",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Europas größte Bank bietet eine deutlich höhere Dividendenrendite als die Allianz oder die Deutsche Bank. Jetzt könnten die Ausschüttungen weiter steigen. Wie nachhaltig ist der Geldsegen?"
-    },
-    {
-      "title": "Geht's weiter aufwärts?: Wer den DAX jetzt Richtung 30.000 treibt",
-      "url": "https://www.wallstreet-online.de/video/21731383-geht-s-aufwaerts-dax-richtung-30-000-treibt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der DAX hat erstmals die Marke von 27.000 Punkten überwunden, und für Carsten Klude ist das noch nicht das Ende. Der Chefvolkswirt der Hamburger Privatbank M.M. Warburg hält 30.000 Punkte bereits 2027 für möglich"
     }
   ],
   "feedErrors": [
