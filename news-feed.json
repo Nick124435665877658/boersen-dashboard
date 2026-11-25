@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-11-25T17:28:14.329077+00:00",
+  "fetchedAt": "2026-11-25T18:27:50.377134+00:00",
   "articles": [
+    {
+      "title": "FACC hebt ab",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/facc-hebt-ab-20452261.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Der Flugzeugzulieferer FACC profitiert vom Luftfahrtboom und wird immer profitabler.  "
+    },
+    {
+      "title": "Amerikas Superhirn ist zurück",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/amerikas-superhirn-ist-zurueck-20452245.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Jensen Huang bekommt eine zweite Chance, die KI-Revolution mit unverminderter Kraft voranzutreiben. Die Nvidia-Aktie gibt es derweil zum Schnäppchenpreis.  "
+    },
+    {
+      "title": "Volle Bücher, halber Preis",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/volle-buecher-halber-preis-20452223.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Die KI-Aufträge türmen sich, die Prognose steigt zum dritten Mal – doch die Aktie hat sich zwischenzeitlich halbiert. Für Anleger eine seltene Einstiegschance.  "
+    },
+    {
+      "title": "Gelddrucker im Schlussverkauf",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/gelddrucker-im-schlussverkauf-20452210.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "    Der südkoreanische Chipkonzern verdient so viel wie nie, dennoch brach der Kurs seit Juni um über 60 Prozent ein. Diesmal geht die Panik zu weit.   "
+    },
+    {
+      "title": "Schnäppchenjagd mit Stil",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/schnaeppchenjagd-mit-stil-20452191.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Erst Kult, dann Krise: Nur ein US-Einzelhandelsriese machte den Gang zum Discounter so schick. Jetzt hat das Unternehmen seine Erfolgsformel wiedergefunden und holt sich die Kunden zurück.  "
+    },
+    {
+      "title": "Vom Ausverkauf zur Kaufchance: 5 Aktien für Ihr Depot",
+      "url": "https://www.deraktionaer.de/artikel/aktien/vom-ausverkauf-zur-kaufchance-5-aktien-fuer-ihr-depot-20452132.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Gut 31 Prozent Kurssprung an einem einzigen Handelstag: Als Nvidia am Montag die Rückkehr von Jensen Huang auf den Chefsessel verkündete, kannte die Wall Street kein Halten mehr. Der KI-Primus kletterte auf 165 Dollar, und der Börsenwert legte um rund 950 Milliarden Dollar zu, so viel wie nie zuvor bei einem Unternehmen.  "
+    },
+    {
+      "title": "Mieten, kaufen, lohnen: Deutsche Immobilien-Aktie läutet Comeback ein",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/mieten-kaufen-lohnen-deutsche-immobilien-aktie-laeutet-comeback-ein-20452026.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Der Ausverkauf bei Immobilien-Aktien war brutal. Nun tut sich aber die Tür für eine Trendwende auf – vor allem bei diesem deutschen Branchenvertreter.  "
+    },
+    {
+      "title": "Bleiben Sie bullish! Mit diesen 5 Aktien sind jetzt bis zu 100 Prozent möglich",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/bleiben-sie-bullish-mit-diesen-5-aktien-sind-jetzt-bis-zu-100-prozent-moeglich-20451971.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
+      "description": "   Erst der Absturz, dann der Befreiungsschlag: Binnen weniger Tage hat Nvidia den Märkten eine Achterbahnfahrt beschert. Warum jetzt nicht die Zeit zum Aussteigen ist – sondern zum Auswählen.  "
+    },
+    {
+      "title": "DAX auf Viermonatstief: Infineon im freien Fall, Autobauer trumpfen auf",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-verliert-erneut-ueberraschendes-comeback-der-autobauer-20452258.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 17:30:00 GMT",
+      "description": "   Auch am Mittwochabend dominieren an der Frankfurter Börse die negativen Vorzeichen. Der KI-Ausverkauf geht in die nächste Runde. Außerdem belasten frische Konjunkturdaten und neue Zollpläne der US-Regierung die Stimmung. Kurz vor Handelsschluss fällt der deutsche Leitindex auf sein Tagestief und notiert so tief wie seit Juli nicht mehr.  "
+    },
     {
       "title": "Workday glänzt im Nasdaq 100: Was macht der Softwarekonzern richtig?",
       "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/workday-glaenzt-im-nasdaq-100-was-macht-der-softwarekonzern-richtig-20452168.html?feed=directrssfeed",
@@ -9,67 +72,25 @@
       "description": "   Trotz des breiten Ausverkaufs gibt es sie auch heute – die Gewinner an der Technologiebörse. Die Aktie von Workday setzt sich am Mittwoch mit einem Plus von knapp drei Prozent an die Spitze des Nasdaq 100. Am Vortag legte das Unternehmen Zahlen vor. Die zeigen, dass Workday beim Thema KI offenbar einiges richtig macht.  "
     },
     {
-      "title": "KI-Katastrophe: Warum? Wie lange noch? Einsteigen? Aber wo?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/ki-katastrophe-warum-wie-lange-noch-einsteigen-aber-wo-20452170.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 15:31:00 GMT",
-      "description": "   Kann man bei Kursverlusten von 60,70 oder gar 80 Prozent noch von einer Korrektur sprechen? Was ist der wirkliche Grund für die massiven Kursverluste bei CoreWeave, Nebius, Iren und anderen KI-Aktien? Kann man die tiefen Kurse jetzt schon zum Einstieg nutzen?  "
+      "title": "Alarmsignal an der Börse: Das Smart Money verkauft jetzt Aktien – Platzt jetzt die KI-Blase?",
+      "url": "https://www.wallstreet-online.de/nachricht/21746473-alarmsignal-boerse-smart-money-verkauft-aktien-platzt-ki-blase",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ein Acadian-Stratege warnt vor einem Kippen der Aktienmarkt-Stimmung. Seine Begründung: Unternehmen sind selbst die klügsten Marktteilnehmer, und sie wechseln gerade die Seite."
     },
     {
-      "title": "Nvidia und das Problem mit \"Jensen 2.0\"",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/nvidia-und-das-problem-mit-jensen-20-20451925.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 15:15:00 GMT",
-      "description": "   Mit Jensen Huang kehrt ein Stück Zuversicht für die KI-Branche zurück. Investmentexperte Peter Boockvar glaubt allerdings, dass der Nvidia-Chef nach seinem Comeback einen anderen Kurs einschlagen könnte. Sollte „Jensen 2.0“ künftig weniger großzügig mit seinen Milliarden umgehen, dürfte das die Spielregeln im KI-Ökosystem verändern.  "
+      "title": "Aktien: Ich übersehe Risiken und der Markt hat recht?",
+      "url": "https://www.wallstreet-online.de/nachricht/21748321-aktien-uebersehe-risiken-markt-recht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
     },
     {
-      "title": "Massive Verkaufswelle: Nasdaq 100, S&P 500 und Dow Jones tiefrot",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/massive-verkaufswelle-nasdaq-100-sp-500-und-dow-jones-tiefrot-20452074.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 14:46:00 GMT",
-      "description": "   Von der guten Stimmung zum Wochenstart ist nichts mehr übrig. Die Wall Street wird von der nächsten Verkaufswelle überrollt. Im Zentrum des Ausverkaufs stehen erneut die Tech-Aktien – der Nasdaq 100 rauscht zum Handelsstart in den USA mehr als drei Prozent in die Tiefe.  "
-    },
-    {
-      "title": "Silber: Eine historische Chance",
-      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/silber-eine-historische-chance-20452090.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 14:17:00 GMT",
-      "description": "   Die Stimmung bei den Edelmetallen ist am Boden, die Schlagzeilen sind düster. Von einem Bullenmarkt kann man beim besten Willen nicht mehr sprechen. Doch bei den Minen entsteht gerade eine Ausgangslage, wie es sie selten gibt.  "
-    },
-    {
-      "title": "Wall Street: Die frischen Zahlen sind da – mit Einordnung",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-frischen-zahlen-sind-da-mit-einordnung-20451552.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 13:41:00 GMT",
-      "description": "   Die Preise der privaten Konsumausgaben (PCE) in den USA sind im Oktober um 0,3 Prozent zum Vormonat gestiegen. Das meldete das Bureau of Economic Analysis (BEA) gerade. Das entsprach der Prognose, im September hatte das Plus bei 0,5 Prozent gelegen. Auf Jahressicht beträgt die Teuerung 3,8 Prozent nach revidiert 3,7 Prozent im September, auch da"
-    },
-    {
-      "title": "Rückenwind für D-Wave, IonQ und Rigetti?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/rueckenwind-fuer-d-wave-ionq-und-rigetti-20451958.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 13:22:00 GMT",
-      "description": "    Mit den Aktienkursen von D-Wave, IonQ und Rigetti ging es zuletzt bergab. Doch die Branche könnte nun auch stärker in Europa unterstützt werden. Denn die EU-Kommission möchte Europas Position im Bereich der Quantentechnologie stärken. EU-Kommissarin Henna Virkkunen sagte in Straßburg, heutige Investitionen würden mitentscheiden, wo künftig leis"
-    },
-    {
-      "title": "Unterbewerteter Wachstumsstar auf dem Sprung",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/unterbewerteter-wachstumsstar-auf-dem-sprung-20451931.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 12:46:23 GMT",
-      "description": "   Das Fintech Nu glänzt  mit hohem Wachstum   und hat großes operatives Potenzial. Zeit, dass   der Markt das wieder  erkennt und sich die   Fehlbewertung auflöst.  "
-    },
-    {
-      "title": "Umsatzexplosion von 146 Prozent – AKTIONÄR-Hot-Stock startet durch",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/umsatzexplosion-von-146-prozent-aktionaer-hot-stock-startet-durch-20451884.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 12:29:00 GMT",
-      "description": "   Besser spät als nie: Der AKTIONÄR-Hot-Stock BioArctic gewinnt zur Wochenmitte an der Heimatbörse in Stockholm rund zehn Prozent an Wert. Der Grund dafür sind starke Zahlen zum dritten Quartal, in dem das schwedische Biotech-Unternehmen sogar einen Gewinn ausgewiesen hat.  "
-    },
-    {
-      "title": "Wo ist der Boden – lauert hier eine seltene Chance?",
-      "url": "https://www.deraktionaer.de/artikel/technische-analyse/wo-ist-der-boden-lauert-hier-eine-seltene-chance-20451864.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 12:18:00 GMT",
-      "description": "   Erst eine starke Rally, dann ein tiefer Rücksetzer: Eine unbekannte Aktie aus dem Halbleitersektor fliegt unter dem Radar vieler Anleger. Zugleich wächst das Geschäft des Unternehmens kräftig weiter. Eröffnet sich hier eine attraktive Einstiegschance?  "
+      "title": "Kein frohes Fest für Anleger?: Er traf Nvidias Comeback – jetzt sieht er S&P 500 & Nasdaq ein Drittel tiefer",
+      "url": "https://www.wallstreet-online.de/nachricht/21747364-frohes-fest-anleger-traf-nvidias-comeback-s-p-500-nasdaq-drittel-tiefer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jim Mellon setzte auf Jensen Huangs Rückkehr und lag goldrichtig. Jetzt rechnet der Milliardär mit einem Einbruch von S&P 500 und Nasdaq um mindestens ein Drittel gegenüber ihren Höchstständen."
     },
     {
       "title": "Studie deckt auf: Nur jede fünfte Firma spart dank KI wirklich Kosten",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Ein KGV von rund 10 für 2028 lässt Rheinmetall nach dem Kurssturz günstig erscheinen. Doch der schwache Cashflow, sinkende Analystenschätzungen und ein möglicher Frieden in der Ukraine werfen unbequeme Fragen auf."
-    },
-    {
-      "title": "Nach Nvidia-Comeback: Geht die Rallye jetzt dank dieser Zahlen weiter?",
-      "url": "https://www.wallstreet-online.de/nachricht/21732646-nvidia-comeback-rallye-zahlen-weiter",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Diese in den kommenden Tagen (KW48) anstehenden US-Quartalszahlen müssen Anlegerinnen und Anleger kennen: Herausforderungen, Erwartungen und die aktuell eingepreisten Kursreaktionen – alles auf einen Blick!"
-    },
-    {
-      "title": "Tech-Ausfälle zeigen: SpaceX könnte zum größten Gewinner der nächsten IT-Krise werden",
-      "url": "https://www.wallstreet-online.de/nachricht/21724872-tech-ausfaelle-zeigen-spacex-groessten-gewinner-naechsten-it-krise",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Weltweite IT-Ausfälle haben für Unsicherheit gesorgt. Morgan Stanley sieht SpaceX als Profiteur und traut der Aktie mehr als 100 Prozent Kurspotenzial zu."
-    },
-    {
-      "title": "Commerzbank Übernahme: Aus \"Eigenständigkeit\" wird \"gut für Frankfurt\": Klingbeils Weihnachtsgeschenk",
-      "url": "https://www.wallstreet-online.de/nachricht/21731140-commerzbank-uebernahme-eigenstaendigkeit-gut-frankfurt-klingbeils-weihnachtsgeschenk",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Vor etwas mehr als einem Jahr kämpfte Lars Klingbeil gegen die Commerzbank-Übernahme. Jetzt verteidigt er plötzlich das grüne Licht der Bundesregierung für die UniCredit. Für Aktionäre verändert sich damit einiges."
     }
   ],
   "feedErrors": [
