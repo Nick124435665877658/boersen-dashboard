@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-11-25T08:07:36.466916+00:00",
+  "fetchedAt": "2026-11-25T09:17:58.593863+00:00",
   "articles": [
+    {
+      "title": "Lufthansa-Rivale mit Gewinneinbruch",
+      "url": "https://www.deraktionaer.de/artikel/aktien/lufthansa-rivale-mit-gewinneinbruch-20451522.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 08:50:00 GMT",
+      "description": "    Die hohen Ölpreise waren in den vergangenen Monaten eine schwere Belastung für sämtliche Fluggesellschaften rund um den Globus. Zwar sanken die Notierungen von Brent, WTI & Co zuletzt, in der Bilanz von Easyjet zum abgelaufenen Geschäftsjahr 2025/26 haben sie dennoch tiefe Spuren hinterlassen.  "
+    },
+    {
+      "title": "Megatrend Folger: Gilead Sciences – neues Allzeithoch und ein starkes Analystensignal",
+      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-gilead-sciences-neues-allzeithoch-und-ein-starkes-analystensignal-20450574.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 08:50:00 GMT",
+      "description": "   Während zahlreiche Technologieaktien weiterhin mit heftigen Kursschwankungen kämpfen, setzt Gilead Sciences seinen Aufwärtstrend unbeeindruckt fort. Die Aktie kletterte am Dienstag um 4,5 Prozent auf 178,29 Dollar und markierte damit ein neues Allzeithoch.  "
+    },
+    {
+      "title": "Hannover Rück: +177 Prozent – und jetzt auch noch neue Ziele",
+      "url": "https://www.deraktionaer.de/artikel/aktien/hannover-rueck--20450566.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 08:44:00 GMT",
+      "description": "   Hannover Rück hat auf seinem Investorentag neue Ziele vorgestellt. Der Gewinn soll Jahr für Jahr weiter kräftig steigen – und ein hoher Anteil davon als Dividende an die Anleger fließen. DER AKTIONÄR hat frühzeitig mit einem Call auf eine neue Stärke der Aktie gesetzt.  "
+    },
+    {
+      "title": "JPMorgan setzt auf Porsche und Ferrari",
+      "url": "https://www.deraktionaer.de/artikel/aktien/jpmorgan-setzt-auf-porsche-und-ferrari-20450825.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 08:13:00 GMT",
+      "description": "   Neben dem Tech-Sektor sollten die Anleger am Mittwoch insbesondere die Autobranche nach dem großen Ausblick von JPMorgan auf 2027 im Blick behalten. Darin setzt die US-Bank im kommenden Jahr vor allem auf Lkw-Bauer, Anbieter hochtechnologisierter Fahrzeuge und Luxusautos sowie Reifenhersteller, wie Analyst Jose Asumendi am Dienstag schrieb.  "
+    },
+    {
+      "title": "Bayer: Klare Ansage",
+      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/bayer-klare-ansage-20450445.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 08:05:00 GMT",
+      "description": "   Das DAX-Unternehmen zieht die Konsequenzen aus unpassenden politischen Rahmenbedingungen in Deutschland. Ab Mitte Dezember soll das wachstumsstarke Medikament Kerendia (Finerenon) vom deutschen Markt genommen werden.  "
+    },
     {
       "title": "Anthropic-Aktie kracht unter IPO-Preis – Hype schon vorbei?",
       "url": "https://www.deraktionaer.de/artikel/aktien/anthropic-aktie-kracht-unter-ipo-preis-hype-schon-vorbei-20450853.html?feed=directrssfeed",
@@ -30,46 +65,11 @@
       "description": "    Die Aktie von Infineon schwächelt weiter und ist im gestrigen Handel auf den tiefsten Stand seit April gefallen. Rein charttechnisch betrachtet würde sich beim DAX-Titel aktuell kein Kauf aufdrängen. Doch fundamental betrachtet bietet Infineon durchaus Potenzial.  "
     },
     {
-      "title": "Nvidia-Euphorie verpufft: Bitcoin rutscht erneut unter 60.000 Dollar – Kryptoanleger zittern",
+      "title": "Nvidia-Euphorie verpufft: Bitcoin rutscht ab – Kryptoanleger zittern",
       "url": "https://www.deraktionaer.de/artikel/krypto/nvidia-euphorie-verpufft-bitcoin-rutscht-erneut-unter-60000-dollar-kryptoanleger-zittern-20450517.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 25 Nov 2026 07:25:00 GMT",
       "description": "   Bitcoin fällt zurück unter 60.000 Dollar: Die Erholung vom Montag ist verpufft. Am Mittwoch rutschte die älteste und bekannteste Kryptowährung im frühen Handel erneut deutlich unter diese Marke. Am Montag hatte sie sich nach den Verlusten des Vortages erholt, angetrieben von höherer Risikofreude der Anleger nach der Rückkehr von Jensen Huang auf"
-    },
-    {
-      "title": "Amazon-Aktie: Nach 150 US-Städten jetzt Autos für Großbritannien",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/amazon-aktie-nach-150-us-staedten-jetzt-autos-fuer-grossbritannien-20450410.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 07:00:00 GMT",
-      "description": "   Amazon bringt seinen Automarktplatz Amazon Autos Anfang 2027 nach Großbritannien. Das hat der Konzern am Mittwoch angekündigt. Es ist der erste Markt außerhalb der USA, seit die Plattform im Dezember 2024 mit Hyundai an den Start ging. Auf der Insel ist Hyundai der erste Neuwagenpartner.  "
-    },
-    {
-      "title": "Siemens Energy: Das Ende der Erholung?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/siemens-energy-das-ende-der-erholung-20450406.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 06:59:00 GMT",
-      "description": "    Die Aktie von Siemens Energy hat im gestrigen Handel erneut nachgegeben. Damit notieren die Anteilscheine des Energiespezialisten wieder unter dem Niveau vor Bekanntwerden der Rückkehr von Jensen Huang bei Nvidia. Hingegen notieren zahlreiche andere Aktien mit KI-Bezug aktuell noch klar höher.  "
-    },
-    {
-      "title": "Megatrend Folger: Dell – 132 Milliarden Dollar stellen den KI-Ausverkauf infrage",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-dell-132-milliarden-dollar-stellen-den-ki-ausverkauf-infrage-20450416.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 06:47:13 GMT",
-      "description": "   KI-Aktien wie Nvidia, Micron und andere wurden gestern wieder kräftig verkauft. Doch in der Nacht später lieferte Dell eine Zahl, die nicht recht zum Bild eines einbrechenden KI-Booms passen will: 132,3 Milliarden Dollar. So hoch ist inzwischen der Auftragsbestand des Konzerns bei KI-Servern.  "
-    },
-    {
-      "title": "Ausschüttungen bis 2028: Commerzbank-Dividende wackelt",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/ausschuettungen-bis-2028-commerzbank-dividende-wackelt-20450407.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 06:40:22 GMT",
-      "description": "   Die Commerzbank hat in den letzten Jahren dank sprudelnder Gewinne die Ausschüttungen an Aktionäre deutlich nach oben gefahren. Auch für das laufende Jahr verspricht CEO Bettina Orlopp Zuwächse bei der Dividende und den Aktienrückkäufen. Doch es gibt einen Haken.  "
-    },
-    {
-      "title": "Xiaomi: Analysten sorgen für Kurssprung",
-      "url": "https://www.deraktionaer.de/artikel/aktien/xiaomi-analysten-sorgen-fuer-kurssprung-20450350.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 06:40:00 GMT",
-      "description": "   Am gestrigen Dienstag hat Xiaomi seine Quartalszahlen veröffentlicht. Im europäischen Handel sackte die Aktie daraufhin deutlich ab. Doch im heimischen Handel gab sie am Mittwoch plötzlich Gas und legte einen kräftigen Kurssprung hin, nachdem sich die Analysten zu Wort gemeldet hatten.  "
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -77,6 +77,20 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "-50 % an einem Tag: Für diese Chip-Aktie kommt jetzt jede Hilfe zu spät!",
+      "url": "https://www.wallstreet-online.de/nachricht/21745297-50-tag-chip-aktie-hilfe-spaet",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Aktie des Edge-AI-Spezialisten Ambarella erlebte am Dienstag einen rabenschwarzen Tag. Der Kurs brach um mehr als die Hälfte ein – aus guten Gründen!"
+    },
+    {
+      "title": "Übernahme in Sicht: easyJet unter Druck: So trifft die Nahost-Krise die Airline",
+      "url": "https://www.wallstreet-online.de/nachricht/21745168-uebernahme-sicht-easyjet-druck-trifft-nahost-krise-airline",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "easyJet hat deutlich weniger verdient, während die Kosten gestiegen sind. Doch das Urlaubsgeschäft ist kräftig gewachsen und die geplante Übernahme rückt näher."
     },
     {
       "title": "Comeback mit Zündstoff: Sex, Chips und Therapie: Nvidia-Chef Huang lehnt ausgerechnet diesen Plan ab",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "10 % vom Gewinn für Franziskaner Helfen spenden und Spendenquittung bekommen: https://franziskaner-helfen.de/spendenaktionen/?cfd=lxfme\n\n\n  Börsenstammtisch Rheingau-Taunuskreis Mail an info@christophgeyer.de\n\n\n  Link zur unverbindlichen Einladungsmail zur Chart-Show: https://share.hsforms.com/1fweJc8r1SB-T5H33trX-vwt1vcw\n\n\n  Hier finden Sie eine L"
-    },
-    {
-      "title": "Nickel und Platin: Canada Nickel gönnt sich Zeit – Sibanye-Stillwater startet den 500 Millionen-Dollar-Schritt!",
-      "url": "https://www.wallstreet-online.de/nachricht/21723375-nickel-platin-canada-nickel-goennt-zeit-sibanye-stillwater-500-millionen-dollar-schritt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der WPIC erwartet für Platin 2027 ein Defizit. Canada Nickel verlängert Kredit, Sibanye-Stillwater leitet den Abbau von 500 Mio. USD Schulden ein. Was folgt jetzt?"
-    },
-    {
-      "title": "Gold und Projektfortschritte: AMEX legt bei Perron nach: 200 Meter Rampe und Baustart für die Stromversorgung!",
-      "url": "https://www.wallstreet-online.de/nachricht/21724164-gold-projektfortschritte-amex-legt-perron-nach-200-meter-rampe-baustart-stromversorgung",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "AMEX meldet 200 Meter Rampenvortrieb, startet den Bau der Stromleitung und installiert die Bewetterung. Wie diese Fortschritte Perrons nächste Entwicklungsphase vorbereiten."
     }
   ],
   "feedErrors": [
