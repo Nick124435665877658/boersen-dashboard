@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T03:01:55.845955+00:00",
+  "fetchedAt": "2026-11-25T04:12:53.792295+00:00",
   "articles": [
     {
       "title": "Schlussglocke: Tech-Aktien stürzen ab – Dow Jones tanzt aus der Reihe",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Tue, 24 Nov 2026 16:15:00 GMT",
       "description": "   Starke Unternehmen erkennen, langfristige Aufwärtstrends nutzen und konsequent investiert bleiben: Der Megatrend Folger zeigt, was mit dieser Strategie möglich ist. Seit Auflage stehen im Aktien-Depot mehr als 483 Prozent Plus zu Buche. Das Optionsschein-Depot kommt sogar auf 1.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Alle Augen auf: Deere, Easyjet, Aroundtown, Norsk Hydro, Prosus, Remy Cointreau",
+      "url": "https://www.wallstreet-online.de/nachricht/21743053-wichtigsten-termine-augen-auf-deere-easyjet-aroundtown-norsk-hydro-prosus-remy-cointreau",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Aktie nach brutalem Tag: Dell sprengt die Erwartungen und hebt die Prognose zum 3. Mal an",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Polens Wirtschaft ist 2025 um 3,8 Prozent gewachsen und lässt Deutschland damit klar hinter sich. Für Martin Lück, Chefanlagestratege von Franklin Templeton Deutschland, ist das kein Zufall."
-    },
-    {
-      "title": "Parallelen zu DotCom: KI-Crash: Sind wir schon in 1998?",
-      "url": "https://www.wallstreet-online.de/nachricht/21725073-parallelen-dotcom-ki-crash-1998",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Kapitalmärkte haben ein Liquiditätsproblem. Hier ergeben sich Parallelen zur DotCom-Blase aus dem Jahr 2000, aber auch entscheidende Unterschiede."
     }
   ],
   "feedErrors": [
