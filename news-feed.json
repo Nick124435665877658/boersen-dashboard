@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-25T12:45:21.553443+00:00",
+  "fetchedAt": "2026-11-25T13:59:02.943622+00:00",
   "articles": [
+    {
+      "title": "Wall Street: Die frischen Zahlen sind da – mit Einordnung",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-frischen-zahlen-sind-da-mit-einordnung-20451552.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 13:41:00 GMT",
+      "description": "   Die Preise der privaten Konsumausgaben (PCE) in den USA sind im Oktober um 0,3 Prozent zum Vormonat gestiegen. Das meldete das Bureau of Economic Analysis (BEA) gerade. Das entsprach der Prognose, im September hatte das Plus bei 0,5 Prozent gelegen. Auf Jahressicht beträgt die Teuerung 3,8 Prozent nach revidiert 3,7 Prozent im September, auch da"
+    },
+    {
+      "title": "Rückenwind für D-Wave, IonQ und Rigetti?",
+      "url": "https://www.deraktionaer.de/artikel/aktien/rueckenwind-fuer-d-wave-ionq-und-rigetti-20451958.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 13:22:00 GMT",
+      "description": "    Mit den Aktienkursen von D-Wave, IonQ und Rigetti ging es zuletzt bergab. Doch die Branche könnte nun auch stärker in Europa unterstützt werden. Denn die EU-Kommission möchte Europas Position im Bereich der Quantentechnologie stärken. EU-Kommissarin Henna Virkkunen sagte in Straßburg, heutige Investitionen würden mitentscheiden, wo künftig leis"
+    },
+    {
+      "title": "Unterbewerteter Wachstumsstar auf dem Sprung",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/unterbewerteter-wachstumsstar-auf-dem-sprung-20451931.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 12:46:23 GMT",
+      "description": "   Das Fintech Nu glänzt  mit hohem Wachstum   und hat großes operatives Potenzial. Zeit, dass   der Markt das wieder  erkennt und sich die   Fehlbewertung auflöst.  "
+    },
     {
       "title": "Umsatzexplosion von 146 Prozent – AKTIONÄR-Hot-Stock startet durch",
       "url": "https://www.deraktionaer.de/artikel/pharma-biotech/umsatzexplosion-von-146-prozent-aktionaer-hot-stock-startet-durch-20451884.html?feed=directrssfeed",
@@ -51,32 +72,39 @@
       "description": "   Starke Performance: Die Aktie des französischen Pharma-Konzerns Sanofi klettert zur Wochenmitte auf ein neues 52-Wochen-Hoch und nähert sich damit wieder der psychologisch wichtigen Marke von 100 Euro an. Anleger goutieren die angekündigte Übernahme des Biotech-Unternehmens Insmed mit weiter steigenden Notierungen.  "
     },
     {
-      "title": "Rheinmetall-Aktie: Jetzt Rekordprojekt im All für 15 Milliarden",
-      "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/rheinmetall-aktie-jetzt-rekordprojekt-im-all-fuer-15-milliarden-20450492.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 10:02:00 GMT",
-      "description": "   Rheinmetall ist am größten Weltraumprojekt in der Geschichte der Bundesrepublik beteiligt, und der Vertrag rückt näher. Nach Informationen des Handelsblatts könnte die Bundeswehr in wenigen Wochen unterschreiben: ein eigenes Satellitennetz, gebaut vom Konsortium aus Rheinmetall, OHB und Airbus.  "
-    },
-    {
-      "title": "Nvidia-Aktie im Ausnahmezustand – und jetzt?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nvidia-aktie-im-ausnahmezustand-und-jetzt-20450376.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 09:57:00 GMT",
-      "description": "   Die Kursausschläge bei der Aktie von Nvidia waren zuletzt heftig. Am Freitag rauschte die Aktie noch bis auf 124,50 Dollar nach unten, bevor sie am Montag im Zuge der Rückkehr von Jensen Huang an die Konzernspitze wieder auf zeitweise über 170 Dollar nach oben schoss.  "
-    },
-    {
-      "title": "deeptech INSIGHTS: Warum Cyberabwehr in Echtzeit notwendig ist",
-      "url": "https://www.deraktionaer.de/artikel/aktien/deeptech-insights-20445330.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 09:45:00 GMT",
-      "description": "   Angriffe auf Kühlsysteme von Supermärkten und Blutbanken zeigen, wie unmittelbar Cyberattacken den Alltag treffen können. Podcast-Host Sascha Roehrer spricht in deeptech INSIGHTS mit Helmut Reisinger, CEO EMEA & LATAM von Palo Alto Networks, darüber, wie sich Firmen gegen diese Bedrohung wappnen können und warum es nicht reicht, einen Angriff er"
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Wall Street tiefrot: Zinserhöhung so gut wie sicher: US-Kerninflation steigt auf 3,3 Prozent",
+      "url": "https://www.wallstreet-online.de/nachricht/21747394-wall-street-tiefrot-zinserhoehung-gut-sicher-us-kerninflation-3-3-prozent",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die US-Verbraucher haben im Oktober real kaum mehr ausgegeben, die Teuerung belastet die Haushaltskassen. Gleichzeitig wächst die Wirtschaft kräftig, eine Zinserhöhung im Dezember rückt näher."
+    },
+    {
+      "title": "Neue US-Zölle gegen 14 Länder: Kommt Europa diesmal mit einem blauen Auge davon?",
+      "url": "https://www.wallstreet-online.de/nachricht/21747361-us-zoelle-14-laender-europa-diesmal-blauen-auge-davon",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Zwischenwahlen sind verloren, doch Trump legt nach: Neue Zölle gegen 14 Handelspartner, China trifft es am härtesten. Europa könnte trotzdem glimpflich davonkommen. Wäre da nicht ein Datum im Januar."
+    },
+    {
+      "title": "Anleger befürchten Schlimmstes: Gold und Silber unter Druck: Droht jetzt auch Kupfer der nächste Preissturz?",
+      "url": "https://www.wallstreet-online.de/nachricht/21747130-anleger-befuerchten-schlimmstes-gold-silber-druck-droht-kupfer-preissturz",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die Kupferrallye war eine der größten Erfolgsgeschichten im Rohstoffsektor im Jahr 2026. Selbst als sich Gold und Silber bereits im Abwärtssog befanden, haussierte der Kupferpreis. Doch Stimmung und Preis kippten."
+    },
+    {
+      "title": "Milliardenbewertung wackelt: Nvidia-Partner unter Druck: Mega-Börsengang in Gefahr?",
+      "url": "https://www.wallstreet-online.de/nachricht/21745366-milliardenbewertung-wackelt-nvidia-partner-druck-mega-boersengang-gefahr",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nscale peilt einen Börsengang mit 35 Milliarden US-Dollar Bewertung an. Doch der KI-Ausverkauf und hohe Verluste setzen den Plänen zu."
     },
     {
       "title": "Alles für das KI-Invest: Cathie Wood opfert eigenen Bitcoin-ETF für Anthropic",
@@ -135,8 +163,8 @@
       "description": "Die neuen US-Inflationsdaten könnten die Wall Street kräftig durchschütteln. Historische Zahlen zeigen, wie der S&P 500 auf Überraschungen reagiert – und welche Ausschläge der Optionsmarkt erwartet."
     },
     {
-      "title": "-50 % an einem Tag: Für diese Chip-Aktie kommt jetzt jede Hilfe zu spät!",
-      "url": "https://www.wallstreet-online.de/nachricht/21745297-50-tag-chip-aktie-hilfe-spaet",
+      "title": "-50 % an einem Tag: Für Chip-Aktie Ambarella kommt jetzt jede Hilfe zu spät!",
+      "url": "https://www.wallstreet-online.de/nachricht/21745297-50-tag-chip-aktie-ambarella-hilfe-spaet",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Aktie des Edge-AI-Spezialisten Ambarella erlebte am Dienstag einen rabenschwarzen Tag. Der Kurs brach um mehr als die Hälfte ein – aus guten Gründen!"
@@ -749,34 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nvidias Zahlen und Anthropics Börsengang stoppen den Ausverkauf nicht. Der Nasdaq Composite verliert 10 %, während Anleger Staatsanleihen suchen und Gold, Silber sowie Kupfer deutlich nachgeben."
-    },
-    {
-      "title": "Geyers Marktkommentar: DAX – Wie eine Affäre die Börsen erschüttern kann",
-      "url": "https://www.wallstreet-online.de/nachricht/21730906-geyers-marktkommentar-dax-affaere-boersen-erschuettern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "In der kommenden Woche sollten sich Chancen auftun, die von mutigen Anlegern genutzt werden sollten."
-    },
-    {
-      "title": "Silber: Der Countdown läuft: Silberpreis-Prognose: Mittwoch könnte der entscheidende Tag für Silber werden",
-      "url": "https://www.wallstreet-online.de/nachricht/21730875-silber-countdown-laeuft-silberpreis-prognose-mittwoch-entscheidende-tag-silber",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Silberpreisschwäche weitet sich aus. Ein Preissturz unter die 40 US-Dollar ist wohl kaum mehr zu vermeiden. Der Mittwoch könnte nun zum entscheidenden Tag für Silber werden – weiterer Abverkauf oder Comeback?"
-    },
-    {
-      "title": "Im freien Fall: Nvidia – Der Anfang des Ausverkaufs?",
-      "url": "https://www.wallstreet-online.de/nachricht/21727818-freien-fall-nvidia-anfang-ausverkaufs",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia verdient Milliarden, die Aktie stürzt trotzdem ab. Nach dem Rücktritt von Jensen Huang und neuen Ermittlungen wächst die Nervosität. Dabei ist der KI-Gigant inzwischen erstaunlich günstig bewertet."
-    },
-    {
-      "title": "Börse, Baby!: Joel Greenblatt: Mit der Magischen Formel den Markt schlagen",
-      "url": "https://www.wallstreet-online.de/nachricht/21725532-boerse-baby-joel-greenblatt-magischen-formel-markt-schlagen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Joel Greenblatt ist der Erfinder der sogenannten Magischen Formel, mit der er große Erfolge erzielen konnte."
     }
   ],
   "feedErrors": [
