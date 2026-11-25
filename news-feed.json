@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-25T10:38:34.100857+00:00",
+  "fetchedAt": "2026-11-25T11:37:36.338174+00:00",
   "articles": [
+    {
+      "title": "Allianz: Wichtige Entscheidung gefallen",
+      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-wichtige-entscheidung-gefallen-20451774.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 11:21:00 GMT",
+      "description": "    Heute gab es eine wichtige Nachricht für ein wichtiges Produkt des Münchner Versicherungsriesen Allianz: Der Höchstrechnungszins für klassische Lebensversicherungen soll bis Ende 2028 bei einem Prozent bleiben. Die Deutsche Aktuarvereinigung (DAV), der Berufsverband der Versicherungsmathematiker, empfiehlt dem Bund, den Satz nicht anzuheben.  "
+    },
+    {
+      "title": "AKTIONÄR Hot-Stock im Fokus: Dank Gewinnhebel im Rallymodus",
+      "url": "https://www.deraktionaer.de/artikel/aktien/aktionaer-hot-stock-im-fokus-dank-gewinnhebel-im-rallymodus-20451763.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 11:02:00 GMT",
+      "description": "   Infineon, Siemens Energy und Co kennt an der Börse vermutlich jeder Anleger. Doch auf dem heimischen Kurszettel lohnt sich auch ein Blick auf Unternehmen, die nicht so sehr im Rampenlicht stehen, aber dennoch spürbar von aktuellen Megatrends profitieren.  "
+    },
     {
       "title": "Goldexperte Bußler: „Das ergibt keinen Sinn“",
       "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/goldexperte-bussler-das-ergibt-keinen-sinn-20451685.html?feed=directrssfeed",
@@ -58,25 +72,32 @@
       "description": "    Die angekündigte Zusammenarbeit mit Samsung Display hat die AMS-Osram-Aktie am Mittwoch zunächst stark beflügelt. Zusammen mit dem Einstieg der Samsung-Tochter trieb die Nachricht den Kurs im frühen Handel zeitweise um bis zu 27 Prozent nach oben.  "
     },
     {
-      "title": "Lufthansa-Rivale mit Gewinneinbruch",
-      "url": "https://www.deraktionaer.de/artikel/aktien/lufthansa-rivale-mit-gewinneinbruch-20451522.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 08:50:00 GMT",
-      "description": "    Die hohen Ölpreise waren in den vergangenen Monaten eine schwere Belastung für sämtliche Fluggesellschaften rund um den Globus. Zwar sanken die Notierungen von Brent, WTI & Co zuletzt, in der Bilanz von Easyjet zum abgelaufenen Geschäftsjahr 2025/26 haben sie dennoch tiefe Spuren hinterlassen.  "
-    },
-    {
-      "title": "Megatrend Folger: Gilead Sciences – neues Allzeithoch und ein starkes Analystensignal",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-gilead-sciences-neues-allzeithoch-und-ein-starkes-analystensignal-20450574.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 08:50:00 GMT",
-      "description": "   Während zahlreiche Technologieaktien weiterhin mit heftigen Kursschwankungen kämpfen, setzt Gilead Sciences seinen Aufwärtstrend unbeeindruckt fort. Die Aktie kletterte am Dienstag um 4,5 Prozent auf 178,29 Dollar und markierte damit ein neues Allzeithoch.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Der Ölkrieg fordert sein Opfer: Airline-Aktie stürzt um 83 Prozent ab – jetzt droht das endgültige Aus!",
+      "url": "https://www.wallstreet-online.de/nachricht/21746728-oelkrieg-opfer-airline-aktie-stuerzt-83-prozent-droht-endgueltige-aus",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine europäische Fluggesellschaft kämpft ums nackte Überleben. Explodierende Kerosinpreise haben Norse Atlantic in eine schwere Finanzkrise gestürzt. Jetzt droht ohne frisches Kapital das endgültige Aus."
+    },
+    {
+      "title": "XRP: Schnallt euch an!",
+      "url": "https://www.wallstreet-online.de/nachricht/21746656-xrp-schnallt-an",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bitcoin 2027: Zeichnet sich eine nachhaltige Trendwende ab?"
+    },
+    {
+      "title": "Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel – Analystenstimmen des Tages",
+      "url": "https://www.wallstreet-online.de/nachricht/21745837-buy-or-goodbye-british-american-tobacco-basf-beiersdorf-henkel-analystenstimmen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "British American Tobacco, BASF, Beiersdorf & Henkel: Die wichtigsten Analysten-Updates im Überblick."
     },
     {
       "title": "Was kann der neue KI-Agent?: 50 Prozent-Chance bei Meta: Muse ist bereit für den Black Friday",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Netflix dominiert das Streaminggeschäft, doch YouTube wächst und neue Konkurrenten rüsten auf. Selbst der Konzernchef sieht den Wettbewerb erst am Anfang."
-    },
-    {
-      "title": "Zwischen Angst & Kapitulation: Goldpreis-Prognose: Gold und Goldminenaktien im Panik-Modus. Jetzt schon kaufen?",
-      "url": "https://www.wallstreet-online.de/nachricht/21728586-angst-kapitulation-goldpreis-prognose-gold-goldminenaktien-panik-modus-kaufen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Goldpreis rauscht ungebremst in die Tiefe. Die Nerven der Akteure liegen blank. Der Goldmarkt scheint kurz vor der Kapitulation zu stehen. Doch genau daraus könnten sich außergewöhnliche Chancen ergeben."
-    },
-    {
-      "title": "Aktien: Steigt 2027 alles?! Dieses Zeichen übersieht der Markt",
-      "url": "https://www.wallstreet-online.de/nachricht/21728601-aktien-2027-alles-zeichen-uebersieht-markt",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Aktien sehen in der abgelaufenen Woche einen heftigen Ausverkauf. Allerdings gibt es klare Zeichen, die für die Bullen sprechen. Welche das sind, besprechen wir in dieser Ausgabe."
-    },
-    {
-      "title": "Bis 2031: Solana vor 1.450-%-Rallye? – Bitwise wagt Mega-Prognose",
-      "url": "https://www.wallstreet-online.de/nachricht/21719097-2031-solana-1-450-rallye-bitwise-wagt-mega-prognose",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Solana hat seit Jahresbeginn über 40 Prozent verloren. Trotzdem sieht Bitwise enormes Kurspotenzial für die kommenden Jahre."
     }
   ],
   "feedErrors": [
