@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T16:20:17.723892+00:00",
+  "fetchedAt": "2026-11-25T17:28:14.329077+00:00",
   "articles": [
     {
       "title": "Workday glänzt im Nasdaq 100: Was macht der Softwarekonzern richtig?",
@@ -70,6 +70,20 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 25 Nov 2026 12:18:00 GMT",
       "description": "   Erst eine starke Rally, dann ein tiefer Rücksetzer: Eine unbekannte Aktie aus dem Halbleitersektor fliegt unter dem Radar vieler Anleger. Zugleich wächst das Geschäft des Unternehmens kräftig weiter. Eröffnet sich hier eine attraktive Einstiegschance?  "
+    },
+    {
+      "title": "Studie deckt auf: Nur jede fünfte Firma spart dank KI wirklich Kosten",
+      "url": "https://www.wallstreet-online.de/nachricht/21747307-studie-deckt-auf-fuenfte-firma-spart-ki-kosten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Fast sechs von zehn Unternehmen setzen inzwischen aktiv auf KI. Eine Auswertung der HSBC zeigt allerdings, dass bislang nur eine Minderheit handfeste Vorteile bei Kosten, Produktion oder Umsatz meldet."
+    },
+    {
+      "title": "Leibwächter für 765.000 USD: Warum ein Chipriese plötzlich so viel für Personenschutz zahlt",
+      "url": "https://www.wallstreet-online.de/nachricht/21746311-leibwaechter-765-000-usd-chipriese-personenschutz-zahlt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Umsatz hat sich vervielfacht, das Gehalt des Chefs ist kräftig gestiegen. Doch eine Zahl im Kleingedruckten sticht heraus: Die Ausgaben für seinen Schutz sind um mehr als 2.000 Prozent gestiegen. Was steckt dahinter?"
     },
     {
       "title": "Milliardenmarkt im Visier: KI gegen Krebs: Ein langfristiger Deal mit großem Potenzial",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Vor etwas mehr als einem Jahr kämpfte Lars Klingbeil gegen die Commerzbank-Übernahme. Jetzt verteidigt er plötzlich das grüne Licht der Bundesregierung für die UniCredit. Für Aktionäre verändert sich damit einiges."
-    },
-    {
-      "title": "Goldwerte im Fokus: Gold korrigiert, die Projekte nicht: Skeena, U.S. GoldMining und Aurania legen nach!",
-      "url": "https://www.wallstreet-online.de/nachricht/21731467-goldwerte-fokus-gold-korrigiert-projekte-nicht-skeena-u-s-goldmining-aurania-nach",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gold fiel auf ein Einjahrestief, Zentralbanken kaufen zu. Skeena meldet über 80 % Projektfortschritt, U.S. GoldMining Rückenwind aus Alaska, Aurania 10,10 g/t Gold über 4,15 Meter."
-    },
-    {
-      "title": "Osteuropa im Fokus :  Nach Nvidia- ,KI- und Bitcoin-Crash – was jetzt kaufen?",
-      "url": "https://www.wallstreet-online.de/nachricht/21732001-osteuropa-fokus-nvidia-ki-bitcoin-crash-kaufen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Dre Black Friday führte infolge des Nvidia, KI- und Bitcoin-Mini.Crash zu Ausverkaufkursen. Die Osteuropabörsen bleiben in 2026 die beste Anlageregion der Welt. Die Börse Sofia konnt sogar um 65% zulegen."
     }
   ],
   "feedErrors": [
