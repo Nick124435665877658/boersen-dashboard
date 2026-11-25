@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-25T13:59:02.943622+00:00",
+  "fetchedAt": "2026-11-25T15:14:49.725850+00:00",
   "articles": [
+    {
+      "title": "Massive Verkaufswelle: Nasdaq 100, S&P 500 und Dow Jones tiefrot",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/massive-verkaufswelle-nasdaq-100-sp-500-und-dow-jones-tiefrot-20452074.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 14:46:00 GMT",
+      "description": "   Von der guten Stimmung zum Wochenstart ist nichts mehr übrig. Die Wall Street wird von der nächsten Verkaufswelle überrollt. Im Zentrum des Ausverkaufs stehen erneut die Tech-Aktien – der Nasdaq 100 rauscht zum Handelsstart in den USA mehr als drei Prozent in die Tiefe.  "
+    },
+    {
+      "title": "Silber: Eine historische Chance",
+      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/silber-eine-historische-chance-20452090.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Wed, 25 Nov 2026 14:17:00 GMT",
+      "description": "   Die Stimmung bei den Edelmetallen ist am Boden, die Schlagzeilen sind düster. Von einem Bullenmarkt kann man beim besten Willen nicht mehr sprechen. Doch bei den Minen entsteht gerade eine Ausgangslage, wie es sie selten gibt.  "
+    },
     {
       "title": "Wall Street: Die frischen Zahlen sind da – mit Einordnung",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-frischen-zahlen-sind-da-mit-einordnung-20451552.html?feed=directrssfeed",
@@ -58,25 +72,25 @@
       "description": "   Infineon, Siemens Energy und Co kennt an der Börse vermutlich jeder Anleger. Doch auf dem heimischen Kurszettel lohnt sich auch ein Blick auf Unternehmen, die nicht so sehr im Rampenlicht stehen, aber dennoch spürbar von aktuellen Megatrends profitieren.  "
     },
     {
-      "title": "Goldexperte Bußler: „Das ergibt keinen Sinn“",
-      "url": "https://www.deraktionaer.de/artikel/gold-rohstoffe/goldexperte-bussler-das-ergibt-keinen-sinn-20451685.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 10:30:00 GMT",
-      "description": "   Ja, Gold fällt weiter. Ja, Silber kollabiert. Ja, die Minen leiden – beweisen aber weiter relative Stärke. „Das Ganze erinnert sehr stark an den Jahresauftakt – nur in umgekehrter Form“, sagt Markus Bußler. Damals sei Silber geradezu in euphorischer Form gestiegen, heute herrscht mit Blick auf Silber tiefe Frustration.  "
-    },
-    {
-      "title": "Sanofi-Aktie zieht nach Übernahme-Hammer durch – Blaupause für Novo?",
-      "url": "https://www.deraktionaer.de/artikel/pharma-biotech/sanofi-aktie-zieht-nach-uebernahme-hammer-durch-blaupause-fuer-novo-20451608.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Wed, 25 Nov 2026 10:03:00 GMT",
-      "description": "   Starke Performance: Die Aktie des französischen Pharma-Konzerns Sanofi klettert zur Wochenmitte auf ein neues 52-Wochen-Hoch und nähert sich damit wieder der psychologisch wichtigen Marke von 100 Euro an. Anleger goutieren die angekündigte Übernahme des Biotech-Unternehmens Insmed mit weiter steigenden Notierungen.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Unveröffentlichte Kreditakten: Plötzlich tauchen Millionen-Deals von Nvidia in China auf",
+      "url": "https://www.wallstreet-online.de/nachricht/21746743-unveroeffentlichte-kreditakten-tauchen-millionen-deals-nvidia-china",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Kaum ist Jensen Huang zurück, tauchen neue Unterlagen auf. Sie führen von Shanghai über Leasingverträge bis zu Firmen aus dem Umfeld der Affäre. Und in wenigen Tagen muss der Nvidia-Chef in Washington aussagen."
+    },
+    {
+      "title": "Der nächste Krypto-Albtraum: Ethereum: Peter Brandt nennt die Marke für einen Absturz auf unter 500 Dollar",
+      "url": "https://www.wallstreet-online.de/nachricht/21747562-krypto-albtraum-ethereum-peter-brandt-nennt-marke-absturz-500-dollar",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Peter Brandt nennt eine konkrete Kursmarke, deren Unterschreiten Ethereum auf unter 500 US-Dollar abstürzen lassen könnte. Ein anderer Analyst erwartet dagegen eine Rallye."
     },
     {
       "title": "Wall Street tiefrot: Zinserhöhung so gut wie sicher: US-Kerninflation steigt auf 3,3 Prozent",
@@ -163,8 +177,8 @@
       "description": "Die neuen US-Inflationsdaten könnten die Wall Street kräftig durchschütteln. Historische Zahlen zeigen, wie der S&P 500 auf Überraschungen reagiert – und welche Ausschläge der Optionsmarkt erwartet."
     },
     {
-      "title": "-50 % an einem Tag: Für Chip-Aktie Ambarella kommt jetzt jede Hilfe zu spät!",
-      "url": "https://www.wallstreet-online.de/nachricht/21745297-50-tag-chip-aktie-ambarella-hilfe-spaet",
+      "title": "-50 % an einem Tag: Für diese Chip-Aktie kommt jetzt jede Hilfe zu spät!",
+      "url": "https://www.wallstreet-online.de/nachricht/21745297-50-tag-chip-aktie-hilfe-spaet",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die Aktie des Edge-AI-Spezialisten Ambarella erlebte am Dienstag einen rabenschwarzen Tag. Der Kurs brach um mehr als die Hälfte ein – aus guten Gründen!"
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der DAX hat erstmals die Marke von 27.000 Punkten überwunden, und für Carsten Klude ist das noch nicht das Ende. Der Chefvolkswirt der Hamburger Privatbank M.M. Warburg hält 30.000 Punkte bereits 2027 für möglich"
-    },
-    {
-      "title": "Die Schattenseite des KI-Stars: Anthropic: Worauf sich Aktionäre bei diesem KI-Giganten wirklich einlassen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21724464-schattenseite-ki-stars-anthropic-worauf-aktionaere-ki-giganten-einlassen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Eine einzige Aktie sichert den Gründern die Mehrheit der Stimmrechte. Hinzu kommen gigantische Zahlungsverpflichtungen und ungewöhnliche Geschäftsrisiken. Anthropics Börsenprospekt hat es in sich."
-    },
-    {
-      "title": "CRASH?!: Wochenrückblick KW 47-2026 - KI-Skepsis wird zur Wachstumsangst!",
-      "url": "https://www.wallstreet-online.de/nachricht/21730909-crash-wochenrueckblick-kw-47-2026-ki-skepsis-wachstumsangst",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidias Zahlen und Anthropics Börsengang stoppen den Ausverkauf nicht. Der Nasdaq Composite verliert 10 %, während Anleger Staatsanleihen suchen und Gold, Silber sowie Kupfer deutlich nachgeben."
     }
   ],
   "feedErrors": [
