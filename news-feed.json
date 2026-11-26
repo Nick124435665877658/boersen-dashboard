@@ -1,12 +1,19 @@
 {
-  "fetchedAt": "2026-11-26T15:09:56.254150+00:00",
+  "fetchedAt": "2026-11-26T16:12:31.825668+00:00",
   "articles": [
+    {
+      "title": "Mit Optionsscheinen zum Erfolg: Wie aus 10.000 Euro knapp 185.000 Euro wurden",
+      "url": "https://www.deraktionaer.de/artikel/derivate/mit-optionsscheinen-zum-erfolg-wie-aus-10000-euro-knapp-185000-euro-wurden-20453266.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 16:00:00 GMT",
+      "description": "   Die richtigen Aktien zu finden, ist eine Sache. Das Renditepotenzial dieser Aktien mit ausgewählten Optionsscheinen gezielt zu nutzen, eine ganz andere. Wie erfolgreich dieser Ansatz sein kann, zeigt der Börsendienst Megatrend Folger seit mittlerweile mehr als 13 Jahren.  "
+    },
     {
       "title": "Börse Extrem: Wenn selbst Investorenlegenden ins Straucheln geraten",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/boerse-extrem-wenn-selbst-investorenlegenden-ins-straucheln-geraten-20453131.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 26 Nov 2026 14:50:00 GMT",
-      "description": "   Die vergangenen Handelstage waren extrem. Vergangene Woche gab es weitere hohe Verluste, die Nerven lagen blank. Am Montag folgten die 180-Grad-Wende und ein massives Kursfeuerwerk an den US-Märkten dank des Nvidia-CEO-Comeback-Effekts. Nun folgten weitere Tage mit erneuten umfangreichen Verlusten.  "
+      "description": "   Die vergangenen Handelstage waren extrem. Vergangene Woche gab es weitere hohe Verluste, die Nerven lagen blank. Am Montag folgten die 180-Grad-Wende und ein massives Kursfeuerwerk an den US-Märkten dank des Nvidia-CEO-Comeback-Effekts. Nun folgten weitere Tage mit umfangreichen Verlusten.  "
     },
     {
       "title": "Trendwende nach Sippenhaft: Darum war das bei dieser Aktie jetzt erst der Anfang!",
@@ -65,11 +72,18 @@
       "description": "   Keine Frage: Blue Chips gehören in jedes ausgewogene Depot. Doch auch Small und Mid Caps sollten als spannende Depotbeimischung nicht fehlen. Diese Titel agieren oft im Windschatten der großen Player und profitieren damit ebenfalls von absoluten Megatrends.  "
     },
     {
-      "title": "AKTIONÄR-Tipp glänzt mit Zahlen und hebt Prognose an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/austro-versicherer-glaenzt-mit-zahlen-20452867.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 12:40:00 GMT",
-      "description": "   Stabile Dividende und eine Schnäppchen-Bewertung: Der österreichische Versicherer VIG hebt seine Prognose an. Osteuropa treibt die Gewinne, in allen Kategorien legen die Prämien zu. Bald ist auch der Kauf der Nürnberger Versicherung komplett eingepreist.  "
+      "title": "Hard Assets: Gold sendet ein historisches Warnsignal!",
+      "url": "https://www.wallstreet-online.de/video/21753481-hard-assets-gold-sendet-historisches-warnsignal",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ist die Rallye bei Gold und Silber vorbei ? Was passiert mit dem S&P 500, Dow Jones und Nasdaq? Was lässt sich daraus für heute lernen? Jan Willhöft von Axino Capital schaut sich die Lage genauer an."
+    },
+    {
+      "title": "Pharma-Offensive: 500 Millionen Euro: Bayer wagt einen gewaltigen Schritt in China",
+      "url": "https://www.wallstreet-online.de/nachricht/21752785-pharma-offensive-500-millionen-euro-bayer-wagt-gewaltigen-schritt-china",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bayer will bis zu 500 Millionen Euro in Peking investieren. Der Ausbau soll neue Kapazitäten schaffen und das China-Geschäft langfristig stärken."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach dem heftigen Ausverkauf melden sich die Käufer zurück. Doch Goldman Sachs entdeckt in seinen Marktdaten einen Widerspruch, der die Erholung schneller beenden könnte, als vielen lieb ist."
-    },
-    {
-      "title": "Das düstere Muster von 2008: Peter Schiff: Gold erholt sich – für Aktien könnte der Albtraum erst beginnen",
-      "url": "https://www.wallstreet-online.de/nachricht/21734695-duestere-muster-2008-peter-schiff-gold-erholt-aktien-albtraum",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Gold erholt sich nach dem heftigen Ausverkauf. Peter Schiff erkennt darin ein Muster aus der Finanzkrise 2008. Damals nahm die Entwicklung für Gold und Aktien eine völlig unterschiedliche Richtung."
-    },
-    {
-      "title": "\"Feuer im Theater\": Der lauteste Tech-Bulle wird vorsichtig",
-      "url": "https://www.wallstreet-online.de/nachricht/21736255-feuer-theater-lauteste-tech-bulle-vorsichtig",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ausgerechnet einer der größten Tech-Optimisten der Wall Street warnt: Die Skeptiker dürften lauter werden. Und ein Rekord-Börsengang zeigt, wie viel das Wachstum der Branche wirklich kostet."
     }
   ],
   "feedErrors": [
