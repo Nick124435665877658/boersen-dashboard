@@ -1,12 +1,33 @@
 {
-  "fetchedAt": "2026-11-26T08:06:29.847289+00:00",
+  "fetchedAt": "2026-11-26T09:15:45.126378+00:00",
   "articles": [
+    {
+      "title": "Zurück nach Vice City",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/zurueck-nach-vice-city-20452005.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 09:00:00 GMT",
+      "description": "   Der grösste Spielstart seit Jahren. Ob der Konzern daran verdient, wird die Zukunft zeigen.  "
+    },
+    {
+      "title": "Commerzbank: Jetzt geht es schnell",
+      "url": "https://www.deraktionaer.de/artikel/aktien/commerzbank-jetzt-geht-es-schnell-20452781.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 08:58:00 GMT",
+      "description": "    UniCredit treibt die geplante Übernahme der Commerzbank voran und will möglichst rasch die Kontrolle übernehmen. Konzernchef Andrea Orcel soll zunächst bei einer außerordentlichen Hauptversammlung in den Aufsichtsrat einziehen und anschließend dessen Vorsitz übernehmen.  "
+    },
     {
       "title": "DAX-Bullen schlagen zurück – Weg frei für Commerzbank-Übernahme",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-bullen-schlagen-zurueck-weg-frei-fuer-commerzbank-uebernahme-20452680.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 26 Nov 2026 08:00:00 GMT",
       "description": "   Nach dem Rutsch auf den tiefsten Stand seit Juli legt der DAX zum Handelsstart deutlich zu. Rückenwind kommt von der Nasdaq, wo Technologiewerte am Vorabend einen Großteil ihrer Verluste aufgeholt haben. Bei der Commerzbank ist der Weg für Unicredit nach der letzten behördlichen Freigabe frei.  "
+    },
+    {
+      "title": "Allianz: Kurs + Dividende – das wurde aus 1.000 Euro",
+      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-kurs-dividende-das-wurde-aus-1000-euro-20452637.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 07:51:00 GMT",
+      "description": "   Die Allianz-Aktie hat in den vergangenen Tagen etwas Luft geholt. Die kurzzeitige Kursschwäche ändert aber nichts an der starken Langzeitperformance des DAX-Schwergewichts. Die Aktie des Versicherers hat ihren Anlegern satte Renditen eingebracht. Dazu hat auch die Dividende einen starken Beitrag geleistet.  "
     },
     {
       "title": "BASF: Einer der Branchen-Gewinner?",
@@ -51,32 +72,25 @@
       "description": "   Warum vermeintliche Binsenweisheiten an der Börse nach wie vor funktionieren. Warum Börse nicht rational sein muss. Und wie man als Anleger in volatilen Zeiten die Nerven behält. Meine Gedanken zum Thema KI-Aktien.  "
     },
     {
-      "title": "Deutsche Bank: Auch die Saisonalität enttäuscht",
-      "url": "https://www.deraktionaer.de/artikel/fintech-versicherung-banken/deutsche-bank-20452596.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 06:57:10 GMT",
-      "description": "   Die Aktie der Deutschen Bank kämpfte zuletzt wie die Gesamtbranche in Europa mit fallenden Kursen. Dabei stellt sich die Frage, ob die Saisonalität ihre Gültigkeit verloren hat. Börsenweisheiten gibt es zuhauf, doch wenige sind so populär wie die Frage, ob Aktien zu bestimmten Jahreszeiten besser performen.  "
-    },
-    {
-      "title": "XPeng: Noch mehr Konkurrenz für BMW, Mercedes und Co",
-      "url": "https://www.deraktionaer.de/artikel/aktien/xpeng-noch-mehr-konkurrenz-fuer-bmw-mercedes-und-co-20452535.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 06:50:00 GMT",
-      "description": "   Die Luft für die deutschen Autohersteller wird immer dünner. Nachdem diese in den vergangenen Jahren bereits in China deutlich an Marktanteilen verloren haben, droht ihnen nun das gleiche Schicksal auf dem europäischen Markt. Denn neben BYD will auch XPeng seine Verkaufszahlen in Europa deutlich steigern.  "
-    },
-    {
-      "title": "Moderna, Micron und wer noch? Die bisher größten Nasdaq-Gewinner des Jahres",
-      "url": "https://www.deraktionaer.de/artikel/aktien/moderna-micron-und-wer-noch-die-bisher-groessten-nasdaq-gewinner-des-jahres-20452562.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 06:44:00 GMT",
-      "description": "    Allmählich neigt sich das wieder einmal turbulente Börsenjahr dem Ende entgegen. Ob es noch einmal eine Jahresend-Rally geben wird, steht wie so Vieles derzeit noch komplett in den Sternen. Wer in den letzten Wochen aber gesucht werden könnte, sind die bisherigen Gewinner des Jahres 2026.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Jetzt wird es ernst: UniCredit greift nach der Commerzbank – jetzt fällt die letzte Hürde",
+      "url": "https://www.wallstreet-online.de/nachricht/21750967-ernst-unicredit-greift-commerzbank-faellt-letzte-huerde",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "UniCredit hat die letzte Genehmigung für die Commerzbank-Übernahme erhalten. Nun will die italienische Bank auch die Führung neu aufstellen."
+    },
+    {
+      "title": "Hilft gegen KI-Müdigkeit: Darum sehen Analysten jetzt gute Kurschancen bei Bayer",
+      "url": "https://www.wallstreet-online.de/nachricht/21750757-hilft-ki-muedigkeit-analysten-kurschancen-bayer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach dem jüngsten Kursrutsch empfehlen die Analysten von Berenerg Bayer zum Kauf. Die Glyphosat-Klagen gelten als weitgehend erledigt, die Pharmasparte überzeugt, und die Aktie bietet Schutz vor einer müden KI-Rallye."
     },
     {
       "title": "KI-Offensive im Weltraum: SpaceX: Musk darf eine Million Satelliten starten – Was macht die Aktie?",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Anbieter von Cybersicherheitslösungen CrowdStrike übernimmt seinen Rivalen Zscaler und hat gleichzeitig seine Quartalszahlen vorgezogen."
-    },
-    {
-      "title": "90 Prozent Inflation im Iran: Trump droht Iran mit dem nächsten Militärschlag – das Land steht am Abgrund!",
-      "url": "https://www.wallstreet-online.de/nachricht/21733510-90-prozent-inflation-iran-trump-droht-iran-naechsten-militaerschlag-land-abgrund",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Irans Wirtschaft leidet unter einer Inflationsrate von rund 90 Prozent. Während neue Angriffe die Golfregion erschüttern, verschärft Donald Trump seine Drohungen – und stellt weitere Militärschläge in Aussicht."
-    },
-    {
-      "title": "Rohstoff Gas: Kältewelle im Winter droht: Gaspreise ziehen an",
-      "url": "https://www.wallstreet-online.de/nachricht/21734632-rohstoff-gas-kaeltewelle-winter-droht-gaspreise",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die europäischen Erdgaspreise steigen sprunghaft an: Eine Kältewelle soll Europa heimsuchen."
     }
   ],
   "feedErrors": [
