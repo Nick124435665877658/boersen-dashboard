@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T03:00:21.325887+00:00",
+  "fetchedAt": "2026-11-26T04:08:16.293754+00:00",
   "articles": [
     {
       "title": "Anleger aufgepasst: Die Schnäppchenjagd beginnt – jetzt!",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
       "description": "   Jensen Huang bekommt eine zweite Chance, die KI-Revolution mit unverminderter Kraft voranzutreiben. Die Nvidia-Aktie gibt es derweil zum Schnäppchenpreis.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Spannende Updates von Rheinmetall sowie frische Konjunkturdaten aus Deutschland",
+      "url": "https://www.wallstreet-online.de/nachricht/21744583-wichtigsten-termine-spannende-updates-rheinmetall-frische-konjunkturdaten-deutschland",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "Silber-Crash: Dieses Kursziel wird Anlegern nicht gefallen!",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "ConocoPhillips gibt sein Norwegen-Geschäft samt Nordsee-Juwel Ekofisk ab. Milliarden sollen an die Aktionärinnen und Aktionäre zurückfließen. Doch beim Preis bleibt ein großes Fragezeichen."
-    },
-    {
-      "title": "Tiefpunkt überwunden?: Bitcoin nach Absturz auf Zweijahrestief – kommt jetzt die Trendwende?",
-      "url": "https://www.wallstreet-online.de/nachricht/21733078-tiefpunkt-ueberwunden-bitcoin-absturz-zweijahrestief-trendwende",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bitcoin stürzte auf den niedrigsten Stand seit September 2024. Angesichts der anhaltenden Unsicherheit warnt Arthur Hayes vor verfrühten Käufen."
     }
   ],
   "feedErrors": [
