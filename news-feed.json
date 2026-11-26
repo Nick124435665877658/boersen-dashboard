@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T04:08:16.293754+00:00",
+  "fetchedAt": "2026-11-26T05:17:40.938375+00:00",
   "articles": [
     {
       "title": "Anleger aufgepasst: Die Schnäppchenjagd beginnt – jetzt!",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Wed, 25 Nov 2026 18:00:00 GMT",
       "description": "   Jensen Huang bekommt eine zweite Chance, die KI-Revolution mit unverminderter Kraft voranzutreiben. Die Nvidia-Aktie gibt es derweil zum Schnäppchenpreis.  "
+    },
+    {
+      "title": "Der Millionen-Unzen-Plan: Fast 97 % Cash-Marge ohne eigene Mine: Dieser Goldwert lässt andere für sich graben!",
+      "url": "https://www.wallstreet-online.de/nachricht/21746881-millionen-unzen-plan-97-cash-marge-eigene-mine-goldwert-laesst-graben",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold schwankt, OR Royalties liefert: Rekordumsatz nach neun Monaten und fast 97 % Cash-Marge. Agnico Eagle skizziert für Canadian Malartic den Weg zu 1 Mio. Unzen pro Jahr."
     },
     {
       "title": "Ihre wichtigsten Termine: Spannende Updates von Rheinmetall sowie frische Konjunkturdaten aus Deutschland",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Während die US-Futures nach dem KI-Ausverkauf deutlich zulegen, bleiben die asiatischen Börsen unter Druck. Der DAX legt am Montag zu. Deutschland wird zum Wachstumsmotor, zeigen neue Daten."
-    },
-    {
-      "title": "Ölriese räumt auf: ConocoPhillips trennt sich von seinem Nordsee-Juwel",
-      "url": "https://www.wallstreet-online.de/nachricht/21733063-oelriese-raeumt-auf-conocophillips-trennt-nordsee-juwel",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "ConocoPhillips gibt sein Norwegen-Geschäft samt Nordsee-Juwel Ekofisk ab. Milliarden sollen an die Aktionärinnen und Aktionäre zurückfließen. Doch beim Preis bleibt ein großes Fragezeichen."
     }
   ],
   "feedErrors": [
