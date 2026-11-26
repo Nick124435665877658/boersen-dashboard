@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-26T19:05:32.746927+00:00",
+  "fetchedAt": "2026-11-26T20:12:07.955500+00:00",
   "articles": [
+    {
+      "title": "Apple-Aktie gegen den Trend: Positiver Nasdaq-Ausreißer",
+      "url": "https://www.deraktionaer.de/artikel/aktien/apple-aktie-gegen-den-trend-wer-zuletzt-lacht--20453019.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 19:15:00 GMT",
+      "description": "   Apple galt über die letzten Jahre als KI-Nachzügler. Während Microsoft, Meta oder Alphabet Milliarden in Rechenzentren und Chips pumpten, hielt Tim Cook den Fuß vom Gas. Die Wall Street sah das als Makel.  Seit Kurzem hat sich das Blatt gewendet: Die Apple-Aktie zieht dem Nasdaq 100 immer weiter davon.  "
+    },
+    {
+      "title": "Shein: Das Ende der grenzenlosen Billigflut – Aktie 30 Prozent unter IPO-Preis",
+      "url": "https://www.deraktionaer.de/artikel/aktien/shein-das-ende-der-grenzenlosen-billigflut-aktie-30-prozent-unter-ipo-preis--20452868.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 19:00:00 GMT",
+      "description": "   Mit Kampfpreisen hatten chinesische Onlinehändler wie Shein und Temu den europäischen Einzelhandel aufgemischt. Doch die Politik macht den Schnäppchen-Giganten das Leben schwer. Die jüngsten Quartalszahlen von Shein zeigen, wie hart die neuen EU-Importabgaben das Geschäftsmodell treffen.  "
+    },
     {
       "title": "Deutsche Bank: Das ist 2027 bei DAX & Co drin",
       "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-bank-ausblick-2027-20452957.html?feed=directrssfeed",
@@ -58,18 +72,11 @@
       "description": "   Ist das die Trendwende? Die Minenaktien starteten gestern schwach in den Tag. Doch im Lauf des Tages kam immer mehr Kaufinteresse in den Markt. Am Ende schloss der GDX 3,5 Prozent im Plus, der GDXJ konnte sogar 4,1 Prozent zulegen. Und das, obwohl Gold und Silber selbst nur knapp den Sprung in den positiven Bereich geschafft haben.  "
     },
     {
-      "title": "Die BaFin ermittelt! SDAX-Aktie stürzt zweistellig ab",
-      "url": "https://www.deraktionaer.de/artikel/aktien/die-bafin-ermittelt-sdax-aktie-stuerzt-zweistellig-ab-20453238.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 14:42:00 GMT",
-      "description": "    Das sieht übel aus: Bei einem SDAX-Titel geht es mit dem Aktienkurs heute zweistellig bergab. So verbilligen sich die Anteilscheine von Energiekontor um aktuell satte zehn Prozent. Der Grund für den Kursrutsch ist eine Meldung, die erst vor wenigen Minuten über die Nachrichtenticker gelaufen ist.  "
-    },
-    {
-      "title": "Von 5.000 auf rund 24.770 Euro – jetzt startet die nächste Turbo-Runde",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/von-5000-auf-rund-24770-euro-jetzt-startet-die-naechste-turbo-runde-20453236.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 14:32:10 GMT",
-      "description": "   Was wäre gewesen, wenn Sie im Oktober 2024 mit 5.000 Euro in die Turbo-Strategie von Timo Nützel eingestiegen wären und die Gewinne Monat für Monat wieder angelegt hätten? Laut seinem Report wäre daraus bis zum Redaktionsschluss ein Depotwert von rund 24.  "
+      "title": "\"Deine Sitzecke wartet\": Denny’s lädt Nvidia-CEO Huang ein – Vom Tellerwäscher zum Chip-Milliardär",
+      "url": "https://www.wallstreet-online.de/nachricht/21752428-deine-sitzecke-wartet-denny-s-laedt-nvidia-ceo-huang-tellerwaescher-chip-milliardaer",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist zurück bei Nvidia. Denny’s lädt den früheren Mitarbeiter zum Kaffee ein und berichtet von einer verschwundenen Gedenktafel. Die Verbindung des Chipchefs zur Kette reicht weit vor Nvidias Gründung zurück."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der milliardenschwere Investor Bill Ackman warnt, dass die Federal Reserve bei ihrer Sitzung am 9. Dezember Gefahr laufen würde, \"einen weiteren Fehler\" zu begehen."
-    },
-    {
-      "title": "Experte bleibt bullish: Nach dem Tech-Beben: Warum Acatis-Stratege Riße jetzt zukaufen will",
-      "url": "https://www.wallstreet-online.de/nachricht/21735784-experte-bleibt-bullish-tech-beben-acatis-stratege-risse-zukaufen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Ausverkauf bei Technologieaktien nahm vergangenen Woche Fahrt auf. Für Stefan Riße, Kapitalmarktstratege bei Acatis Investment, ist das kein Grund zur Flucht."
     }
   ],
   "feedErrors": [
