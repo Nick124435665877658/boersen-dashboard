@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T11:33:58.943191+00:00",
+  "fetchedAt": "2026-11-26T12:44:23.126773+00:00",
   "articles": [
     {
       "title": "Strabag: Über 20 Prozent Wachstum in Deutschland – Chef sieht erst den Anfang",
@@ -77,6 +77,20 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Die Zeit drängt: Bitcoin-Reserve der USA droht trotz Fortschritt zu scheitern",
+      "url": "https://www.wallstreet-online.de/nachricht/21752206-zeit-draengt-bitcoin-reserve-usa-droht-trotz-fortschritt-scheitern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der Gesetzentwurf zur US-Bitcoin-Reserve hat eine weitere Hürde genommen. Doch es bleiben nur noch wenige Sitzungstage zur Verabschiedung."
+    },
+    {
+      "title": "Situational Awareness: KI-Hedgefonds nach Fast-Pleite: Aschenbrenner warnt vor den Folgen der KI",
+      "url": "https://www.wallstreet-online.de/nachricht/21752401-situational-awareness-ki-hedgefonds-fast-pleite-aschenbrenner-warnt-folgen-ki",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der KI-Hedgefonds Situational Awareness hat im dritten Quartal 65 Prozent verloren. Gründer Aschenbrenner sieht dennoch Chancen wie nie und zeichnet ein düsteres Bild für Nvidia, Microsoft und Apple."
     },
     {
       "title": "US-Exportkontrollen: \"Das sorgt für das reinste Chaos\": Nvidia zieht die Reißleine",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Bloomberg-Stratege Mike McGlone sieht eine gewaltige Abwärtswelle auf die Finanzmärkte zukommen. Seine Prognose reicht weit über Kryptowährungen hinaus – und selbst kräftige Kurserholungen könnten gefährliche Fallen sein"
-    },
-    {
-      "title": "Aktie mit 28 % im Plus: Sensation: Jensen Huang ist wieder zurück bei Nvidia!",
-      "url": "https://www.wallstreet-online.de/nachricht/21735634-aktie-28-plus-sensation-jensen-huang-nvidia",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nvidia gab heute bekannt, dass Jensen Huang mit sofortiger Wirkung als Präsident und Chief Executive Officer sowie als Mitglied des Verwaltungsrat wieder eingesetzt wurde."
-    },
-    {
-      "title": "Ausverkauf beendet?: Crowdstrike: Zscaler-Übernahme | Bayer: Kurssturz | Nemetschek: Klatsche",
-      "url": "https://www.wallstreet-online.de/video/21735322-ausverkauf-beendet-crowdstrike-zscaler-uebernahme-bayer-kurssturz-nemetschek-klatsche",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Zum Start in die neue Woche ziehen die Kurse wieder etwas an. Sehen Anleger nur eine kurze Gegenbewegung oder eine nachhaltige Erholung? Die Antwort auf die Frage könnte es bereits am Mittwoch geben!"
     }
   ],
   "feedErrors": [
