@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T17:16:13.392276+00:00",
+  "fetchedAt": "2026-11-26T18:03:09.396787+00:00",
   "articles": [
+    {
+      "title": "Palantir: Goldman Sachs gegen Michael Burry",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/palantir-goldman-sachs-gegen-michael-burry-20453309.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 17:19:00 GMT",
+      "description": "   Nach dem gescheiterten Ausbruch auf ein neues Rekordhoch steckt die Palantir-Aktie wieder fest. Während der KI-Spezialist an der Börse deutlich an Boden verliert, prallen an der Wall Street zwei prominente Lager unversöhnlich aufeinander. Ein bekannter Krisen-Investor baut sein Depot radikal um – doch bei einem Papier bleibt er kompromisslos.  "
+    },
     {
       "title": "Wall Street zu, Geldbörse auf: Diese Aktien kassieren mit",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-zu-geldboerse-auf-diese-aktien-kassieren-mit-20453025.html?feed=directrssfeed",
@@ -65,11 +72,18 @@
       "description": "   Nach der Euphorie über Jensen Huangs Rückkehr zu Nvidia sind die Anschlusskäufe zunächst ausgeblieben. Auf die erste Gegenbewegung folgte schnell der nächste Rücksetzer. Die Verunsicherung ist groß. Doch genau in diesem Umfeld können sich Chancen für einen lukrativen Einstieg ergeben.  "
     },
     {
-      "title": "Aroundtown und Vonovia weiter im Aufwind",
-      "url": "https://www.deraktionaer.de/artikel/aktien/aroundtown-und-vonovia-weiter-im-aufwind-20453118.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 13:28:00 GMT",
-      "description": "    Und es geht weiter nach oben bei den zuvor über mehrere Monate hinweg gebeutelten Immobilien-Aktien. Die Anteilscheine von Aroundtown legen am heutigen Donnerstag erneut kräftig zu und verteuern sich um rund fünf Prozent. Damit erreichten die MDAX-Titel den höchsten Kurs seit September und näherten sich der 100-Tage-Linie.  "
+      "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
+      "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
+    },
+    {
+      "title": "Aktien: Dieses Signal ist gefährlich für jeden Bullen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21753748-aktien-signal-gefaehrlich-bullen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
     },
     {
       "title": "Don't buy the dip!: KI-Crash: Warum jetzt sogar die gesamte US-Wirtschaft auf dem Spiel steht!",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Nach dem heftigen Ausverkauf versucht die Wall Street ein Comeback. Doch die US-Notenbank lässt sich von fallenden Aktienkursen offenbar nicht beeindrucken. Weitere Zinserhöhungen stehen im Raum."
-    },
-    {
-      "title": "Aktien: Die große Kursmanipulation?",
-      "url": "https://www.wallstreet-online.de/nachricht/21736696-aktien-grosse-kursmanipulation",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Werden die Aktienmärkte gezielt beeinflusst oder steckt mehr hinter den heftigen Kursbewegungen?"
-    },
-    {
-      "title": "Infrastruktur im Fokus: Rechenzentren, Energie, Milliarden: Dieser Markt steht vor dem Durchbruch",
-      "url": "https://www.wallstreet-online.de/nachricht/21735568-infrastruktur-fokus-rechenzentren-energie-milliarden-markt-durchbruch",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der KI-Boom treibt Investitionen in Rechenzentren und Energieversorgung. Institutionelle Anleger stocken ihre Infrastrukturquoten auf und sehen mehr Potenzial."
     }
   ],
   "feedErrors": [
