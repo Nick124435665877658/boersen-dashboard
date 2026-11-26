@@ -1,12 +1,40 @@
 {
-  "fetchedAt": "2026-11-26T10:23:44.495400+00:00",
+  "fetchedAt": "2026-11-26T11:33:58.943191+00:00",
   "articles": [
+    {
+      "title": "Strabag: Über 20 Prozent Wachstum in Deutschland – Chef sieht erst den Anfang",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/strabag-ueber-20-prozent-wachstum-in-deutschland-chef-sieht-erst-den-anfang-20453015.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 11:20:00 GMT",
+      "description": "    Am Freitag stimmt der Bundestag über den Haushalt 2027 ab – und über weitere Milliarden für Brücken, Tunnel und Straßen. Der Wiener Baukonzern Strabag wächst in Deutschland kräftig, obwohl aus dem Sondervermögen laut Konzernchef erst jetzt die ersten größeren Projekte kommen.  "
+    },
+    {
+      "title": "Golden Cross und Gewinnsprung: Der nächste Angriff läuft",
+      "url": "https://www.deraktionaer.de/artikel/aktien/golden-cross-und-gewinnsprung-der-naechste-angriff-laeuft-20452842.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 10:16:00 GMT",
+      "description": "   Die Aktie ist in den vergangenen 12 Monaten deutlich hinter ihrer Peergroup zurückgeblieben. Jetzt könnte sich das ändern: Starkes erwartetes Gewinnwachstum, eine attraktive Bewertung und ein frisch ausgebildetes Golden Cross liefern die Zutaten für eine Aufholjagd.  "
+    },
+    {
+      "title": "Kostolany hatte recht!",
+      "url": "https://www.deraktionaer.de/artikel/aktien/kostolany-hatte-recht-20452613.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 10:15:00 GMT",
+      "description": "   Warum vermeintliche Binsenweisheiten an der Börse nach wie vor funktionieren. Warum Börse nicht rational sein muss. Und wie man als Anleger in volatilen Zeiten die Nerven behält. Meine Gedanken zum Thema KI-Aktien.  "
+    },
     {
       "title": "Deutsche Telekom: Noch reichlich Luft nach oben?",
       "url": "https://www.deraktionaer.de/artikel/aktien/deutsche-telekom-noch-reichlich-luft-nach-oben-20452898.html?feed=directrssfeed",
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 26 Nov 2026 10:14:00 GMT",
       "description": "    In einem schwierigen Marktumfeld hat sich die Aktie der Deutschen Telekom in den vergangenen Wochen relativ stabil gezeigt und sich zuletzt auch wieder nach oben gearbeitet. Und geht es nach verschiedenen Experten, so hat der Dividendentitel noch reichlich Luft nach oben.  "
+    },
+    {
+      "title": "Anleger aufgepasst: Die Schnäppchenjagd beginnt – jetzt!",
+      "url": "https://www.deraktionaer.de/artikel/aktien/anleger-aufgepasst-die-schnaeppchenjagd-beginnt-jetzt--20452360.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 10:11:00 GMT",
+      "description": "   Nach der Euphorie über Jensen Huangs Rückkehr zu Nvidia sind die Anschlusskäufe zunächst ausgeblieben. Auf die erste Gegenbewegung folgte schnell der nächste Rücksetzer. Die Verunsicherung ist groß. Doch genau in diesem Umfeld können sich Chancen für einen lukrativen Einstieg ergeben.  "
     },
     {
       "title": "Salesforce: Konkurrenz durch den früheren Co-Chef",
@@ -44,39 +72,32 @@
       "description": "   Nach dem Rutsch auf den tiefsten Stand seit Juli legt der DAX zum Handelsstart deutlich zu. Rückenwind kommt von der Nasdaq, wo Technologiewerte am Vorabend einen Großteil ihrer Verluste aufgeholt haben. Bei der Commerzbank ist der Weg für Unicredit nach der letzten behördlichen Freigabe frei.  "
     },
     {
-      "title": "Allianz: Kurs + Dividende – das wurde aus 1.000 Euro",
-      "url": "https://www.deraktionaer.de/artikel/aktien/allianz-kurs-dividende-das-wurde-aus-1000-euro-20452637.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 07:51:00 GMT",
-      "description": "   Die Allianz-Aktie hat in den vergangenen Tagen etwas Luft geholt. Die kurzzeitige Kursschwäche ändert aber nichts an der starken Langzeitperformance des DAX-Schwergewichts. Die Aktie des Versicherers hat ihren Anlegern satte Renditen eingebracht. Dazu hat auch die Dividende einen starken Beitrag geleistet.  "
-    },
-    {
-      "title": "Megatrend Folger: Nvidia, Microsoft und CoreWeave – 18 Prozent Zinsen offenbaren ein neues KI-Risiko",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-nvidia-microsoft-und-coreweave-18-prozent-zinsen-offenbaren-ein-neues-ki-risiko-20452612.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 07:41:00 GMT",
-      "description": "   Während  Nvidia, Micron und Broadcom im Fokus stehen, spielt sich am Anleihemarkt eine bemerkenswerte Entwicklung ab. Die Marktrendite einer bis 2031 laufenden Anleihe des KI-Cloudanbieters CoreWeave ist auf fast 18 Prozent gestiegen. Das wirft eine entscheidende Frage auf: Wer finanziert künftig den weiteren Ausbau der künstlichen Intelligenz? "
-    },
-    {
-      "title": "BASF: Einer der Branchen-Gewinner?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/basf-einer-der-branchen-gewinner-20452619.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 07:40:00 GMT",
-      "description": "    Einen Schub für die Aktie konnte der jüngste Kapitalmarkttag des Chemieriesen BASF nicht generieren. Doch immerhin präsentierte sich der DAX-Konzern als das gewohnt zuverlässige Unternehmen. So bekräftigte der Vorstand die „Winning Ways“-Ausrichtung: Die vier Kerngeschäfte Chemicals, Materials, Industrial Solutions und Nutrition & Care sollen f"
-    },
-    {
-      "title": "Infineon-Aktie: Comeback oder Strohfeuer? Das zählt jetzt!",
-      "url": "https://www.deraktionaer.de/artikel/aktien/infineon-aktie-comeback-oder-strohfeuer-das-zaehlt-jetzt--20452588.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 07:33:00 GMT",
-      "description": "   Trotz der guten operativen Entwicklung und der starken Wachstumsaussichten konnte sich die Infineon-Aktie zuletzt nicht wirklich von der Branchenstimmung lösen. Das heißt: Ist die Stimmung im KI-Sektor schlecht, fällt die Aktie. Steigt die Euphorie, legt der DAX-Titel ebenfalls zu.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "US-Exportkontrollen: \"Das sorgt für das reinste Chaos\": Nvidia zieht die Reißleine",
+      "url": "https://www.wallstreet-online.de/nachricht/21752164-us-exportkontrollen-das-sorgt-reinste-chaos-nvidia-reissleine",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nvidia stoppt Berichten zufolge Serverlieferungen in vier südostasiatische Länder. Die neuen US-Exportkontrollen bringen auch Milliardenprojekte in Gefahr."
+    },
+    {
+      "title": "Hohe Gewinne möglich: SAP-Rivale ServiceNow jetzt mit Top-Einstiegschance!",
+      "url": "https://www.wallstreet-online.de/nachricht/21751897-hohe-gewinne-moeglich-sap-rivale-servicenow-top-einstiegschance",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Nach den jüngsten Quartalszahlen ging es steil bergab, doch inzwischen bietet ServiceNow sowohl technisch als auch fundamental eine spannende Einstiegschance."
+    },
+    {
+      "title": "Ein Déjà-vu mit Folgen?: Apple: Crash-Signal wie 2002 – jetzt will Michael Burry gegen die Aktie wetten",
+      "url": "https://www.wallstreet-online.de/nachricht/21751462-dej-vu-folgen-apple-crash-signal-2002-michael-burry-aktie-wetten",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Michael Burry sucht neue Kandidaten für Wetten auf fallende Kurse. Apple gehört dazu. Gleichzeitig erinnert eine ungewöhnliche Börsenkonstellation an 2002, als die Aktie anschließend massiv einbrach."
     },
     {
       "title": "E-Autobauer: BYD-Rivale Li Auto knallt nach Zahlen zweistellig hoch",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Zum Start in die neue Woche ziehen die Kurse wieder etwas an. Sehen Anleger nur eine kurze Gegenbewegung oder eine nachhaltige Erholung? Die Antwort auf die Frage könnte es bereits am Mittwoch geben!"
-    },
-    {
-      "title": "Kein Bärenmarkt in Sicht: Darum sehen Experten in der Korrektur eine Chance!",
-      "url": "https://www.wallstreet-online.de/nachricht/21735472-baerenmarkt-sicht-experten-korrektur-chance",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Die Stimmung an den Börsen ist mies, trotzdem rechnet die UBS nicht mit einem Bärenmarkt. Für 2027 setzt die Großbank auf Anleihen, eine breitere Aktienauswahl und vor allem auf Europa."
-    },
-    {
-      "title": "240 Millionen Euro: Großer Raumfahrt-Deal: Rückenwind für Thales",
-      "url": "https://www.wallstreet-online.de/nachricht/21735262-240-millionen-euro-grosser-raumfahrt-deal-rueckenwind-thales",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Thales Alenia Space erhält einen Auftrag über mehr als 240 Millionen Euro. Eine neue Satellitentechnik soll die Erdbeobachtung revolutionieren."
-    },
-    {
-      "title": "Sie schlägt zu!: Anthropic verliert – Cathie Wood greift für 146 Millionen zu",
-      "url": "https://www.wallstreet-online.de/nachricht/21735202-schlaegt-zu-anthropic-verliert-cathie-wood-greift-146-millionen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Anthropic verliert nach seinem historischen Börsengang deutlich an Wert. Cathie Wood nutzt den Kursrückgang und investiert Millionen."
     }
   ],
   "feedErrors": [
