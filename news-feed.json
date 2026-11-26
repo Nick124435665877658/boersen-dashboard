@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T16:12:31.825668+00:00",
+  "fetchedAt": "2026-11-26T17:16:13.392276+00:00",
   "articles": [
+    {
+      "title": "Wall Street zu, Geldbörse auf: Diese Aktien kassieren mit",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-zu-geldboerse-auf-diese-aktien-kassieren-mit-20453025.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Thu, 26 Nov 2026 16:30:00 GMT",
+      "description": "   Auf dem New Yorker Börsenparkett bleibt es am heutigen Donnerstag wegen des Thanksgiving-Feiertags ruhig. Auch am morgigen Black Friday findet nur ein verkürzter Handel statt. Dafür dürfte es an den Kassen der Einzelhändler umso geschäftiger zugehen.  "
+    },
     {
       "title": "Mit Optionsscheinen zum Erfolg: Wie aus 10.000 Euro knapp 185.000 Euro wurden",
       "url": "https://www.deraktionaer.de/artikel/derivate/mit-optionsscheinen-zum-erfolg-wie-aus-10000-euro-knapp-185000-euro-wurden-20453266.html?feed=directrssfeed",
@@ -65,18 +72,18 @@
       "description": "    Und es geht weiter nach oben bei den zuvor über mehrere Monate hinweg gebeutelten Immobilien-Aktien. Die Anteilscheine von Aroundtown legen am heutigen Donnerstag erneut kräftig zu und verteuern sich um rund fünf Prozent. Damit erreichten die MDAX-Titel den höchsten Kurs seit September und näherten sich der 100-Tage-Linie.  "
     },
     {
-      "title": "Anleger aufgepasst: Hier wird auf die Gewinner von morgen gesetzt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/comeback-chancen-momentum-perlen-und-hidden-champions-diese-aktien-sind-jetzt-gefragt--20452381.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Thu, 26 Nov 2026 12:45:00 GMT",
-      "description": "   Keine Frage: Blue Chips gehören in jedes ausgewogene Depot. Doch auch Small und Mid Caps sollten als spannende Depotbeimischung nicht fehlen. Diese Titel agieren oft im Windschatten der großen Player und profitieren damit ebenfalls von absoluten Megatrends.  "
+      "title": "Don't buy the dip!: KI-Crash: Warum jetzt sogar die gesamte US-Wirtschaft auf dem Spiel steht!",
+      "url": "https://www.wallstreet-online.de/nachricht/21752305-don-t-buy-the-dip-ki-crash-gesamte-us-wirtschaft-spiel-steht",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldman-Stratege Christian Mueller-Glissmann sieht nach dem KI-Ausverkauf noch keinen Börsenboden. Besonders alarmiert ihn ein Vergleich mit der Dotcom-Blase – und die Gefahr, dass Kursverluste die Konjunktur treffen."
     },
     {
       "title": "Hard Assets: Gold sendet ein historisches Warnsignal!",
       "url": "https://www.wallstreet-online.de/video/21753481-hard-assets-gold-sendet-historisches-warnsignal",
       "publisher": "wallstreet:online",
       "publishedAt": "",
-      "description": "Ist die Rallye bei Gold und Silber vorbei ? Was passiert mit dem S&P 500, Dow Jones und Nasdaq? Was lässt sich daraus für heute lernen? Jan Willhöft von Axino Capital schaut sich die Lage genauer an."
+      "description": "Ist die Rallye bei Gold und Silber vorbei? Was passiert mit dem S&P 500, Dow Jones und Nasdaq? Was lässt sich daraus für heute lernen? Jan Willhöft von Axino Capital schaut sich die Lage genauer an."
     },
     {
       "title": "Pharma-Offensive: 500 Millionen Euro: Bayer wagt einen gewaltigen Schritt in China",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der KI-Boom treibt Investitionen in Rechenzentren und Energieversorgung. Institutionelle Anleger stocken ihre Infrastrukturquoten auf und sehen mehr Potenzial."
-    },
-    {
-      "title": "Panikindex fast am Maximum: Börsen-Comeback in Gefahr! Goldman warnt vor 80-Milliarden-Verkaufswelle",
-      "url": "https://www.wallstreet-online.de/nachricht/21734926-panikindex-maximum-boersen-comeback-gefahr-goldman-warnt-80-milliarden-verkaufswelle",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach dem heftigen Ausverkauf melden sich die Käufer zurück. Doch Goldman Sachs entdeckt in seinen Marktdaten einen Widerspruch, der die Erholung schneller beenden könnte, als vielen lieb ist."
     }
   ],
   "feedErrors": [
