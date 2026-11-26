@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T22:00:27.585611+00:00",
+  "fetchedAt": "2026-11-26T23:03:49.196264+00:00",
   "articles": [
     {
       "title": "Achtung: Die Schnäppchenjagd beginnt – jetzt!",
@@ -79,13 +79,6 @@
       "description": "Jensen Huang ist zurück bei Nvidia. Denny’s lädt den früheren Mitarbeiter zum Kaffee ein und berichtet von einer verschwundenen Gedenktafel. Die Verbindung des Chipchefs zur Kette reicht weit vor Nvidias Gründung zurück."
     },
     {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
-    },
-    {
       "title": "So etwas gab es noch nie!: Iran-Krieg: Tanker-Goldrausch – jetzt wird sogar der Dieseltransport geopfert",
       "url": "https://www.wallstreet-online.de/nachricht/21752341-nie-iran-krieg-tanker-goldrausch-dieseltransport-geopfert",
       "publisher": "wallstreet:online",
@@ -100,18 +93,18 @@
       "description": "Xpeng treibt seine Roboterpläne voran. Schon in wenigen Jahren könnten die Maschinen nicht nur in Geschäften, sondern auch in Privathaushalten arbeiten."
     },
     {
-      "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
-      "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
-    },
-    {
       "title": "Aktien: Dieses Signal ist gefährlich für jeden Bullen!",
       "url": "https://www.wallstreet-online.de/nachricht/21753748-aktien-signal-gefaehrlich-bullen",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
+    },
+    {
+      "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
+      "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
     },
     {
       "title": "Don't buy the dip!: KI-Crash: Warum jetzt sogar die gesamte US-Wirtschaft auf dem Spiel steht!",
