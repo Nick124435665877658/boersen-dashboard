@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-27T15:03:30.456313+00:00",
+  "fetchedAt": "2026-11-27T16:10:32.720556+00:00",
   "articles": [
+    {
+      "title": "Nvidia: China-Bombe oder alles halb so wild?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/nvidia-china-bombe-oder-alles-halb-so-wild-20454566.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 15:58:05 GMT",
+      "description": "   Die Anleger erleben turbulente Wochen – einen wesentlichen Anteil daran haben Nvidia und CEO Jensen Huang. Nun ist der Godfather of AI zurück, trotzdem wird es intensiv bleiben. In der kommenden Woche muss sich Huang kritischen Fragen über China stellen.  "
+    },
+    {
+      "title": "Die nächste SpaceX? Diese 2 Aktien könnten abheben",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/die-naechste-spacex-diese-3-aktien-koennten-abheben-20454498.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 15:47:00 GMT",
+      "description": "   Elon Musk greift nach der Vorherrschaft im All. Milliarden fließen in Satelliten, Raketen und neue Kommunikationstechnologien. Doch während alle stark auf SpaceX blicken, könnten zusätzlich auch andere Unternehmen zu den großen Gewinnern avancieren. André Fischer hat 2 weitere Favoriten entdeckt.  "
+    },
+    {
+      "title": "Palantir mit Polen-Kracher: „Historisch“ – exklusive Einordnung",
+      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/palantir-mit-polen-kracher-historisch-exklusive-einordnung-20454522.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 15:29:00 GMT",
+      "description": "   Zwei gute Nachrichten und eine schlechte für Palantir-Anleger. Die erste kommt aus Warschau. Bei der zweiten geht es um Aktien im Wert von mehr als 100 Millionen Dollar. Und die dritte deutet an, dass ein altes Problem immer noch nicht vom Tisch ist.  "
+    },
     {
       "title": "Bundeshaushalt 2027 beschlossen: Diese Aktien profitieren von den 556 Milliarden Euro",
       "url": "https://www.deraktionaer.de/artikel/aktien/bundeshaushalt-2027-beschlossen-diese-aktien-koennten-von-den-556-milliarden-euro-profitieren-20454448.html?feed=directrssfeed",
@@ -51,25 +72,11 @@
       "description": "   Auf dem New Yorker Börsenparkett stehen die Vorzeichen zwei Stunden vor Handelsbeginn am Black Friday auf Grün. Allen voran bei den zuletzt arg gebeutelten Technologiewerten greifen die Anleger wieder zu. Auch Gold, Silber und Kupfer vollziehen eine spektakuläre Gegenbewegung.  "
     },
     {
-      "title": "Warum GameStop bei eBay nicht lockerlässt",
-      "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/warum-gamestop-bei-ebay-nicht-lockerlaesst-20454192.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 12:19:00 GMT",
-      "description": "   Den Übernahmevorschlag hat eBay längst abgelehnt, trotzdem hat GameStop seine Beteiligung auf fast zehn Prozent ausgebaut. Was den Videospielehändler so anzieht, zeigt ein Stück Pappe mit einem gelben Elektro-Monster darauf.  "
-    },
-    {
-      "title": "Schnelle 400 Prozent mit dieser Krypto-Spekulation",
-      "url": "https://www.deraktionaer.de/artikel/aktien/schnelle-400-prozent-mit-dieser-krypto-spekulation--20454281.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 11:57:00 GMT",
-      "description": "   400 Prozent Rendite? Und das in nur wenigen Wochen? Klingt selbst für den hochvolatilen Kryptomarkt reißerisch, maßlos übertrieben und absolut unrealistisch. Ist es aber nicht. Es braucht eigentlich nur zwei Dinge: Eine Kryptowährung mit außergewöhnlich viel Potenzial und dazu den passenden Hebel.  "
-    },
-    {
-      "title": "„Unfassbar!“ Nvidia und AMD rasen mit 100 Millionen km/h – „das digitale Fließband“",
-      "url": "https://www.deraktionaer.de/artikel/kolumnen/unfassbar-nvidia-und-amd-rasen-mit-100-millionen-kmh-das-digitale-fliessband-20454278.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 11:50:58 GMT",
-      "description": "   Kommentar: Die Künstliche Intelligenz rast in großer Geschwindigkeit und stellt die Welt noch schneller auf den Kopf wie damals Henry Ford oder IBM mit der Erfindung des Internets. Wichtig: Jetzt flüchtet das Kapital aus den großen Wetten und Hot-Stocks wie Singulus und neue Wetten sind die Aktien der Stunde.  "
+      "title": "KI-Blase – ja oder nein?: KI-Sprachmodell untersucht 796.000 Börsenartikel – Das Ergebnis schockt!",
+      "url": "https://www.wallstreet-online.de/nachricht/21756322-ki-blase-nein-ki-sprachmodell-untersucht-796-000-boersenartikel-ergebnis-schockt",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Eine Studie über 170 Jahre Finanzgeschichte zeigt beim KI-Boom Warnzeichen wie zur Dotcom-Zeit. Ein Modell sieht die Blasenwahrscheinlichkeit bei bis zu 97 Prozent. Was das für Tech-Aktien bedeutet – und was offenbleibt."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Bayer plant bereits für die Zeit nach 2032. Dafür verändert der Konzern seine Übernahmestrategie und nimmt eine andere Kategorie von Medikamenten ins Visier."
-    },
-    {
-      "title": "Hochsaison beim Shoppingriesen: Ist Amazon die ultimative Weihnachtsaktie? Goldman Sachs ist bullish",
-      "url": "https://www.wallstreet-online.de/nachricht/21740944-hochsaison-shoppingriesen-amazon-ultimative-weihnachtsaktie-goldman-sachs-bullish",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Weihnachten ist Hochsaison für Amazon. Goldman Sachs sieht in der Aktie die attraktivste Chance unter den großen Tech-Werten und traut ihr gut 40 Prozent Kursplus zu. Rückenwind kommt aus Handel und Cloud."
     }
   ],
   "feedErrors": [
