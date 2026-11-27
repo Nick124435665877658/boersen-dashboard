@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-27T16:10:32.720556+00:00",
+  "fetchedAt": "2026-11-27T17:16:28.125059+00:00",
   "articles": [
+    {
+      "title": "Die größte Bedrohung",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/die-groesste-bedrohung-20454540.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 17:00:00 GMT",
+      "description": "   Friedrich Merz hat die Berichte über eine mögliche Beförderung russischer Atomwaffen ins All als „schockierend“ bezeichnet. „Die Nachrichten darüber, dass Russland plant, auch eine atomare Bewaffnung des Weltraums vorzunehmen, sind nicht neu“, kommentierte der Bundeskanzler kürzlich.  "
+    },
+    {
+      "title": "Amazon-Aktie auf Platz 1 im Dow: Neue KI-Fantasie",
+      "url": "https://www.deraktionaer.de/artikel/aktien/amazon-im-fokus-neue-ki-fantasie-ausgerechnet-jetzt-drohen-streiks-20454444.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 16:02:00 GMT",
+      "description": "   An der Wall Street herrscht heute Kauflaune. Der Dow Jones legt um 500 Punkte zu und steuert damit auf seine beste Woche seit April 2025 zu. Ganz oben thront Amazon mit 4,0 Prozent Kursgewinn. Während dem Onlinehandelsriese ein umsatzstarkes Black-Friday-Wochenende bevorsteht, setzt der Konzern in der kommenden Woche zum großen KI-Coup an.  "
+    },
     {
       "title": "Nvidia: China-Bombe oder alles halb so wild?",
       "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/nvidia-china-bombe-oder-alles-halb-so-wild-20454566.html?feed=directrssfeed",
@@ -58,18 +72,25 @@
       "description": "   Pünktlich zum traditionell wichtigen Black-Friday-Geschäft hat die Tonies-Aktie wieder Fahrt aufgenommen. Derzeit spricht einiges dafür, dass sich dieser Trend auch in der Adventszeit und darüber hinaus fortsetzen könnte. Vorstand Tobias Wann und sein Team haben ihre Hausaufgaben gemacht.  "
     },
     {
-      "title": "Meta-Aktie im Komplett-Check: Bewertung, Chart, Prognose",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/meta-aktie-im-komplett-check-bewertung-chart-prognose-20454126.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 13:03:00 GMT",
-      "description": "   Das Werbegeschäft brummt, doch die Meta-Aktie liegt rund 22 Prozent unter ihrem 52-Wochen-Hoch. Hohe KI-Investitionen drücken den Cashflow, gleichzeitig lockt das niedrigste KGV seit Jahren. Alle wichtigen Fakten zu Bewertung, Bilanz, Prognose und Chart im Komplett-Check.  "
+      "title": "Panik könnte teuer werden: KI-Sell-off: Wer jetzt aussteigt, könnte 25 Prozent Rendite verpassen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21757678-panik-teuer-werden-ki-sell-off-aussteigt-25-prozent-rendite-verpassen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Der KI-Ausverkauf hat die Börsen erschüttert. Doch die Deutsche Bank rechnet mit einer kräftigen Erholung. Ihr Stratege Binky Chadha sieht enormes Kurspotenzial – und nennt ein Kursziel, das aufhorchen lässt."
     },
     {
-      "title": "Wall Street: Die Bullen sind los – Gold und Silber drehen auf",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/wall-street-die-bullen-sind-los-gold-und-silber-drehen-auf-20454240.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 12:30:00 GMT",
-      "description": "   Auf dem New Yorker Börsenparkett stehen die Vorzeichen zwei Stunden vor Handelsbeginn am Black Friday auf Grün. Allen voran bei den zuletzt arg gebeutelten Technologiewerten greifen die Anleger wieder zu. Auch Gold, Silber und Kupfer vollziehen eine spektakuläre Gegenbewegung.  "
+      "title": "Bitcoin: Dieses Detail lässt bitcoin steigen?!",
+      "url": "https://www.wallstreet-online.de/nachricht/21758701-bitcoin-detail-laesst-bitcoin-steigen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Wir zeigen euch die spannendsten Setups, entscheidende Kursmarken und mögliche Szenarien für die nächste große Bewegung. All das jetzt im Video!"
+    },
+    {
+      "title": "Don't buy the dip!: KI-Crash: Warum jetzt Millionen Privatanleger besonders viel riskieren!",
+      "url": "https://www.wallstreet-online.de/nachricht/21758839-don-t-buy-the-dip-ki-crash-millionen-privatanleger-riskieren",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Goldman-Stratege Christian Mueller-Glissmann sieht nach dem KI-Ausverkauf noch keinen Börsenboden. Besonders alarmiert ihn ein Vergleich mit der Dotcom-Blase – und die Gefahr, dass Kursverluste die Konjunktur treffen."
     },
     {
       "title": "KI-Blase – ja oder nein?: KI-Sprachmodell untersucht 796.000 Börsenartikel – Das Ergebnis schockt!",
@@ -238,13 +259,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
-    },
-    {
-      "title": "Don't buy the dip!: KI-Crash: Warum jetzt sogar die gesamte US-Wirtschaft auf dem Spiel steht!",
-      "url": "https://www.wallstreet-online.de/nachricht/21752305-don-t-buy-the-dip-ki-crash-gesamte-us-wirtschaft-spiel-steht",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Goldman-Stratege Christian Mueller-Glissmann sieht nach dem KI-Ausverkauf noch keinen Börsenboden. Besonders alarmiert ihn ein Vergleich mit der Dotcom-Blase – und die Gefahr, dass Kursverluste die Konjunktur treffen."
     },
     {
       "title": "Hard Assets: Gold sendet ein historisches Warnsignal!",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Der Goldpreis verteidigte eindrucksvoll die Marke von 3.500 US-Dollar und drehte nach oben ab. Goldminenaktien erholten sich zunächst. Doch bereits am Mittwoch droht dem Goldsektor womöglich der nächste Schock."
-    },
-    {
-      "title": "Das gab es noch nie!: Nvidia: 11 Millionen Optionen gehandelt – kaum große Wetten auf weitere Gewinne",
-      "url": "https://www.wallstreet-online.de/nachricht/21741010-nie-nvidia-11-millionen-optionen-gehandelt-grosse-wetten-gewinne",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Nach Jensen Huangs Comeback explodiert der Optionshandel auf ein nie gesehenes Niveau. Doch hinter den größten Transaktionen steckt eine überraschende Strategie, die nicht auf weitere Kursgewinne setzt."
-    },
-    {
-      "title": "Nach schwierigen Jahren: Bayer richtet sich neu aus – worauf der Konzern jetzt setzt",
-      "url": "https://www.wallstreet-online.de/nachricht/21741040-schwierigen-jahren-bayer-richtet-worauf-konzern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Bayer plant bereits für die Zeit nach 2032. Dafür verändert der Konzern seine Übernahmestrategie und nimmt eine andere Kategorie von Medikamenten ins Visier."
     }
   ],
   "feedErrors": [
