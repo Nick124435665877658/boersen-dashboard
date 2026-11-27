@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-27T13:58:27.048127+00:00",
+  "fetchedAt": "2026-11-27T15:03:30.456313+00:00",
   "articles": [
+    {
+      "title": "Bundeshaushalt 2027 beschlossen: Diese Aktien profitieren von den 556 Milliarden Euro",
+      "url": "https://www.deraktionaer.de/artikel/aktien/bundeshaushalt-2027-beschlossen-diese-aktien-koennten-von-den-556-milliarden-euro-profitieren-20454448.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 14:35:00 GMT",
+      "description": "   Der Bundestag hat den Bundeshaushalt für 2027 beschlossen und für Deutschlands Rüstungskonzerne steckt darin reichlich Geschäft. Von den insgesamt 556 Milliarden Euro Ausgaben soll ein immer größerer Teil in den Verteidigungssektor fließen. Rheinmetall, Hensoldt und Renk gehören am Freitag zu den Gewinnern an der Frankfurter Börse.  "
+    },
+    {
+      "title": "Nike-Aktie: Wie CEO Elliott Hill den Konzern an die Wand fährt",
+      "url": "https://www.deraktionaer.de/artikel/commerce-brands-unicorns/nike-aktie-wie-ceo-elliott-hill-den-konzern-an-die-wand-faehrt-20452707.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 14:00:00 GMT",
+      "description": "   Elliott Hill sollte Nike retten. Stattdessen reitet er den Sportartikelriesen immer tiefer in den Abgrund. Seit seinem Amtseintritt hat die Aktie mehr als die Hälfte verloren. Viele Versprechen, keine Ergebnisse – die Bilanz ist miserabel. Wird das jemals wieder was?  "
+    },
     {
       "title": "BASF: Jetzt verkaufen?",
       "url": "https://www.deraktionaer.de/artikel/aktien/basf-jetzt-verkaufen-20454338.html?feed=directrssfeed",
@@ -58,25 +72,25 @@
       "description": "   Kommentar: Die Künstliche Intelligenz rast in großer Geschwindigkeit und stellt die Welt noch schneller auf den Kopf wie damals Henry Ford oder IBM mit der Erfindung des Internets. Wichtig: Jetzt flüchtet das Kapital aus den großen Wetten und Hot-Stocks wie Singulus und neue Wetten sind die Aktien der Stunde.  "
     },
     {
-      "title": "RBI-Aktie springt an: Nächster Schritt im Kampf um Russland-Milliarden",
-      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-plus/rbi-aktie-springt-an-naechster-schritt-im-kampf-um-russland-milliarden-20454191.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 11:40:00 GMT",
-      "description": "   Die Raiffeisenbank International treibt die Freigabe der Strabag-Anteile der russichen Rasperia heran. Die Aktionäre hoffen auf einen Geldregen, der Kurs springt an.  "
-    },
-    {
-      "title": "Nach falscher KI-Sippenhaft: Darum dreht die Elmos-Aktie jetzt auf",
-      "url": "https://www.deraktionaer.de/artikel/aktien/trendwende-nach-sippenhaft-darum-war-das-bei-dieser-aktie-jetzt-erst-der-anfang-20453221.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 10:35:00 GMT",
-      "description": "   Blue Chips gehören in jedes ausgewogene Depot. Doch auch Small und Mid Caps sollten als spannende Depotbeimischung nicht fehlen. Diese Titel agieren oft im Windschatten der großen Player und profitieren damit ebenfalls von absoluten Megatrends. Das gilt auch für den Real-Depot-Wert Elmos Semiconductor.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "75-Millionen-facher Wert: SpaceX soll 128.000.000.000.000.000.000 US-Dollar wert sein – kein Tippfehler!",
+      "url": "https://www.wallstreet-online.de/nachricht/21757348-75-millionen-facher-wert-spacex-128-000-000-000-000-000-000-us-dollar-wert-tippfehler",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Elon Musk hält für SpaceX einen Wert mit 18 Nullen für denkbar. Dahinter steckt eine Rechnung, die selbst die gesamte Weltwirtschaft winzig erscheinen lässt."
+    },
+    {
+      "title": "Black Friday für Aktien: Nebius: Nvidia-Problem | Rheinmetall: Ziele gekürzt | Adidas: Abstufung",
+      "url": "https://www.wallstreet-online.de/video/21757816-black-friday-aktien-nebius-nvidia-problem-rheinmetall-ziele-gekuerzt-adidas-abstufung",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Rheinmetall kürzt sein Umsatzziel gewaltig und Adidas wird auf \"Halten\" herabgestuft. Trotzdem ist der DAX vor die Wochenende gut drauf. Besonders die guten US-Vorgaben stützen. Ist die Jahresendrallye endlich gestartet?"
     },
     {
       "title": "Starke Aussichten: SAP-Konkurrent ServiceNow: Ist jetzt der perfekte Einstiegszeitpunkt?",
@@ -763,20 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Weihnachten ist Hochsaison für Amazon. Goldman Sachs sieht in der Aktie die attraktivste Chance unter den großen Tech-Werten und traut ihr gut 40 Prozent Kursplus zu. Rückenwind kommt aus Handel und Cloud."
-    },
-    {
-      "title": "Börse korrigiert: Fette Chance oder Value Trap? Analysten wittern Morgenluft!",
-      "url": "https://www.wallstreet-online.de/nachricht/21740731-boerse-korrigiert-fette-chance-value-trap-analysten-wittern-morgenluft",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "\"Das ist die fette Chance, auf die wir geduldig gewartet haben, und die werden wir uns nicht entgehen lassen\", schreibt Mike Wilson, Stratege bei Morgan Stanley, am Montag."
-    },
-    {
-      "title": "Neun Monate Wachstum: E-Auto-Boom treibt Europas Absatz – doch VW und Stellantis zahlen den Preis",
-      "url": "https://www.wallstreet-online.de/nachricht/21740218-monate-wachstum-e-auto-boom-treibt-europas-absatz-vw-stellantis-zahlen-preis",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Europas Autoabsatz steigt den neunten Monat in Folge. E-Autos treiben die Erholung. In Deutschland und Frankreich legen sie kräftig zu. Doch für VW und Stellantis hat der Boom einen Haken. Chinas Hersteller machen Druck."
     }
   ],
   "feedErrors": [
