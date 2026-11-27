@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T17:16:28.125059+00:00",
+  "fetchedAt": "2026-11-27T18:02:15.823201+00:00",
   "articles": [
+    {
+      "title": "DAX: Käufer bleiben am Ball – Rheinmetall-Aktie ganz oben",
+      "url": "https://www.deraktionaer.de/artikel/indizes/dax-kaeufer-bleiben-am-ball-rheinmetall-aktie-ganz-oben-20454580.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 17:20:00 GMT",
+      "description": "   Die Erholung am deutschen Aktienmarkt geht vor dem Wochenende in die zweite Runde. Nach den zwei Prozent Plus im deutschen Leitindex am Donnerstag griffen die Käufer am Freitag erneut zu. DAX, MDAX und SDAX bauen somit ihre Vortagesgewinne aus. Besonders gefragt: Rüstungs-, Technologie- und Automobilwerte.  "
+    },
     {
       "title": "Die größte Bedrohung",
       "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/die-groesste-bedrohung-20454540.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Die Neoclouds finden an der Wall Street heute wieder Käufer. Bei CoreWeave und Nebius zeichnen sich am Freitag vorbörslich Kursgewinne von rund sechs Prozent ab. Aber eine Schwachstelle des Geschäftsmodells rückt mehr und mehr in den Fokus. Bieten die Aktien jetzt dennoch Chancen?  "
     },
     {
-      "title": "TONIES-Aktie: Black Friday lässt grüßen – bei 100% ist noch nicht Schluss",
-      "url": "https://www.deraktionaer.de/artikel/aktien/tonies-aktie-black-friday-laesst-gruessen-bei-100-ist-noch-nicht-schluss-20454325.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 13:07:00 GMT",
-      "description": "   Pünktlich zum traditionell wichtigen Black-Friday-Geschäft hat die Tonies-Aktie wieder Fahrt aufgenommen. Derzeit spricht einiges dafür, dass sich dieser Trend auch in der Adventszeit und darüber hinaus fortsetzen könnte. Vorstand Tobias Wann und sein Team haben ihre Hausaufgaben gemacht.  "
+      "title": "Angriff auf das Ölkartell: Trump-Regierung wollte OPEC aufbrechen – einer der mächtigsten Männer griff ein!",
+      "url": "https://www.wallstreet-online.de/nachricht/21757543-angriff-oelkartell-trump-regierung-opec-aufbrechen-maechtigsten-maenner-griff-ein",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Noch nie haben so viele große Kraftstofftanker ihre ursprüngliche Aufgabe aufgegeben. Hinter dem historischen Wechsel steckt ein Geschäft, das den weltweiten Ölhandel nachhaltig verändern könnte."
     },
     {
       "title": "Panik könnte teuer werden: KI-Sell-off: Wer jetzt aussteigt, könnte 25 Prozent Rendite verpassen!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Jensen Huang liefert ein One-Billion-Dollar-Comeback. Die Märkte sind explodiert nach seiner Rückkehr an die Nvidia-Spitze. Doch was entwickelt sich aus dieser Party? Ein Kater oder eine Jahresendrallye?"
-    },
-    {
-      "title": "Alarm bei Goldminenaktien: Goldpreis-Prognose: Droht am Mittwoch der nächste große Abverkauf?",
-      "url": "https://www.wallstreet-online.de/nachricht/21741199-alarm-goldminenaktien-goldpreis-prognose-droht-mittwoch-grosse-abverkauf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Goldpreis verteidigte eindrucksvoll die Marke von 3.500 US-Dollar und drehte nach oben ab. Goldminenaktien erholten sich zunächst. Doch bereits am Mittwoch droht dem Goldsektor womöglich der nächste Schock."
     }
   ],
   "feedErrors": [
