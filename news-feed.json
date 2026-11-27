@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-27T08:04:01.265615+00:00",
+  "fetchedAt": "2026-11-27T09:15:44.049335+00:00",
   "articles": [
+    {
+      "title": "Mieten, kaufen, lohnen: Deutsche Immobilien-Aktie läutet Comeback ein",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/mieten-kaufen-lohnen-deutsche-immobilien-aktie-laeutet-comeback-ein-20452026.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 09:00:00 GMT",
+      "description": "   Der Ausverkauf bei Immobilien-Aktien war brutal. Nun tut sich aber die Tür für eine Trendwende auf – vor allem bei diesem deutschen Branchenvertreter.  "
+    },
+    {
+      "title": "Nvidia: Amerikas Superhirn ist zurück",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/amerikas-superhirn-ist-zurueck-20452245.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 08:45:00 GMT",
+      "description": "   Jensen Huang bekommt eine zweite Chance, die KI-Revolution mit unverminderter Kraft voranzutreiben. Die Nvidia-Aktie gibt es derweil zum Schnäppchenpreis.  "
+    },
+    {
+      "title": "Gericht durchkreuzt Übernahme-Pläne: Aktie stürzt ab",
+      "url": "https://www.deraktionaer.de/artikel/aktien/gericht-durchkreuzt-uebernahme-plaene-aktie-stuerzt-ab-20453969.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 08:35:00 GMT",
+      "description": "   Wie bei vielen Black-Friday-Aktionen war auch an der Börse in Wien diese Woche eher Ausverkauf angesagt. Der ATX gab deutlich nach. Verantwortlich für den Absturz sind besonders Bank-Aktien, die im österreichischen Leitindex ein großes Gewicht haben.  "
+    },
+    {
+      "title": "Bitcoin legt erneut zu: Vor erstem Wochenplus nach sieben Wochen – die Wende?",
+      "url": "https://www.deraktionaer.de/artikel/krypto/bitcoin-legt-erneut-zu-erstes-wochenplus-nach-sieben-wochen-20453953.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 08:15:00 GMT",
+      "description": "   Schnäppchenjäger und eine zurückkehrende Risikobereitschaft haben dem Bitcoin zu neuem Schwung verholfen. Von einer stabilen Wende ist der Markt allerdings noch ein gutes Stück entfernt. Am Freitagvormittag kostet ein Bitcoin 61.799 Dollar. Damit notiert er wieder klar über der 60.  "
+    },
+    {
+      "title": "15 Prozent Minus – bei dieser Aktie geht es steil bergab",
+      "url": "https://www.deraktionaer.de/artikel/aktien/15-prozent-minus-bei-dieser-aktie-geht-es-steil-bergab-20453928.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 08:15:00 GMT",
+      "description": "    Die Stimmung an den Märkten hat sich zuletzt wieder etwas aufgehellt. Dennoch gibt es natürlich immer wieder mitunter kräftige Kursabschläge bei Unternehmen, bei denen es operativ nicht gut läuft. So erwischte es gestern einen spannenden Nebenwert aus Frankreich ganz böse: Die Aktie von Carbios verlor satte 15 Prozent.  "
+    },
+    {
+      "title": "DAX weiter auf Erholungskurs – Vonovia investiert Milliarden",
+      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/dax-weiter-auf-erholungskurs-vonovia-investiert-milliarden-20453904.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Fri, 27 Nov 2026 08:00:00 GMT",
+      "description": "   Der DAX setzt seine Erholung zum Handelsstart fort. Steigende Kurse in Asien geben Rückenwind, und in Europa erholen sich die Technologiewerte von ihren jüngsten Tiefs. Auch Auto- und Rohstoffaktien sind wieder gefragter. Bei den Einzelwerten geht es heute um Bayer, Vonovia, Tonies, Stabilus, Heidelberg Materials und Siemens Energy.  "
+    },
     {
       "title": "Märkte am Morgen: DAX vor weiterer Erholung; S&P500, Bitcoin, Rheinmetall, SMA Solar, SAP, Infineon im Fokus",
       "url": "https://www.deraktionaer.de/artikel/aktien/maerkte-am-morgen-dax-vor-weiterer-erholung-sp500-bitcoin-rheinmetall-sma-solar-sap-infineon-im-fokus-20453868.html?feed=directrssfeed",
@@ -30,53 +72,32 @@
       "description": "   SUSS MicroTec musste vor kurzem zwar die Jahresprognosen 2026 anpassen. Dank des KI-Booms und der weltweit hohen Chipnachfrage sind die Auftragsbücher allerdings so prall gefüllt wie noch nie. Nach der scharfen Korrektur, die sich in vergangenen Wochen noch einmal beschleunigt hat, deutet sich nun eine Trendwende im Kursverlauf an.  "
     },
     {
-      "title": "Megatrend Folger: Amazon – warum der Black Friday mehr als eine Rabattschlacht ist",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-amazon-warum-der-black-friday-mehr-als-eine-rabattschlacht-ist-20453812.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 07:08:00 GMT",
-      "description": "   Am Black Friday purzeln die Preise. Doch während Millionen Verbraucher auf der Suche nach Schnäppchen sind, stellt sich für Anleger eine ganz andere Frage: Welche Unternehmen können ihren Kunden niedrige Preise bieten und gleichzeitig über viele Jahre ihre Gewinne steigern?  "
-    },
-    {
-      "title": "Nach Energiekontor: BaFin nimmt weiteren SDAX-Konzern unter die Lupe",
-      "url": "https://www.deraktionaer.de/artikel/aktien/nach-energiekontor-bafin-nimmt-weiteren-sdax-konzern-unter-die-lupe--20453806.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 06:59:00 GMT",
-      "description": "    Im gestrigen Handel knickte die Aktie von Energiekontor um sieben Prozent ein. Denn die BaFin hat eine anlassbezogene Prüfung der Finanzberichte von Energiekontor eingeleitet. Sie untersucht den Konzernabschluss zum Jahresende 2025 sowie den verkürzten Zwischenabschluss zur Jahresmitte 2026.  "
-    },
-    {
-      "title": "Vonovia: Milliardendeal in Bayern – neue Chancen für Immobilien-Aktien?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/vonovia-milliardendeal-in-bayern-neue-chancen-fuer-immobilien-aktien-20453750.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 06:36:00 GMT",
-      "description": "   Vonovia und der Freistaat Bayern wollen bis 2031 Milliarden in Wohnungsbau und Quartiere investieren. Gleichzeitig dreht der Wind an den Anleihemärkten – und das verschafft deutschen Immobilien-Aktien Auftrieb. Ist damit jetzt endlich wieder die Zeit reif für einen Einstieg bei Vonovia und Co.  "
-    },
-    {
-      "title": "Schluckt Altria jetzt Imperial Brands?",
-      "url": "https://www.deraktionaer.de/artikel/aktien/schluckt-altria-jetzt-imperial-brands-20453759.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 06:31:00 GMT",
-      "description": "    Die Tabakindustrie steht offenbar vor einem größeren Zusammenschluss: Der US-Hersteller Altria erwägt nach eigenen Angaben ein mögliches Kaufangebot für Imperial Brands. Außerdem spricht das Unternehmen mit einem nicht näher benannten Dritten darüber, ob Teile des britischen Konzerns übernommen werden könnten.  "
-    },
-    {
-      "title": "EZB-Chef de Cos: Taube trifft jetzt auf vier Prozent Inflation",
-      "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/ezb-chef-de-cos-taube-trifft-jetzt-auf-vier-prozent-inflation-20453730.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 06:29:00 GMT",
-      "description": "   Pablo Hernández de Cos wird neuer Präsident der Europäischen Zentralbank. Die Staats- und Regierungschefs der EU haben sich am Donnerstag beim Gipfel in Brüssel nach Diplomatenangaben einstimmig auf den Spanier verständigt. Er übernimmt die Notenbank im Februar 2027 – bei einer Inflation, die mit vier Prozent doppelt so hoch liegt wie das Ziel. "
-    },
-    {
-      "title": "SpaceX-Aktie zieht wieder an – Musk-Geschenk kommt gut an",
-      "url": "https://www.deraktionaer.de/artikel/aktien/spacex-aktie-kraeftig-im-plus-musk-geschenk-kommt-gut-an-20453749.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 06:20:00 GMT",
-      "description": "   Die SpaceX-Aktie hat im Handel an der Blue Ocean ATS wieder zugelegt. Auslöser war eine Ankündigung von Firmenchef Elon Musk: Er will künftig jedes Jahr eine weitere SpaceX-Aktie an alle Kinder in Amerika verschenken. Das schrieb er in einem Post auf X.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Kursziele fallen: Schwarzer Freitag für die Aktien von Adidas und Puma!",
+      "url": "https://www.wallstreet-online.de/nachricht/21755644-kursziele-fallen-schwarzer-freitag-aktien-adidas-puma",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die US-Großbank JPMorgan senkt ihre Einschätzungen für die Anteile der Sportartikelhändler Adidas und Puma. Am Markt wird das mit Kursverlusten quittiert."
+    },
+    {
+      "title": "KI-Offensive mit Folgen: SAP vor neuem Kahlschlag: Mindestens 10.000 Jobs auf der Kippe",
+      "url": "https://www.wallstreet-online.de/nachricht/21755773-ki-offensive-folgen-sap-kahlschlag-10-000-jobs-kippe",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "SAP prüft  den Abbau von mindestens 10.000 Stellen für den neuen KI-Umbau. Drei zentrale Bereiche stehen besonders im Fokus. Ein Blick auf die letzte große Stellenrunde zeigt eine überraschende Entwicklung."
+    },
+    {
+      "title": "Optionsverfall am Black Friday: Bitcoin setzt Aufholjagd fort – doch das könnte es jetzt gewesen sein",
+      "url": "https://www.wallstreet-online.de/nachricht/21756139-optionsverfall-black-friday-bitcoin-aufholjagd-fort",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Bitcoin setzt seine Erholung am Black Friday fort. Milliardenabflüsse aus US-Spot-ETFs und ein großer Optionsverfall könnten die Rallye jedoch ausbremsen."
     },
     {
       "title": "Wende am Ölmarkt: Ölpreis vor Ende seiner dreiwöchigen Verlustserie",
@@ -756,27 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Die USA verschärfen ihre Exportkontrollen für KI-Chips. Neben dem ehemaligen Nvidia-Partner Megaspeed trifft es auch eine Tochtergesellschaft von Alibaba."
-    },
-    {
-      "title": "Huangs Comeback elektrisiert: KI-Strom-Aktien explodieren – bei einer erwarten Anleger +100 % bis Weihnachten",
-      "url": "https://www.wallstreet-online.de/nachricht/21739273-huangs-comeback-elektrisiert-ki-strom-aktien-explodieren-erwarten-anleger-100-weihnachten",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Erst fast 26 Prozent Wochenverlust, dann der stärkste Kurssprung seit Monaten: Jensen Huangs Nvidia-Comeback reißt eine ganze Branche mit. Bei Bloom Energy spekulieren einzelne Anleger bereits auf eine Verdopplung."
-    },
-    {
-      "title": "Kaufempfehlungen im Eiltempo: Nvidia: Huang ist zurück – Analysten rufen bis zu 270 US-Dollar aus",
-      "url": "https://www.wallstreet-online.de/nachricht/21738388-kaufempfehlungen-eiltempo-nvidia-huang-analysten-rufen-270-us-dollar",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Jensen Huangs Rückkehr löst bei Nvidia eine Rallye und eine Welle von Hochstufungen aus. Analysten nennen Kursziele bis 270 US-Dollar. Doch hinter der Euphorie lauern Risiken, die Anleger nun nicht übersehen sollten."
-    },
-    {
-      "title": "Märkte am Morgen: Nvidia-Feuerwerk: Kommt jetzt die Jahresendrallye?",
-      "url": "https://www.wallstreet-online.de/nachricht/21738589-maerkte-morgen-nvidia-feuerwerk-jahresendrallye",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Huangs Rückkehr an die Nvidia-Spitze beendet den KI-Ausverkauf: Der DAX erobert die 200-Tage-Linie zurück, Asiens Chipaktien springen kräftig an. Anthropic hinkt hinterher, bei VW beginnt in Emden ein harter Tarifstreit."
     }
   ],
   "feedErrors": [
