@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T22:01:36.830338+00:00",
+  "fetchedAt": "2026-11-27T23:02:18.037143+00:00",
   "articles": [
     {
       "title": "Schlussglocke: Dow Jones krönt beste Woche seit 2022 – KI-Rally mit neuem Schwung",
@@ -70,13 +70,6 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 27 Nov 2026 14:35:00 GMT",
       "description": "   Der Bundestag hat den Bundeshaushalt für 2027 beschlossen und für Deutschlands Rüstungskonzerne steckt darin reichlich Geschäft. Von den insgesamt 556 Milliarden Euro Ausgaben soll ein immer größerer Teil in den Verteidigungssektor fließen. Rheinmetall, Hensoldt und Renk gehören am Freitag zu den Gewinnern an der Frankfurter Börse.  "
-    },
-    {
-      "title": "Der neue Online Broker - Smartbroker",
-      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
     },
     {
       "title": "Warnung für 2027: Steht KI-Aktien der nächste große Absturz bevor?",
@@ -268,18 +261,18 @@
       "description": "Xpeng treibt seine Roboterpläne voran. Schon in wenigen Jahren könnten die Maschinen nicht nur in Geschäften, sondern auch in Privathaushalten arbeiten."
     },
     {
-      "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
-      "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
-    },
-    {
       "title": "Aktien: Dieses Signal ist gefährlich für jeden Bullen!",
       "url": "https://www.wallstreet-online.de/nachricht/21753748-aktien-signal-gefaehrlich-bullen",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
+    },
+    {
+      "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
+      "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
     },
     {
       "title": "Hard Assets: Gold sendet ein historisches Warnsignal!",
