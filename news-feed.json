@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T02:41:41.794255+00:00",
+  "fetchedAt": "2026-11-27T03:39:01.912337+00:00",
   "articles": [
     {
       "title": "Achtung: Die Schnäppchenjagd beginnt – jetzt!",
@@ -70,6 +70,13 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Thu, 26 Nov 2026 14:50:00 GMT",
       "description": "   Die vergangenen Handelstage waren extrem. Vergangene Woche gab es weitere hohe Verluste, die Nerven lagen blank. Am Montag folgten die 180-Grad-Wende und ein massives Kursfeuerwerk an den US-Märkten dank des Nvidia-CEO-Comeback-Effekts. Nun folgten weitere Tage mit umfangreichen Verlusten.  "
+    },
+    {
+      "title": "Ihre wichtigsten Termine: Heute: EU-Verbraucherdaten sowie Arbeitslosendaten aus Deutschland",
+      "url": "https://www.wallstreet-online.de/nachricht/21745330-wichtigsten-termine-heute-eu-verbraucherdaten-arbeitslosendaten-deutschland",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
     },
     {
       "title": "\"Deine Sitzecke wartet\": Denny’s lädt Nvidia-CEO Huang ein – Vom Tellerwäscher zum Chip-Milliardär",
@@ -763,13 +770,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Gut geplant in den Tag. Mit dem wO-Tagesausblick haben Sie die wichtigsten Termine im Blick und starten bestens vorbereitet in den neuen Handelstag."
-    },
-    {
-      "title": "Warnung an die Notenbank: Bill Ackman: Fed, ihr macht einen gewaltigen Fehler!",
-      "url": "https://www.wallstreet-online.de/nachricht/21735580-warnung-notenbank-bill-ackman-fed-gewaltigen-fehler",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der milliardenschwere Investor Bill Ackman warnt, dass die Federal Reserve bei ihrer Sitzung am 9. Dezember Gefahr laufen würde, \"einen weiteren Fehler\" zu begehen."
     }
   ],
   "feedErrors": [
