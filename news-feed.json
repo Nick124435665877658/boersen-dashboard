@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T19:03:41.267574+00:00",
+  "fetchedAt": "2026-11-27T20:05:25.939878+00:00",
   "articles": [
     {
       "title": "Schlussglocke: Dow Jones krönt beste Woche seit 2022 – KI-Rally mit neuem Schwung",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Warnung für 2027: Steht KI-Aktien der nächste große Absturz bevor?",
+      "url": "https://www.wallstreet-online.de/nachricht/21758236-warnung-2027-ki-aktien-grosse-absturz-bevor",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "JPMorgan erwartet eine Erholung bei KI-Aktien. Doch die Strategen warnen: 2027 könnte eine neue Abwärtsbewegung an den Börsen drohen."
     },
     {
       "title": "Gold: Darum habe ich gekauft und das sind meine Ziele!",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Während die Rückkehr von Nvidia-Chef Jensen Huang an den Aktienmärkten eine historische Rallye auslöste, hat Bitcoin seine Kursgewinne bereits wieder abgegeben."
-    },
-    {
-      "title": "Nvidia: 2 Optionen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21741244-nvidia-2-optionen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Doch was steckt wirklich hinter den Vorwürfen und wie sind die Entwicklungen einzuordnen?"
     }
   ],
   "feedErrors": [
