@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T14:56:15.379537+00:00",
+  "fetchedAt": "2026-11-28T15:53:40.189093+00:00",
   "articles": [
     {
       "title": "100 % Gewinn auch 2026: Bandai vor Take-Two, Geheimtipp Yubico im KI-Schutz-Trend besser als Nvidia",
@@ -77,6 +77,13 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Black Friday: 13 Milliarden US-Dollar Kaufrausch – Warum Verbraucher trotz Krise zuschlagen",
+      "url": "https://www.wallstreet-online.de/nachricht/21761539-black-friday-13-milliarden-us-dollar-kaufrausch-verbraucher-trotz-krise-zuschlagen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Die USA melden einen neuen Black Friday-Rekord, Deutschland hofft auf 6,2 Milliarden Euro. Doch wer mit Rabatten das Weihnachtsgeschäft vorzieht, kann mehr verkaufen und am Ende weniger verdienen."
     },
     {
       "title": "DAX-Gewinner : Diese fünf Top-Aktien im DAX ließen den Markt im November hinter sich",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mit dem unmittelbar bevorstehenden Black Friday startet auch das Weihnachtsgeschäft. Davon könnte jetzt vor allem die Aktie von Birkenstock profitieren."
-    },
-    {
-      "title": "Engpässe: Nach dem Kupfer-Crash sehen Experten wieder Potenzial – zu früh?",
-      "url": "https://www.wallstreet-online.de/nachricht/21741682-engpaesse-kupfer-crash-experten-potenzial-frueh",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Der Kupferpreis stürzt erneut ab. Nichts scheint den Ausverkauf stoppen zu können. Doch UBS und Goldman Sachs erwarten eine kräftige Rallye. Ab 2028 könnte sogar ein Engpass drohen."
     }
   ],
   "feedErrors": [
