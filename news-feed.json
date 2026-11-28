@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-28T08:57:45.554313+00:00",
+  "fetchedAt": "2026-11-28T09:57:14.967345+00:00",
   "articles": [
+    {
+      "title": "Warum verlor Tinder seinen Reiz?",
+      "url": "https://www.deraktionaer.de/artikel/der-aktionaer-magazin/warum-verlor-tinder-seinen-reiz-20451989.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 28 Nov 2026 09:00:00 GMT",
+      "description": "   Seit 2012 wischen Millionen gratis durch Tinder. Kurz vor dem Börsengang 2015 kommt die erste Bezahlschranke –  und die Hoffnung auf ein Milliardengeschäft. Ging die Rechnung auf?   "
+    },
     {
       "title": "Turnaround in Sicht: Winken hier wieder satte Gewinne?",
       "url": "https://www.deraktionaer.de/artikel/aktien/turnaround-in-sicht-winken-hier-wieder-satte-gewinne-20449496.html?feed=directrssfeed",
@@ -65,18 +72,18 @@
       "description": "   Die Anleger erleben turbulente Wochen – einen wesentlichen Anteil daran haben Nvidia und CEO Jensen Huang. Nun ist der Godfather of AI zurück, trotzdem wird es intensiv bleiben. In der kommenden Woche muss sich Huang kritischen Fragen über China stellen.  "
     },
     {
-      "title": "Die nächste SpaceX? Diese 2 Aktien könnten abheben",
-      "url": "https://www.deraktionaer.de/artikel/medien-it-technologie/die-naechste-spacex-diese-3-aktien-koennten-abheben-20454498.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Fri, 27 Nov 2026 15:47:00 GMT",
-      "description": "   Elon Musk greift nach der Vorherrschaft im All. Milliarden fließen in Satelliten, Raketen und neue Kommunikationstechnologien. Doch während alle stark auf SpaceX blicken, könnten zusätzlich auch andere Unternehmen zu den großen Gewinnern avancieren. André Fischer hat 2 weitere Favoriten entdeckt.  "
-    },
-    {
       "title": "Der neue Online Broker - Smartbroker",
       "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Nach dem Rücksetzer: Gold unter Druck, Asien kauft: Drei TOP-Unternehmen legen nach!",
+      "url": "https://www.wallstreet-online.de/nachricht/21757366-ruecksetzer-gold-druck-asien-kauft-top-unternehmen-nach",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Gold verlor binnen einer Woche mehr als 9 %, Indien und Chinas Notenbank kauften weiter zu. Derweil meldete Equinox Rekordumsatz, Newcore beantragt die Abbaulizenz und Osisko baut Cariboo."
     },
     {
       "title": "Community Rückblick: \"Jensen is back, so am I! Die AI-Party geht weiter!\"",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Mehr Passagiere als je zuvor, Carnival für 2027 schon halb ausgebucht und das zu Rekordpreisen. Trotzdem laufen die Aktien der großen Reedereien weit auseinander. Und ein Risiko lauert unter Deck."
-    },
-    {
-      "title": "Mercedes' Erbe im Visier: Neue Konkurrenz aus China: BYD fordert Europas Autobauer heraus",
-      "url": "https://www.wallstreet-online.de/nachricht/21741526-mercedes-erbe-visier-konkurrenz-china-byd-europas-autobauer",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "BYD verhandelt über den Kauf eines französischen Autowerks. Der Deal könnte dem chinesischen Konzern einen entscheidenden Vorteil in Europa verschaffen."
     }
   ],
   "feedErrors": [
