@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T07:54:44.622486+00:00",
+  "fetchedAt": "2026-11-28T08:57:45.554313+00:00",
   "articles": [
     {
       "title": "Turnaround in Sicht: Winken hier wieder satte Gewinne?",
@@ -70,6 +70,20 @@
       "publisher": "DER AKTIONÄR",
       "publishedAt": "Fri, 27 Nov 2026 15:47:00 GMT",
       "description": "   Elon Musk greift nach der Vorherrschaft im All. Milliarden fließen in Satelliten, Raketen und neue Kommunikationstechnologien. Doch während alle stark auf SpaceX blicken, könnten zusätzlich auch andere Unternehmen zu den großen Gewinnern avancieren. André Fischer hat 2 weitere Favoriten entdeckt.  "
+    },
+    {
+      "title": "Der neue Online Broker - Smartbroker",
+      "url": "https://dwbdiv.smartbrokerplus.de/ts/94450/tsc?typ=r&amc=performance.smartbrokerplus.503409.514439.CRTMlKWlsUf",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Trade smarter beim Testsieger. Keine Kompromisse bei Preis und Leistung — egal ob Aktien, ETFs, Derivate, Fonds, Krypto oder Sparpläne. Von Stiftung Warentest Finanzen bestätigt: SMARTBROKER+ ist Kostensieger in allen getesteten Depotgrößen (11/2026)."
+    },
+    {
+      "title": "Community Rückblick: \"Jensen is back, so am I! Die AI-Party geht weiter!\"",
+      "url": "https://www.wallstreet-online.de/nachricht/21757843-community-rueckblick-jensen-is-back-i-ai-party-weiter",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Jensen Huang ist zurück, Nvidia hebt ab und die wO-Community läuft zur Hochform auf: Zwischen Galgenhumor, bissigen Kommentaren und verpassten Gewinnen gibt es wieder reichlich Gesprächsstoff."
     },
     {
       "title": "Warnung für 2027: Steht KI-Aktien der nächste große Absturz bevor?",
@@ -261,18 +275,18 @@
       "description": "Xpeng treibt seine Roboterpläne voran. Schon in wenigen Jahren könnten die Maschinen nicht nur in Geschäften, sondern auch in Privathaushalten arbeiten."
     },
     {
-      "title": "Aktien: Dieses Signal ist gefährlich für jeden Bullen!",
-      "url": "https://www.wallstreet-online.de/nachricht/21753748-aktien-signal-gefaehrlich-bullen",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
-    },
-    {
       "title": "Die Uhr tickt!: Börsen-Crash: Jetzt bleiben der Fed nur noch zwei Tage, um gegenzusteuern!",
       "url": "https://www.wallstreet-online.de/nachricht/21752317-uhr-tickt-boersen-crash-fed-tage-gegenzusteuern",
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Ökonom Robin Brooks warnt vor einem dramatischen Ausverkauf an den US-Börsen. Ausgerechnet die Notenbank könnte ihn verschärfen. Am Samstag beginnt eine entscheidende Kommunikationssperre."
+    },
+    {
+      "title": "Aktien: Dieses Signal ist gefährlich für jeden Bullen!",
+      "url": "https://www.wallstreet-online.de/nachricht/21753748-aktien-signal-gefaehrlich-bullen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Warum das so ist und welche Chancen ich jetzt bei AMD, SAP und Bitcoin sehe, erfahrt ihr in dieser Ausgabe."
     },
     {
       "title": "Hard Assets: Gold sendet ein historisches Warnsignal!",
@@ -763,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "BYD verhandelt über den Kauf eines französischen Autowerks. Der Deal könnte dem chinesischen Konzern einen entscheidenden Vorteil in Europa verschaffen."
-    },
-    {
-      "title": "Selbst das hilft nicht: Alle profitieren von der Huang-Rallye – nur Bitcoin nicht",
-      "url": "https://www.wallstreet-online.de/nachricht/21741376-hilft-nicht-profitieren-huang-rallye-bitcoin",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Während die Rückkehr von Nvidia-Chef Jensen Huang an den Aktienmärkten eine historische Rallye auslöste, hat Bitcoin seine Kursgewinne bereits wieder abgegeben."
     }
   ],
   "feedErrors": [
