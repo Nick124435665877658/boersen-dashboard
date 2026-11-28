@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-28T15:53:40.189093+00:00",
+  "fetchedAt": "2026-11-28T16:55:32.034529+00:00",
   "articles": [
+    {
+      "title": "Statt BASF, Infineon oder Siemens Energy: Jetzt hier auf den Jahresendspurt setzen!",
+      "url": "https://www.deraktionaer.de/artikel/aktien/statt-basf-infineon-oder-siemens-energy-jetzt-hier-auf-den-jahresendspurt-setzen-20454771.html?feed=directrssfeed",
+      "publisher": "DER AKTIONÄR",
+      "publishedAt": "Sat, 28 Nov 2026 16:30:00 GMT",
+      "description": "   Die jüngste Verunsicherung an den Finanzmärkten hat zum Teil deutliche Verwerfungen verursacht. Ist der jüngste Rücksetzer der Ausgangspunkt für den nächsten Bullenmarkt – oder sehen wir nur eine kurze Gegenreaktion in einem intakten Abwärtstrend? Eine verlässliche Prognose ist schwierig.  "
+    },
     {
       "title": "100 % Gewinn auch 2026: Bandai vor Take-Two, Geheimtipp Yubico im KI-Schutz-Trend besser als Nvidia",
       "url": "https://www.deraktionaer.de/artikel/aktien/100-gewinn-auch-2026-bandai-vor-take-two-geheimtipp-yubico-im-ki-schutz-trend-besser-als-nvidia-20454762.html?feed=directrssfeed",
@@ -65,11 +72,11 @@
       "description": "   Wer den optimalen Einstiegszeitpunkt bei Aktien sucht und nicht nur auf das Bauchgefühl vertrauen möchte, kann auf die seit fast 100 Jahren bewährte Elliott-Wellen-Analyse setzen. Mit diesem Handelsansatz erzielte das Experten-Duo Volker Hansen und Jens Kramarczik zuletzt eine Serie schneller Erfolgstrades – mit zweistelligen, teils sogar dreist"
     },
     {
-      "title": "Megatrend Folger: Fortinet – Hackerangriff auf SAP zeigt, warum dieser Megatrend unverzichtbar bleibt",
-      "url": "https://www.deraktionaer.de/artikel/aktien/megatrend-folger-fortinet-hackerangriff-auf-sap-zeigt-warum-dieser-megatrend-unverzichtbar-bleibt-20454100.html?feed=directrssfeed",
-      "publisher": "DER AKTIONÄR",
-      "publishedAt": "Sat, 28 Nov 2026 06:50:00 GMT",
-      "description": "   Nun hat es auch Deutschlands größten Softwarekonzern getroffen: SAP hat einen IT-Sicherheitsvorfall bestätigt. Hinweise auf einen unbefugten Zugriff auf Geschäftsdaten von Kunden gibt es nach aktuellem Kenntnisstand zwar nicht. Dennoch reiht sich der Vorfall in eine Serie von Cyberangriffen auf international tätige Unternehmen ein.  "
+      "title": "Jahrelang verschollen: Bitcoins im Milliardenwert tauchen plötzlich wieder auf",
+      "url": "https://www.wallstreet-online.de/nachricht/21747400-jahrelang-verschollen-bitcoins-milliardenwert-tauchen",
+      "publisher": "wallstreet:online",
+      "publishedAt": "",
+      "description": "Fast 10.000 vermeintlich verlorene Bitcoin-Wallets sind wieder aktiv. Eine Untersuchung zeigt, dass Milliardenbestände offenbar weiterhin zugänglich sind."
     },
     {
       "title": "Der neue Online Broker - Smartbroker",
@@ -770,13 +777,6 @@
       "publisher": "wallstreet:online",
       "publishedAt": "",
       "description": "Steve Eisman hält Bitcoin langfristig für wertlos und schließt einen Einstieg kategorisch aus. Der berühmte Crash-Investor erklärt, warum die Kryptowährung gerade in Finanzkrisen versagt."
-    },
-    {
-      "title": "Hebel-Idee | Long-Chance: Fette Kursgewinne pünktlich zu Weihnachten? Das bietet jetzt diese Aktie!",
-      "url": "https://www.wallstreet-online.de/nachricht/21740806-hebel-idee-long-chance-fette-kursgewinne-puenktlich-weihnachten-aktie",
-      "publisher": "wallstreet:online",
-      "publishedAt": "",
-      "description": "Mit dem unmittelbar bevorstehenden Black Friday startet auch das Weihnachtsgeschäft. Davon könnte jetzt vor allem die Aktie von Birkenstock profitieren."
     }
   ],
   "feedErrors": [
